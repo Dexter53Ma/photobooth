@@ -126,20 +126,22 @@ function HeroImage({
 function MarqueeRow({
   images,
   direction,
+  isFirstRow = false,
 }: {
   images: typeof topRowImages;
   direction: "left" | "right";
+  isFirstRow?: boolean;
 }) {
   return (
-    <div className="hero__slider-row flex gap-6 overflow-hidden">
+    <div className="hero__slider-row flex gap-4 max-md:gap-3 overflow-hidden">
       <div
-        className="hero__slider-wrapper flex gap-6"
+        className="hero__slider-wrapper flex gap-4 max-md:gap-3"
         style={{
           animation: `scrollSlider${direction === "left" ? "" : "Reverse"} 20s linear infinite`,
         }}
       >
         {images.map((img, i) => (
-          <HeroImage key={`a-${img.src}`} {...img} priority={i === 0} />
+          <HeroImage key={`a-${img.src}`} {...img} priority={isFirstRow && i < 2} />
         ))}
         {images.map((img) => (
           <HeroImage key={`b-${img.src}`} {...img} />
@@ -209,7 +211,7 @@ export default function HeroSection() {
 
         {/* Two rows of images with infinite marquee */}
         <div className="flex flex-col gap-4 max-md:gap-3">
-          <MarqueeRow images={topRowImages} direction="left" />
+          <MarqueeRow images={topRowImages} direction="left" isFirstRow />
           <MarqueeRow images={bottomRowImages} direction="right" />
         </div>
       </div>
