@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://MarrakechPhotoBooth.com/sitemap.xml

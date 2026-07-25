@@ -1,0 +1,333 @@
+- generic [active] [ref=f21e1]:
+  - generic: 
+  - banner [ref=f21e2]:
+    - generic [ref=f21e3]:
+      - link "Español" [ref=f21e5] [cursor=pointer]:
+        - /url: https://www.fotomatonbarcelona.es/blog/
+      - generic [ref=f21e6]:
+        - link "620 805 760" [ref=f21e8] [cursor=pointer]:
+          - /url: tel:620805760
+        - link "695 573 638" [ref=f21e10] [cursor=pointer]:
+          - /url: tel:695573638
+        - link "info@fotomatonbarcelona.es" [ref=f21e11] [cursor=pointer]:
+          - /url: javascript:;
+    - navigation [ref=f21e13]:
+      - generic [ref=f21e14]:
+        - link [ref=f21e15] [cursor=pointer]:
+          - /url: https://www.fotomatonbarcelona.es/
+          - img "Logotipo Fotmaton Barcelona" [ref=f21e16]
+        - list [ref=f21e17]:
+          - listitem [ref=f21e18]:
+            - link "Eventos" [ref=f21e19] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f21e20]:
+            - link "Bodas y fiestas" [ref=f21e21] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f21e22]:
+            - link "Contacto" [ref=f21e23] [cursor=pointer]:
+              - /url: https://www.fotomatonbarcelona.es/contacto/
+  - generic [ref=f21e25]:
+    - heading "Blog" [level=1] [ref=f21e28]
+    - main [ref=f21e29]:
+      - generic [ref=f21e30]:
+        - generic [ref=f21e31]:
+          - generic [ref=f21e32]:
+            - generic [ref=f21e34]:
+              - link "fotomaton sin enchufes General" [ref=f21e35] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/blog/fotomaton-sin-tomas-electricas/
+                - img "fotomaton sin enchufes" [ref=f21e36]
+                - generic [ref=f21e37]: General
+              - 'heading "Nuevo servicio de fotomatón sin tomas eléctricas: llegamos a cualquier evento sin enchufes" [level=2] [ref=f21e38]'
+              - paragraph [ref=f21e40]: "Hasta hace poco, una de las primeras preguntas al organizar un fotomatón en un evento era bastante práctica: ¿dónde está la toma de corriente? Parece un detalle menor, pero no"
+            - generic [ref=f21e42]:
+              - link "photo opportunities General" [ref=f21e43] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/blog/ideas-de-photo-opportunities-para-eventos/
+                - img "photo opportunities" [ref=f21e44]
+                - generic [ref=f21e45]: General
+              - heading "Ideas de Photo Opportunities para eventos que quieren sorprender a sus asistentes" [level=2] [ref=f21e46]
+              - paragraph [ref=f21e48]: Los eventos han evolucionado mucho durante los últimos años. Ya no basta con ofrecer una buena organización, una ubicación atractiva o una propuesta gastronómica cuidada. Los asistentes buscan vivir experiencias
+            - generic [ref=f21e50]:
+              - link "fotomaton para festivales Usos" [ref=f21e51] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/blog/fotomaton-para-festivales/
+                - img "fotomaton para festivales" [ref=f21e52]
+                - generic [ref=f21e53]: Usos
+              - 'heading "Fotomatón para festivales: convierte asistentes en fans de tu evento" [level=2] [ref=f21e54]'
+              - paragraph [ref=f21e56]: Los festivales ya no son solo música. Hoy en día, los asistentes buscan vivir experiencias, compartirlas en redes sociales y llevarse recuerdos únicos. Ahí es donde entra en juego un
+            - generic [ref=f21e58]:
+              - link "fotomaton starlink internet evento Usos" [ref=f21e59] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/blog/fotomaton-sin-limites-internet/
+                - img "fotomaton starlink internet evento" [ref=f21e60]
+                - generic [ref=f21e61]: Usos
+              - 'heading "Fotomatón sin límites: internet por satélite para compartir al momento desde cualquier evento" [level=2] [ref=f21e62]'
+              - paragraph [ref=f21e64]: "Hay eventos que se celebran en salones, hoteles o espacios perfectamente conectados. Y luego están los eventos especiales de verdad: una boda en plena montaña, una activación de marca en"
+            - generic [ref=f21e66]:
+              - link "fotomaton ia viajar Usos" [ref=f21e67] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/blog/caso-de-exito-en-b-travel-2026/
+                - img "fotomaton ia viajar" [ref=f21e68]
+                - generic [ref=f21e69]: Usos
+              - 'heading "Viaja a la portada de tu destino favorito: Caso de éxito en B-Travel 2026 junto a la Revista Viajar" [level=2] [ref=f21e70]'
+              - paragraph [ref=f21e72]: El pasado mes de marzo, transformamos el Salón del Turismo B-Travel 2026 en un auténtico portal intercontinental. Tuvimos el orgullo de acompañar a la Revista Viajar con nuestro innovador Fotomatón
+            - generic [ref=f21e74]:
+              - link "fotomaton barcelona eco furgoneta General" [ref=f21e75] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/blog/eventos-mas-sostenibles-tecnologia-y-compromiso-real-con-el-medio-ambiente/
+                - img "fotomaton barcelona eco furgoneta" [ref=f21e76]
+                - generic [ref=f21e77]: General
+              - heading "Eventos más sostenibles, tecnología y compromiso real con el medio ambiente" [level=2] [ref=f21e78]
+              - paragraph [ref=f21e80]: En Fotomatón Barcelona creemos que un evento puede ser divertido, memorable y, al mismo tiempo, más responsable con el entorno. Llevamos desde 2013 trabajando en eventos corporativos, ferias, activaciones de
+            - generic [ref=f21e82]:
+              - link "fotomaton writer messenger General" [ref=f21e83] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/blog/fotomaton-writer-o-messenger-la-nueva-tendencia-en-eventos/
+                - img "fotomaton writer messenger" [ref=f21e84]
+                - generic [ref=f21e85]: General
+              - 'heading "Fotomatón Writer o Messenger: la nueva tendencia en eventos" [level=2] [ref=f21e86]'
+              - paragraph [ref=f21e88]: "En un momento donde los organizadores buscan experiencias cada vez más participativas, aparece una propuesta que está llamando la atención en ferias, eventos corporativos y celebraciones privadas: el fotomatón Writer"
+            - generic [ref=f21e90]:
+              - link "hablan sobre nosotros fotomaton barcelona General" [ref=f21e91] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/blog/hablan-sobre-nosotros/
+                - img "hablan sobre nosotros fotomaton barcelona" [ref=f21e92]
+                - generic [ref=f21e93]: General
+              - heading "Hablan sobre nosotros" [level=2] [ref=f21e94]
+              - paragraph [ref=f21e96]: Descubre todas las noticias, artículos y menciones que hablan sobre nosotros. Entrevistas, colaboraciones, premios, reportajes y recomendaciones de clientes que han confiado en nuestro equipo para uno de los días
+            - generic [ref=f21e98]:
+              - link "espacios para eventos de empresa en barcelona General" [ref=f21e99] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/blog/los-mejores-espacios-para-eventos-de-empresa-en-barcelona/
+                - img "espacios para eventos de empresa en barcelona" [ref=f21e100]
+                - generic [ref=f21e101]: General
+              - heading "Los mejores espacios para eventos de empresa en Barcelona" [level=2] [ref=f21e102]
+              - paragraph [ref=f21e104]: "Barcelona lo tiene todo para organizar eventos de empresa que marquen la diferencia: mar, montaña, arquitectura, clima, gastronomía… y, sobre todo, espacios espectaculares para cualquier tipo de encuentro corporativo. Ya"
+            - generic [ref=f21e106]:
+              - link "eventos de empresa para inspirarte General" [ref=f21e107] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/blog/eventos-especiales-en-barcelona-para-inspirar/
+                - img "eventos de empresa para inspirarte" [ref=f21e108]
+                - generic [ref=f21e109]: General
+              - heading "Eventos especiales en Barcelona para inspirar tu próximo evento de empresa" [level=2] [ref=f21e110]
+              - paragraph [ref=f21e112]: Barcelona no es solo una ciudad para hacer eventos, es una fuente constante de inspiración. Desde festivales gastronómicos a ferias creativas, pasando por congresos internacionales o encuentros culturales… Cada semana
+            - generic [ref=f21e114]:
+              - link "ideas de teambuilding barcelona General" [ref=f21e115] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/blog/ideas-de-teambuilding-y-actividades-de-empresa-en-barcelona/
+                - img "ideas de teambuilding barcelona" [ref=f21e116]
+                - generic [ref=f21e117]: General
+              - heading "Ideas de teambuilding y actividades de empresa en Barcelona" [level=2] [ref=f21e118]
+              - paragraph [ref=f21e120]: "Barcelona es un escenario perfecto para organizar actividades de teambuilding que realmente impacten: ya sea para mejorar el ambiente de trabajo, celebrar objetivos cumplidos o simplemente salir de la rutina"
+            - generic [ref=f21e122]:
+              - link "generar networking ideas empresa General" [ref=f21e123] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/blog/ideas-para-generar-networking-en-tu-evento/
+                - img "generar networking ideas empresa" [ref=f21e124]
+                - generic [ref=f21e125]: General
+              - heading "Ideas para generar networking en tu evento" [level=2] [ref=f21e126]
+              - paragraph [ref=f21e128]: Uno de los grandes valores de cualquier evento (ya sea una feria, congreso, afterwork o jornada corporativa) es el networking. Las personas no solo vienen a escuchar ponencias o visitar
+          - navigation [ref=f21e130]:
+            - heading "Navegación" [level=2] [ref=f21e131]
+            - list [ref=f21e132]:
+              - listitem [ref=f21e133]:
+                - generic [ref=f21e134]: "1"
+              - listitem [ref=f21e135]:
+                - link "2" [ref=f21e136] [cursor=pointer]:
+                  - /url: https://www.fotomatonbarcelona.es/blog/page/2/
+              - listitem [ref=f21e137]:
+                - link "»" [ref=f21e138] [cursor=pointer]:
+                  - /url: https://www.fotomatonbarcelona.es/blog/page/2/
+        - generic [ref=f21e140]:
+          - generic [ref=f21e141]:
+            - heading "Servicios destacados" [level=3] [ref=f21e142]
+            - article [ref=f21e143]:
+              - link [ref=f21e144] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-para-eventos/
+                - generic [ref=f21e145]:
+                  - img "fotomatón eventos empresa" [ref=f21e146]
+                  - heading "Fotomatón Eventos" [level=2] [ref=f21e148]
+            - article [ref=f21e149]:
+              - link [ref=f21e150] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/spin-360-bodas-fiestas/
+                - generic [ref=f21e151]:
+                  - img "fotomatón video 360 confeti boda" [ref=f21e152]
+                  - heading "Spin 360º" [level=2] [ref=f21e154]
+            - article [ref=f21e155]:
+              - link [ref=f21e156] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-smart-eventos/
+                - generic [ref=f21e157]:
+                  - img "Fotomaton Smart completamente personalizado." [ref=f21e158]
+                  - heading "Fotomatón Smart" [level=2] [ref=f21e160]
+          - generic [ref=f21e161]:
+            - heading "Últimas noticias" [level=3] [ref=f21e162]
+            - article [ref=f21e163]:
+              - 'link "fotomaton sin enchufes Nuevo servicio de fotomatón sin tomas eléctricas: llegamos a cualquier evento sin enchufes 19 de junio de 2026" [ref=f21e164] [cursor=pointer]':
+                - /url: https://www.fotomatonbarcelona.es/blog/fotomaton-sin-tomas-electricas/
+                - generic [ref=f21e165]:
+                  - img "fotomaton sin enchufes" [ref=f21e166]
+                  - generic [ref=f21e167]:
+                    - 'heading "Nuevo servicio de fotomatón sin tomas eléctricas: llegamos a cualquier evento sin enchufes" [level=2] [ref=f21e168]'
+                    - generic [ref=f21e169]: 19 de junio de 2026
+            - article [ref=f21e170]:
+              - link "photo opportunities Ideas de Photo Opportunities para eventos que quieren sorprender a sus asistentes 12 de junio de 2026" [ref=f21e171] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/blog/ideas-de-photo-opportunities-para-eventos/
+                - generic [ref=f21e172]:
+                  - img "photo opportunities" [ref=f21e173]
+                  - generic [ref=f21e174]:
+                    - heading "Ideas de Photo Opportunities para eventos que quieren sorprender a sus asistentes" [level=2] [ref=f21e175]
+                    - generic [ref=f21e176]: 12 de junio de 2026
+            - article [ref=f21e177]:
+              - 'link "fotomaton para festivales Fotomatón para festivales: convierte asistentes en fans de tu evento 23 de mayo de 2026" [ref=f21e178] [cursor=pointer]':
+                - /url: https://www.fotomatonbarcelona.es/blog/fotomaton-para-festivales/
+                - generic [ref=f21e179]:
+                  - img "fotomaton para festivales" [ref=f21e180]
+                  - generic [ref=f21e181]:
+                    - 'heading "Fotomatón para festivales: convierte asistentes en fans de tu evento" [level=2] [ref=f21e182]'
+                    - generic [ref=f21e183]: 23 de mayo de 2026
+          - generic [ref=f21e184]:
+            - heading "Contacto" [level=3] [ref=f21e185]
+            - generic [ref=f21e186]:
+              - generic [ref=f21e187]:
+                - status
+                - list
+              - form "Formulario de contacto" [ref=f21e188]:
+                - paragraph [ref=f21e190]:
+                  - textbox "Nombre" [ref=f21e192]
+                - paragraph [ref=f21e194]:
+                  - textbox "E-mail" [ref=f21e196]
+                - paragraph [ref=f21e198]:
+                  - textbox "Teléfono" [ref=f21e200]
+                - paragraph [ref=f21e202]:
+                  - combobox [ref=f21e204]:
+                    - option "Selecciona tipo" [selected]
+                    - option "Evento empresa"
+                    - option "Bodas y Fiestas"
+                - paragraph [ref=f21e206]:
+                  - textbox [ref=f21e208]
+                - paragraph [ref=f21e210]:
+                  - textbox "Mensaje (incluir lugar del evento e información importante)" [ref=f21e212]
+                - paragraph [ref=f21e214]:
+                  - generic [ref=f21e218]:
+                    - checkbox "He leído y acepto la política de privacidad" [ref=f21e219]
+                    - generic [ref=f21e221]:
+                      - text: He leído y acepto la
+                      - link "política de privacidad" [ref=f21e222] [cursor=pointer]:
+                        - /url: https://www.fotomatonbarcelona.es/politica-privacidad/
+                - paragraph [ref=f21e224]:
+                  - button "Enviar" [disabled]
+          - generic [ref=f21e225]:
+            - heading "Síguenos" [level=3] [ref=f21e226]
+            - generic [ref=f21e227]:
+              - link [ref=f21e228] [cursor=pointer]:
+                - /url: https://x.com/fotomatonbcn
+                - img "link to X Fotomaton Barcelona" [ref=f21e229]
+              - link [ref=f21e230] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@fotomatonbarcelona
+                - img "link to TikTok Fotomaton Barcelon" [ref=f21e231]
+              - link [ref=f21e232] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/fotomaton-barcelona
+                - img "link to LinkedIn Fotomaton Barcelona" [ref=f21e233]
+              - link [ref=f21e234] [cursor=pointer]:
+                - /url: https://www.facebook.com/FotomatonBarcelona
+                - img "link to Facebook Fotomaton Barcelona" [ref=f21e235]
+              - link [ref=f21e236] [cursor=pointer]:
+                - /url: https://www.instagram.com/fotomatonbcn/
+                - img "link to Instagram Fotomaton Barcelona" [ref=f21e237]
+              - link [ref=f21e238] [cursor=pointer]:
+                - /url: https://www.youtube.com/@fotomatonbarcelona6136
+                - img "link to Youtube Fotomaton Barcelona" [ref=f21e239]
+  - contentinfo [ref=f21e240]:
+    - generic [ref=f21e241]:
+      - generic [ref=f21e245]:
+        - link [ref=f21e246] [cursor=pointer]:
+          - /url: https://x.com/fotomatonbcn
+          - img "link to X Fotomaton Barcelona" [ref=f21e247]
+        - link [ref=f21e248] [cursor=pointer]:
+          - /url: https://www.tiktok.com/@fotomatonbarcelona
+          - img "link to TikTok Fotomaton Barcelona" [ref=f21e249]
+        - link [ref=f21e250] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/fotomaton-barcelona
+          - img "link to LinkedIn Fotomaton Barcelona" [ref=f21e251]
+        - link [ref=f21e252] [cursor=pointer]:
+          - /url: https://www.facebook.com/FotomatonBarcelona
+          - img "link to Facebook Fotomaton Barcelona" [ref=f21e253]
+        - link [ref=f21e254] [cursor=pointer]:
+          - /url: https://www.instagram.com/fotomatonbcn/
+          - img "link to Instagram Fotomaton Barcelona" [ref=f21e255]
+        - link [ref=f21e256] [cursor=pointer]:
+          - /url: https://www.youtube.com/@fotomatonbarcelona6136
+          - img "link to Youtube Fotomaton Barcelona" [ref=f21e257]
+      - generic [ref=f21e258]:
+        - generic [ref=f21e260]:
+          - heading "Eventos" [level=3] [ref=f21e261]
+          - list [ref=f21e263]:
+            - listitem [ref=f21e264]:
+              - link "Fotomatón Eventos" [ref=f21e265] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-para-eventos/
+            - listitem [ref=f21e266]:
+              - link "Spin 360º" [ref=f21e267] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-videomaton-360/
+            - listitem [ref=f21e268]:
+              - link "Fotomatón IA" [ref=f21e269] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-ia/
+            - listitem [ref=f21e270]:
+              - link "Mosaic Wall" [ref=f21e271] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-mosaic-wall/
+            - listitem [ref=f21e272]:
+              - link "Fotomatón Smart" [ref=f21e273] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-smart-eventos/
+            - listitem [ref=f21e274]:
+              - link "Printoku" [ref=f21e275] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/impresora-printoku/
+            - listitem [ref=f21e276]:
+              - link "Letras Gigantes" [ref=f21e277] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/letras-gigantes-iluminadas/
+            - listitem [ref=f21e278]:
+              - link "Photocall Red Carpet" [ref=f21e279] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotografia-photocall/
+        - generic [ref=f21e281]:
+          - heading "Bodas y fiestas" [level=3] [ref=f21e282]
+          - list [ref=f21e284]:
+            - listitem [ref=f21e285]:
+              - link "Fotomatón Bodas" [ref=f21e286] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-bodas-fiestas/
+            - listitem [ref=f21e287]:
+              - link "Spin 360º" [ref=f21e288] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/spin-360-bodas-fiestas/
+            - listitem [ref=f21e289]:
+              - link "Fotomatón Glam" [ref=f21e290] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-glam-bodas-fiestas/
+            - listitem [ref=f21e291]:
+              - link "Fotomatón Catwalk" [ref=f21e292] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-catwalk-bodas-fiestas/
+            - listitem [ref=f21e293]:
+              - link "Printoku" [ref=f21e294] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/impresora-fotos-smartphone-printoku/
+            - listitem [ref=f21e295]:
+              - link "Letras Gigantes" [ref=f21e296] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/letras-gigantes/
+            - listitem [ref=f21e297]:
+              - link "Photocall Red Carpet" [ref=f21e298] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/photocall-red-carpet/
+        - generic [ref=f21e300]:
+          - heading "Recursos" [level=3] [ref=f21e301]
+          - list [ref=f21e303]:
+            - listitem [ref=f21e304]:
+              - link "Nosotros" [ref=f21e305] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/nosotros/
+            - listitem [ref=f21e306]:
+              - link "Política de privacidad" [ref=f21e307] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/politica-privacidad/
+            - listitem [ref=f21e308]:
+              - link "Política de cookies" [ref=f21e309] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/politica-de-cookies/
+            - listitem [ref=f21e310]:
+              - link "Aviso legal" [ref=f21e311] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/aviso-legal/
+            - listitem [ref=f21e312]:
+              - link "Blog" [ref=f21e313] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/blog/
+            - listitem [ref=f21e314]:
+              - link "Hablan sobre nosotros" [ref=f21e315] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/blog/hablan-sobre-nosotros/
+        - link [ref=f21e319] [cursor=pointer]:
+          - /url: https://www.bodas.net/animacion/fotomaton-barcelona--e40517
+          - img "Fotomatón Barcelona, ganador Wedding Awards 2024 Bodas.net" [ref=f21e320]
+      - generic [ref=f21e321]:
+        - img "Isotipo de fotomaton Barcelona" [ref=f21e323]
+        - paragraph [ref=f21e325]:
+          - text: "El titular de esta website es “Mejor que Mejor, S.L.”, domiciliado en C/Tulipa 11, 08193 de Cerdanyola del Vallès (Barcelona) NIF: B62454780, inscrito en el Registro Mercantil de Barcelona volumen 33543, folio 99, hoja B229796. Correo electrónico de contacto"
+          - link "info@fotomatonbarcelona.es" [ref=f21e326] [cursor=pointer]:
+            - /url: javascript:;
+          - text: .
+  - button "Gestionar consentimiento" [ref=f21e327] [cursor=pointer]

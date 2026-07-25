@@ -1,0 +1,472 @@
+- generic [active] [ref=f20e1]:
+  - generic [ref=f20e2]:
+    - banner [ref=f20e3]:
+      - generic [ref=f20e4]:
+        - link "Marrakech PhotoBooths" [ref=f20e5] [cursor=pointer]:
+          - /url: /
+          - img "Marrakech PhotoBooths" [ref=f20e6]
+        - generic [ref=f20e7]:
+          - button "Réserver" [ref=f20e8]
+          - button "Ouvrir le menu" [ref=f20e9]
+    - main [ref=f20e12]:
+      - generic [ref=f20e13]:
+        - generic [ref=f20e15]:
+          - heading "Marrakech PhotoBooths" [level=1] [ref=f20e16]
+          - heading [level=2] [ref=f20e17]:
+            - text: Location de photobooth pour
+            - link "événements" [ref=f20e18] [cursor=pointer]:
+              - /url: "#services"
+            - text: et
+            - link "mariages" [ref=f20e19] [cursor=pointer]:
+              - /url: "#contact"
+        - generic [ref=f20e20]:
+          - generic [ref=f20e21]:
+            - link [ref=f20e22] [cursor=pointer]:
+              - /url: "#services"
+            - generic [ref=f20e25]:
+              - link [ref=f20e26] [cursor=pointer]:
+                - /url: https://x.com/fotomatonbcn
+              - link [ref=f20e29] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@fotomatonbarcelona
+              - link [ref=f20e32] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/fotomaton-barcelona
+              - link [ref=f20e35] [cursor=pointer]:
+                - /url: https://www.facebook.com/FotomatonBarcelona
+              - link [ref=f20e38] [cursor=pointer]:
+                - /url: https://www.instagram.com/fotomatonbcn/
+              - link [ref=f20e41] [cursor=pointer]:
+                - /url: https://www.youtube.com/@fotomatonbarcelona6136
+          - generic [ref=f20e44]:
+            - generic [ref=f20e46]:
+              - img "Fotomaton Barcelona para eventos" [ref=f20e48]
+              - img "Fotomaton calidad para bodas" [ref=f20e50]
+              - img "Fotomaton evento empresa" [ref=f20e52]
+              - img "Videomatón 360 para eventos de empresa" [ref=f20e54]
+              - img "Fotomaton Barcelona para eventos" [ref=f20e56]
+              - img "Fotomaton calidad para bodas" [ref=f20e58]
+              - img "Fotomaton evento empresa" [ref=f20e60]
+              - img "Videomatón 360 para eventos de empresa" [ref=f20e62]
+            - generic [ref=f20e64]:
+              - img "Fotomaton Espejo Barcelona" [ref=f20e66]
+              - img "Fotomaton LED Vogue booth en Barcelona" [ref=f20e68]
+              - img "Videomatón spin 360 personalizado" [ref=f20e70]
+              - img "Pantalla interactivo en servicio de Fotomaton" [ref=f20e72]
+              - img "Fotomaton Espejo Barcelona" [ref=f20e74]
+              - img "Fotomaton LED Vogue booth en Barcelona" [ref=f20e76]
+              - img "Videomatón spin 360 personalizado" [ref=f20e78]
+              - img "Pantalla interactivo en servicio de Fotomaton" [ref=f20e80]
+      - generic [ref=f20e83]:
+        - generic [ref=f20e84]:
+          - heading "Location de photobooth et tendances de divertissement pour événements" [level=4] [ref=f20e85]
+          - link "Consultez nos catalogues" [ref=f20e86] [cursor=pointer]:
+            - /url: https://MarrakechPhotoBooth.com/
+        - generic [ref=f20e87]:
+          - paragraph [ref=f20e89]: Marrakech PhotoBooths est une entreprise spécialisée dans la location de photobooth, les services audiovisuels et le marketing pour l'animation d'événements privés et d'entreprise. Nos services créent des souvenirs, du divertissement et des expériences de marque à parts égales.
+          - img "Marrakech PhotoBooths - Location de photobooth" [ref=f20e91]
+      - generic [ref=f20e94]:
+        - generic [ref=f20e95]:
+          - heading "Nos Services" [level=2] [ref=f20e96]
+          - paragraph [ref=f20e97]: Découvrez notre gamme complète de photobooths et services pour rendre votre événement unique.
+        - generic [ref=f20e98]:
+          - button "Tous" [ref=f20e99] [cursor=pointer]
+          - button "Événements" [ref=f20e100] [cursor=pointer]
+          - button "Mariages & Fêtes" [ref=f20e101] [cursor=pointer]
+        - generic [ref=f20e102]:
+          - link [ref=f20e103] [cursor=pointer]:
+            - /url: /fotomaton-para-eventos
+            - img "Photobooth Classique" [ref=f20e105]
+            - generic [ref=f20e107]:
+              - heading "Photobooth Classique" [level=3] [ref=f20e108]
+              - paragraph [ref=f20e109]: Personnalisez avec votre logo ou image corporative.
+              - generic [ref=f20e110]: En savoir plus
+          - link [ref=f20e113] [cursor=pointer]:
+            - /url: /fotomaton-videomaton-360
+            - img "Vidéomaton Spin 360º" [ref=f20e115]
+            - generic [ref=f20e117]:
+              - heading "Vidéomaton Spin 360º" [level=3] [ref=f20e118]
+              - paragraph [ref=f20e119]: Créez des vidéos circulaires en vitesse réelle ou au ralenti.
+              - generic [ref=f20e120]: En savoir plus
+          - link [ref=f20e123] [cursor=pointer]:
+            - /url: /fotomaton-para-eventos
+            - img "Photobooth Smart" [ref=f20e125]
+            - generic [ref=f20e127]:
+              - heading "Photobooth Smart" [level=3] [ref=f20e128]
+              - paragraph [ref=f20e129]: À la pointe de la technologie et du design.
+              - generic [ref=f20e130]: En savoir plus
+          - link [ref=f20e133] [cursor=pointer]:
+            - /url: /fotomaton-para-eventos
+            - img "Photobooth IA" [ref=f20e135]
+            - generic [ref=f20e137]:
+              - heading "Photobooth IA" [level=3] [ref=f20e138]
+              - paragraph [ref=f20e139]: Devenez qui vous voulez avec le nouveau face swap.
+              - generic [ref=f20e140]: En savoir plus
+          - link [ref=f20e143] [cursor=pointer]:
+            - /url: /fotomaton-para-eventos
+            - img "Photobooth Glam" [ref=f20e145]
+            - generic [ref=f20e147]:
+              - heading "Photobooth Glam" [level=3] [ref=f20e148]
+              - paragraph [ref=f20e149]: Plus de beauté, moins d'imperfections… Très Kardashian.
+              - generic [ref=f20e150]: En savoir plus
+          - link [ref=f20e153] [cursor=pointer]:
+            - /url: /fotomaton-para-eventos
+            - img "Photobooth Signature" [ref=f20e155]
+            - generic [ref=f20e157]:
+              - heading "Photobooth Signature" [level=3] [ref=f20e158]
+              - paragraph [ref=f20e159]: Collectez signatures et messages vidéo de tous vos invités.
+              - generic [ref=f20e160]: En savoir plus
+          - link [ref=f20e163] [cursor=pointer]:
+            - /url: /fotomaton-para-eventos
+            - img "Photobooth Catwalk" [ref=f20e165]
+            - generic [ref=f20e167]:
+              - heading "Photobooth Catwalk" [level=3] [ref=f20e168]
+              - paragraph [ref=f20e169]: Défilez devant la caméra comme Naomi Campbell.
+              - generic [ref=f20e170]: En savoir plus
+          - link [ref=f20e173] [cursor=pointer]:
+            - /url: /fotomaton-para-eventos
+            - img "Vogue Booth" [ref=f20e175]
+            - generic [ref=f20e177]:
+              - heading "Vogue Booth" [level=3] [ref=f20e178]
+              - paragraph [ref=f20e179]: Créez des vidéos avec un décor digne d'un clip des années 2000.
+              - generic [ref=f20e180]: En savoir plus
+          - link [ref=f20e183] [cursor=pointer]:
+            - /url: /fotomaton-para-eventos
+            - img "Glambot Robotique" [ref=f20e185]
+            - generic [ref=f20e187]:
+              - heading "Glambot Robotique" [level=3] [ref=f20e188]
+              - paragraph [ref=f20e189]: Créez des vidéos avec un bras robotique comme aux Oscars !
+              - generic [ref=f20e190]: En savoir plus
+          - link [ref=f20e193] [cursor=pointer]:
+            - /url: /fotomaton-para-eventos
+            - img "Photobooth Miroir" [ref=f20e195]
+            - generic [ref=f20e197]:
+              - heading "Photobooth Miroir" [level=3] [ref=f20e198]
+              - paragraph [ref=f20e199]: Posez devant le miroir et déclenchez !
+              - generic [ref=f20e200]: En savoir plus
+          - link [ref=f20e203] [cursor=pointer]:
+            - /url: /fotomaton-para-eventos
+            - img "Mosaic Wall" [ref=f20e205]
+            - generic [ref=f20e207]:
+              - heading "Mosaic Wall" [level=3] [ref=f20e208]
+              - paragraph [ref=f20e209]: Créez un photo-mural comme expérience de team building.
+              - generic [ref=f20e210]: En savoir plus
+          - link [ref=f20e213] [cursor=pointer]:
+            - /url: /fotomaton-para-eventos
+            - img "Photocall Tapis Rouge" [ref=f20e215]
+            - generic [ref=f20e217]:
+              - heading "Photocall Tapis Rouge" [level=3] [ref=f20e218]
+              - paragraph [ref=f20e219]: Infinidad de fonds et moquetas pour donner à votre événement le niveau qu'il mérite.
+              - generic [ref=f20e220]: En savoir plus
+          - link [ref=f20e223] [cursor=pointer]:
+            - /url: /fotomaton-para-eventos
+            - img "Photobooth Zenithal" [ref=f20e225]
+            - generic [ref=f20e227]:
+              - heading "Photobooth Zenithal" [level=3] [ref=f20e228]
+              - paragraph [ref=f20e229]: Donnez à vos photos une nouvelle perspective.
+              - generic [ref=f20e230]: En savoir plus
+          - link [ref=f20e233] [cursor=pointer]:
+            - /url: /fotomaton-para-eventos
+            - img "Printoku" [ref=f20e235]
+            - generic [ref=f20e237]:
+              - heading "Printoku" [level=3] [ref=f20e238]
+              - paragraph [ref=f20e239]: Imprimez les photos réalisées par les invités depuis leurs appareils.
+              - generic [ref=f20e240]: En savoir plus
+          - link [ref=f20e243] [cursor=pointer]:
+            - /url: /fotomaton-para-eventos
+            - img "Lettres Géantes" [ref=f20e245]
+            - generic [ref=f20e247]:
+              - heading "Lettres Géantes" [level=3] [ref=f20e248]
+              - paragraph [ref=f20e249]: Créez un selfie-corner idéal avec vos initiales.
+              - generic [ref=f20e250]: En savoir plus
+          - link [ref=f20e253] [cursor=pointer]:
+            - /url: /fotomaton-para-eventos
+            - img "Purikura" [ref=f20e255]
+            - generic [ref=f20e257]:
+              - heading "Purikura" [level=3] [ref=f20e258]
+              - paragraph [ref=f20e259]: Unique et venu du Japon… très Kawaii !
+              - generic [ref=f20e260]: En savoir plus
+          - link [ref=f20e263] [cursor=pointer]:
+            - /url: /fotomaton-para-eventos
+            - img "Photographe Itinérant" [ref=f20e265]
+            - generic [ref=f20e267]:
+              - heading "Photographe Itinérant" [level=3] [ref=f20e268]
+              - paragraph [ref=f20e269]: Capturez et imprimez les meilleurs moments.
+              - generic [ref=f20e270]: En savoir plus
+          - link [ref=f20e273] [cursor=pointer]:
+            - /url: /fotomaton-para-eventos
+            - img "Hôte(sse) Smartphoto" [ref=f20e275]
+            - generic [ref=f20e277]:
+              - heading "Hôte(sse) Smartphoto" [level=3] [ref=f20e278]
+              - paragraph [ref=f20e279]: Nous vous arrachons un sourire et une impression personnalisée !
+              - generic [ref=f20e280]: En savoir plus
+      - generic [ref=f20e285]:
+        - generic [ref=f20e286]:
+          - generic [ref=f20e287]: "01"
+          - heading "CRÉEZ" [level=3] [ref=f20e290]
+          - paragraph [ref=f20e291]: des souvenirs et expériences inoubliables pour vos invités
+        - generic [ref=f20e292]:
+          - generic [ref=f20e293]: "02"
+          - heading "PERSONNALISEZ" [level=3] [ref=f20e296]
+          - paragraph [ref=f20e297]: pour que votre événement soit unique
+        - generic [ref=f20e298]:
+          - generic [ref=f20e299]: "03"
+          - heading "PARTAGEZ" [level=3] [ref=f20e302]
+          - paragraph [ref=f20e303]: avec la technologie fast sharing en QR, AirDrop ou WhatsApp
+        - generic [ref=f20e304]:
+          - generic [ref=f20e305]: "04"
+          - heading "IMPRIMEZ" [level=3] [ref=f20e308]
+          - paragraph [ref=f20e309]: en photo, sticker, métallisé, translucide ou lenticulaire
+      - generic [ref=f20e311]:
+        - img "Photobooth pour événements" [ref=f20e313]
+        - generic [ref=f20e314]:
+          - heading "Pour tout type d'événements" [level=2] [ref=f20e315]
+          - generic [ref=f20e316]:
+            - generic [ref=f20e317] [cursor=pointer]: Fêtes
+            - generic [ref=f20e318] [cursor=pointer]: Anniversaires
+            - generic [ref=f20e319] [cursor=pointer]: Mariages
+            - generic [ref=f20e320] [cursor=pointer]: Congrès
+            - generic [ref=f20e321] [cursor=pointer]: Salons
+            - generic [ref=f20e322] [cursor=pointer]: Célébrations
+            - generic [ref=f20e323] [cursor=pointer]: Réunions
+      - generic [ref=f20e326]:
+        - generic [ref=f20e327]:
+          - heading "Produits" [level=2] [ref=f20e328]
+          - generic [ref=f20e329]:
+            - button [disabled] [ref=f20e330]
+            - button [ref=f20e333]
+        - generic [ref=f20e337]:
+          - generic [ref=f20e338]:
+            - img "Fotomatón Classic" [ref=f20e340]
+            - generic [ref=f20e342]:
+              - heading "Fotomatón Classic" [level=4] [ref=f20e343]
+              - generic [ref=f20e344]:
+                - link "Voir plus" [ref=f20e345] [cursor=pointer]:
+                  - /url: "#"
+                - link "Pour événements" [ref=f20e346] [cursor=pointer]:
+                  - /url: "#"
+                - link "Pour mariages" [ref=f20e347] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=f20e348]:
+            - img "Spin 360º" [ref=f20e350]
+            - generic [ref=f20e352]:
+              - heading "Spin 360º" [level=4] [ref=f20e353]
+              - generic [ref=f20e354]:
+                - link "Voir plus" [ref=f20e355] [cursor=pointer]:
+                  - /url: "#"
+                - link "Pour événements" [ref=f20e356] [cursor=pointer]:
+                  - /url: "#"
+                - link "Pour mariages" [ref=f20e357] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=f20e358]:
+            - img "Photobooth Mini" [ref=f20e360]
+            - generic [ref=f20e362]:
+              - heading "Photobooth Mini" [level=4] [ref=f20e363]
+              - generic [ref=f20e364]:
+                - link "Voir plus" [ref=f20e365] [cursor=pointer]:
+                  - /url: "#"
+                - link "Pour événements" [ref=f20e366] [cursor=pointer]:
+                  - /url: "#"
+                - link "Pour mariages" [ref=f20e367] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=f20e368]:
+            - img "Photobooth Smart" [ref=f20e370]
+            - generic [ref=f20e372]:
+              - heading "Photobooth Smart" [level=4] [ref=f20e373]
+              - generic [ref=f20e374]:
+                - link "Voir plus" [ref=f20e375] [cursor=pointer]:
+                  - /url: "#"
+                - link "Pour événements" [ref=f20e376] [cursor=pointer]:
+                  - /url: "#"
+                - link "Pour mariages" [ref=f20e377] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=f20e378]:
+            - img "Photobooth Miroir" [ref=f20e380]
+            - generic [ref=f20e382]:
+              - heading "Photobooth Miroir" [level=4] [ref=f20e383]
+              - generic [ref=f20e384]:
+                - link "Voir plus" [ref=f20e385] [cursor=pointer]:
+                  - /url: "#"
+                - link "Pour événements" [ref=f20e386] [cursor=pointer]:
+                  - /url: "#"
+                - link "Pour mariages" [ref=f20e387] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=f20e388]:
+            - img "Glambot" [ref=f20e390]
+            - generic [ref=f20e392]:
+              - heading "Glambot" [level=4] [ref=f20e393]
+              - generic [ref=f20e394]:
+                - link "Voir plus" [ref=f20e395] [cursor=pointer]:
+                  - /url: "#"
+                - link "Pour événements" [ref=f20e396] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=f20e397]:
+            - img "Lettres Géantes" [ref=f20e399]
+            - generic [ref=f20e401]:
+              - heading "Lettres Géantes" [level=4] [ref=f20e402]
+              - generic [ref=f20e403]:
+                - link "Voir plus" [ref=f20e404] [cursor=pointer]:
+                  - /url: "#"
+                - link "Pour événements" [ref=f20e405] [cursor=pointer]:
+                  - /url: "#"
+                - link "Pour mariages" [ref=f20e406] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=f20e407]:
+            - img "Photobooth Zenithal" [ref=f20e409]
+            - generic [ref=f20e411]:
+              - heading "Photobooth Zenithal" [level=4] [ref=f20e412]
+              - generic [ref=f20e413]:
+                - link "Voir plus" [ref=f20e414] [cursor=pointer]:
+                  - /url: "#"
+                - link "Pour événements" [ref=f20e415] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=f20e416]:
+            - img "SuperZoom" [ref=f20e418]
+            - generic [ref=f20e420]:
+              - heading "SuperZoom" [level=4] [ref=f20e421]
+              - generic [ref=f20e422]:
+                - link "Voir plus" [ref=f20e423] [cursor=pointer]:
+                  - /url: "#"
+                - link "Pour événements" [ref=f20e424] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=f20e425]:
+            - img "Purikura" [ref=f20e427]
+            - generic [ref=f20e429]:
+              - heading "Purikura" [level=4] [ref=f20e430]
+              - generic [ref=f20e431]:
+                - link "Voir plus" [ref=f20e432] [cursor=pointer]:
+                  - /url: "#"
+                - link "Pour événements" [ref=f20e433] [cursor=pointer]:
+                  - /url: "#"
+                - link "Pour mariages" [ref=f20e434] [cursor=pointer]:
+                  - /url: "#"
+      - generic [ref=f20e437]:
+        - generic [ref=f20e438]:
+          - heading "Clients" [level=2] [ref=f20e439]
+          - link "Voir tous les clients" [ref=f20e440] [cursor=pointer]:
+            - /url: https://MarrakechPhotoBooth.com/
+        - generic [ref=f20e441]:
+          - generic:
+            - img "Bacardi"
+          - generic:
+            - img "Cartier"
+          - generic:
+            - img "H&M"
+          - generic:
+            - img "Intel"
+      - generic [ref=f20e444]:
+        - heading "Questions fréquentes" [level=3] [ref=f20e445]
+        - generic [ref=f20e446]:
+          - generic [ref=f20e447]:
+            - button "Pourquoi choisir Marrakech PhotoBooths ?" [ref=f20e448]
+            - paragraph [ref=f20e452]: Chez Marrakech PhotoBooths, nous offrons depuis des années un service professionnel, innovant et hautement apprécié lors d'événements d'entreprise et de mariages. Notre expérience et notre engagement envers l'excellence font de nous le choix préféré de nombreuses marques et de milliers de clients satisfaits.
+          - generic [ref=f20e453]:
+            - button "Y a-t-il un minimum d'heures de service ?" [ref=f20e454]
+            - paragraph [ref=f20e458]: En général, le temps minimum de service est de 3 heures pour les services de photobooth et de 2 heures pour le spin 360.
+          - generic [ref=f20e459]:
+            - button "Y a-t-il un maximum de photos et de copies / vidéos ?" [ref=f20e460]
+            - paragraph [ref=f20e464]: En général, les photos, les copies imprimées et les vidéos sont illimitées pendant tout le service.
+          - generic [ref=f20e465]:
+            - button "Puis-je personnaliser le service ?" [ref=f20e466]
+            - paragraph [ref=f20e470]: La personnalisation des services est l'un de nos points forts. Vous pouvez personnaliser le vinyle, le design des bandes d'impression, le filigrane des vidéos, le photocall ou le fond, créer des vidéos d'entrée et de sortie… Nous vous offrons de nombreuses options !
+          - generic [ref=f20e471]:
+            - button "Combien de temps faut-il pour l'installation ?" [ref=f20e472]
+            - paragraph [ref=f20e476]: L'installation peut varier selon le lieu de l'événement et le service choisi. Nous arrivons 30 min (mariages) / 1h (événements) avant le début du service pour installer.
+          - generic [ref=f20e477]:
+            - button "Comment réserver et payer le service ?" [ref=f20e478]
+            - paragraph [ref=f20e482]: Pour confirmer la réservation, il faut effectuer le versement indiqué dans chaque devis. Le reste peut être fait avant ou le jour de l'événement par virement ou en espèces.
+      - generic [ref=f20e485]:
+        - heading "Contact" [level=2] [ref=f20e486]
+        - generic [ref=f20e487]:
+          - paragraph [ref=f20e488]: Vous avez un événement ou une célébration et vous souhaitez surprendre vos invité(e)s ?
+          - paragraph [ref=f20e489]: Vous souhaitez que vos invité(e)s s'amusent et repartent avec un beau souvenir ?
+          - paragraph [ref=f20e490]: Vous aimeriez concrétiser vos idées et offrir des services entièrement personnalisés ?
+          - paragraph [ref=f20e491]: Chez Marrakech PhotoBooths, nous avons tous les outils, l'expérience et la motivation pour rendre votre événement unique et mémorable.
+        - link "Contact" [ref=f20e492] [cursor=pointer]:
+          - /url: /contacto
+    - contentinfo [ref=f20e493]:
+      - generic [ref=f20e495]:
+        - link "X" [ref=f20e496] [cursor=pointer]:
+          - /url: https://x.com/marrakechpb
+        - link "TikTok" [ref=f20e499] [cursor=pointer]:
+          - /url: https://www.tiktok.com/@marrakechpb
+        - link "LinkedIn" [ref=f20e502] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/marrakechpb
+        - link "Facebook" [ref=f20e505] [cursor=pointer]:
+          - /url: https://www.facebook.com/MarrakechPhotoBooths
+        - link "Instagram" [ref=f20e508] [cursor=pointer]:
+          - /url: https://www.instagram.com/marrakechpb/
+        - link "YouTube" [ref=f20e511] [cursor=pointer]:
+          - /url: https://www.youtube.com/@marrakechpb
+      - generic [ref=f20e515]:
+        - generic [ref=f20e516]:
+          - heading "Événements" [level=4] [ref=f20e517]
+          - list [ref=f20e518]:
+            - listitem [ref=f20e519]:
+              - link "Photobooth Événements" [ref=f20e520] [cursor=pointer]:
+                - /url: /fotomaton-para-eventos
+            - listitem [ref=f20e521]:
+              - link "Spin 360º" [ref=f20e522] [cursor=pointer]:
+                - /url: /fotomaton-videomaton-360
+            - listitem [ref=f20e523]:
+              - link "Photobooth IA" [ref=f20e524] [cursor=pointer]:
+                - /url: /fotomaton-para-eventos
+            - listitem [ref=f20e525]:
+              - link "Mosaic Wall" [ref=f20e526] [cursor=pointer]:
+                - /url: /fotomaton-para-eventos
+            - listitem [ref=f20e527]:
+              - link "Photobooth Smart" [ref=f20e528] [cursor=pointer]:
+                - /url: /fotomaton-para-eventos
+            - listitem [ref=f20e529]:
+              - link "Printoku" [ref=f20e530] [cursor=pointer]:
+                - /url: /fotomaton-para-eventos
+            - listitem [ref=f20e531]:
+              - link "Lettres Géantes" [ref=f20e532] [cursor=pointer]:
+                - /url: /fotomaton-para-eventos
+            - listitem [ref=f20e533]:
+              - link "Photocall Tapis Rouge" [ref=f20e534] [cursor=pointer]:
+                - /url: /fotomaton-para-eventos
+        - generic [ref=f20e535]:
+          - heading "Mariages & Fêtes" [level=4] [ref=f20e536]
+          - list [ref=f20e537]:
+            - listitem [ref=f20e538]:
+              - link "Photobooth Mariage" [ref=f20e539] [cursor=pointer]:
+                - /url: /fotomaton-para-eventos
+            - listitem [ref=f20e540]:
+              - link "Spin 360º" [ref=f20e541] [cursor=pointer]:
+                - /url: /fotomaton-videomaton-360
+            - listitem [ref=f20e542]:
+              - link "Photobooth Glam" [ref=f20e543] [cursor=pointer]:
+                - /url: /fotomaton-para-eventos
+            - listitem [ref=f20e544]:
+              - link "Photobooth Catwalk" [ref=f20e545] [cursor=pointer]:
+                - /url: /fotomaton-para-eventos
+            - listitem [ref=f20e546]:
+              - link "Printoku" [ref=f20e547] [cursor=pointer]:
+                - /url: /fotomaton-para-eventos
+            - listitem [ref=f20e548]:
+              - link "Lettres Géantes" [ref=f20e549] [cursor=pointer]:
+                - /url: /fotomaton-para-eventos
+            - listitem [ref=f20e550]:
+              - link "Photocall Tapis Rouge" [ref=f20e551] [cursor=pointer]:
+                - /url: /fotomaton-para-eventos
+        - generic [ref=f20e552]:
+          - heading "Ressources" [level=4] [ref=f20e553]
+          - list [ref=f20e554]:
+            - listitem [ref=f20e555]:
+              - link "À propos" [ref=f20e556] [cursor=pointer]:
+                - /url: /nosotros
+            - listitem [ref=f20e557]:
+              - link "Politique de confidentialité" [ref=f20e558] [cursor=pointer]:
+                - /url: /politica-privacidad
+            - listitem [ref=f20e559]:
+              - link "Politique de cookies" [ref=f20e560] [cursor=pointer]:
+                - /url: /politica-de-cookies
+            - listitem [ref=f20e561]:
+              - link "Mentions légales" [ref=f20e562] [cursor=pointer]:
+                - /url: /aviso-legal
+            - listitem [ref=f20e563]:
+              - link "Blog" [ref=f20e564] [cursor=pointer]:
+                - /url: /blog
+      - generic [ref=f20e565]:
+        - img "Marrakech PhotoBooths" [ref=f20e566]
+        - paragraph [ref=f20e567]: © 2024 Marrakech PhotoBooths. Tous droits réservés. MarrakechPhotoBooth.com
+  - button "Open Next.js Dev Tools" [ref=f20e573] [cursor=pointer]

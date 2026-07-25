@@ -1,0 +1,603 @@
+- generic [active] [ref=f10e1]:
+  - generic [ref=f10e2]:
+    - generic [ref=f10e3]:
+      - navigation [ref=f10e4]:
+        - link "Español" [ref=f10e5] [cursor=pointer]:
+          - /url: /
+        - link "Català" [ref=f10e6] [cursor=pointer]:
+          - /url: /ca
+        - link "English" [ref=f10e7] [cursor=pointer]:
+          - /url: /en
+      - navigation [ref=f10e8]:
+        - link "620 805 760" [ref=f10e9] [cursor=pointer]:
+          - /url: tel:620805760
+        - link "695 573 638" [ref=f10e10] [cursor=pointer]:
+          - /url: tel:695573638
+        - link "info@fotomatonbarcelona.es" [ref=f10e11] [cursor=pointer]:
+          - /url: mailto:info@fotomatonbarcelona.es
+    - generic [ref=f10e15]:
+      - banner [ref=f10e16]:
+        - link "Fotomaton Barcelona" [ref=f10e17] [cursor=pointer]:
+          - /url: /
+          - img "Logotipo Fotmaton Barcelona" [ref=f10e18]
+        - navigation [ref=f10e19]:
+          - link "Eventos" [ref=f10e20] [cursor=pointer]:
+            - /url: "#"
+          - link "Bodas y fiestas" [ref=f10e21] [cursor=pointer]:
+            - /url: "#"
+          - link "Contacto" [ref=f10e22] [cursor=pointer]:
+            - /url: /contacto
+      - main [ref=f10e23]:
+        - generic [ref=f10e24]:
+          - generic [ref=f10e25]:
+            - heading "Fotomaton Barcelona" [level=1] [ref=f10e26]
+            - heading [level=2] [ref=f10e27]:
+              - text: Alquiler de fotomatón para
+              - link "eventos" [ref=f10e28] [cursor=pointer]:
+                - /url: "#"
+              - text: "y"
+              - link "bodas" [ref=f10e29] [cursor=pointer]:
+                - /url: "#"
+          - generic [ref=f10e30]:
+            - link [ref=f10e31] [cursor=pointer]:
+              - /url: "#services"
+            - generic [ref=f10e34]:
+              - link [ref=f10e35] [cursor=pointer]:
+                - /url: https://x.com/fotomatonbcn
+              - link [ref=f10e38] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@fotomatonbarcelona
+              - link [ref=f10e41] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/fotomaton-barcelona
+              - link [ref=f10e44] [cursor=pointer]:
+                - /url: https://www.facebook.com/FotomatonBarcelona
+              - link [ref=f10e47] [cursor=pointer]:
+                - /url: https://www.instagram.com/fotomatonbcn/
+              - link [ref=f10e50] [cursor=pointer]:
+                - /url: https://www.youtube.com/@fotomatonbarcelona6136
+          - generic:
+            - generic:
+              - img "Fotomaton madera"
+            - generic:
+              - img "Videomaton 360"
+            - generic:
+              - img "Fotomaton pantalla lateral boda"
+            - generic:
+              - img "Fotomaton evento empresa"
+            - generic:
+              - img "Fotomaton espejo mirror booth"
+        - generic [ref=f10e55]:
+          - generic [ref=f10e56]:
+            - generic [ref=f10e57]:
+              - heading "Ofrecemos alquiler de fotomatón y tendencias de entretenimiento para eventos" [level=4] [ref=f10e58]
+              - link "Consulta nuestros catálogos" [ref=f10e59] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/descargas/
+              - paragraph [ref=f10e60]: Fotomatón Barcelona es una empresa especializada en alquiler de fotomatón, servicios audiovisuales y de marketing para la dinamización de eventos privados y corporativos. Nuestros servicios generan recuerdos, diversión y experiencias de marca a partes iguales.
+            - img "Fotomatón Barcelona - Alquilar fotomatón para eventos" [ref=f10e62]
+          - generic [ref=f10e63]:
+            - img "Videomaton 360 en evento corporativo" [ref=f10e65]
+            - paragraph [ref=f10e67]: Con un equipo pionero en el sector, transformamos cualquier evento en una experiencia interactiva y divertida. Desde 2013 ofrecemos servicios de alquiler de fotomatones y videomatones personalizados y servicios de impresión fotográfica en formatos novedosos y sostenibles. ¡Cuéntanos tus ideas y las haremos realidad! Siempre a la vanguardia destacando por nuestra profesionalidad, nuestra calidad en el servicio y los resultados.
+        - generic [ref=f10e69]:
+          - heading "Servicios" [level=2] [ref=f10e70]
+          - generic [ref=f10e71]:
+            - button "Todos" [ref=f10e72] [cursor=pointer]
+            - button "Eventos" [ref=f10e73] [cursor=pointer]
+            - button "Bodas y fiestas" [ref=f10e74] [cursor=pointer]
+          - generic [ref=f10e75]:
+            - generic [ref=f10e76]:
+              - img "Fotomatón" [ref=f10e78]
+              - generic [ref=f10e80]:
+                - heading "Fotomatón" [level=3] [ref=f10e81]
+                - paragraph [ref=f10e82]: Customízalo con tu logo o imagen corporativa.
+              - generic [ref=f10e83]:
+                - link "Alquilar Fotomatón" [ref=f10e85] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f10e86]:
+                  - link "Para eventos" [ref=f10e87] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Para bodas" [ref=f10e88] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f10e89]:
+              - generic [ref=f10e93]:
+                - heading "Videomatón Spin 360º" [level=3] [ref=f10e94]
+                - paragraph [ref=f10e95]: Crea vídeos circulares a velocidad real o 'slow motion'.
+              - generic [ref=f10e96]:
+                - link "Alquilar Fotomatón" [ref=f10e98] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f10e99]:
+                  - link "Para eventos" [ref=f10e100] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Para bodas" [ref=f10e101] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f10e102]:
+              - img "Fotomatón Smart" [ref=f10e104]
+              - generic [ref=f10e106]:
+                - heading "Fotomatón Smart" [level=3] [ref=f10e107]
+                - paragraph [ref=f10e108]: A la última en tecnología y diseño
+              - generic [ref=f10e109]:
+                - link "Alquilar Fotomatón" [ref=f10e111] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f10e112]:
+                  - link "Para eventos" [ref=f10e113] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Para bodas" [ref=f10e114] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f10e115]:
+              - generic [ref=f10e119]:
+                - heading "Fotomatón IA" [level=3] [ref=f10e120]
+                - paragraph [ref=f10e121]: Conviértete en quién tú quieras con el nuevo 'face swap'.
+              - generic [ref=f10e122]:
+                - link "Alquilar Fotomatón" [ref=f10e124] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f10e125]:
+                  - link "Para eventos" [ref=f10e126] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Para bodas" [ref=f10e127] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f10e128]:
+              - generic [ref=f10e132]:
+                - heading "Fotomatón Glam" [level=3] [ref=f10e133]
+                - paragraph [ref=f10e134]: Más beauty, menos imperfecciones… Muy Kardashian.
+              - generic [ref=f10e135]:
+                - link "Alquilar Fotomatón" [ref=f10e137] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f10e138]:
+                  - link "Para eventos" [ref=f10e139] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Para bodas" [ref=f10e140] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f10e141]:
+              - img "Fotomaton Firma" [ref=f10e143]
+              - generic [ref=f10e145]:
+                - heading "Fotomaton Firma" [level=3] [ref=f10e146]
+                - paragraph [ref=f10e147]: Recoge firmas y mensajes en vídeo de todos tus invitados
+              - generic [ref=f10e148]:
+                - link "Alquilar Fotomatón" [ref=f10e150] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f10e151]:
+                  - link "Para eventos" [ref=f10e152] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Para bodas" [ref=f10e153] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f10e154]:
+              - generic [ref=f10e158]:
+                - heading "Fotomatón Catwalk" [level=3] [ref=f10e159]
+                - paragraph [ref=f10e160]: Desfila ante la cámara como Naomi Campbell.
+              - generic [ref=f10e161]:
+                - link "Alquilar Fotomatón" [ref=f10e163] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f10e164]:
+                  - link "Para eventos" [ref=f10e165] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Para bodas" [ref=f10e166] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f10e167]:
+              - img "Voguebooth" [ref=f10e169]
+              - generic [ref=f10e171]:
+                - heading "Voguebooth" [level=3] [ref=f10e172]
+                - paragraph [ref=f10e173]: Crea vídeos con un decorado digno de un videoclip de los 2000.
+              - generic [ref=f10e174]:
+                - link "Alquilar Fotomatón" [ref=f10e176] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f10e177]:
+                  - link "Para eventos" [ref=f10e178] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Para bodas" [ref=f10e179] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f10e180]:
+              - generic [ref=f10e184]:
+                - heading "Glambot Robótico" [level=3] [ref=f10e185]
+                - paragraph [ref=f10e186]: ¡Crea vídeos con un el Glambot brazo robótico como en los Oscars!
+              - generic [ref=f10e187]:
+                - link "Alquilar Fotomatón" [ref=f10e189] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f10e190]:
+                  - link "Para eventos" [ref=f10e191] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Para bodas" [ref=f10e192] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f10e193]:
+              - img "Fotomatón Espejo" [ref=f10e195]
+              - generic [ref=f10e197]:
+                - heading "Fotomatón Espejo" [level=3] [ref=f10e198]
+                - paragraph [ref=f10e199]: ¡Posa frente al espejo y dispara!
+              - generic [ref=f10e200]:
+                - link "Alquilar Fotomatón" [ref=f10e202] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f10e203]:
+                  - link "Para eventos" [ref=f10e204] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Para bodas" [ref=f10e205] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f10e206]:
+              - generic [ref=f10e210]:
+                - heading "Mosaic Wall" [level=3] [ref=f10e211]
+                - paragraph [ref=f10e212]: Crea un foto-mural como experiencia de team building.
+              - generic [ref=f10e213]:
+                - link "Alquilar Fotomatón" [ref=f10e215] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f10e216]:
+                  - link "Para eventos" [ref=f10e217] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Para bodas" [ref=f10e218] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f10e219]:
+              - img "Fotomatón cabina" [ref=f10e221]
+              - generic [ref=f10e223]:
+                - heading "Fotomatón cabina" [level=3] [ref=f10e224]
+                - paragraph [ref=f10e225]: Una cabina personalizable con cámara mirrorless Canon, iluminación optimizada con flash de estudio, doble pantalla y capacidad para 6 personas.
+              - generic [ref=f10e226]:
+                - link "Alquilar Fotomatón" [ref=f10e228] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f10e229]:
+                  - link "Para eventos" [ref=f10e230] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Para bodas" [ref=f10e231] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f10e232]:
+              - img "Photocall Red Carpet" [ref=f10e234]
+              - generic [ref=f10e236]:
+                - heading "Photocall Red Carpet" [level=3] [ref=f10e237]
+                - paragraph [ref=f10e238]: Infinidad de fondos y moquetas para darle a tu evento el nivel que merece.
+              - generic [ref=f10e239]:
+                - link "Alquilar Fotomatón" [ref=f10e241] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f10e242]:
+                  - link "Para eventos" [ref=f10e243] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Para bodas" [ref=f10e244] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f10e245]:
+              - generic [ref=f10e249]:
+                - heading "Fotomatón Cenital" [level=3] [ref=f10e250]
+                - paragraph [ref=f10e251]: Dale a tus fotos una nueva perspectiva y consigue fotos divertidas y diferentes.
+              - generic [ref=f10e252]:
+                - link "Alquilar Fotomatón" [ref=f10e254] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f10e255]:
+                  - link "Para eventos" [ref=f10e256] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Para bodas" [ref=f10e257] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f10e258]:
+              - img "Printoku" [ref=f10e260]
+              - generic [ref=f10e262]:
+                - heading "Printoku" [level=3] [ref=f10e263]
+                - paragraph [ref=f10e264]: Imprime las fotos realizadas por los invitados desde sus dispositivos con un acabado personalizado.
+              - generic [ref=f10e265]:
+                - link "Alquilar Fotomatón" [ref=f10e267] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f10e268]:
+                  - link "Para eventos" [ref=f10e269] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Para bodas" [ref=f10e270] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f10e271]:
+              - img "Letras gigantes" [ref=f10e273]
+              - generic [ref=f10e275]:
+                - heading "Letras gigantes" [level=3] [ref=f10e276]
+                - paragraph [ref=f10e277]: Crea un selfie corner ideal con tus iniciales o el lema de la fiesta.
+              - generic [ref=f10e278]:
+                - link "Alquilar Fotomatón" [ref=f10e280] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f10e281]:
+                  - link "Para eventos" [ref=f10e282] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Para bodas" [ref=f10e283] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f10e284]:
+              - img "Purikura" [ref=f10e286]
+              - generic [ref=f10e288]:
+                - heading "Purikura" [level=3] [ref=f10e289]
+                - paragraph [ref=f10e290]: ¡Único y llegado del lejano oriente... muy Kwaii!
+              - generic [ref=f10e291]:
+                - link "Alquilar Fotomatón" [ref=f10e293] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f10e294]:
+                  - link "Para eventos" [ref=f10e295] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Para bodas" [ref=f10e296] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f10e297]:
+              - generic [ref=f10e301]:
+                - heading "Fotomaton SuperZoom" [level=3] [ref=f10e302]
+                - paragraph [ref=f10e303]: "'Yo estuve ahí'"
+              - generic [ref=f10e304]:
+                - link "Alquilar Fotomatón" [ref=f10e306] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f10e307]:
+                  - link "Para eventos" [ref=f10e308] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Para bodas" [ref=f10e309] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f10e310]:
+              - img "Fotógrafo/a itinerante" [ref=f10e312]
+              - generic [ref=f10e314]:
+                - heading "Fotógrafo/a itinerante" [level=3] [ref=f10e315]
+                - paragraph [ref=f10e316]: Capta e imprime los mejores momentos.
+              - generic [ref=f10e317]:
+                - link "Alquilar Fotomatón" [ref=f10e319] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f10e320]:
+                  - link "Para eventos" [ref=f10e321] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Para bodas" [ref=f10e322] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f10e323]:
+              - img "Azafato/a Smartphoto" [ref=f10e325]
+              - generic [ref=f10e327]:
+                - heading "Azafato/a Smartphoto" [level=3] [ref=f10e328]
+                - paragraph [ref=f10e329]: ¡Te sacamos una sonrisa y una impresión personalizada!
+              - generic [ref=f10e330]:
+                - link "Alquilar Fotomatón" [ref=f10e332] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f10e333]:
+                  - link "Para eventos" [ref=f10e334] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Para bodas" [ref=f10e335] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=f10e336]:
+              - img "Azafato/a Instax o Polaroid" [ref=f10e338]
+              - generic [ref=f10e340]:
+                - heading "Azafato/a Instax o Polaroid" [level=3] [ref=f10e341]
+                - paragraph [ref=f10e342]: Una oda a las míticas cámaras instantáneas.
+              - generic [ref=f10e343]:
+                - link "Alquilar Fotomatón" [ref=f10e345] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=f10e346]:
+                  - link "Para eventos" [ref=f10e347] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Para bodas" [ref=f10e348] [cursor=pointer]:
+                    - /url: "#"
+        - generic [ref=f10e350]:
+          - generic [ref=f10e351]:
+            - generic [ref=f10e352]: "01"
+            - heading "CREA" [level=3] [ref=f10e355]
+            - paragraph [ref=f10e356]: recuerdos y experiencias inolvidables para tus invitados
+          - generic [ref=f10e357]:
+            - generic [ref=f10e358]: "02"
+            - heading "PERSONALIZA" [level=3] [ref=f10e361]
+            - paragraph [ref=f10e362]: para que tu evento sea único
+          - generic [ref=f10e363]:
+            - generic [ref=f10e364]: "03"
+            - heading "COMPARTE" [level=3] [ref=f10e367]
+            - paragraph [ref=f10e368]: con tecnologia fast sharing en qr, airdrop o whatsapp
+          - generic [ref=f10e369]:
+            - generic [ref=f10e370]: "04"
+            - heading "IMPRIME" [level=3] [ref=f10e373]
+            - paragraph [ref=f10e374]: en foto, sticker, metalizado, translúcido o lenticular
+        - generic [ref=f10e375]:
+          - img "Fotomatón para eventos" [ref=f10e376]
+          - generic [ref=f10e378]:
+            - heading "Para todo tipo de eventos" [level=2] [ref=f10e379]
+            - generic [ref=f10e380]:
+              - generic [ref=f10e381] [cursor=pointer]: Fiestas
+              - generic [ref=f10e382] [cursor=pointer]: Cumpleaños
+              - generic [ref=f10e383] [cursor=pointer]: Bodas
+              - generic [ref=f10e384] [cursor=pointer]: Congresos
+              - generic [ref=f10e385] [cursor=pointer]: Ferias
+              - generic [ref=f10e386] [cursor=pointer]: Celebraciones
+              - generic [ref=f10e387] [cursor=pointer]: Meetings
+        - generic [ref=f10e389]:
+          - generic [ref=f10e390]:
+            - heading "Productos" [level=2] [ref=f10e391]
+            - generic [ref=f10e392]:
+              - button [disabled] [ref=f10e393]
+              - button [ref=f10e396]
+          - generic [ref=f10e400]:
+            - generic [ref=f10e401]:
+              - img "Fotomatón Classic" [ref=f10e403]
+              - heading "Fotomatón Classic" [level=4] [ref=f10e404]
+              - paragraph [ref=f10e405]: Fotografías personalizadas impresas al momento.
+              - generic [ref=f10e406]:
+                - link "Ver más" [ref=f10e407] [cursor=pointer]:
+                  - /url: "#"
+                - link "Para eventos" [ref=f10e408] [cursor=pointer]:
+                  - /url: "#"
+                - link "Para bodas" [ref=f10e409] [cursor=pointer]:
+                  - /url: "#"
+            - generic [ref=f10e410]:
+              - img "Spin 360º" [ref=f10e412]
+              - heading "Spin 360º" [level=4] [ref=f10e413]
+              - paragraph [ref=f10e414]: Videos 360º personalizados
+              - generic [ref=f10e415]:
+                - link "Ver más" [ref=f10e416] [cursor=pointer]:
+                  - /url: "#"
+                - link "Para eventos" [ref=f10e417] [cursor=pointer]:
+                  - /url: "#"
+                - link "Para bodas" [ref=f10e418] [cursor=pointer]:
+                  - /url: "#"
+            - generic [ref=f10e419]:
+              - img "Fotomatón Mini" [ref=f10e421]
+              - heading "Fotomatón Mini" [level=4] [ref=f10e422]
+              - paragraph [ref=f10e423]: compacto y elegante
+              - generic [ref=f10e424]:
+                - link "Ver más" [ref=f10e425] [cursor=pointer]:
+                  - /url: "#"
+                - link "Para eventos" [ref=f10e426] [cursor=pointer]:
+                  - /url: "#"
+                - link "Para bodas" [ref=f10e427] [cursor=pointer]:
+                  - /url: "#"
+            - generic [ref=f10e428]:
+              - img "Fotomatón Smart" [ref=f10e430]
+              - heading "Fotomatón Smart" [level=4] [ref=f10e431]
+              - paragraph [ref=f10e432]: Nuevo fotomatón ideal para los servicios IA y Glam
+              - generic [ref=f10e433]:
+                - link "Ver más" [ref=f10e434] [cursor=pointer]:
+                  - /url: "#"
+                - link "Para eventos" [ref=f10e435] [cursor=pointer]:
+                  - /url: "#"
+                - link "Para bodas" [ref=f10e436] [cursor=pointer]:
+                  - /url: "#"
+            - generic [ref=f10e437]:
+              - img "Fotomatón Espejo" [ref=f10e439]
+              - heading "Fotomatón Espejo" [level=4] [ref=f10e440]
+              - paragraph [ref=f10e441]: fotomatón con pantalla espejo
+              - generic [ref=f10e442]:
+                - link "Ver más" [ref=f10e443] [cursor=pointer]:
+                  - /url: "#"
+                - link "Para eventos" [ref=f10e444] [cursor=pointer]:
+                  - /url: "#"
+                - link "Para bodas" [ref=f10e445] [cursor=pointer]:
+                  - /url: "#"
+            - generic [ref=f10e446]:
+              - img "Glambot" [ref=f10e448]
+              - heading "Glambot" [level=4] [ref=f10e449]
+              - paragraph [ref=f10e450]: Brazo glambot robotizado para captar increíbles movimientos
+              - generic [ref=f10e451]:
+                - link "Ver más" [ref=f10e452] [cursor=pointer]:
+                  - /url: "#"
+                - link "Para eventos" [ref=f10e453] [cursor=pointer]:
+                  - /url: "#"
+            - generic [ref=f10e454]:
+              - img "Letras iluminadas" [ref=f10e456]
+              - heading "Letras iluminadas" [level=4] [ref=f10e457]
+              - paragraph [ref=f10e458]: Crea un selfie-corner único.
+              - generic [ref=f10e459]:
+                - link "Ver más" [ref=f10e460] [cursor=pointer]:
+                  - /url: "#"
+                - link "Para eventos" [ref=f10e461] [cursor=pointer]:
+                  - /url: "#"
+                - link "Para bodas" [ref=f10e462] [cursor=pointer]:
+                  - /url: "#"
+            - generic [ref=f10e463]:
+              - img "Fotomatón Cenital" [ref=f10e465]
+              - heading "Fotomatón Cenital" [level=4] [ref=f10e466]
+              - paragraph [ref=f10e467]: sistema para perspectiva cenital
+              - generic [ref=f10e468]:
+                - link "Ver más" [ref=f10e469] [cursor=pointer]:
+                  - /url: "#"
+                - link "Para eventos" [ref=f10e470] [cursor=pointer]:
+                  - /url: "#"
+            - generic [ref=f10e471]:
+              - img "SuperZoom" [ref=f10e473]
+              - heading "SuperZoom" [level=4] [ref=f10e474]
+              - paragraph [ref=f10e475]: Sistema para generar un video de SuperZoom
+              - generic [ref=f10e476]:
+                - link "Ver más" [ref=f10e477] [cursor=pointer]:
+                  - /url: "#"
+                - link "Para eventos" [ref=f10e478] [cursor=pointer]:
+                  - /url: "#"
+            - generic [ref=f10e479]:
+              - img "Purikura" [ref=f10e481]
+              - heading "Purikura" [level=4] [ref=f10e482]
+              - paragraph [ref=f10e483]: personaliza tus fotos con filtros y stickers
+              - generic [ref=f10e484]:
+                - link "Ver más" [ref=f10e485] [cursor=pointer]:
+                  - /url: "#"
+                - link "Para eventos" [ref=f10e486] [cursor=pointer]:
+                  - /url: "#"
+                - link "Para bodas" [ref=f10e487] [cursor=pointer]:
+                  - /url: "#"
+        - generic [ref=f10e489]:
+          - generic [ref=f10e490]:
+            - heading "Clientes" [level=2] [ref=f10e491]
+            - link "Ver todos los clientes" [ref=f10e492] [cursor=pointer]:
+              - /url: https://www.fotomatonbarcelona.es/clientes/
+          - generic:
+            - generic:
+              - img "Bacardi"
+            - generic:
+              - img "Cartier"
+            - generic:
+              - img "H&M"
+            - generic:
+              - img "Intel"
+        - generic [ref=f10e494]:
+          - heading "Preguntas frecuentes" [level=3] [ref=f10e495]
+          - generic [ref=f10e496]:
+            - generic [ref=f10e497]:
+              - button "¿Por qué elegir Fotomatón Barcelona?" [ref=f10e498]
+              - paragraph [ref=f10e502]: En Fotomatón Barcelona, llevamos desde 2013 ofreciendo un servicio profesional, innovador y altamente valorado en eventos corporativos y bodas. Nuestra experiencia y compromiso con la excelencia nos han convertido en la opción preferida de más de 1.200 marcas y miles de clientes satisfechos.
+            - generic [ref=f10e503]:
+              - button "¿Hay mínimo de horas de servicio?" [ref=f10e504]
+              - paragraph [ref=f10e508]: En general, el mínimo tiempo de servicio es de 3 horas en servicios de fotomatón y de 2 horas en spin 360.
+            - generic [ref=f10e509]:
+              - button "¿Hay un máximo de fotografías y copias / vídeos?" [ref=f10e510]
+              - paragraph [ref=f10e514]: En general, tanto las fotos como las copias impresas y los vídeos son ilimitados durante todo el servicio.
+            - generic [ref=f10e515]:
+              - button "¿Puedo personalizar el servicio?" [ref=f10e516]
+              - paragraph [ref=f10e520]: La personalización de los servicios es uno de nuestros puntos fuertes. Puedes personalizar el vinilado, el diseño de las tiras de impresión, la mosca de los vídeos, el photocall o fondo, crear vídeos de entrada y salida… ¡te damos muchísimas opciones!
+            - generic [ref=f10e521]:
+              - button "¿Cuánto tiempo es necesario para el montaje?" [ref=f10e522]
+              - paragraph [ref=f10e526]: El montaje puede variar según el lugar del evento y servicio contratado. Llegamos 30 min (bodas) / 1h (eventos) antes del servicio para montar.
+            - generic [ref=f10e527]:
+              - button "¿Cómo reservo y pago el servicio?" [ref=f10e528]
+              - paragraph [ref=f10e532]: Para confirmar la reserva hay que realizar el ingreso indicado en cada presupuesto. El resto se puede hacer antes o el mismo día del evento por transferencia o efectivo.
+        - generic [ref=f10e534]:
+          - heading "Contacto" [level=2] [ref=f10e535]
+          - generic [ref=f10e536]:
+            - paragraph [ref=f10e537]: ¿Tienes un evento o celebración y quieres sorprender a tus invitados e invitadas?
+            - paragraph [ref=f10e538]: ¿Quieres que tus invitadas e invitados se diviertan y se lleven un gran recuerdo?
+            - paragraph [ref=f10e539]: ¿Te gustaría plasmar tus ideas y ofrecer servicios completamente personalizados?
+            - paragraph [ref=f10e540]: Desde Fotomatón Barcelona tenemos todas las herramientas, la experiencia y las ganas para hacer que tu evento sea único y perdure en el tiempo.
+          - link "Contacto" [ref=f10e541] [cursor=pointer]:
+            - /url: /contacto
+      - contentinfo [ref=f10e542]:
+        - generic [ref=f10e543]:
+          - generic [ref=f10e544]:
+            - link "X" [ref=f10e545] [cursor=pointer]:
+              - /url: https://x.com/fotomatonbcn
+            - link "TikTok" [ref=f10e548] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@fotomatonbarcelona
+            - link "LinkedIn" [ref=f10e551] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/fotomaton-barcelona
+            - link "Facebook" [ref=f10e554] [cursor=pointer]:
+              - /url: https://www.facebook.com/FotomatonBarcelona
+            - link "Instagram" [ref=f10e557] [cursor=pointer]:
+              - /url: https://www.instagram.com/fotomatonbcn/
+            - link "YouTube" [ref=f10e560] [cursor=pointer]:
+              - /url: https://www.youtube.com/@fotomatonbarcelona6136
+          - generic [ref=f10e563]:
+            - generic [ref=f10e564]:
+              - heading "Eventos" [level=4] [ref=f10e565]
+              - link "Fotomatón Eventos" [ref=f10e566] [cursor=pointer]:
+                - /url: "#"
+              - link "Spin 360º" [ref=f10e567] [cursor=pointer]:
+                - /url: "#"
+              - link "Fotomatón IA" [ref=f10e568] [cursor=pointer]:
+                - /url: "#"
+              - link "Mosaic Wall" [ref=f10e569] [cursor=pointer]:
+                - /url: "#"
+              - link "Fotomatón Smart" [ref=f10e570] [cursor=pointer]:
+                - /url: "#"
+              - link "Printoku" [ref=f10e571] [cursor=pointer]:
+                - /url: "#"
+              - link "Letras Gigantes" [ref=f10e572] [cursor=pointer]:
+                - /url: "#"
+              - link "Photocall Red Carpet" [ref=f10e573] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=f10e574]:
+              - heading "Bodas y fiestas" [level=4] [ref=f10e575]
+              - link "Fotomatón Bodas" [ref=f10e576] [cursor=pointer]:
+                - /url: "#"
+              - link "Spin 360º" [ref=f10e577] [cursor=pointer]:
+                - /url: "#"
+              - link "Fotomatón Glam" [ref=f10e578] [cursor=pointer]:
+                - /url: "#"
+              - link "Fotomatón Catwalk" [ref=f10e579] [cursor=pointer]:
+                - /url: "#"
+              - link "Printoku" [ref=f10e580] [cursor=pointer]:
+                - /url: "#"
+              - link "Letras Gigantes" [ref=f10e581] [cursor=pointer]:
+                - /url: "#"
+              - link "Photocall Red Carpet" [ref=f10e582] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=f10e583]:
+              - heading "Recursos" [level=4] [ref=f10e584]
+              - link "Nosotros" [ref=f10e585] [cursor=pointer]:
+                - /url: "#"
+              - link "Política de privacidad" [ref=f10e586] [cursor=pointer]:
+                - /url: "#"
+              - link "Política de cookies" [ref=f10e587] [cursor=pointer]:
+                - /url: "#"
+              - link "Aviso legal" [ref=f10e588] [cursor=pointer]:
+                - /url: "#"
+              - link "Blog" [ref=f10e589] [cursor=pointer]:
+                - /url: "#"
+              - link "Hablan sobre nosotros" [ref=f10e590] [cursor=pointer]:
+                - /url: "#"
+          - generic [ref=f10e591]:
+            - img "Fotomatón Barcelona" [ref=f10e592]
+            - paragraph [ref=f10e593]: "El titular de esta website es \"Mejor que Mejor, S.L.\", domiciliado en C/Tulipa 11, 08193 de Cerdanyola del Vallès (Barcelona) NIF: B62454780. Todos los derechos reservados."
+  - button "Open Next.js Dev Tools" [ref=f10e599] [cursor=pointer]
+  - alert [ref=f10e603]

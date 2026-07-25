@@ -1,0 +1,54 @@
+﻿{
+    "headings":  [
+                     {
+                         "text":  "Eventos",
+                         "tag":  "H5"
+                     },
+                     {
+                         "text":  "Bodas",
+                         "tag":  "H5"
+                     },
+                     {
+                         "text":  "Nosotros",
+                         "tag":  "H1"
+                     },
+                     {
+                         "text":  "Apasionados del diseño, la tecnología y... ¡las sonrisas!",
+                         "tag":  "H2"
+                     },
+                     {
+                         "text":  "¿Quiénes somos?",
+                         "tag":  "H2"
+                     },
+                     {
+                         "text":  "Nuestro equipo",
+                         "tag":  "H2"
+                     },
+                     {
+                         "text":  "Victor Arribas",
+                         "tag":  "H4"
+                     },
+                     {
+                         "text":  "Xavi Mora",
+                         "tag":  "H4"
+                     },
+                     {
+                         "text":  "Kimberly Sánchez",
+                         "tag":  "H4"
+                     },
+                     {
+                         "text":  "Abril Sánchez",
+                         "tag":  "H4"
+                     },
+                     {
+                         "text":  "Eva González",
+                         "tag":  "H4"
+                     },
+                     {
+                         "text":  "Asier Martínez",
+                         "tag":  "H4"
+                     }
+                 ],
+    "title":  "Nosotros - Fotomaton Barcelona",
+    "url":  "https://www.fotomatonbarcelona.es/nosotros/"
+}

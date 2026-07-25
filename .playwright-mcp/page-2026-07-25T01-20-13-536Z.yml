@@ -1,0 +1,152 @@
+- generic [active] [ref=f12e1]:
+  - generic: 
+  - banner [ref=f12e2]:
+    - generic [ref=f12e3]:
+      - generic [ref=f12e4]:
+        - link "Español" [ref=f12e5] [cursor=pointer]:
+          - /url: https://www.fotomatonbarcelona.es/aviso-legal/
+        - link "Català" [ref=f12e6] [cursor=pointer]:
+          - /url: https://www.fotomatonbarcelona.es/ca/aviso-legal/
+        - link "English" [ref=f12e7] [cursor=pointer]:
+          - /url: https://www.fotomatonbarcelona.es/en/aviso-legal/
+      - generic [ref=f12e8]:
+        - link "620 805 760" [ref=f12e10] [cursor=pointer]:
+          - /url: tel:620805760
+        - link "695 573 638" [ref=f12e12] [cursor=pointer]:
+          - /url: tel:695573638
+        - link "info@fotomatonbarcelona.es" [ref=f12e13] [cursor=pointer]:
+          - /url: javascript:;
+    - navigation [ref=f12e15]:
+      - generic [ref=f12e16]:
+        - link [ref=f12e17] [cursor=pointer]:
+          - /url: https://www.fotomatonbarcelona.es/
+          - img "Logotipo Fotmaton Barcelona" [ref=f12e18]
+        - list [ref=f12e19]:
+          - listitem [ref=f12e20]:
+            - link "Eventos" [ref=f12e21] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f12e22]:
+            - link "Bodas y fiestas" [ref=f12e23] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f12e24]:
+            - link "Contacto" [ref=f12e25] [cursor=pointer]:
+              - /url: https://www.fotomatonbarcelona.es/contacto/
+  - generic [ref=f12e27]:
+    - heading "Aviso legal" [level=1] [ref=f12e30]
+    - generic [ref=f12e32]:
+      - paragraph [ref=f12e33]: "DATOS IDENTIFICATIVOS En cumplimiento con el deber de información recogido en el artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico, a continuación, se reflejan los siguientes datos: El titular de esta website es “Mejor que Mejor, S.L.”, amb domicili a C/Tulipa 11, 08193 de Cerdanyola del Vallès (Barcelona), amb número de NIF: B62454780, inscrita al Registre Mercantil de Barcelona al volum 33543, foli 99, fulla B229796. Correu electrònic de contacte info@fotomatónbarcelona.es. La información contenida en www.fotomatonbarcelona.es constituye un servicio de información de los diversos servicios que ofrece “Mejor que Mejor, S.L.” (en adelante “Fotomatón Barcelona”) dentro del ámbito del alquiler de fotomatón para eventos sociales."
+      - paragraph [ref=f12e34]: ACEPTACIÓN DE LAS CONDICIONES DE USO El acceso a la Web www.fotomatonbarcelona.es exige la aceptación de las condiciones de uso que en cada momento se encuentren vigentes en esta Web.
+      - paragraph [ref=f12e35]: PROPIEDAD INTELECTUAL El código fuente, los diseños gráficos, las imágenes, las fotografías, las animaciones, el software, los textos, así como la información y los contenidos que se recogen en www.fotomatonbarcelona.es están protegidos por la legislación española sobre los derechos de propiedad intelectual e industrial a favor de “Fotomatón Barcelona”, y no se permite, la reproducción total o parcial de ésta Web, ni su tratamiento informático, comunicación pública, distribución, difusión, modificación, transformación o descompilación, sin el permiso previo y por escrito de su titular, “Fotomatón Barcelona” de conformidad con lo dispuesto en los artículos 8 y 32 párrafo segundo de la Ley de Propiedad Intelectual. El usuario, única y exclusivamente podrá utilizar el material que aparezca en esta Web para su uso personal y privado, quedando prohibida su utilización con fines comerciales o para incurrir en actividades ilícitas. Todos los derechos derivados de la propiedad intelectual están expresamente reservados por “Fotomatón Barcelona”. “Fotomatón Barcelona” velará por el cumplimiento de las anteriores condiciones y para la debida utilización de los contenidos presentados en su portal, ejercitando todas las acciones civiles y penales que le correspondan en el caso de infracción o incumplimiento de estos derechos por parte del usuario.
+      - paragraph [ref=f12e36]: PROTECCIÓN DE DATOS DE CARÁCTER PERSONAL El acceso a la página Web o su uso no implica una recogida de datos personales del usuario por parte de “Fotomatón Barcelona”. No obstante, se comunica que, en el caso de que “Fotomatón Barcelona” solicite datos personales, se informará debidamente al usuario conforme a lo establecido en el Reglamento General de Protección de Datos y demás normativa que resulte de aplicación relativa a la protección de datos. Los Datos Personales que recoge “Fotomatón Barcelona” en los distintos tipos de formularios serán tratados con la finalidad de dar respuesta a la solicitud realizada por el interesado, así como para el mantenimiento de la relación que en su caso se establezca, y la gestión, administración, información, prestación y mejora de los servicios que decida contratar. Para una información más detallada en lo relativo a la Protección de Datos, deberá acceder a nuestra “Política de Privacidad”. “Fotomatón Barcelona” ha tomado las medidas de índole técnica y organizativa necesarias para garantizar la seguridad de los datos y evitar su alteración, pérdida, tratamiento o acceso no autorizado, teniendo en cuenta el estado de la tecnología, la naturaleza de los datos almacenados y los riesgos a que se encuentran expuestos, ya provengan de la acción humana o del medio físico o natural.
+      - paragraph [ref=f12e37]: DATOS EN REDES SOCIALES “Fotomatón Barcelona” dispone de perfiles en diferentes redes sociales, por lo que hemos de advertir al usuario que todos los datos que publique en estos perfiles serán conocidos por todos aquellos usuarios que también interactúen en ese perfil o que simplemente lo consulten, tengan éstos o no su propio perfil en la red social, ya que todos los perfiles de “Fotomatón Barcelona” son públicos. En consecuencia, toda la información y contenidos publicados por el usuario en los perfiles de “Fotomatón Barcelona” será objeto de comunicación al resto de los usuarios por la propia naturaleza del servicio. Le recomendamos que consulte las Políticas de Privacidad de las redes sociales antes de utilizar dichos servicios. En el caso de que el usuario envíe información de cualquier tipo a “Fotomatón Barcelona”, sobre todo en el caso de datos de terceros, a través de las redes sociales, éste declara y garantiza que está legitimado a enviar dicha información y que no infringe ningún derecho de propiedad intelectual, de marca, de patente, secreto comercial, o cualquier otro derecho de tercero, que la información no tiene carácter confidencial y que no daña u ofende a terceros. “Fotomatón Barcelona” sólo es responsable y garantiza la confidencialidad, seguridad y tratamiento de los datos conforme a la legislación vigente, respecto a los datos que recoja directamente del usuario, no teniendo ningún tipo de responsabilidad respecto de los tratamientos y posteriores usos que la red social pudiera efectuar.
+      - paragraph [ref=f12e38]: LIMITACIÓN DE LA RESPONSABILIDAD “Fotomatón Barcelona” no se responsabiliza de los posibles daños o perjuicios que puedan suceder como consecuencia del uso de los contenidos de la Web, siendo de exclusiva responsabilidad del usuario que acceda a los mismos. En el mismo sentido, “Fotomatón Barcelona” no se responsabiliza de los posibles perjuicios que se puedan derivar del uso de una versión no actualizada o defectuosa del navegador, de interrupciones en la conexión que se produzcan durante la transmisión de datos, virus informáticos, averías o desconexiones en el funcionamiento del sistema telemático, de bloqueos causados por deficiencias o sobrecargas de las líneas telefónicas, así como de daños provocados por terceras personas mediante intromisiones no autorizadas. La Web de “Fotomatón Barcelona” contiene enlaces a otras páginas Web que pueden resultar de interés para los usuarios. “Fotomatón Barcelona” no asume ninguna responsabilidad sobre estos enlaces, no pudiéndose garantizar el cumplimiento de Políticas de Privacidad adecuadas, motivo por el cual el usuario accede al contenido de las referidas páginas Web en las condiciones de uso que se fijen en las mismas y bajo su exclusiva responsabilidad. “Fotomatón Barcelona” no se hace responsable del incumplimiento de cualquier norma aplicable en que pueda incurrir el usuario en su acceso a la Web www.fotomatonbarcelona.es y/o en el uso de las informaciones contenidas en ella. “Fotomatón Barcelona” se reserva el derecho a interrumpir o denegar discrecionalmente, en cualquier momento y sin necesidad de previo aviso, el acceso de cualquier usuario a los contenidos de acceso restringido, cuando concurran alguna de les circunstancias descritas.
+      - paragraph [ref=f12e39]: ENLACES Todos los enlaces o links, hipertextual, framing o cualquier otro tipo de conexión virtual a través de redes de telecomunicación desde cualquier sitio Web a nuestra página Web, deberá ser solicitado y autorizado previamente y por escrito por “Fotomatón Barcelona”, y en su defecto los enlaces que se establezcan a esta Web, deberán hacerse a su página de inicio. Los enlaces que se realicen a páginas Web de terceros tienen únicamente una finalidad orientativa, siendo su objeto el poner a disposición del usuario otras fuentes de información que pudieran ser de su interés. “Fotomatón Barcelona” procura revisar periódicamente el contenido de sus enlaces. No obstante, es imposible conocer en todo momento el contenido concreto de los enlaces propuestos. Derivado de ello, solicitamos la colaboración de cualquier usuario que acceda a los referidos contenidos en el supuesto que sus contenidos pudieren ser contrarios a la legalidad vigente, moral u orden público, poniéndolo en conocimiento a través del siguiente correo electrónico info@fotomatonbarcelona.es .
+      - paragraph [ref=f12e40]: RESPONSABILIDAD En definitiva, el usuario es el único responsable del uso que realice de los servicios, contenidos, enlaces (links) e hipertextos incluidos en la Web www.fotomatonbarcelona.es.
+      - paragraph [ref=f12e41]: POLITICA DE PRIVACIDAD Los datos de carácter personal obtenidas mediante los diferentes formularios de registro están sujetos a los términos recogidos en nuestra Política de Privacidad.
+      - paragraph [ref=f12e42]: RESERVA “Fotomatón Barcelona” se reserva la facultad en todo momento, sin necesidad de previo aviso, de efectuar modificaciones y actualizaciones de la información contenida en su Web o en su configuración y presentación. Asimismo, se reserva el derecho a suspender temporalmente, y sin que sea necesario previo aviso, la accesibilidad a la Web por razones de eventual necesidad y para efectuar operaciones de mantenimiento, reparación o mejora. “Fotomatón Barcelona” se reserva el derecho a incluir o retirar total o parcialmente de la Web, cualquier información a su exclusiva discreción.
+      - paragraph [ref=f12e43]: LEY APLICABLE Y JURISDICCIÓN Para todas aquellas cuestiones que se puedan suscitar con motivo de interpretación, ejecución o eventual incumplimiento de las presentes condiciones de utilización, los usuarios, con renuncia a su propio fuero, y con independencia del lugar donde se suscite cualquier disputa, se someterán expresamente a la competencia y jurisdicción de los juzgados y tribunales de Cerdanyola del Vallès. Las presentes condiciones se regirán, en todo caso, por la legislación española. “Mejor que Mejor, S.L.” Todos los derechos reservados
+  - contentinfo [ref=f12e44]:
+    - generic [ref=f12e45]:
+      - generic [ref=f12e49]:
+        - link [ref=f12e50] [cursor=pointer]:
+          - /url: https://x.com/fotomatonbcn
+          - img "link to X Fotomaton Barcelona" [ref=f12e51]
+        - link [ref=f12e52] [cursor=pointer]:
+          - /url: https://www.tiktok.com/@fotomatonbarcelona
+          - img "link to TikTok Fotomaton Barcelona" [ref=f12e53]
+        - link [ref=f12e54] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/fotomaton-barcelona
+          - img "link to LinkedIn Fotomaton Barcelona" [ref=f12e55]
+        - link [ref=f12e56] [cursor=pointer]:
+          - /url: https://www.facebook.com/FotomatonBarcelona
+          - img "link to Facebook Fotomaton Barcelona" [ref=f12e57]
+        - link [ref=f12e58] [cursor=pointer]:
+          - /url: https://www.instagram.com/fotomatonbcn/
+          - img "link to Instagram Fotomaton Barcelona" [ref=f12e59]
+        - link [ref=f12e60] [cursor=pointer]:
+          - /url: https://www.youtube.com/@fotomatonbarcelona6136
+          - img "link to Youtube Fotomaton Barcelona" [ref=f12e61]
+      - generic [ref=f12e62]:
+        - generic [ref=f12e64]:
+          - heading "Eventos" [level=3] [ref=f12e65]
+          - list [ref=f12e67]:
+            - listitem [ref=f12e68]:
+              - link "Fotomatón Eventos" [ref=f12e69] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-para-eventos/
+            - listitem [ref=f12e70]:
+              - link "Spin 360º" [ref=f12e71] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-videomaton-360/
+            - listitem [ref=f12e72]:
+              - link "Fotomatón IA" [ref=f12e73] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-ia/
+            - listitem [ref=f12e74]:
+              - link "Mosaic Wall" [ref=f12e75] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-mosaic-wall/
+            - listitem [ref=f12e76]:
+              - link "Fotomatón Smart" [ref=f12e77] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-smart-eventos/
+            - listitem [ref=f12e78]:
+              - link "Printoku" [ref=f12e79] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/impresora-printoku/
+            - listitem [ref=f12e80]:
+              - link "Letras Gigantes" [ref=f12e81] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/letras-gigantes-iluminadas/
+            - listitem [ref=f12e82]:
+              - link "Photocall Red Carpet" [ref=f12e83] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotografia-photocall/
+        - generic [ref=f12e85]:
+          - heading "Bodas y fiestas" [level=3] [ref=f12e86]
+          - list [ref=f12e88]:
+            - listitem [ref=f12e89]:
+              - link "Fotomatón Bodas" [ref=f12e90] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-bodas-fiestas/
+            - listitem [ref=f12e91]:
+              - link "Spin 360º" [ref=f12e92] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/spin-360-bodas-fiestas/
+            - listitem [ref=f12e93]:
+              - link "Fotomatón Glam" [ref=f12e94] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-glam-bodas-fiestas/
+            - listitem [ref=f12e95]:
+              - link "Fotomatón Catwalk" [ref=f12e96] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-catwalk-bodas-fiestas/
+            - listitem [ref=f12e97]:
+              - link "Printoku" [ref=f12e98] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/impresora-fotos-smartphone-printoku/
+            - listitem [ref=f12e99]:
+              - link "Letras Gigantes" [ref=f12e100] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/letras-gigantes/
+            - listitem [ref=f12e101]:
+              - link "Photocall Red Carpet" [ref=f12e102] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/photocall-red-carpet/
+        - generic [ref=f12e104]:
+          - heading "Recursos" [level=3] [ref=f12e105]
+          - list [ref=f12e107]:
+            - listitem [ref=f12e108]:
+              - link "Nosotros" [ref=f12e109] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/nosotros/
+            - listitem [ref=f12e110]:
+              - link "Política de privacidad" [ref=f12e111] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/politica-privacidad/
+            - listitem [ref=f12e112]:
+              - link "Política de cookies" [ref=f12e113] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/politica-de-cookies/
+            - listitem [ref=f12e114]:
+              - link "Aviso legal" [ref=f12e115] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/aviso-legal/
+            - listitem [ref=f12e116]:
+              - link "Blog" [ref=f12e117] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/blog/
+            - listitem [ref=f12e118]:
+              - link "Hablan sobre nosotros" [ref=f12e119] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/blog/hablan-sobre-nosotros/
+        - link [ref=f12e123] [cursor=pointer]:
+          - /url: https://www.bodas.net/animacion/fotomaton-barcelona--e40517
+          - img "Fotomatón Barcelona, ganador Wedding Awards 2024 Bodas.net" [ref=f12e124]
+      - generic [ref=f12e125]:
+        - img "Isotipo de fotomaton Barcelona" [ref=f12e127]
+        - paragraph [ref=f12e129]:
+          - text: "El titular de esta website es “Mejor que Mejor, S.L.”, domiciliado en C/Tulipa 11, 08193 de Cerdanyola del Vallès (Barcelona) NIF: B62454780, inscrito en el Registro Mercantil de Barcelona volumen 33543, folio 99, hoja B229796. Correo electrónico de contacto"
+          - link "info@fotomatonbarcelona.es" [ref=f12e130] [cursor=pointer]:
+            - /url: javascript:;
+          - text: .
+  - button "Gestionar consentimiento" [ref=f12e131] [cursor=pointer]

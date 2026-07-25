@@ -1,0 +1,189 @@
+- generic [active] [ref=f40e1]:
+  - banner [ref=f40e2]:
+    - link "Fotomaton Barcelona" [ref=f40e3] [cursor=pointer]:
+      - /url: /
+      - img "Logotipo Fotmaton Barcelona" [ref=f40e4]
+    - navigation [ref=f40e5]:
+      - link "Eventos" [ref=f40e6] [cursor=pointer]:
+        - /url: "#"
+      - link "Bodas y fiestas" [ref=f40e7] [cursor=pointer]:
+        - /url: "#"
+      - link "Contacto" [ref=f40e8] [cursor=pointer]:
+        - /url: /contacto
+  - main [ref=f40e9]:
+    - generic [ref=f40e11]:
+      - heading "Fotomatón para eventos" [level=1] [ref=f40e12]
+      - heading "Fotomatón ideal para eventos corporativos y campañas de marketing" [level=2] [ref=f40e13]
+      - paragraph [ref=f40e14]: Nuestro fotomatón para eventos es la herramienta perfecta para generar engagement, crear recuerdos inolvidables y potenciar tu marca. Diseñado para empresas que buscan sorprender a sus invitados con una experiencia única.
+      - link "Solicitar presupuesto" [ref=f40e15] [cursor=pointer]:
+        - /url: /contacto
+    - generic [ref=f40e17]:
+      - heading "¿Cómo funciona?" [level=2] [ref=f40e18]
+      - generic [ref=f40e19]:
+        - generic [ref=f40e20]:
+          - generic [ref=f40e21]: "1"
+          - heading "Posa frente al fotomatón individualmente o en grupo" [level=3] [ref=f40e23]
+          - paragraph [ref=f40e24]: Elige el fondo, los accesorios y las poses. ¡Diviértete al máximo!
+        - generic [ref=f40e25]:
+          - generic [ref=f40e26]: "2"
+          - heading "Selecciona el número de copias, ¡Servicio ilimitado!" [level=3] [ref=f40e28]
+          - paragraph [ref=f40e29]: Todas las copias que quieras, sin límite. Fotos ilimitadas para todos tus invitados.
+        - generic [ref=f40e30]:
+          - generic [ref=f40e31]: "3"
+          - heading "Obtén tu impresión personalizada al instante" [level=3] [ref=f40e33]
+          - paragraph [ref=f40e34]: Impresión profesional con diseño personalizado con el logo de tu empresa o evento.
+    - generic [ref=f40e36]:
+      - heading "Extras" [level=2] [ref=f40e37]
+      - generic [ref=f40e38]:
+        - generic [ref=f40e39]:
+          - heading "Vinilo personalizado" [level=3] [ref=f40e40]
+          - paragraph [ref=f40e41]: Personaliza el fotomatón con el logo de tu marca o evento.
+        - generic [ref=f40e42]:
+          - heading "Photocall personalizado" [level=3] [ref=f40e43]
+          - paragraph [ref=f40e44]: Fondos y estructuras personalizadas para tu photocall.
+        - generic [ref=f40e45]:
+          - heading "Papel de impresión" [level=3] [ref=f40e46]
+          - paragraph [ref=f40e47]: Elige entre papel fotográfico brillante o mate.
+        - generic [ref=f40e48]:
+          - heading "Envío por QR o email HTML" [level=3] [ref=f40e49]
+          - paragraph [ref=f40e50]: Envía las fotos directamente al móvil o email de tus invitados.
+        - generic [ref=f40e51]:
+          - heading "Vogue booth" [level=3] [ref=f40e52]
+          - paragraph [ref=f40e53]: Fotomatón con iluminación profesional estilo Vogue.
+        - generic [ref=f40e54]:
+          - heading "Fotomatón Espejo" [level=3] [ref=f40e55]
+          - paragraph [ref=f40e56]: Espejo interactivo con animaciones y táctil.
+        - generic [ref=f40e57]:
+          - heading "Mosaic Wall" [level=3] [ref=f40e58]
+          - paragraph [ref=f40e59]: Crea un mosaico gigante con las fotos de todos los invitados.
+        - generic [ref=f40e60]:
+          - heading "Fotomatón cenital" [level=3] [ref=f40e61]
+          - paragraph [ref=f40e62]: Perspectiva cenital para fotos creativas y divertidas.
+        - generic [ref=f40e63]:
+          - heading "Slow motion" [level=3] [ref=f40e64]
+          - paragraph [ref=f40e65]: Vídeos en cámara lenta para momentos épicos.
+        - generic [ref=f40e66]:
+          - heading "Croma Greenscreen o Croma IA" [level=3] [ref=f40e67]
+          - paragraph [ref=f40e68]: Fondos virtuales con tecnología de chroma key.
+        - generic [ref=f40e69]:
+          - heading "Photocall lentejuelas con neón" [level=3] [ref=f40e70]
+          - paragraph [ref=f40e71]: Fondo de lentejuelas con letreros de neón personalizados.
+        - generic [ref=f40e72]:
+          - heading "Atrezzo" [level=3] [ref=f40e73]
+          - paragraph [ref=f40e74]: Accesorios y props divertidos para las fotos.
+        - generic [ref=f40e75]:
+          - heading "Imanes" [level=3] [ref=f40e76]
+          - paragraph [ref=f40e77]: Imanes personalizados con las fotos de los invitados.
+        - generic [ref=f40e78]:
+          - heading "Formulario" [level=3] [ref=f40e79]
+          - paragraph [ref=f40e80]: Recoge datos de los invitados con un formulario digital.
+    - generic [ref=f40e82]:
+      - heading "Preguntas frecuentes" [level=2] [ref=f40e83]
+      - generic [ref=f40e84]:
+        - generic [ref=f40e85]:
+          - button "¿Cuántas fotos se pueden hacer?" [ref=f40e86]
+          - paragraph [ref=f40e90]: Las fotos son ilimitadas durante todo el servicio. No hay límite de tiradas.
+        - generic [ref=f40e91]:
+          - button "¿Se pueden personalizar las impresiones?" [ref=f40e92]
+          - paragraph [ref=f40e96]: Sí, personalizamos el diseño de las impresiones con el logo de tu empresa o evento.
+        - generic [ref=f40e97]:
+          - button "¿Incluye atrezzo?" [ref=f40e98]
+          - paragraph [ref=f40e102]: Sí, incluimos atrezzo básico. También disponemos de atrezzo premium personalizado.
+        - generic [ref=f40e103]:
+          - button "¿Cuánto tiempo tarda el montaje?" [ref=f40e104]
+          - paragraph [ref=f40e108]: El montaje se realiza entre 30 minutos y 1 hora antes del inicio del servicio.
+    - generic [ref=f40e110]:
+      - heading "¿Listo para hacer tu evento inolvidable?" [level=2] [ref=f40e111]
+      - link "Contacta con nosotros" [ref=f40e112] [cursor=pointer]:
+        - /url: /contacto
+  - contentinfo [ref=f40e113]:
+    - generic [ref=f40e115]:
+      - link "X" [ref=f40e116] [cursor=pointer]:
+        - /url: https://x.com/fotomatonbcn
+      - link "TikTok" [ref=f40e119] [cursor=pointer]:
+        - /url: https://www.tiktok.com/@fotomatonbarcelona
+      - link "LinkedIn" [ref=f40e122] [cursor=pointer]:
+        - /url: https://www.linkedin.com/company/fotomaton-barcelona
+      - link "Facebook" [ref=f40e125] [cursor=pointer]:
+        - /url: https://www.facebook.com/FotomatonBarcelona
+      - link "Instagram" [ref=f40e128] [cursor=pointer]:
+        - /url: https://www.instagram.com/fotomatonbcn/
+      - link "YouTube" [ref=f40e131] [cursor=pointer]:
+        - /url: https://www.youtube.com/@fotomatonbarcelona6136
+    - generic [ref=f40e135]:
+      - generic [ref=f40e136]:
+        - heading "Eventos" [level=4] [ref=f40e137]
+        - list [ref=f40e138]:
+          - listitem [ref=f40e139]:
+            - link "Fotomatón Eventos" [ref=f40e140] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f40e141]:
+            - link "Spin 360º" [ref=f40e142] [cursor=pointer]:
+              - /url: /fotomaton-videomaton-360
+          - listitem [ref=f40e143]:
+            - link "Fotomatón IA" [ref=f40e144] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f40e145]:
+            - link "Mosaic Wall" [ref=f40e146] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f40e147]:
+            - link "Fotomatón Smart" [ref=f40e148] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f40e149]:
+            - link "Printoku" [ref=f40e150] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f40e151]:
+            - link "Letras Gigantes" [ref=f40e152] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f40e153]:
+            - link "Photocall Red Carpet" [ref=f40e154] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+      - generic [ref=f40e155]:
+        - heading "Bodas y fiestas" [level=4] [ref=f40e156]
+        - list [ref=f40e157]:
+          - listitem [ref=f40e158]:
+            - link "Fotomatón Bodas" [ref=f40e159] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f40e160]:
+            - link "Spin 360º" [ref=f40e161] [cursor=pointer]:
+              - /url: /fotomaton-videomaton-360
+          - listitem [ref=f40e162]:
+            - link "Fotomatón Glam" [ref=f40e163] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f40e164]:
+            - link "Fotomatón Catwalk" [ref=f40e165] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f40e166]:
+            - link "Printoku" [ref=f40e167] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f40e168]:
+            - link "Letras Gigantes" [ref=f40e169] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f40e170]:
+            - link "Photocall Red Carpet" [ref=f40e171] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+      - generic [ref=f40e172]:
+        - heading "Recursos" [level=4] [ref=f40e173]
+        - list [ref=f40e174]:
+          - listitem [ref=f40e175]:
+            - link "Nosotros" [ref=f40e176] [cursor=pointer]:
+              - /url: /nosotros
+          - listitem [ref=f40e177]:
+            - link "Política de privacidad" [ref=f40e178] [cursor=pointer]:
+              - /url: /politica-privacidad
+          - listitem [ref=f40e179]:
+            - link "Política de cookies" [ref=f40e180] [cursor=pointer]:
+              - /url: /politica-de-cookies
+          - listitem [ref=f40e181]:
+            - link "Aviso legal" [ref=f40e182] [cursor=pointer]:
+              - /url: /aviso-legal
+          - listitem [ref=f40e183]:
+            - link "Blog" [ref=f40e184] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=f40e185]:
+            - link "Hablan sobre nosotros" [ref=f40e186] [cursor=pointer]:
+              - /url: /blog
+    - generic [ref=f40e187]:
+      - img "Fotomatón Barcelona" [ref=f40e188]
+      - paragraph [ref=f40e189]: "El titular de esta website es \"Mejor que Mejor, S.L.\", domiciliado en C/Tulipa 11, 08193 de Cerdanyola del Vallès (Barcelona) NIF: B62454780. Todos los derechos reservados."
+  - button "Open Next.js Dev Tools" [ref=f40e195] [cursor=pointer]

@@ -1,0 +1,231 @@
+- generic [active] [ref=f2e1]:
+  - banner [ref=f2e2]:
+    - generic [ref=f2e3]:
+      - generic [ref=f2e4]:
+        - link "Español" [ref=f2e5] [cursor=pointer]:
+          - /url: https://www.fotomatonbarcelona.es/politica-privacidad/
+        - link "Català" [ref=f2e6] [cursor=pointer]:
+          - /url: https://www.fotomatonbarcelona.es/ca/politica-privacidad/
+        - link "English" [ref=f2e7] [cursor=pointer]:
+          - /url: https://www.fotomatonbarcelona.es/en/politica-privacidad/
+      - generic [ref=f2e8]:
+        - link "620 805 760" [ref=f2e10] [cursor=pointer]:
+          - /url: tel:620805760
+        - link "695 573 638" [ref=f2e12] [cursor=pointer]:
+          - /url: tel:695573638
+        - link "info@fotomatonbarcelona.es" [ref=f2e13] [cursor=pointer]:
+          - /url: javascript:;
+    - navigation [ref=f2e15]:
+      - generic [ref=f2e16]:
+        - link [ref=f2e17] [cursor=pointer]:
+          - /url: https://www.fotomatonbarcelona.es/
+          - img "Logotipo Fotmaton Barcelona" [ref=f2e18]
+        - list [ref=f2e19]:
+          - listitem [ref=f2e20]:
+            - link "Eventos" [ref=f2e21] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f2e22]:
+            - link "Bodas y fiestas" [ref=f2e23] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f2e24]:
+            - link "Contacto" [ref=f2e25] [cursor=pointer]:
+              - /url: https://www.fotomatonbarcelona.es/contacto/
+  - generic [ref=f2e27]:
+    - heading "Política de privacidad" [level=1] [ref=f2e30]
+    - generic [ref=f2e32]:
+      - paragraph [ref=f2e33]: A través del presente aviso, “Mejor que Mejor, S.L.” (en adelante “Fotomatón Barcelona”), informa a los usuarios de la Web www.fotomatonbarcelona.es, en cumplimiento del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016 (Reglamento General de Protección de Datos) y demás normativa de aplicación, de su política de protección de datos personales con la finalidad que éstos decidan de forma expresa, libre y voluntaria, facilitar a “Fotomatón Barcelona” los datos personales que les son solicitados motivado por la solicitud de información o para la contratación de los diversos servicios que se ofrecen relacionados con el alquiler de fotomatón para eventos sociales.
+      - paragraph [ref=f2e34]: Excepto que específicamente se establezca lo contrario, se considera necesario completar todos los datos requeridos en el formulario o impreso análogo de forma verdadera, exacta, completa y actualizada. En caso contrario, “Fotomatón Barcelona” podrá, dependiendo del caso, no proceder al registro del usuario, o bien denegar el servicio concreto solicitado. Todos los datos facilitados por el usuario/interesado serán tratados atendiendo a las características pormenorizadas a continuación.
+      - paragraph [ref=f2e35]:
+        - strong [ref=f2e36]: Información relativa al tratamiento de los datos personales
+      - paragraph [ref=f2e37]:
+        - strong [ref=f2e38]: "Identificación del responsable:"
+        - text: "“Mejor que Mejor, S.L.”, con domicilio en C/Tulipa 11, 08193 de Cerdanyola del Vallès (Barcelona), con número de NIF: B62454780, inscrita en el Registro Mercantil de Barcelona en el tomo 33543, folio 99, hoja B229796. Correo electrónico de contacto info@fotomatonbarcelona.es ."
+      - paragraph [ref=f2e39]:
+        - strong [ref=f2e40]: "Finalidad del tratamiento:"
+      - paragraph [ref=f2e41]: "Todos los datos facilitados serán tratados con las siguientes finalidades:"
+      - list [ref=f2e42]:
+        - listitem [ref=f2e43]: Dar respuesta a las peticiones realizadas por el interesado.
+        - listitem [ref=f2e44]: Alquiler de fotomatón para eventos sociales.
+        - listitem [ref=f2e45]: Mantenimiento de la relación que en su caso se establezca.
+        - listitem [ref=f2e46]: Gestión, administración, información, prestación y mejora de los servicios que se decida contratar.
+        - listitem [ref=f2e47]: Comunicaciones comerciales relacionadas con nuestros productos y servicios.
+      - paragraph [ref=f2e48]: Los datos personales proporcionados se conservarán mientras se mantenga la relación mercantil, el interesado no solicite su supresión o sean necesarios para los fines del tratamiento. No procederá la destrucción de los datos cuando exista una previsión legal que exija su conservación, en cuyo caso se procederá al bloqueo de los datos, conservándose únicamente a disposición de las Administraciones públicas, Jueces y Tribunales, para la atención de las posibles responsabilidades nacidas del tratamiento, durante el plazo de prescripción de éstas.
+      - paragraph [ref=f2e49]: En la actualidad no se procede a realizar ningún tipo de decisiones automatizadas, incluida la elaboración de perfiles, en base a sus datos personales. En el caso en que en un futuro se fueran a realizar dichas decisiones automatizadas, se recabará el consentimiento previo.
+      - paragraph [ref=f2e50]:
+        - strong [ref=f2e51]: "Legitimación del tratamiento:"
+      - paragraph [ref=f2e52]: Todo tratamiento realizado sobre sus datos personales ha sido consentido por Ud. de forma previa y expresa. Con carácter previo se le informa de todos aquellos extremos exigidos por la Ley para que pueda prestar un consentimiento informado.
+      - paragraph [ref=f2e53]: Podrá revocar este consentimiento en cualquier momento tal y como se detalla más adelante en el presente documento.
+      - paragraph [ref=f2e54]:
+        - strong [ref=f2e55]: "Destinatarios, cesiones y transferencias de datos:"
+      - paragraph [ref=f2e56]: Sus datos no serán cedidos salvo que sean estrictamente indispensable para el cumplimiento de las finalidades anteriormente dichas u obligación legal.
+      - paragraph [ref=f2e57]: Igualmente, sus datos tampoco serán transferidos a países fuera de la Unión Europea salvo que fuera indispensable para el cumplimiento de las finalidades y Ud. nos autorice de forma previa y expresa.
+      - paragraph [ref=f2e58]:
+        - strong [ref=f2e59]: "Derechos de los interesados:"
+      - paragraph [ref=f2e60]: Podrá ejercitar en cualquier momento los derechos que se detallan a continuación, mediante correo postal a “Fotomatón Barcelona”, C/Tulipa 11, 08193 de Cerdanyola del Vallès (Barcelona); o mediante correo electrónico a info@fotomatonbarcelona.es . La solicitud deberá contener nombre, apellidos y la documentación que acredite la identidad del interesado o de su representante legal, así como documento acreditativo de la representación, petición en la que se concrete la solicitud, domicilio a efectos de notificaciones, fecha y firma del solicitante y documentos acreditativos de la petición que formula. Si la solicitud no reúne los requisitos especificados se requerirá su subsanación.
+      - paragraph [ref=f2e61]: "Los derechos de los interesados son: de acceso, rectificación, limitación, portabilidad, oposición y supresión; y su definición es:"
+      - paragraph [ref=f2e62]: "Derecho de acceso:"
+      - paragraph [ref=f2e63]: "El interesado tendrá derecho a obtener del responsable del tratamiento confirmación de si se están tratando o no datos personales que le conciernen y, en tal caso, derecho de acceso a los datos personales y a la siguiente información:"
+      - list [ref=f2e64]:
+        - listitem [ref=f2e65]: a) los fines del tratamiento
+        - listitem [ref=f2e66]: b) las categorías de datos personales de que se traten
+        - listitem [ref=f2e67]: c) los destinatarios o las categorías de destinatarios a los que se comunicaron o serán comunicados los datos personales, en particular destinatarios en terceros u organizaciones internacionales
+        - listitem [ref=f2e68]: d) de ser posible, el plazo previsto de conservación de los datos personales o, de no ser posible, los criterios utilizados para determinar este plazo
+        - listitem [ref=f2e69]: e) la existencia del derecho a solicitar del responsable la rectificación o supresión de datos personales o la limitación del tratamiento de datos personales relativos al interesado, o a oponerse a dicho tratamiento
+        - listitem [ref=f2e70]: f) el derecho a presentar una reclamación ante una autoridad de control
+        - listitem [ref=f2e71]: g) cuando los datos personales no se hayan obtenido del interesado, cualquier información disponible sobre su origen
+        - listitem [ref=f2e72]: h) la existencia de decisiones automatizadas, incluida la elaboración de perfiles, a que se refiere el artículo 22, apartados 1 y 4, y, al menos en tales casos, información significativa sobre la lógica aplicada, así como la importancia y las consecuencias previstas de dicho tratamiento para el interesado.
+      - paragraph [ref=f2e73]: Cuando se transfieran datos personales a un tercer país o a una organización internacional, el interesado tendrá derecho a ser informado de las garantías adecuadas en virtud del artículo 46 relativas a la transferencia. El responsable del tratamiento facilitará una copia de los datos personales objeto de tratamiento. El responsable podrá percibir por cualquier otra copia solicitada por el interesado un canon razonable basado en los costes administrativos. Cuando el interesado presente la solicitud por medios electrónicos, y a menos que este solicite que se facilite de otro modo, la información se facilitará en un formato electrónico de uso común.
+      - paragraph [ref=f2e74]: "Derecho de rectificación:"
+      - paragraph [ref=f2e75]: El interesado tendrá derecho a obtener sin dilación indebida del responsable del tratamiento la rectificación de los datos personales inexactos que le conciernan. Teniendo en cuenta los fines del tratamiento, el interesado tendrá derecho a que se completen los datos personales que sean incompletos, inclusive mediante una declaración adicional.
+      - paragraph [ref=f2e76]: "Derecho de supresión:"
+      - paragraph [ref=f2e77]: "El interesado tendrá derecho a obtener sin dilación indebida del responsable del tratamiento la supresión de los datos personales que le conciernan, el cual estará obligado a suprimir sin dilación indebida los datos personales cuando concurra alguna de las circunstancias siguientes:"
+      - list [ref=f2e78]:
+        - listitem [ref=f2e79]: a) los datos personales ya no sean necesarios en relación con los fines para los que fueron recogidos o tratados de otro modo
+        - listitem [ref=f2e80]: b) el interesado retire el consentimiento en que se basa el tratamiento de conformidad con el artículo 6, apartado 1, letra a), o el artículo 9, apartado 2, letra a), y este no se base en otro fundamento jurídico
+        - listitem [ref=f2e81]: c) el interesado se oponga al tratamiento con arreglo al artículo 21, apartado 1, y no prevalezcan otros motivos legítimos para el tratamiento, o el interesado se oponga al tratamiento con arreglo al artículo 21, apartado 2
+        - listitem [ref=f2e82]: d) los datos personales hayan sido tratados ilícitamente
+        - listitem [ref=f2e83]: e) los datos personales deban suprimirse para el cumplimiento de una obligación legal establecida en el Derecho de la Unión o de los Estados miembros que se aplique al responsable del tratamiento
+        - listitem [ref=f2e84]: f) los datos personales se hayan obtenido en relación con la oferta de servicios de la sociedad de la información mencionados en el artículo 8, apartado 1
+      - paragraph [ref=f2e85]: Cuando el responsable haya hecho público los datos personales de los cuales el interesado ha ejercido su derecho de supresión, el responsable deberá adoptar, atendiendo la tecnología disponible y el coste de su aplicación, las medidas razonables para comunicar a los terceros que estén tratando esa información de la solicitud de supresión de los datos, así como de cualquier enlace a esos datos o a cualquier copia o replica de los mismos.
+      - paragraph [ref=f2e86]: Este derecho se verá limitado por otros derechos tales como el derecho a la libertad de expresión e información, por el cumplimiento de alguna obligación legal, o cuando existan razones de interés público.
+      - paragraph [ref=f2e87]: "Derecho a la limitación del tratamiento:"
+      - paragraph [ref=f2e88]: "El interesado tendrá derecho a obtener del responsable del tratamiento la limitación del tratamiento de los datos cuando se cumpla alguna de las condiciones siguientes:"
+      - list [ref=f2e89]:
+        - listitem [ref=f2e90]: a) el interesado impugne la exactitud de los datos personales, durante un plazo que permita al responsable verificar la exactitud de los mismos
+        - listitem [ref=f2e91]: b) el tratamiento sea ilícito y el interesado se oponga a la supresión de los datos personales y solicite en su lugar la limitación de su uso
+        - listitem [ref=f2e92]: c) el responsable ya no necesite los datos personales para los fines del tratamiento, pero el interesado los necesite para la formulación, el ejercicio o la defensa de reclamaciones
+        - listitem [ref=f2e93]: d) el interesado se haya opuesto al tratamiento en virtud del artículo 21, apartado 1, mientras se verifica si los motivos legítimos del responsable prevalecen sobre los del interesado
+      - paragraph [ref=f2e94]: Cuando el tratamiento de datos personales se haya limitado en virtud del apartado 1, dichos datos solo podrán ser objeto de tratamiento, con excepción de su conservación, con el consentimiento del interesado o para la formulación, el ejercicio o la defensa de reclamaciones, o con miras a la protección de los derechos de otra persona física o jurídica o por razones de interés público importante de la Unión o de un determinado Estado miembro.
+      - paragraph [ref=f2e95]: Todo interesado que haya obtenido la limitación del tratamiento con arreglo al apartado 1 será informado por el responsable antes del levantamiento de dicha limitación.
+      - paragraph [ref=f2e96]: "Derecho de oposición:"
+      - paragraph [ref=f2e97]: El interesado tendrá derecho a oponerse en cualquier momento, por motivos relacionados con su situación particular, a que datos personales que le conciernan sean objeto de un tratamiento basado en lo dispuesto en el artículo 6, apartado 1, letras e) o f), incluida la elaboración de perfiles sobre la base de dichas disposiciones.
+      - paragraph [ref=f2e98]: El responsable del tratamiento dejará de tratar los datos personales, salvo que acredite motivos legítimos imperiosos para el tratamiento que prevalezcan sobre los intereses, los derechos y las libertades del interesado, o para la formulación, el ejercicio o la defensa de reclamaciones.
+      - paragraph [ref=f2e99]: Cuando el tratamiento de datos personales tenga por objeto la mercadotecnia directa, el interesado tendrá derecho a oponerse en todo momento al tratamiento de los datos personales que le conciernan, incluida la elaboración de perfiles en la medida en que esté relacionada con la citada mercadotecnia.
+      - paragraph [ref=f2e100]: Cuando el interesado se oponga al tratamiento con fines de mercadotecnia directa, los datos personales dejarán de ser tratados para dichos fines.
+      - paragraph [ref=f2e101]: Cuando los datos personales se traten con fines de investigación científica o histórica o fines estadísticos de conformidad con el artículo 89, apartado 1, el interesado tendrá derecho, por motivos relacionados con su situación particular, a oponerse al tratamiento de datos personales que le conciernan, salvo que sea necesario para el cumplimiento de una misión realizada por razones de interés público.
+      - paragraph [ref=f2e102]: "Derecho de portabilidad de datos:"
+      - paragraph [ref=f2e103]: "El interesado tendrá derecho a recibir los datos personales que le incumban, que haya facilitado a un responsable del tratamiento, en un formato estructurado, de uso común y lectura mecánica, y a transmitirlos a otro responsable del tratamiento sin que lo impida el responsable al que se los hubiera facilitado, cuando:"
+      - list [ref=f2e104]:
+        - listitem [ref=f2e105]: a) el tratamiento esté basado en el consentimiento con arreglo al artículo 6, apartado 1, letra a), o el artículo 9, apartado 2, letra a), o en un contrato con arreglo al artículo 6, apartado 1, letra b), y
+        - listitem [ref=f2e106]: b) el tratamiento se efectúe por medios automatizados.
+      - paragraph [ref=f2e107]: 2.Al ejercer su derecho a la portabilidad de los datos de acuerdo con el apartado 1, el interesado tendrá derecho a que los datos personales se transmitan directamente de responsable a responsable cuando sea técnicamente posible.
+      - paragraph [ref=f2e108]: El ejercicio del derecho mencionado en el apartado 1 del presente artículo se entenderá sin perjuicio del artículo 17. Tal derecho no se aplicará al tratamiento que sea necesario para el cumplimiento de una misión realizada en interés público o en el ejercicio de poderes públicos conferidos al responsable del tratamiento.
+      - paragraph [ref=f2e109]: El responsable del tratamiento comunicará cualquier rectificación o supresión de datos personales o limitación del tratamiento efectuada con arreglo al artículo 16, al artículo 17, apartado 1, y al artículo 18 a cada uno de los destinatarios a los que se hayan comunicado los datos personales, salvo que sea imposible o exija un esfuerzo desproporcionado. El responsable informará al interesado acerca de dichos destinatarios, si este así lo solicita.
+      - paragraph [ref=f2e110]:
+        - strong [ref=f2e111]: "Revocación del consentimiento:"
+        - text: El interesado, que en su momento hubiera otorgado el consentimiento para tratar sus datos personales, podrá igualmente retirarlo con igual facilidad. La retirada del consentimiento no comportará la ilicitud del tratamiento efectuado con anterioridad.
+      - paragraph [ref=f2e112]: El interesado tendrá derecho a presentar una reclamación ante la Autoridad de Control competente.
+      - paragraph [ref=f2e113]: Cuando los datos personales vayan a ser tratados de forma posterior para finalidades distintas, el responsable informará al interesado de tal extremo.
+      - paragraph [ref=f2e114]:
+        - strong [ref=f2e115]: "Medidas de seguridad:"
+        - text: El Responsable del Tratamiento manifiesta que ha adoptado las medidas de índole técnica y organizativa necesarias para garantizar la seguridad de los datos y evitar su alteración, pérdida, tratamiento o acceso no autorizado, teniendo en cuenta el estado de la tecnología, la naturaleza de los datos almacenados y los riesgos a que se encuentran expuestos, ya provengan de la acción humana o del medio físico o natural.
+      - paragraph [ref=f2e116]: La Web de www.fotomatonbarcelona.es contiene enlaces a otras páginas Web que puedan resultar de interés para el interesado. “Fotomatón Barcelona” no asume ninguna responsabilidad sobre estos enlaces, sin que se pueda dar ninguna garantía en el cumplimiento de políticas de privacidad adecuadas, por lo que el interesado accede al contenido de las referidas páginas Web en las condiciones de uso que se fijen en las mismas y bajo su exclusiva responsabilidad.
+      - paragraph [ref=f2e117]: "Si tiene alguna duda, cuestión o recomendación sobre nuestra Política de Privacidad, puede dirigirse a nosotros a través de correo electrónico a la siguiente dirección: info@fotomatonbarcelona.es"
+      - paragraph [ref=f2e118]: “Mejor que Mejor, S.L.”
+      - paragraph [ref=f2e119]: Todos los derechos reservados
+      - paragraph [ref=f2e120]: AjustesRechazarAceptar todas
+  - contentinfo [ref=f2e121]:
+    - generic [ref=f2e122]:
+      - generic [ref=f2e126]:
+        - link [ref=f2e127] [cursor=pointer]:
+          - /url: https://x.com/fotomatonbcn
+          - img "link to X Fotomaton Barcelona" [ref=f2e128]
+        - link [ref=f2e129] [cursor=pointer]:
+          - /url: https://www.tiktok.com/@fotomatonbarcelona
+          - img "link to TikTok Fotomaton Barcelona" [ref=f2e130]
+        - link [ref=f2e131] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/fotomaton-barcelona
+          - img "link to LinkedIn Fotomaton Barcelona" [ref=f2e132]
+        - link [ref=f2e133] [cursor=pointer]:
+          - /url: https://www.facebook.com/FotomatonBarcelona
+          - img "link to Facebook Fotomaton Barcelona" [ref=f2e134]
+        - link [ref=f2e135] [cursor=pointer]:
+          - /url: https://www.instagram.com/fotomatonbcn/
+          - img "link to Instagram Fotomaton Barcelona" [ref=f2e136]
+        - link [ref=f2e137] [cursor=pointer]:
+          - /url: https://www.youtube.com/@fotomatonbarcelona6136
+          - img "link to Youtube Fotomaton Barcelona" [ref=f2e138]
+      - generic [ref=f2e139]:
+        - generic [ref=f2e141]:
+          - heading "Eventos" [level=3] [ref=f2e142]
+          - list [ref=f2e144]:
+            - listitem [ref=f2e145]:
+              - link "Fotomatón Eventos" [ref=f2e146] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-para-eventos/
+            - listitem [ref=f2e147]:
+              - link "Spin 360º" [ref=f2e148] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-videomaton-360/
+            - listitem [ref=f2e149]:
+              - link "Fotomatón IA" [ref=f2e150] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-ia/
+            - listitem [ref=f2e151]:
+              - link "Mosaic Wall" [ref=f2e152] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-mosaic-wall/
+            - listitem [ref=f2e153]:
+              - link "Fotomatón Smart" [ref=f2e154] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-smart-eventos/
+            - listitem [ref=f2e155]:
+              - link "Printoku" [ref=f2e156] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/impresora-printoku/
+            - listitem [ref=f2e157]:
+              - link "Letras Gigantes" [ref=f2e158] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/letras-gigantes-iluminadas/
+            - listitem [ref=f2e159]:
+              - link "Photocall Red Carpet" [ref=f2e160] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotografia-photocall/
+        - generic [ref=f2e162]:
+          - heading "Bodas y fiestas" [level=3] [ref=f2e163]
+          - list [ref=f2e165]:
+            - listitem [ref=f2e166]:
+              - link "Fotomatón Bodas" [ref=f2e167] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-bodas-fiestas/
+            - listitem [ref=f2e168]:
+              - link "Spin 360º" [ref=f2e169] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/spin-360-bodas-fiestas/
+            - listitem [ref=f2e170]:
+              - link "Fotomatón Glam" [ref=f2e171] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-glam-bodas-fiestas/
+            - listitem [ref=f2e172]:
+              - link "Fotomatón Catwalk" [ref=f2e173] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-catwalk-bodas-fiestas/
+            - listitem [ref=f2e174]:
+              - link "Printoku" [ref=f2e175] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/impresora-fotos-smartphone-printoku/
+            - listitem [ref=f2e176]:
+              - link "Letras Gigantes" [ref=f2e177] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/letras-gigantes/
+            - listitem [ref=f2e178]:
+              - link "Photocall Red Carpet" [ref=f2e179] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/photocall-red-carpet/
+        - generic [ref=f2e181]:
+          - heading "Recursos" [level=3] [ref=f2e182]
+          - list [ref=f2e184]:
+            - listitem [ref=f2e185]:
+              - link "Nosotros" [ref=f2e186] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/nosotros/
+            - listitem [ref=f2e187]:
+              - link "Política de privacidad" [ref=f2e188] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/politica-privacidad/
+            - listitem [ref=f2e189]:
+              - link "Política de cookies" [ref=f2e190] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/politica-de-cookies/
+            - listitem [ref=f2e191]:
+              - link "Aviso legal" [ref=f2e192] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/aviso-legal/
+            - listitem [ref=f2e193]:
+              - link "Blog" [ref=f2e194] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/blog/
+            - listitem [ref=f2e195]:
+              - link "Hablan sobre nosotros" [ref=f2e196] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/blog/hablan-sobre-nosotros/
+        - link [ref=f2e200] [cursor=pointer]:
+          - /url: https://www.bodas.net/animacion/fotomaton-barcelona--e40517
+          - img "Fotomatón Barcelona, ganador Wedding Awards 2024 Bodas.net" [ref=f2e201]
+      - generic [ref=f2e202]:
+        - img "Isotipo de fotomaton Barcelona" [ref=f2e204]
+        - paragraph [ref=f2e206]:
+          - text: "El titular de esta website es “Mejor que Mejor, S.L.”, domiciliado en C/Tulipa 11, 08193 de Cerdanyola del Vallès (Barcelona) NIF: B62454780, inscrito en el Registro Mercantil de Barcelona volumen 33543, folio 99, hoja B229796. Correo electrónico de contacto"
+          - link "info@fotomatonbarcelona.es" [ref=f2e207] [cursor=pointer]:
+            - /url: javascript:;
+          - text: .
+  - generic: 

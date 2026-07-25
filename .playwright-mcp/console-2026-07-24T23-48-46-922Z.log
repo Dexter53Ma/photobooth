@@ -1,0 +1,3 @@
+[     599ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://www.fotomatonbarcelona.es/wp-includes/js/jquery/jquery-migrate.min.js:1
+[     827ms] [LOG] ConsentModeV2 {ads_data_redaction: false, defaultConsentMarketing: denied, defaultConsentStatistics: denied, defaultConsentPreferences: denied, url_passthrough: false} @ https://www.googletagmanager.com/gtm.js?id=GTM-WCRMCQVJ:878
+[    2554ms] [LOG] opt-in @ https://www.fotomatonbarcelona.es/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-js-45d76deffc20344b6d723e1b7784a290.js:304

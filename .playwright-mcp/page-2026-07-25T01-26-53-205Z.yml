@@ -1,0 +1,173 @@
+- generic [active] [ref=f17e1]:
+  - generic: 
+  - banner [ref=f17e2]:
+    - generic [ref=f17e3]:
+      - generic [ref=f17e4]:
+        - link "Español" [ref=f17e5] [cursor=pointer]:
+          - /url: https://www.fotomatonbarcelona.es/contacto/
+        - link "Català" [ref=f17e6] [cursor=pointer]:
+          - /url: https://www.fotomatonbarcelona.es/ca/contactar/
+        - link "English" [ref=f17e7] [cursor=pointer]:
+          - /url: https://www.fotomatonbarcelona.es/en/contact/
+      - generic [ref=f17e8]:
+        - link "620 805 760" [ref=f17e10] [cursor=pointer]:
+          - /url: tel:620805760
+        - link "695 573 638" [ref=f17e12] [cursor=pointer]:
+          - /url: tel:695573638
+        - link "info@fotomatonbarcelona.es" [ref=f17e13] [cursor=pointer]:
+          - /url: javascript:;
+    - navigation [ref=f17e15]:
+      - generic [ref=f17e16]:
+        - link [ref=f17e17] [cursor=pointer]:
+          - /url: https://www.fotomatonbarcelona.es/
+          - img "Logotipo Fotmaton Barcelona" [ref=f17e18]
+        - list [ref=f17e19]:
+          - listitem [ref=f17e20]:
+            - link "Eventos" [ref=f17e21] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f17e22]:
+            - link "Bodas y fiestas" [ref=f17e23] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f17e24]:
+            - link "Contacto" [ref=f17e25] [cursor=pointer]:
+              - /url: https://www.fotomatonbarcelona.es/contacto/
+  - generic [ref=f17e29]:
+    - heading "Contacta con nosotros" [level=2] [ref=f17e30]
+    - generic [ref=f17e32]:
+      - generic [ref=f17e33]:
+        - status
+        - list
+      - form "Formulario de contacto" [ref=f17e34]:
+        - paragraph [ref=f17e36]:
+          - textbox "Nombre" [ref=f17e38]
+        - paragraph [ref=f17e40]:
+          - textbox "E-mail" [ref=f17e42]
+        - paragraph [ref=f17e44]:
+          - textbox "Teléfono" [ref=f17e46]
+        - paragraph [ref=f17e48]:
+          - combobox [ref=f17e50]:
+            - option "Selecciona tipo" [selected]
+            - option "Evento empresa"
+            - option "Bodas y Fiestas"
+        - paragraph [ref=f17e52]:
+          - textbox [ref=f17e54]
+        - paragraph [ref=f17e56]:
+          - textbox "Mensaje (incluir lugar del evento e información importante)" [ref=f17e58]
+        - paragraph [ref=f17e60]:
+          - generic [ref=f17e64]:
+            - checkbox "He leído y acepto la política de privacidad" [ref=f17e65]
+            - generic [ref=f17e67]:
+              - text: He leído y acepto la
+              - link "política de privacidad" [ref=f17e68] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/politica-privacidad/
+        - paragraph [ref=f17e70]:
+          - button "Enviar" [disabled]
+    - heading "Visita nuestro showroom" [level=2] [ref=f17e71]
+    - iframe [ref=f17e73]:
+      
+    - paragraph
+  - contentinfo [ref=f17e74]:
+    - generic [ref=f17e75]:
+      - generic [ref=f17e79]:
+        - link [ref=f17e80] [cursor=pointer]:
+          - /url: https://x.com/fotomatonbcn
+          - img "link to X Fotomaton Barcelona" [ref=f17e81]
+        - link [ref=f17e82] [cursor=pointer]:
+          - /url: https://www.tiktok.com/@fotomatonbarcelona
+          - img "link to TikTok Fotomaton Barcelona" [ref=f17e83]
+        - link [ref=f17e84] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/fotomaton-barcelona
+          - img "link to LinkedIn Fotomaton Barcelona" [ref=f17e85]
+        - link [ref=f17e86] [cursor=pointer]:
+          - /url: https://www.facebook.com/FotomatonBarcelona
+          - img "link to Facebook Fotomaton Barcelona" [ref=f17e87]
+        - link [ref=f17e88] [cursor=pointer]:
+          - /url: https://www.instagram.com/fotomatonbcn/
+          - img "link to Instagram Fotomaton Barcelona" [ref=f17e89]
+        - link [ref=f17e90] [cursor=pointer]:
+          - /url: https://www.youtube.com/@fotomatonbarcelona6136
+          - img "link to Youtube Fotomaton Barcelona" [ref=f17e91]
+      - generic [ref=f17e92]:
+        - generic [ref=f17e94]:
+          - heading "Eventos" [level=3] [ref=f17e95]
+          - list [ref=f17e97]:
+            - listitem [ref=f17e98]:
+              - link "Fotomatón Eventos" [ref=f17e99] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-para-eventos/
+            - listitem [ref=f17e100]:
+              - link "Spin 360º" [ref=f17e101] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-videomaton-360/
+            - listitem [ref=f17e102]:
+              - link "Fotomatón IA" [ref=f17e103] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-ia/
+            - listitem [ref=f17e104]:
+              - link "Mosaic Wall" [ref=f17e105] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-mosaic-wall/
+            - listitem [ref=f17e106]:
+              - link "Fotomatón Smart" [ref=f17e107] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-smart-eventos/
+            - listitem [ref=f17e108]:
+              - link "Printoku" [ref=f17e109] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/impresora-printoku/
+            - listitem [ref=f17e110]:
+              - link "Letras Gigantes" [ref=f17e111] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/letras-gigantes-iluminadas/
+            - listitem [ref=f17e112]:
+              - link "Photocall Red Carpet" [ref=f17e113] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotografia-photocall/
+        - generic [ref=f17e115]:
+          - heading "Bodas y fiestas" [level=3] [ref=f17e116]
+          - list [ref=f17e118]:
+            - listitem [ref=f17e119]:
+              - link "Fotomatón Bodas" [ref=f17e120] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-bodas-fiestas/
+            - listitem [ref=f17e121]:
+              - link "Spin 360º" [ref=f17e122] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/spin-360-bodas-fiestas/
+            - listitem [ref=f17e123]:
+              - link "Fotomatón Glam" [ref=f17e124] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-glam-bodas-fiestas/
+            - listitem [ref=f17e125]:
+              - link "Fotomatón Catwalk" [ref=f17e126] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/fotomaton-catwalk-bodas-fiestas/
+            - listitem [ref=f17e127]:
+              - link "Printoku" [ref=f17e128] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/impresora-fotos-smartphone-printoku/
+            - listitem [ref=f17e129]:
+              - link "Letras Gigantes" [ref=f17e130] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/letras-gigantes/
+            - listitem [ref=f17e131]:
+              - link "Photocall Red Carpet" [ref=f17e132] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/photocall-red-carpet/
+        - generic [ref=f17e134]:
+          - heading "Recursos" [level=3] [ref=f17e135]
+          - list [ref=f17e137]:
+            - listitem [ref=f17e138]:
+              - link "Nosotros" [ref=f17e139] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/nosotros/
+            - listitem [ref=f17e140]:
+              - link "Política de privacidad" [ref=f17e141] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/politica-privacidad/
+            - listitem [ref=f17e142]:
+              - link "Política de cookies" [ref=f17e143] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/politica-de-cookies/
+            - listitem [ref=f17e144]:
+              - link "Aviso legal" [ref=f17e145] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/aviso-legal/
+            - listitem [ref=f17e146]:
+              - link "Blog" [ref=f17e147] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/blog/
+            - listitem [ref=f17e148]:
+              - link "Hablan sobre nosotros" [ref=f17e149] [cursor=pointer]:
+                - /url: https://www.fotomatonbarcelona.es/blog/hablan-sobre-nosotros/
+        - link [ref=f17e153] [cursor=pointer]:
+          - /url: https://www.bodas.net/animacion/fotomaton-barcelona--e40517
+          - img "Fotomatón Barcelona, ganador Wedding Awards 2024 Bodas.net" [ref=f17e154]
+      - generic [ref=f17e155]:
+        - img "Isotipo de fotomaton Barcelona" [ref=f17e157]
+        - paragraph [ref=f17e159]:
+          - text: "El titular de esta website es “Mejor que Mejor, S.L.”, domiciliado en C/Tulipa 11, 08193 de Cerdanyola del Vallès (Barcelona) NIF: B62454780, inscrito en el Registro Mercantil de Barcelona volumen 33543, folio 99, hoja B229796. Correo electrónico de contacto"
+          - link "info@fotomatonbarcelona.es" [ref=f17e160] [cursor=pointer]:
+            - /url: javascript:;
+          - text: .
+  - button "Gestionar consentimiento" [ref=f17e161] [cursor=pointer]

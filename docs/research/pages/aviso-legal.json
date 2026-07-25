@@ -1,0 +1,30 @@
+﻿{
+    "headings":  [
+                     {
+                         "text":  "Eventos",
+                         "tag":  "H5"
+                     },
+                     {
+                         "text":  "Bodas",
+                         "tag":  "H5"
+                     },
+                     {
+                         "text":  "Aviso legal",
+                         "tag":  "H1"
+                     },
+                     {
+                         "text":  "Eventos",
+                         "tag":  "H3"
+                     },
+                     {
+                         "text":  "Bodas y fiestas",
+                         "tag":  "H3"
+                     },
+                     {
+                         "text":  "Recursos",
+                         "tag":  "H3"
+                     }
+                 ],
+    "title":  "Aviso legal - Fotomaton Barcelona",
+    "url":  "https://www.fotomatonbarcelona.es/aviso-legal/"
+}

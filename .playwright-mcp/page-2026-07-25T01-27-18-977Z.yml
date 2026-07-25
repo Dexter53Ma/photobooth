@@ -1,0 +1,182 @@
+- generic [active] [ref=f39e1]:
+  - banner [ref=f39e2]:
+    - link "Fotomaton Barcelona" [ref=f39e3] [cursor=pointer]:
+      - /url: /
+      - img "Logotipo Fotmaton Barcelona" [ref=f39e4]
+    - navigation [ref=f39e5]:
+      - link "Eventos" [ref=f39e6] [cursor=pointer]:
+        - /url: "#"
+      - link "Bodas y fiestas" [ref=f39e7] [cursor=pointer]:
+        - /url: "#"
+      - link "Contacto" [ref=f39e8] [cursor=pointer]:
+        - /url: /contacto
+  - main [ref=f39e9]:
+    - generic [ref=f39e11]:
+      - heading "Videomatón 360" [level=1] [ref=f39e12]
+      - heading "Crea vídeos circulares espectaculares con el Spin 360º" [level=2] [ref=f39e13]
+      - paragraph [ref=f39e14]: El Videomatón 360º es la atracción estrella de cualquier evento. Una plataforma giratoria que captura vídeos desde todos los ángulos, creando contenido viral para redes sociales. Perfecto para eventos corporativos, bodas y fiestas.
+      - link "Solicitar presupuesto" [ref=f39e15] [cursor=pointer]:
+        - /url: /contacto
+    - generic [ref=f39e17]:
+      - heading "¿Cómo funciona?" [level=2] [ref=f39e18]
+      - generic [ref=f39e19]:
+        - generic [ref=f39e20]:
+          - generic [ref=f39e21]: "1"
+          - heading "Sube a la plataforma giratoria" [level=3] [ref=f39e23]
+          - paragraph [ref=f39e24]: La plataforma gira alrededor de la cámara capturando un vídeo 360º completo.
+        - generic [ref=f39e25]:
+          - generic [ref=f39e26]: "2"
+          - heading "¡Muévete y diviértete!" [level=3] [ref=f39e28]
+          - paragraph [ref=f39e29]: Baila, salta, posa... El límite lo pones tú. Cámara lenta o velocidad real.
+        - generic [ref=f39e30]:
+          - generic [ref=f39e31]: "3"
+          - heading "Comparte tu vídeo al instante" [level=3] [ref=f39e33]
+          - paragraph [ref=f39e34]: Recibe tu vídeo por QR, WhatsApp o email. ¡Listo para compartir en redes!
+    - generic [ref=f39e36]:
+      - heading "Plataformas disponibles" [level=2] [ref=f39e37]
+      - generic [ref=f39e38]:
+        - generic [ref=f39e39]:
+          - heading "Plataforma estándar" [level=3] [ref=f39e40]
+          - paragraph [ref=f39e41]: 90x90cm
+          - paragraph [ref=f39e42]: Ideal para 1-2 personas. Perfecta para eventos con espacio reducido.
+        - generic [ref=f39e43]:
+          - heading "Plataforma grande" [level=3] [ref=f39e44]
+          - paragraph [ref=f39e45]: 120x120cm
+          - paragraph [ref=f39e46]: Para grupos de hasta 4 personas. Ideal para bodas y fiestas.
+    - generic [ref=f39e48]:
+      - heading "Extras" [level=2] [ref=f39e49]
+      - generic [ref=f39e50]:
+        - generic [ref=f39e51]:
+          - heading "Vinilo personalizado" [level=3] [ref=f39e52]
+          - paragraph [ref=f39e53]: Personaliza la plataforma y la cabina con tu marca.
+        - generic [ref=f39e54]:
+          - heading "Photocall curvo" [level=3] [ref=f39e55]
+          - paragraph [ref=f39e56]: Fondo curvo personalizado para el entorno del videomatón.
+        - generic [ref=f39e57]:
+          - heading "Cabina LED" [level=3] [ref=f39e58]
+          - paragraph [ref=f39e59]: Cabina con iluminación LED RGB personalizable.
+        - generic [ref=f39e60]:
+          - heading "Confeti" [level=3] [ref=f39e61]
+          - paragraph [ref=f39e62]: Cañón de confeti para vídeos espectaculares.
+        - generic [ref=f39e63]:
+          - heading "Pompas de jabón" [level=3] [ref=f39e64]
+          - paragraph [ref=f39e65]: Máquina de pompas para un efecto mágico.
+        - generic [ref=f39e66]:
+          - heading "Pistola de billetes" [level=3] [ref=f39e67]
+          - paragraph [ref=f39e68]: Lluvia de billetes falsos para vídeos épicos.
+        - generic [ref=f39e69]:
+          - heading "Pantalla externa" [level=3] [ref=f39e70]
+          - paragraph [ref=f39e71]: Pantalla gigante para que todos vean los vídeos en directo.
+        - generic [ref=f39e72]:
+          - heading "Atrezzo" [level=3] [ref=f39e73]
+          - paragraph [ref=f39e74]: Gafas, sombreros, accesorios divertidos para los vídeos.
+    - generic [ref=f39e76]:
+      - heading "Preguntas frecuentes" [level=2] [ref=f39e77]
+      - generic [ref=f39e78]:
+        - generic [ref=f39e79]:
+          - button "¿Cuántas personas caben en la plataforma?" [ref=f39e80]
+          - paragraph [ref=f39e84]: La plataforma estándar es para 1-2 personas y la grande para hasta 4 personas.
+        - generic [ref=f39e85]:
+          - button "¿El vídeo es en cámara lenta?" [ref=f39e86]
+          - paragraph [ref=f39e90]: Puede ser en cámara lenta o velocidad real, tú eliges.
+        - generic [ref=f39e91]:
+          - button "¿Cuánto dura cada vídeo?" [ref=f39e92]
+          - paragraph [ref=f39e96]: Cada vídeo dura entre 15 y 30 segundos, dependiendo de la configuración.
+        - generic [ref=f39e97]:
+          - button "¿Se puede personalizar el fondo del vídeo?" [ref=f39e98]
+          - paragraph [ref=f39e102]: Sí, añadimos un mosca personalizada con el logo de tu evento o marca.
+    - generic [ref=f39e104]:
+      - heading "¿Listo para crear vídeos inolvidables?" [level=2] [ref=f39e105]
+      - link "Contacta con nosotros" [ref=f39e106] [cursor=pointer]:
+        - /url: /contacto
+  - contentinfo [ref=f39e107]:
+    - generic [ref=f39e109]:
+      - link "X" [ref=f39e110] [cursor=pointer]:
+        - /url: https://x.com/fotomatonbcn
+      - link "TikTok" [ref=f39e113] [cursor=pointer]:
+        - /url: https://www.tiktok.com/@fotomatonbarcelona
+      - link "LinkedIn" [ref=f39e116] [cursor=pointer]:
+        - /url: https://www.linkedin.com/company/fotomaton-barcelona
+      - link "Facebook" [ref=f39e119] [cursor=pointer]:
+        - /url: https://www.facebook.com/FotomatonBarcelona
+      - link "Instagram" [ref=f39e122] [cursor=pointer]:
+        - /url: https://www.instagram.com/fotomatonbcn/
+      - link "YouTube" [ref=f39e125] [cursor=pointer]:
+        - /url: https://www.youtube.com/@fotomatonbarcelona6136
+    - generic [ref=f39e129]:
+      - generic [ref=f39e130]:
+        - heading "Eventos" [level=4] [ref=f39e131]
+        - list [ref=f39e132]:
+          - listitem [ref=f39e133]:
+            - link "Fotomatón Eventos" [ref=f39e134] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f39e135]:
+            - link "Spin 360º" [ref=f39e136] [cursor=pointer]:
+              - /url: /fotomaton-videomaton-360
+          - listitem [ref=f39e137]:
+            - link "Fotomatón IA" [ref=f39e138] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f39e139]:
+            - link "Mosaic Wall" [ref=f39e140] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f39e141]:
+            - link "Fotomatón Smart" [ref=f39e142] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f39e143]:
+            - link "Printoku" [ref=f39e144] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f39e145]:
+            - link "Letras Gigantes" [ref=f39e146] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f39e147]:
+            - link "Photocall Red Carpet" [ref=f39e148] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+      - generic [ref=f39e149]:
+        - heading "Bodas y fiestas" [level=4] [ref=f39e150]
+        - list [ref=f39e151]:
+          - listitem [ref=f39e152]:
+            - link "Fotomatón Bodas" [ref=f39e153] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f39e154]:
+            - link "Spin 360º" [ref=f39e155] [cursor=pointer]:
+              - /url: /fotomaton-videomaton-360
+          - listitem [ref=f39e156]:
+            - link "Fotomatón Glam" [ref=f39e157] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f39e158]:
+            - link "Fotomatón Catwalk" [ref=f39e159] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f39e160]:
+            - link "Printoku" [ref=f39e161] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f39e162]:
+            - link "Letras Gigantes" [ref=f39e163] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+          - listitem [ref=f39e164]:
+            - link "Photocall Red Carpet" [ref=f39e165] [cursor=pointer]:
+              - /url: /fotomaton-para-eventos
+      - generic [ref=f39e166]:
+        - heading "Recursos" [level=4] [ref=f39e167]
+        - list [ref=f39e168]:
+          - listitem [ref=f39e169]:
+            - link "Nosotros" [ref=f39e170] [cursor=pointer]:
+              - /url: /nosotros
+          - listitem [ref=f39e171]:
+            - link "Política de privacidad" [ref=f39e172] [cursor=pointer]:
+              - /url: /politica-privacidad
+          - listitem [ref=f39e173]:
+            - link "Política de cookies" [ref=f39e174] [cursor=pointer]:
+              - /url: /politica-de-cookies
+          - listitem [ref=f39e175]:
+            - link "Aviso legal" [ref=f39e176] [cursor=pointer]:
+              - /url: /aviso-legal
+          - listitem [ref=f39e177]:
+            - link "Blog" [ref=f39e178] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=f39e179]:
+            - link "Hablan sobre nosotros" [ref=f39e180] [cursor=pointer]:
+              - /url: /blog
+    - generic [ref=f39e181]:
+      - img "Fotomatón Barcelona" [ref=f39e182]
+      - paragraph [ref=f39e183]: "El titular de esta website es \"Mejor que Mejor, S.L.\", domiciliado en C/Tulipa 11, 08193 de Cerdanyola del Vallès (Barcelona) NIF: B62454780. Todos los derechos reservados."
+  - button "Open Next.js Dev Tools" [ref=f39e189] [cursor=pointer]

@@ -1,0 +1,42 @@
+﻿{
+    "headings":  [
+                     {
+                         "text":  "Eventos",
+                         "tag":  "H5"
+                     },
+                     {
+                         "text":  "Bodas",
+                         "tag":  "H5"
+                     },
+                     {
+                         "text":  "Política de cookies",
+                         "tag":  "H1"
+                     },
+                     {
+                         "text":  "¿QUÉ SON LAS COOKIES?",
+                         "tag":  "H3"
+                     },
+                     {
+                         "text":  "TIPOS DE COOKIES",
+                         "tag":  "H3"
+                     },
+                     {
+                         "text":  "COOKIES UTILIZADAS EN NUESTRA WEB",
+                         "tag":  "H3"
+                     },
+                     {
+                         "text":  "¿CÓMO SE DESHABILITAN LAS COOKIES EN LOS NAVEGADORES?",
+                         "tag":  "H3"
+                     },
+                     {
+                         "text":  "RETIRAR EL CONSENTIMIENTO",
+                         "tag":  "H3"
+                     },
+                     {
+                         "text":  "CONFIGURAR COOKIES",
+                         "tag":  "H3"
+                     }
+                 ],
+    "title":  "Política de cookies - Fotomaton Barcelona",
+    "url":  "https://www.fotomatonbarcelona.es/politica-de-cookies/"
+}
