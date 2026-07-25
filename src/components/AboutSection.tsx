@@ -38,7 +38,9 @@ export function AboutSection() {
                 muted
                 playsInline
                 className="absolute inset-0 w-full h-full object-cover"
-              />
+              >
+                <track kind="captions" />
+              </video>
             </div>
           </div>
         </div>

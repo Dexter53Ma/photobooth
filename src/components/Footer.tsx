@@ -73,13 +73,13 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 pb-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 max-md:gap-8 text-[max(14px,1.375rem)] max-md:text-[max(14px,1rem)]">
           <div className="footer__links flex flex-col gap-3">
-            <h4 className="font-platform text-[1.5rem] font-normal leading-[1] text-white mb-2">
+            <h3 className="font-platform text-[1.5rem] font-normal leading-[1] text-white mb-2">
               Événements
-            </h4>
+            </h3>
             <ul className="flex flex-col gap-1 list-none p-0 m-0">
               {servicesLinks.map((link) => (
                 <li key={link.label}>
-                  <Link href={link.href} className="text-[#808080] hover:text-white transition-colors">
+                  <Link href={link.href} className="text-[#AAA] hover:text-white transition-colors">
                     {link.label}
                   </Link>
                 </li>
@@ -87,13 +87,13 @@ export function Footer() {
             </ul>
           </div>
           <div className="footer__links flex flex-col gap-3">
-            <h4 className="font-platform text-[1.5rem] font-normal leading-[1] text-white mb-2">
+            <h3 className="font-platform text-[1.5rem] font-normal leading-[1] text-white mb-2">
               Mariages & Fêtes
-            </h4>
+            </h3>
             <ul className="flex flex-col gap-1 list-none p-0 m-0">
               {mariageLinks.map((link) => (
                 <li key={link.label}>
-                  <Link href={link.href} className="text-[#808080] hover:text-white transition-colors">
+                  <Link href={link.href} className="text-[#AAA] hover:text-white transition-colors">
                     {link.label}
                   </Link>
                 </li>
@@ -101,13 +101,13 @@ export function Footer() {
             </ul>
           </div>
           <div className="footer__links flex flex-col gap-3">
-            <h4 className="font-platform text-[1.5rem] font-normal leading-[1] text-white mb-2">
+            <h3 className="font-platform text-[1.5rem] font-normal leading-[1] text-white mb-2">
               Ressources
-            </h4>
+            </h3>
             <ul className="flex flex-col gap-1 list-none p-0 m-0">
               {ressourcesLinks.map((link) => (
                 <li key={link.label}>
-                  <Link href={link.href} className="text-[#808080] hover:text-white transition-colors">
+                  <Link href={link.href} className="text-[#AAA] hover:text-white transition-colors">
                     {link.label}
                   </Link>
                 </li>
@@ -124,6 +124,7 @@ export function Footer() {
           alt="Marrakech PhotoBooths"
           width={250}
           height={65}
+          loading="lazy"
           className="h-auto max-w-full"
         />
         <p className="copyright-text text-white/50 text-[max(11px,0.8rem)] text-center max-w-3xl leading-relaxed m-0">

@@ -53,6 +53,8 @@ export function Navbar() {
             <img
               src="/images/logo%20header.png"
               alt="Marrakech PhotoBooths"
+              width={255}
+              height={85}
               className={cn("w-auto transition-all duration-300 object-contain", scrolled ? "h-[70px] max-md:h-[58px]" : "h-[85px] max-md:h-[68px]")}
             />
           </Link>
@@ -126,7 +128,7 @@ export function Navbar() {
           {/* Sidebar header */}
           <div className="flex items-center justify-between px-6 py-5 border-b border-gray-100">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/logo%20header.png" alt="Marrakech PhotoBooths" className="h-[50px] w-auto object-contain" />
+            <img src="/images/logo%20header.png" alt="Marrakech PhotoBooths" width={255} height={85} loading="lazy" className="h-[50px] w-auto object-contain" />
             <button
               type="button"
               className="p-2 hover:bg-gray-100 rounded-full transition-colors"

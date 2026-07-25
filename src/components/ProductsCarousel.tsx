@@ -54,10 +54,10 @@ export function ProductsCarousel() {
             </p>
           </div>
           <div className="flex items-center gap-3 max-md:hidden">
-            <button onClick={goToPrev} disabled={currentIndex === 0} className={cn("w-12 h-12 rounded-full flex items-center justify-center transition-all duration-200 border", currentIndex === 0 ? "border-[#E5E5E5] text-[#CCC] cursor-not-allowed" : "border-[#1E1E2A] text-[#1E1E2A] hover:bg-[#1E1E2A] hover:text-white")}>
+            <button onClick={goToPrev} disabled={currentIndex === 0} aria-label="Produit précédent" className={cn("w-12 h-12 rounded-full flex items-center justify-center transition-all duration-200 border", currentIndex === 0 ? "border-[#E5E5E5] text-[#CCC] cursor-not-allowed" : "border-[#1E1E2A] text-[#1E1E2A] hover:bg-[#1E1E2A] hover:text-white")}>
               <ChevronLeftIcon size={20} />
             </button>
-            <button onClick={goToNext} disabled={currentIndex >= maxIndex} className={cn("w-12 h-12 rounded-full flex items-center justify-center transition-all duration-200 border", currentIndex >= maxIndex ? "border-[#E5E5E5] text-[#CCC] cursor-not-allowed" : "border-[#1E1E2A] text-[#1E1E2A] hover:bg-[#1E1E2A] hover:text-white")}>
+            <button onClick={goToNext} disabled={currentIndex >= maxIndex} aria-label="Produit suivant" className={cn("w-12 h-12 rounded-full flex items-center justify-center transition-all duration-200 border", currentIndex >= maxIndex ? "border-[#E5E5E5] text-[#CCC] cursor-not-allowed" : "border-[#1E1E2A] text-[#1E1E2A] hover:bg-[#1E1E2A] hover:text-white")}>
               <ChevronRightIcon size={20} />
             </button>
           </div>
@@ -69,7 +69,7 @@ export function ProductsCarousel() {
             {products.map((product) => (
               <Link key={product.title} href="/photobooth-evenements" className="group shrink-0 w-[260px] max-md:w-[180px]">
                 <div className="relative aspect-[3/4] rounded-[1rem] overflow-hidden bg-[#F8F8F8] mb-4">
-                  <Image src={product.image} alt={product.title} fill sizes="260px" className="object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <Image src={product.image} alt={product.title} fill sizes="260px" loading="lazy" className="object-cover transition-transform duration-700 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300" />
                   {product.tag && (
                     <div className="absolute top-3 left-3">
@@ -77,7 +77,7 @@ export function ProductsCarousel() {
                     </div>
                   )}
                 </div>
-                <h4 className="font-suisse text-[1rem] font-semibold text-[#1E1E2A] mb-1 group-hover:text-[#FF0422] transition-colors">{product.title}</h4>
+                <h3 className="font-suisse text-[1rem] font-semibold text-[#1E1E2A] mb-1 group-hover:text-[#FF0422] transition-colors">{product.title}</h3>
                 <p className="font-suisse text-[0.8125rem] text-[#808080] leading-[1.4] line-clamp-2">{product.description}</p>
               </Link>
             ))}
@@ -86,10 +86,10 @@ export function ProductsCarousel() {
 
         {/* Mobile nav */}
         <div className="flex lg:hidden items-center justify-center gap-3 mt-8">
-          <button onClick={goToPrev} disabled={currentIndex === 0} className={cn("w-12 h-12 rounded-full flex items-center justify-center transition-all border", currentIndex === 0 ? "border-[#E5E5E5] text-[#CCC]" : "border-[#1E1E2A] text-[#1E1E2A]")}>
+          <button onClick={goToPrev} disabled={currentIndex === 0} aria-label="Produit précédent" className={cn("w-12 h-12 rounded-full flex items-center justify-center transition-all border", currentIndex === 0 ? "border-[#E5E5E5] text-[#CCC]" : "border-[#1E1E2A] text-[#1E1E2A]")}>
             <ChevronLeftIcon size={20} />
           </button>
-          <button onClick={goToNext} disabled={currentIndex >= maxIndex} className={cn("w-12 h-12 rounded-full flex items-center justify-center transition-all border", currentIndex >= maxIndex ? "border-[#E5E5E5] text-[#CCC]" : "border-[#1E1E2A] text-[#1E1E2A]")}>
+          <button onClick={goToNext} disabled={currentIndex >= maxIndex} aria-label="Produit suivant" className={cn("w-12 h-12 rounded-full flex items-center justify-center transition-all border", currentIndex >= maxIndex ? "border-[#E5E5E5] text-[#CCC]" : "border-[#1E1E2A] text-[#1E1E2A]")}>
             <ChevronRightIcon size={20} />
           </button>
         </div>

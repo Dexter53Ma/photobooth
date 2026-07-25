@@ -20,6 +20,9 @@ export function EventsTags() {
         <img
           src="/images/Fotomaton-Barcelona-Fotomaton-para-eventos.jpg"
           alt="Photobooth pour événements"
+          width={1600}
+          height={900}
+          loading="lazy"
           className="h-full w-full object-cover object-center opacity-50"
         />
       </div>

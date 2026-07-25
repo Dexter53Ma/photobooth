@@ -99,10 +99,12 @@ function HeroImage({
   src,
   alt,
   size,
+  priority = false,
 }: {
   src: string;
   alt: string;
   size: "small" | "medium" | "big";
+  priority?: boolean;
 }) {
   return (
     <div
@@ -111,6 +113,10 @@ function HeroImage({
       <img
         src={src}
         alt={alt}
+        width={800}
+        height={450}
+        loading={priority ? "eager" : "lazy"}
+        fetchPriority={priority ? "high" : "auto"}
         className="absolute inset-0 h-full w-full object-cover object-center"
       />
     </div>
@@ -132,7 +138,7 @@ function MarqueeRow({
           animation: `scrollSlider${direction === "left" ? "" : "Reverse"} 20s linear infinite`,
         }}
       >
-        {images.map((img) => (
+        {images.map((img, i) => (
           <HeroImage key={`a-${img.src}`} {...img} />
         ))}
         {images.map((img) => (
@@ -179,6 +185,7 @@ export default function HeroSection() {
         <div className="hero__social relative z-10 flex items-center justify-between px-4 py-4 max-md:py-3 md:px-8 lg:px-12">
           <a
             href="#services"
+            aria-label="Voir les services"
             className="hero__btn flex items-center justify-center w-10 h-10 max-md:w-9 max-md:h-9 text-[#1E1E2A] transition-all duration-150 hover:text-[#808080]"
           >
             <ArrowDownIcon size={22} />
@@ -191,6 +198,7 @@ export default function HeroSection() {
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label={link.label}
                 className="hero__btn flex items-center justify-center w-10 h-10 max-md:w-9 max-md:h-9 text-[#1E1E2A] transition-all duration-150 hover:text-[#808080]"
               >
                 <link.icon size={22} />

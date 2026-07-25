@@ -49,7 +49,7 @@ export function ClientsSection() {
           <div className="flex items-center gap-12 animate-marquee">
             {[...clients, ...clients, ...clients].map((client, index) => (
               <div key={`${client.alt}-${index}`} className="flex items-center justify-center shrink-0 w-[160px] h-[80px] bg-white rounded-[0.75rem] px-6 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105">
-                <Image src={client.src} alt={client.alt} width={120} height={50} className="max-h-[50px] w-auto object-contain opacity-70 hover:opacity-100 transition-opacity" />
+                <Image src={client.src} alt={client.alt} width={120} height={50} loading="lazy" className="max-h-[50px] w-auto object-contain opacity-70 hover:opacity-100 transition-opacity" />
               </div>
             ))}
           </div>
