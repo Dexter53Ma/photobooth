@@ -45,9 +45,9 @@ export default function VideomatonContent() {
           </div>
           <div className="relative z-10 py-[8rem] max-md:py-16 px-4 md:px-8">
             <div className="max-w-7xl mx-auto">
-              <h1 className="font-platform text-[6.5rem] max-md:text-[2.5rem] font-normal leading-[1] tracking-[-0.01em] text-white mb-4">Vidéomaton 360</h1>
-              <h2 className="font-platform text-[3rem] max-md:text-[1.5rem] font-normal leading-[1.1] tracking-[-0.01em] text-white/90 mb-6 max-w-[40ch]">Créez des vidéos circulaires spectaculaires avec le Spin 360º</h2>
-              <p className="font-suisse text-[max(14px,1.375rem)] leading-[1.5] text-white/80 mb-8 max-w-[60ch]">L&apos;attraction star de tout événement. Une plateforme giratoire qui capture des vidéos sous tous les angles.</p>
+              <h1 className="font-platform text-[5rem] max-md:text-[2.25rem] font-normal leading-[1] tracking-[-0.01em] text-white mb-4">Vidéomaton 360</h1>
+              <h2 className="font-platform text-[2.5rem] max-md:text-[1.25rem] font-normal leading-[1.1] tracking-[-0.01em] text-white/90 mb-6 max-w-[40ch]">Créez des vidéos circulaires spectaculaires avec le Spin 360º</h2>
+              <p className="font-suisse text-[max(14px,1.25rem)] leading-[1.5] text-white/80 mb-8 max-w-[60ch]">L&apos;attraction star de tout événement. Une plateforme giratoire qui capture des vidéos sous tous les angles.</p>
               <Link href="/contact" className="inline-block rounded-full bg-[#FF0422] px-8 py-3 text-[max(14px,1.375rem)] font-normal text-white transition-colors hover:bg-[rgb(220,4,30)] font-suisse">Demander un devis</Link>
             </div>
           </div>
@@ -56,7 +56,7 @@ export default function VideomatonContent() {
         {/* How it works */}
         <section className="py-[8rem] max-md:py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
-            <h2 className="font-platform text-[4rem] max-md:text-[2rem] font-normal leading-[1] tracking-[-0.01em] text-[#1E1E2A] mb-16 max-md:mb-10 text-center">Comment ça marche ?</h2>
+            <h2 className="font-platform text-[3rem] max-md:text-[1.75rem] font-normal leading-[1] tracking-[-0.01em] text-[#1E1E2A] mb-12 max-md:mb-8 text-center">Comment ça marche ?</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {steps.map((step) => (
                 <div key={step.number} className="flex flex-col items-center text-center gap-4 p-8 bg-[#F6F6F6] rounded-[1.5rem]">
@@ -72,7 +72,7 @@ export default function VideomatonContent() {
         {/* Platforms with images */}
         <section className="py-[8rem] max-md:py-16 bg-[#F6F6F6]">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
-            <h2 className="font-platform text-[4rem] max-md:text-[2rem] font-normal leading-[1] tracking-[-0.01em] text-[#1E1E2A] mb-16 max-md:mb-10 text-center">Plateformes disponibles</h2>
+            <h2 className="font-platform text-[3rem] max-md:text-[1.75rem] font-normal leading-[1] tracking-[-0.01em] text-[#1E1E2A] mb-12 max-md:mb-8 text-center">Plateformes disponibles</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {platforms.map((platform) => (
                 <div key={platform.name} className="group overflow-hidden rounded-[1.5rem] bg-white">
@@ -93,7 +93,7 @@ export default function VideomatonContent() {
         {/* Extras with images */}
         <section className="bg-[#1E1E2A] py-[8rem] max-md:py-16">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
-            <h2 className="font-platform text-[4rem] max-md:text-[2rem] font-normal leading-[1] tracking-[-0.01em] text-white mb-16 max-md:mb-10 text-center">Extras</h2>
+            <h2 className="font-platform text-[3rem] max-md:text-[1.75rem] font-normal leading-[1] tracking-[-0.01em] text-white mb-12 max-md:mb-8 text-center">Extras</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {extras.map((extra) => (
                 <div key={extra.title} className="group overflow-hidden rounded-[1.5rem]">
@@ -114,7 +114,7 @@ export default function VideomatonContent() {
         {/* FAQ */}
         <section className="faqs bg-[#F6F6F6] pt-[8rem] max-md:pt-10 pb-[8rem] max-md:pb-16 px-4">
           <div className="max-w-4xl mx-auto px-4 md:px-8">
-            <h2 className="font-platform text-[4rem] max-md:text-[2rem] font-normal leading-[1] tracking-[-0.01em] text-[#1E1E2A] mb-12 max-md:mb-8 text-center">Questions fréquentes</h2>
+            <h2 className="font-platform text-[3rem] max-md:text-[1.75rem] font-normal leading-[1] tracking-[-0.01em] text-[#1E1E2A] mb-10 max-md:mb-6 text-center">Questions fréquentes</h2>
             <div className="flex flex-col gap-3">
               {faqItems.map((item, index) => {
                 const isActive = activeFaq === index;

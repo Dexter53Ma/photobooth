@@ -39,8 +39,8 @@ export default function APropos() {
           </div>
           <div className="relative z-10 py-[8rem] max-md:py-16 px-4 md:px-8">
             <div className="max-w-7xl mx-auto">
-              <h1 className="font-platform text-[5rem] max-md:text-[2.5rem] font-normal leading-[1] tracking-[-0.01em] text-white mb-6">À propos</h1>
-              <h2 className="font-platform text-[2.5rem] max-md:text-[1.5rem] font-normal leading-[1.1] text-white/90 max-w-[30ch]">Passionnés du design, de la technologie et... les sourires !</h2>
+              <h1 className="font-platform text-[4rem] max-md:text-[2.25rem] font-normal leading-[1] tracking-[-0.01em] text-white mb-4">À propos</h1>
+              <h2 className="font-platform text-[2rem] max-md:text-[1.25rem] font-normal leading-[1.1] text-white/90 max-w-[30ch]">Passionnés du design, de la technologie et... les sourires !</h2>
             </div>
           </div>
         </section>

@@ -4,38 +4,22 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Tarifs - Marrakech PhotoBooths | Prix location photobooth Marrakech",
-  description: "Découvrez nos tarifs de location de photobooth pour événements et mariages à Marrakech. Forfaits à partir de 1 500 MAD. Devis gratuit et personnalisé.",
+  description: "Découvrez nos tarifs de location de photobooth pour événements et mariages à Marrakech. Forfaits à partir de 2 500 MAD. Devis gratuit et personnalisé.",
   alternates: { canonical: "https://MarrakechPhotoBooth.com/tarifs" },
   openGraph: {
     title: "Tarifs - Marrakech PhotoBooths",
-    description: "Forfaits de location de photobooth à Marrakech. À partir de 1 500 MAD.",
+    description: "Forfaits de location de photobooth à Marrakech. À partir de 2 500 MAD.",
     url: "https://MarrakechPhotoBooth.com/tarifs",
   },
 };
 
 const plans = [
   {
-    name: "Essentiel",
-    price: "1 500",
-    currency: "MAD",
-    duration: "3h de service",
-    description: "Idéal pour les petits événements et fêtes privées.",
-    features: [
-      "Photobooth Classique",
-      "Photos illimitées",
-      "Impression instantanée",
-      "Accessoires inclus",
-      "Technicien sur place",
-      "Personnalisation basique",
-    ],
-    highlighted: false,
-  },
-  {
     name: "Premium",
     price: "2 500",
     currency: "MAD",
     duration: "4h de service",
-    description: "Notre forfait le plus populaire pour mariages et événements d'entreprise.",
+    description: "Notre forfait complet pour mariages et événements d'entreprise.",
     features: [
       "Photobooth au choix",
       "Photos & vidéos illimitées",
@@ -47,25 +31,6 @@ const plans = [
       "Galerie en ligne",
     ],
     highlighted: true,
-  },
-  {
-    name: "Prestige",
-    price: "4 000",
-    currency: "MAD",
-    duration: "5h de service",
-    description: "L'expérience complète pour les grands événements et galas.",
-    features: [
-      "2 services au choix",
-      "Photos & vidéos illimitées",
-      "Impression premium",
-      "Photocall personnalisé",
-      "Vinyle de marque",
-      "2 techniciens dédiés",
-      "Partage QR / WhatsApp / Email",
-      "Galerie en ligne",
-      "Montage vidéo récapitulatif",
-    ],
-    highlighted: false,
   },
 ];
 
@@ -119,43 +84,32 @@ export default function Tarifs() {
         {/* Pricing Cards */}
         <section className="py-[5rem] max-md:py-12 bg-white">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+            <div className="flex justify-center">
               {plans.map((plan) => (
                 <div
                   key={plan.name}
-                  className={`relative flex flex-col rounded-[1.5rem] p-6 lg:p-8 transition-all duration-300 ${
-                    plan.highlighted
-                      ? "bg-[#1E1E2A] text-white shadow-2xl scale-[1.02] max-md:scale-100"
-                      : "bg-white border border-[#E5E5E5] hover:border-[#CCC] hover:shadow-lg"
-                  }`}
+                  className="relative flex flex-col rounded-[1.5rem] p-6 lg:p-10 transition-all duration-300 bg-[#1E1E2A] text-white shadow-2xl max-w-lg w-full"
                 >
-                  {plan.highlighted && (
-                    <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                      <span className="bg-[#FF0422] text-white text-[12px] font-medium font-suisse px-4 py-1.5 rounded-full">
-                        Le plus populaire
-                      </span>
-                    </div>
-                  )}
-
                   <div className="mb-6">
-                    <h3 className={`font-platform text-[1.5rem] font-normal leading-[1] mb-2 ${plan.highlighted ? "text-white" : "text-[#1E1E2A]"}`}>
+                    <h3 className="font-platform text-[1.5rem] font-normal leading-[1] mb-2 text-white">
                       {plan.name}
                     </h3>
-                    <p className={`font-suisse text-[0.875rem] leading-[1.5] ${plan.highlighted ? "text-white/70" : "text-[#808080]"}`}>
+                    <p className="font-suisse text-[0.875rem] leading-[1.5] text-white/70">
                       {plan.description}
                     </p>
                   </div>
 
                   <div className="mb-6">
                     <div className="flex items-baseline gap-1">
-                      <span className={`font-platform text-[3.5rem] max-md:text-[3rem] font-normal leading-[1] ${plan.highlighted ? "text-white" : "text-[#1E1E2A]"}`}>
+                      <span className="font-suisse text-[1rem] text-white/60">À partir de</span>
+                      <span className="font-platform text-[3.5rem] max-md:text-[3rem] font-normal leading-[1] text-white">
                         {plan.price}
                       </span>
-                      <span className={`font-suisse text-[1rem] ${plan.highlighted ? "text-white/60" : "text-[#808080]"}`}>
+                      <span className="font-suisse text-[1rem] text-white/60">
                         {plan.currency}
                       </span>
                     </div>
-                    <span className={`font-suisse text-[0.875rem] ${plan.highlighted ? "text-white/50" : "text-[#999]"}`}>
+                    <span className="font-suisse text-[0.875rem] text-white/50">
                       {plan.duration}
                     </span>
                   </div>
@@ -168,7 +122,7 @@ export default function Tarifs() {
                           height="18"
                           viewBox="0 0 24 24"
                           fill="none"
-                          stroke={plan.highlighted ? "#FF0422" : "#FF0422"}
+                          stroke="#FF0422"
                           strokeWidth="2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
@@ -176,7 +130,7 @@ export default function Tarifs() {
                         >
                           <polyline points="20 6 9 17 4 12" />
                         </svg>
-                        <span className={`font-suisse text-[0.9375rem] ${plan.highlighted ? "text-white/90" : "text-[#333]"}`}>
+                        <span className="font-suisse text-[0.9375rem] text-white/90">
                           {feature}
                         </span>
                       </li>
@@ -185,11 +139,7 @@ export default function Tarifs() {
 
                   <Link
                     href="/contact"
-                    className={`inline-flex items-center justify-center rounded-full px-8 py-3.5 text-[15px] font-medium font-suisse transition-all ${
-                      plan.highlighted
-                        ? "bg-[#FF0422] text-white hover:bg-[#E0031F] hover:shadow-lg hover:shadow-[#FF0422]/20"
-                        : "bg-[#1E1E2A] text-white hover:bg-[#333]"
-                    }`}
+                    className="inline-flex items-center justify-center rounded-full px-8 py-3.5 text-[15px] font-medium font-suisse transition-all bg-[#FF0422] text-white hover:bg-[#E0031F] hover:shadow-lg hover:shadow-[#FF0422]/20"
                   >
                     Demander un devis
                   </Link>

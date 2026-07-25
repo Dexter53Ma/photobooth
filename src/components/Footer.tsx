@@ -52,7 +52,7 @@ export function Footer() {
   return (
     <footer className="footer bg-[#1E1E2A] rounded-t-[7rem] max-md:rounded-t-[2rem] text-white font-suisse">
       {/* Social icons */}
-      <div className="footer__header px-6 py-[10rem] max-md:py-12 flex flex-col items-center gap-6">
+      <div className="footer__header px-6 py-16 max-md:py-10 flex flex-col items-center gap-6">
         <div className="footer__social flex gap-2">
           {socialLinks.map((link) => (
             <a
@@ -71,9 +71,9 @@ export function Footer() {
 
       {/* Links grid */}
       <div className="max-w-7xl mx-auto px-6 pb-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 max-md:gap-8 text-[max(14px,1.375rem)] max-md:text-[max(14px,1rem)]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-md:gap-6 text-[max(14px,1.125rem)] max-md:text-[max(14px,0.9375rem)]">
           <div className="footer__links flex flex-col gap-3">
-            <h3 className="font-platform text-[1.5rem] font-normal leading-[1] text-white mb-2">
+            <h3 className="font-platform text-[1.25rem] max-md:text-[1.125rem] font-normal leading-[1] text-white mb-2">
               Événements
             </h3>
             <ul className="flex flex-col gap-1 list-none p-0 m-0">
@@ -87,7 +87,7 @@ export function Footer() {
             </ul>
           </div>
           <div className="footer__links flex flex-col gap-3">
-            <h3 className="font-platform text-[1.5rem] font-normal leading-[1] text-white mb-2">
+            <h3 className="font-platform text-[1.25rem] max-md:text-[1.125rem] font-normal leading-[1] text-white mb-2">
               Mariages & Fêtes
             </h3>
             <ul className="flex flex-col gap-1 list-none p-0 m-0">
@@ -101,7 +101,7 @@ export function Footer() {
             </ul>
           </div>
           <div className="footer__links flex flex-col gap-3">
-            <h3 className="font-platform text-[1.5rem] font-normal leading-[1] text-white mb-2">
+            <h3 className="font-platform text-[1.25rem] max-md:text-[1.125rem] font-normal leading-[1] text-white mb-2">
               Ressources
             </h3>
             <ul className="flex flex-col gap-1 list-none p-0 m-0">

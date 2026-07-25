@@ -2,44 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import {
-  ArrowDownIcon,
-  XIcon,
-  TikTokIcon,
-  LinkedInIcon,
-  FacebookIcon,
-  InstagramIcon,
-  YouTubeIcon,
-} from "@/components/icons";
-
-const socialLinks = [
-  { href: "https://x.com/fotomatonbcn", icon: XIcon, label: "X" },
-  {
-    href: "https://www.tiktok.com/@fotomatonbarcelona",
-    icon: TikTokIcon,
-    label: "TikTok",
-  },
-  {
-    href: "https://www.linkedin.com/company/fotomaton-barcelona",
-    icon: LinkedInIcon,
-    label: "LinkedIn",
-  },
-  {
-    href: "https://www.facebook.com/FotomatonBarcelona",
-    icon: FacebookIcon,
-    label: "Facebook",
-  },
-  {
-    href: "https://www.instagram.com/fotomatonbcn/",
-    icon: InstagramIcon,
-    label: "Instagram",
-  },
-  {
-    href: "https://www.youtube.com/@fotomatonbarcelona6136",
-    icon: YouTubeIcon,
-    label: "YouTube",
-  },
-];
+import { ArrowDownIcon } from "@/components/icons";
 
 /* Top row images with size classes matching original CSS */
 const topRowImages = [
@@ -196,9 +159,9 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* Arrow + Social icons row */}
+      {/* Arrow row */}
       <div className="hero__slider relative z-10 mx-auto max-w-[100vw]">
-        <div className="hero__social relative z-10 flex items-center justify-between px-4 py-4 max-md:py-3 md:px-8 lg:px-12">
+        <div className="relative z-10 flex items-center justify-center px-4 py-4 max-md:py-3">
           <a
             href="#services"
             aria-label="Voir les services"
@@ -206,21 +169,6 @@ export default function HeroSection() {
           >
             <ArrowDownIcon size={22} />
           </a>
-
-          <div className="flex items-center gap-4 max-md:gap-2">
-            {socialLinks.map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={link.label}
-                className="hero__btn flex items-center justify-center w-10 h-10 max-md:w-9 max-md:h-9 text-[#1E1E2A] transition-all duration-150 hover:text-[#808080]"
-              >
-                <link.icon size={22} />
-              </a>
-            ))}
-          </div>
         </div>
 
         {/* Two rows of images with infinite marquee */}

@@ -13,7 +13,7 @@ const tags = [
 
 export function EventsTags() {
   return (
-    <section className="tags relative w-full min-h-[max(90vw,90vh)] max-md:min-h-0 py-[10rem] max-md:py-16 flex items-center justify-center bg-[#F6F6F6] -mt-[8rem] max-md:-mt-0 z-[1] px-4">
+    <section className="tags relative w-full min-h-[max(80vw,80vh)] max-md:min-h-0 py-[8rem] max-md:py-14 flex items-center justify-center bg-[#F6F6F6] -mt-[8rem] max-md:-mt-0 z-[1] px-4">
       {/* Background image with rounded bottom */}
       <div className="tags__image absolute inset-0 overflow-hidden bg-[#1E1E2A] rounded-b-[max(50vw,50vh)] max-md:rounded-b-[2rem]">
         {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -28,7 +28,7 @@ export function EventsTags() {
       </div>
 
       {/* Content */}
-      <div className="tags__info relative z-[5] text-center text-white pb-[10rem] max-md:pb-8">
+      <div className="tags__info relative z-[5] text-center text-white pb-[8rem] max-md:pb-6">
         <h2 className="tags__title font-platform text-[10rem] max-md:text-[2.25rem] max-[1200px]:text-[6rem] font-normal leading-[0.8] tracking-[-0.01em] max-w-[14ch] mx-auto mb-[5rem] max-md:mb-6 max-[1200px]:mb-[2.5rem]">
           Pour tout type d&apos;événements
         </h2>
