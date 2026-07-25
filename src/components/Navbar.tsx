@@ -79,7 +79,7 @@ export function Navbar() {
             </a>
             <button
               onClick={() => setBookingOpen(true)}
-              className="inline-flex items-center justify-center rounded-full bg-[#FF0422] px-7 py-3 text-[15px] font-medium text-white transition-all hover:bg-[#E0031F] hover:shadow-lg hover:shadow-[#FF0422]/20 font-suisse btn-shine"
+              className="inline-flex items-center justify-center rounded-full bg-[#E00320] px-7 py-3 text-[15px] font-medium text-white transition-all hover:bg-[#C00218] hover:shadow-lg hover:shadow-[#E00320]/20 font-suisse btn-shine"
             >
               Réserver
             </button>
@@ -89,7 +89,7 @@ export function Navbar() {
           <div className="flex lg:hidden items-center gap-3">
             <button
               onClick={() => setBookingOpen(true)}
-              className="rounded-full bg-[#FF0422] px-5 py-3 text-[13px] font-medium text-white font-suisse min-h-[44px]"
+              className="rounded-full bg-[#E00320] px-5 py-3 text-[13px] font-medium text-white font-suisse min-h-[44px]"
             >
               Réserver
             </button>
@@ -172,7 +172,7 @@ export function Navbar() {
             </div>
             <button
               onClick={() => { setMobileOpen(false); setBookingOpen(true); }}
-              className="w-full rounded-full bg-[#FF0422] py-3.5 text-[16px] font-medium text-white font-suisse hover:bg-[#E0031F] transition-colors"
+              className="w-full rounded-full bg-[#E00320] py-3.5 text-[16px] font-medium text-white font-suisse hover:bg-[#C00218] transition-colors"
             >
               Réserver maintenant
             </button>

@@ -11,7 +11,7 @@ export function AboutSection() {
           </h2>
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center rounded-full bg-[#FF0422] px-8 py-3 text-[max(14px,1rem)] font-medium text-white transition-colors hover:bg-[rgb(220,4,30)] font-suisse"
+            className="inline-flex items-center justify-center rounded-full bg-[#E00320] px-8 py-3 text-[max(14px,1rem)] font-medium text-white transition-colors hover:bg-[rgb(192,2,24)] font-suisse"
           >
             Consultez nos catalogues
           </Link>
