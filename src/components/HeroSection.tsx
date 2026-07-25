@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-
+import Image from "next/image";
 import {
   ArrowDownIcon,
   XIcon,
@@ -95,6 +95,18 @@ const sizeClasses = {
   big: "w-[40vw] max-md:w-[50vw]",
 };
 
+const sizeSizes = {
+  small: "(max-width: 768px) 30vw, 20vw",
+  medium: "(max-width: 768px) 40vw, 30vw",
+  big: "(max-width: 768px) 50vw, 40vw",
+};
+
+const sizeWidths = {
+  small: { width: 400, height: 225 },
+  medium: { width: 480, height: 270 },
+  big: { width: 640, height: 360 },
+};
+
 function HeroImage({
   src,
   alt,
@@ -106,15 +118,17 @@ function HeroImage({
   size: "small" | "medium" | "big";
   priority?: boolean;
 }) {
+  const dims = sizeWidths[size];
   return (
     <div
       className={`${sizeClasses[size]} relative shrink-0 aspect-[16/9] overflow-hidden rounded-[1.5rem] bg-[#B3B3B3]`}
     >
-      <img
+      <Image
         src={src}
         alt={alt}
-        width={800}
-        height={450}
+        width={dims.width}
+        height={dims.height}
+        sizes={sizeSizes[size]}
         loading={priority ? "eager" : "lazy"}
         fetchPriority={priority ? "high" : "auto"}
         className="absolute inset-0 h-full w-full object-cover object-center"

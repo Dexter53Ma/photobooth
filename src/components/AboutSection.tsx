@@ -1,6 +1,27 @@
+"use client";
+
+import { useRef, useState, useEffect } from "react";
 import Link from "next/link";
 
 export function AboutSection() {
+  const videoRef = useRef<HTMLDivElement>(null);
+  const [videoLoaded, setVideoLoaded] = useState(false);
+
+  useEffect(() => {
+    const el = videoRef.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVideoLoaded(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "200px" }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
   return (
     <section className="about bg-[#F6F6F6] rounded-[7rem] max-md:rounded-[2rem] py-[8rem] max-md:py-12">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -28,19 +49,21 @@ export function AboutSection() {
             </p>
           </div>
           {/* Reel format video container */}
-          <div className="w-full lg:w-[360px] max-lg:max-w-[360px] shrink-0">
+          <div ref={videoRef} className="w-full lg:w-[360px] max-lg:max-w-[360px] shrink-0">
             <div className="relative overflow-hidden rounded-[1.5rem] bg-black" style={{ aspectRatio: "9/16" }}>
               {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
-              <video
-                src="/videos/photobooth%20video.mp4"
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="absolute inset-0 w-full h-full object-cover"
-              >
-                <track kind="captions" />
-              </video>
+              {videoLoaded && (
+                <video
+                  src="/videos/photobooth%20video.mp4"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="absolute inset-0 w-full h-full object-cover"
+                >
+                  <track kind="captions" />
+                </video>
+              )}
             </div>
           </div>
         </div>

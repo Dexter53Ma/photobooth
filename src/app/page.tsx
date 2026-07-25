@@ -1,17 +1,19 @@
 "use client";
 
 import { useEffect } from "react";
+import dynamic from "next/dynamic";
 import { Navbar } from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import { AboutSection } from "@/components/AboutSection";
-import ServicesSection from "@/components/ServicesSection";
-import { ProcessSteps } from "@/components/ProcessSteps";
-import { EventsTags } from "@/components/EventsTags";
-import { ProductsCarousel } from "@/components/ProductsCarousel";
-import { ClientsSection } from "@/components/ClientsSection";
-import { FAQSection } from "@/components/FAQSection";
-import { ContactSection } from "@/components/ContactSection";
-import { Footer } from "@/components/Footer";
+
+const ServicesSection = dynamic(() => import("@/components/ServicesSection"), { ssr: false });
+const ProcessSteps = dynamic(() => import("@/components/ProcessSteps").then(m => ({ default: m.ProcessSteps })), { ssr: false });
+const EventsTags = dynamic(() => import("@/components/EventsTags").then(m => ({ default: m.EventsTags })), { ssr: false });
+const ProductsCarousel = dynamic(() => import("@/components/ProductsCarousel").then(m => ({ default: m.ProductsCarousel })), { ssr: false });
+const ClientsSection = dynamic(() => import("@/components/ClientsSection").then(m => ({ default: m.ClientsSection })), { ssr: false });
+const FAQSection = dynamic(() => import("@/components/FAQSection").then(m => ({ default: m.FAQSection })), { ssr: false });
+const ContactSection = dynamic(() => import("@/components/ContactSection").then(m => ({ default: m.ContactSection })), { ssr: false });
+const Footer = dynamic(() => import("@/components/Footer").then(m => ({ default: m.Footer })), { ssr: false });
 
 export default function Home() {
   useEffect(() => {
