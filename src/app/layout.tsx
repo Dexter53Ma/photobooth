@@ -34,10 +34,10 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
+      { url: "/images/favicon.png", type: "image/png" },
       { url: "/seo/cropped-favicon-fotomaton-32x32.png", sizes: "32x32" },
-      { url: "/seo/cropped-favicon-fotomaton-192x192.png", sizes: "192x192" },
     ],
-    apple: "/seo/cropped-favicon-fotomaton-180x180.png",
+    apple: "/images/favicon.png",
   },
   openGraph: {
     title: "Marrakech PhotoBooths | Location de photobooth pour événements",
