@@ -18,7 +18,7 @@ const posts = [
   {
     title: "Guide complet : Comment choisir son photobooth pour un mariage à Marrakech",
     excerpt: "Découvrez les critères essentiels pour choisir le photobooth parfait pour votre mariage à Marrakech. Du type d'appareil à la personnalisation, tout ce que vous devez savoir.",
-    image: "/images/fotomaton-classic-vinilado-evento.jpg",
+    image: "/images/fotomaton-classic-vinilado-evento.webp",
     date: "15 Janvier 2024",
     category: "Mariage",
     slug: "guide-choisir-photobooth-mariage-marrakech",
@@ -27,7 +27,7 @@ const posts = [
   {
     title: "Top 10 des idées originales pour un photocall de mariage inoubliable",
     excerpt: "Inspirez-vous de ces 10 idées créatives pour un photocall de mariage qui marquera les esprits. Fond personnalisé, accessoires originaux et bien plus.",
-    image: "/images/Photocall-Red-Carpet-1600x1600.jpg",
+    image: "/images/Photocall-Red-Carpet-1600x1600.webp",
     date: "10 Janvier 2024",
     category: "Mariage",
     slug: "top-10-idees-photocall-mariage",
@@ -36,7 +36,7 @@ const posts = [
   {
     title: "Vidéomaton 360 : pourquoi c'est l'attraction star des événements d'entreprise",
     excerpt: "Le vidéomaton 360 est devenu incontournable lors des événements corporate. Découvrez pourquoi cet outil booste l'engagement et la visibilité de votre marque.",
-    image: "/images/hero/videomaton-360.jpg",
+    image: "/images/hero/videomaton-360.webp",
     date: "5 Janvier 2024",
     category: "Entreprise",
     slug: "videomaton-360-attraction-evenements-entreprise",
@@ -45,7 +45,7 @@ const posts = [
   {
     title: "Photobooth et IA : la révolution des événements à Marrakech",
     excerpt: "L'intelligence artificielle transforme le monde du photobooth. Découvrez les possibilités offertes par le face swap, les fonds générés par IA et les filtres personnalisés.",
-    image: "/images/services/Fotomaton-IA-ficcion-heroe-1240x1600.jpg",
+    image: "/images/services/Fotomaton-IA-ficcion-heroe-1240x1600.webp",
     date: "28 Décembre 2023",
     category: "Technologie",
     slug: "photobooth-ia-revolution-evenements-marrakech",
@@ -54,7 +54,7 @@ const posts = [
   {
     title: "Comment personnaliser votre photobooth avec le branding de votre entreprise",
     excerpt: "Guide étape par étape pour personnaliser votre photobooth avec le logo, les couleurs et le message de votre marque. Vinyles, impressions et fonds personnalisés.",
-    image: "/images/fotomaton-eventos-empresa-1600x1600.jpg",
+    image: "/images/fotomaton-eventos-empresa-1600x1600.webp",
     date: "20 Décembre 2023",
     category: "Entreprise",
     slug: "personnaliser-photobooth-branding-entreprise",
@@ -63,7 +63,7 @@ const posts = [
   {
     title: "Les tendances photobooth 2024 : ce qui va marquer l'année",
     excerpt: "Découvrez les dernières tendances en matière de photobooth pour 2024. IA, réalité augmentée, vidéos 360, écrans LED et bien plus encore.",
-    image: "/images/vogue-photo-booth-led-1600x1600.jpg",
+    image: "/images/vogue-photo-booth-led-1600x1600.webp",
     date: "15 Décembre 2023",
     category: "Tendances",
     slug: "tendances-photobooth-2024",

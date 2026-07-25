@@ -9,7 +9,7 @@ const posts: Record<string, { title: string; date: string; category: string; rea
     date: "15 Janvier 2024",
     category: "Mariage",
     readTime: "8 min",
-    image: "/images/fotomaton-classic-vinilado-evento.jpg",
+    image: "/images/fotomaton-classic-vinilado-evento.webp",
     content: [
       "Organiser un mariage à Marrakech, c'est choisir une destination de rêve pour l'un des jours les plus importants de votre vie. Et quoi de mieux qu'un photobooth pour immortaliser les moments de joie et de complicité de vos invités ? Mais comment choisir le bon photobooth parmi toutes les options disponibles ? Voici notre guide complet.",
       "## 1. Définissez vos besoins",
@@ -31,7 +31,7 @@ const posts: Record<string, { title: string; date: string; category: string; rea
     date: "10 Janvier 2024",
     category: "Mariage",
     readTime: "6 min",
-    image: "/images/Photocall-Red-Carpet-1600x1600.jpg",
+    image: "/images/Photocall-Red-Carpet-1600x1600.webp",
     content: [
       "Le photocall est devenu un incontournable des mariages modernes. Voici 10 idées originales pour créer un photocall qui marquera les esprits de vos invités.",
       "## 1. Le tapis rouge Hollywood",
@@ -63,7 +63,7 @@ const posts: Record<string, { title: string; date: string; category: string; rea
     date: "5 Janvier 2024",
     category: "Entreprise",
     readTime: "7 min",
-    image: "/images/hero/videomaton-360.jpg",
+    image: "/images/hero/videomaton-360.webp",
     content: [
       "Le vidéomaton 360° est devenu l'attraction incontournable des événements d'entreprise. Mais pourquoi un tel succès ? Découvrez les raisons de ce phénomène.",
       "## 1. Un contenu viral",
@@ -87,7 +87,7 @@ const posts: Record<string, { title: string; date: string; category: string; rea
     date: "28 Décembre 2023",
     category: "Technologie",
     readTime: "5 min",
-    image: "/images/services/Fotomaton-IA-ficcion-heroe-1240x1600.jpg",
+    image: "/images/services/Fotomaton-IA-ficcion-heroe-1240x1600.webp",
     content: [
       "L'intelligence artificielle transforme profondément le monde du photobooth. Découvrez comment l'IA révolutionne l'expérience des événements à Marrakech.",
       "## Le face swap intelligent",
@@ -107,7 +107,7 @@ const posts: Record<string, { title: string; date: string; category: string; rea
     date: "20 Décembre 2023",
     category: "Entreprise",
     readTime: "6 min",
-    image: "/images/fotomaton-eventos-empresa-1600x1600.jpg",
+    image: "/images/fotomaton-eventos-empresa-1600x1600.webp",
     content: [
       "Le photobooth est un outil marketing puissant pour les entreprises. Voici comment le personnaliser avec le branding de votre marque pour maximiser son impact.",
       "## 1. Le vinyle extérieur",
@@ -129,7 +129,7 @@ const posts: Record<string, { title: string; date: string; category: string; rea
     date: "15 Décembre 2023",
     category: "Tendances",
     readTime: "7 min",
-    image: "/images/vogue-photo-booth-led-1600x1600.jpg",
+    image: "/images/vogue-photo-booth-led-1600x1600.webp",
     content: [
       "Le monde du photobooth évolue rapidement. Découvrez les tendances qui vont marquer 2024 et comment les intégrer dans vos événements.",
       "## 1. L'IA au cœur de l'expérience",

@@ -120,7 +120,7 @@ export function Footer() {
       {/* Footer legal */}
       <div className="footer__legal border-t border-white/10 px-6 py-10 max-md:py-6 flex flex-col items-center gap-6">
         <Image
-          src="/images/logo%20footer%20(3).png"
+          src="/images/logo%20footer%20(3).webp"
           alt="Marrakech PhotoBooths"
           width={250}
           height={65}

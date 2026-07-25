@@ -17,7 +17,7 @@ export function ContactForm() {
       {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <Image src="/images/fotomaton-eventos-empresa-1600x1600.jpg" alt="Contactez Marrakech PhotoBooths" fill sizes="100vw" className="object-cover object-center" priority />
+          <Image src="/images/fotomaton-eventos-empresa-1600x1600.webp" alt="Contactez Marrakech PhotoBooths" fill sizes="100vw" className="object-cover object-center" priority />
           <div className="absolute inset-0 bg-black/50" />
         </div>
         <div className="relative z-10 py-[6rem] max-md:py-12 px-4 md:px-8">
@@ -41,7 +41,7 @@ export function ContactForm() {
               </div>
 
               <div className="relative aspect-[4/3] overflow-hidden rounded-[1.5rem]">
-                <Image src="/images/about/Videomaton-360-Evento-corporativo.jpg" alt="Notre showroom" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover object-center" />
+                <Image src="/images/about/Videomaton-360-Evento-corporativo.webp" alt="Notre showroom" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover object-center" />
               </div>
 
               <div className="flex flex-col gap-4 p-6 bg-[#F6F6F6] rounded-[1.5rem]">

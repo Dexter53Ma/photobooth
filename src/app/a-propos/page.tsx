@@ -15,15 +15,15 @@ export const metadata = {
 };
 
 const team = [
-  { name: "Direction", role: "Gestion & Vision", image: "/images/about/Fotomaton-Barcelona-Alquilar-Fotomaton.jpg" },
-  { name: "Production", role: "Technique & Logistique", image: "/images/about/Videomaton-360-Evento-corporativo.jpg" },
-  { name: "Commercial", role: "Relations Clients", image: "/images/about/Fotomaton-Eventos-Barcelona-scaled.jpg" },
+  { name: "Direction", role: "Gestion & Vision", image: "/images/about/Fotomaton-Barcelona-Alquilar-Fotomaton.webp" },
+  { name: "Production", role: "Technique & Logistique", image: "/images/about/Videomaton-360-Evento-corporativo.webp" },
+  { name: "Commercial", role: "Relations Clients", image: "/images/about/Fotomaton-Eventos-Barcelona-scaled.webp" },
 ];
 
 const values = [
-  { title: "Innovation", description: "Nous restons à la pointe des dernières tendances en photobooth.", image: "/images/Fotomaton-eventos-personalizado-1518x1600.jpg" },
-  { title: "Qualité", description: "Des équipements professionnels et un service irréprochable.", image: "/images/fotomaton-classic-vinilado-evento.jpg" },
-  { title: "Créativité", description: "Des solutions uniques et personnalisées pour chaque événement.", image: "/images/Photocall-Red-Carpet-1600x1600.jpg" },
+  { title: "Innovation", description: "Nous restons à la pointe des dernières tendances en photobooth.", image: "/images/Fotomaton-eventos-personalizado-1518x1600.webp" },
+  { title: "Qualité", description: "Des équipements professionnels et un service irréprochable.", image: "/images/fotomaton-classic-vinilado-evento.webp" },
+  { title: "Créativité", description: "Des solutions uniques et personnalisées pour chaque événement.", image: "/images/Photocall-Red-Carpet-1600x1600.webp" },
 ];
 
 export default function APropos() {
@@ -34,7 +34,7 @@ export default function APropos() {
         {/* Hero */}
         <section className="relative overflow-hidden">
           <div className="absolute inset-0 z-0">
-            <Image src="/images/about/Fotomaton-Eventos-Barcelona-scaled.jpg" alt="Marrakech PhotoBooths" fill sizes="100vw" className="object-cover object-center" priority />
+            <Image src="/images/about/Fotomaton-Eventos-Barcelona-scaled.webp" alt="Marrakech PhotoBooths" fill sizes="100vw" className="object-cover object-center" priority />
             <div className="absolute inset-0 bg-black/50" />
           </div>
           <div className="relative z-10 py-[8rem] max-md:py-16 px-4 md:px-8">
@@ -55,7 +55,7 @@ export default function APropos() {
                 <p className="font-suisse text-[max(14px,1.25rem)] leading-[1.6] text-[#444]">Notre passion pour le design, la technologie et les expériences mémorables fait de nous le choix préféré de nombreuses marques et milliers de clients satisfaits.</p>
               </div>
               <div className="relative aspect-[4/3] overflow-hidden rounded-[1.5rem]">
-                <Image src="/images/about/Fotomaton-Barcelona-Alquilar-Fotomaton.jpg" alt="Notre équipe" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover object-center" />
+                <Image src="/images/about/Fotomaton-Barcelona-Alquilar-Fotomaton.webp" alt="Notre équipe" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover object-center" />
               </div>
             </div>
           </div>

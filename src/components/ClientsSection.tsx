@@ -2,10 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 const clients = [
-  { src: "/images/clients/Bacardi-cliente-Fotomaton-Barcelona.png", alt: "Bacardi" },
-  { src: "/images/clients/Cartier-cliente-Fotomaton-Barcelona.png", alt: "Cartier" },
-  { src: "/images/clients/HM-cliente-moda-Fotomaton-Barcelona.png", alt: "H&M" },
-  { src: "/images/clients/Intel-cliente-tecnologico-Fotomaton-Barcelona.png", alt: "Intel" },
+  { src: "/images/clients/Bacardi-cliente-Fotomaton-Barcelona.webp", alt: "Bacardi" },
+  { src: "/images/clients/Cartier-cliente-Fotomaton-Barcelona.webp", alt: "Cartier" },
+  { src: "/images/clients/HM-cliente-moda-Fotomaton-Barcelona.webp", alt: "H&M" },
+  { src: "/images/clients/Intel-cliente-tecnologico-Fotomaton-Barcelona.webp", alt: "Intel" },
 ];
 
 const stats = [

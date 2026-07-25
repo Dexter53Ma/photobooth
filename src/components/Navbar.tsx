@@ -51,7 +51,7 @@ export function Navbar() {
           <Link href="/" aria-label="Marrakech PhotoBooths" className="flex items-center shrink-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/images/logo%20header.png"
+              src="/images/logo%20header.webp"
               alt="Marrakech PhotoBooths"
               width={255}
               height={85}
@@ -128,7 +128,7 @@ export function Navbar() {
           {/* Sidebar header */}
           <div className="flex items-center justify-between px-6 py-5 border-b border-gray-100">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/logo%20header.png" alt="Marrakech PhotoBooths" width={255} height={85} loading="lazy" className="h-[50px] w-auto object-contain" />
+            <img src="/images/logo%20header.webp" alt="Marrakech PhotoBooths" width={255} height={85} loading="lazy" className="h-[50px] w-auto object-contain" />
             <button
               type="button"
               className="p-2 hover:bg-gray-100 rounded-full transition-colors"

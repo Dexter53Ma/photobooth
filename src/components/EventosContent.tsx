@@ -12,18 +12,18 @@ const steps = [
 ];
 
 const extras = [
-  { title: "Vinyle personnalisé", description: "Personnalisez le photobooth avec le logo de votre marque.", image: "/images/fotomaton-classic-vinilado-evento.jpg" },
-  { title: "Photocall personnalisé", description: "Fonds et structures personnalisés pour votre photocall.", image: "/images/Photocall-Red-Carpet-1600x1600.jpg" },
-  { title: "Papier d'impression", description: "Choisissez entre papier photo brillant ou mat.", image: "/images/fotografias-personalizadas-1600x1600.jpg" },
-  { title: "Envoi par QR ou email", description: "Envoyez les photos directement sur le mobile de vos invités.", image: "/images/fotografia-personalizada-impresora-smartphone-1600x1600.jpg" },
-  { title: "Vogue booth", description: "Photobooth avec éclairage professionnel style Vogue.", image: "/images/vogue-photo-booth-led-1600x1600.jpg" },
-  { title: "Photobooth Miroir", description: "Miroir interactif avec animations et tactile.", image: "/images/Fotomaton-Espejo.jpg" },
-  { title: "Mosaic Wall", description: "Créez une mosaïque géante avec les photos de tous les invités.", image: "/images/services/Fotomaton-Mosaico-Wall-team-building.jpg" },
-  { title: "Photobooth zénithal", description: "Perspective zénithale pour des photos créatives.", image: "/images/services/Fotomaton-Barcelona-Cenital-Evento-Corporativo-1600x1600.jpg" },
-  { title: "Slow motion", description: "Vidéos au ralenti pour des moments épiques.", image: "/images/services/fotomaton-video-360-confeti-boda-1600x1600.jpg" },
-  { title: "Chroma IA", description: "Fonds virtuels avec technologie chroma key.", image: "/images/services/Fotomaton-IA-ficcion-heroe-1240x1600.jpg" },
-  { title: "Photocall paillettes", description: "Fond de paillettes avec enseignes néon personnalisées.", image: "/images/letras-madera-iluminadas-1600x1600.jpg" },
-  { title: "Atrezzo", description: "Accessoires et props amusants pour les photos.", image: "/images/azafato-smartphoto.jpg" },
+  { title: "Vinyle personnalisé", description: "Personnalisez le photobooth avec le logo de votre marque.", image: "/images/fotomaton-classic-vinilado-evento.webp" },
+  { title: "Photocall personnalisé", description: "Fonds et structures personnalisés pour votre photocall.", image: "/images/Photocall-Red-Carpet-1600x1600.webp" },
+  { title: "Papier d'impression", description: "Choisissez entre papier photo brillant ou mat.", image: "/images/fotografias-personalizadas-1600x1600.webp" },
+  { title: "Envoi par QR ou email", description: "Envoyez les photos directement sur le mobile de vos invités.", image: "/images/fotografia-personalizada-impresora-smartphone-1600x1600.webp" },
+  { title: "Vogue booth", description: "Photobooth avec éclairage professionnel style Vogue.", image: "/images/vogue-photo-booth-led-1600x1600.webp" },
+  { title: "Photobooth Miroir", description: "Miroir interactif avec animations et tactile.", image: "/images/Fotomaton-Espejo.webp" },
+  { title: "Mosaic Wall", description: "Créez une mosaïque géante avec les photos de tous les invités.", image: "/images/services/Fotomaton-Mosaico-Wall-team-building.webp" },
+  { title: "Photobooth zénithal", description: "Perspective zénithale pour des photos créatives.", image: "/images/services/Fotomaton-Barcelona-Cenital-Evento-Corporativo-1600x1600.webp" },
+  { title: "Slow motion", description: "Vidéos au ralenti pour des moments épiques.", image: "/images/services/fotomaton-video-360-confeti-boda-1600x1600.webp" },
+  { title: "Chroma IA", description: "Fonds virtuels avec technologie chroma key.", image: "/images/services/Fotomaton-IA-ficcion-heroe-1240x1600.webp" },
+  { title: "Photocall paillettes", description: "Fond de paillettes avec enseignes néon personnalisées.", image: "/images/letras-madera-iluminadas-1600x1600.webp" },
+  { title: "Atrezzo", description: "Accessoires et props amusants pour les photos.", image: "/images/azafato-smartphoto.webp" },
 ];
 
 const faqItems = [
@@ -45,7 +45,7 @@ export default function EventosContent() {
         {/* Hero with image */}
         <section className="relative overflow-hidden">
           <div className="absolute inset-0 z-0">
-            <Image src="/images/Fotomaton-Barcelona-Fotomaton-para-eventos.jpg" alt="Photobooth pour événements" fill sizes="100vw" className="object-cover object-center" priority />
+            <Image src="/images/Fotomaton-Barcelona-Fotomaton-para-eventos.webp" alt="Photobooth pour événements" fill sizes="100vw" className="object-cover object-center" priority />
             <div className="absolute inset-0 bg-black/40" />
           </div>
           <div className="relative z-10 py-[8rem] max-md:py-16 px-4 md:px-8">

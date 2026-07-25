@@ -12,17 +12,17 @@ const steps = [
 ];
 
 const extras = [
-  { title: "Vinyle personnalisé", description: "Personnalisez la plateforme avec votre marque.", image: "/images/fotomaton-classic-vinilado-evento.jpg" },
-  { title: "Photocall courbe", description: "Fond courbe personnalisé pour l'environnement.", image: "/images/Photocall-Red-Carpet-1600x1600.jpg" },
-  { title: "Cabine LED", description: "Cabine avec éclairage LED RGB personnalisable.", image: "/images/vogue-photo-booth-led-1600x1600.jpg" },
-  { title: "Confettis", description: "Canon à confettis pour des vidéos spectaculaires.", image: "/images/services/fotomaton-video-360-confeti-boda-1600x1600.jpg" },
-  { title: "Pompes de savon", description: "Machine à bulles pour un effet magique.", image: "/images/services/PHOTO-2024-06-26-12-23-28.jpg" },
-  { title: "Pistolet à billets", description: "Pluie de faux billets pour des vidéos épiques.", image: "/images/services/brazo-robotico-1600x1600.jpg" },
+  { title: "Vinyle personnalisé", description: "Personnalisez la plateforme avec votre marque.", image: "/images/fotomaton-classic-vinilado-evento.webp" },
+  { title: "Photocall courbe", description: "Fond courbe personnalisé pour l'environnement.", image: "/images/Photocall-Red-Carpet-1600x1600.webp" },
+  { title: "Cabine LED", description: "Cabine avec éclairage LED RGB personnalisable.", image: "/images/vogue-photo-booth-led-1600x1600.webp" },
+  { title: "Confettis", description: "Canon à confettis pour des vidéos spectaculaires.", image: "/images/services/fotomaton-video-360-confeti-boda-1600x1600.webp" },
+  { title: "Pompes de savon", description: "Machine à bulles pour un effet magique.", image: "/images/services/PHOTO-2024-06-26-12-23-28.webp" },
+  { title: "Pistolet à billets", description: "Pluie de faux billets pour des vidéos épiques.", image: "/images/services/brazo-robotico-1600x1600.webp" },
 ];
 
 const platforms = [
-  { name: "Plateforme standard", size: "90x90cm", description: "Idéale pour 1-2 personnes. Parfaite pour les événements avec espace réduit.", image: "/images/hero/videomaton-360.jpg" },
-  { name: "Plateforme grande", size: "120x120cm", description: "Pour des groupes de jusqu'à 4 personnes. Idéale pour mariages et fêtes.", image: "/images/hero/videomaton-photocall-personalizado.jpg" },
+  { name: "Plateforme standard", size: "90x90cm", description: "Idéale pour 1-2 personnes. Parfaite pour les événements avec espace réduit.", image: "/images/hero/videomaton-360.webp" },
+  { name: "Plateforme grande", size: "120x120cm", description: "Pour des groupes de jusqu'à 4 personnes. Idéale pour mariages et fêtes.", image: "/images/hero/videomaton-photocall-personalizado.webp" },
 ];
 
 const faqItems = [
@@ -40,7 +40,7 @@ export default function VideomatonContent() {
         {/* Hero with video/image */}
         <section className="relative overflow-hidden">
           <div className="absolute inset-0 z-0">
-            <Image src="/images/hero/videomaton-360.jpg" alt="Vidéomaton 360" fill sizes="100vw" className="object-cover object-center" priority />
+            <Image src="/images/hero/videomaton-360.webp" alt="Vidéomaton 360" fill sizes="100vw" className="object-cover object-center" priority />
             <div className="absolute inset-0 bg-black/40" />
           </div>
           <div className="relative z-10 py-[8rem] max-md:py-16 px-4 md:px-8">

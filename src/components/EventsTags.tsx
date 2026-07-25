@@ -18,7 +18,7 @@ export function EventsTags() {
       <div className="tags__image absolute inset-0 overflow-hidden bg-[#1E1E2A] rounded-b-[max(50vw,50vh)] max-md:rounded-b-[2rem]">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/images/Fotomaton-Barcelona-Fotomaton-para-eventos.jpg"
+          src="/images/Fotomaton-Barcelona-Fotomaton-para-eventos.webp"
           alt="Photobooth pour événements"
           width={1600}
           height={900}

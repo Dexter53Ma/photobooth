@@ -44,22 +44,22 @@ const socialLinks = [
 /* Top row images with size classes matching original CSS */
 const topRowImages = [
   {
-    src: "/images/hero/fotomaton-madera.jpg",
+    src: "/images/hero/fotomaton-madera.webp",
     alt: "Fotomaton Barcelona para eventos",
     size: "small" as const,
   },
   {
-    src: "/images/hero/fotomaton-pantalla-lateral-boda.jpg",
+    src: "/images/hero/fotomaton-pantalla-lateral-boda.webp",
     alt: "Fotomaton calidad para bodas",
     size: "big" as const,
   },
   {
-    src: "/images/hero/fotomaton-evento-empresa.jpg",
+    src: "/images/hero/fotomaton-evento-empresa.webp",
     alt: "Fotomaton evento empresa",
     size: "medium" as const,
   },
   {
-    src: "/images/hero/videomaton-360.jpg",
+    src: "/images/hero/videomaton-360.webp",
     alt: "Videomatón 360 para eventos de empresa",
     size: "small" as const,
   },
@@ -68,22 +68,22 @@ const topRowImages = [
 /* Bottom row images */
 const bottomRowImages = [
   {
-    src: "/images/hero/fotomaton-espejo-mirror-booth.jpg",
+    src: "/images/hero/fotomaton-espejo-mirror-booth.webp",
     alt: "Fotomaton Espejo Barcelona",
     size: "small" as const,
   },
   {
-    src: "/images/hero/voguebooth-led-fotomaton.jpg",
+    src: "/images/hero/voguebooth-led-fotomaton.webp",
     alt: "Fotomaton LED Vogue booth en Barcelona",
     size: "medium" as const,
   },
   {
-    src: "/images/hero/videomaton-photocall-personalizado.jpg",
+    src: "/images/hero/videomaton-photocall-personalizado.webp",
     alt: "Videomatón spin 360 personalizado",
     size: "big" as const,
   },
   {
-    src: "/images/hero/totem-fotomaton-pantalla.jpg",
+    src: "/images/hero/totem-fotomaton-pantalla.webp",
     alt: "Pantalla interactivo en servicio de Fotomaton",
     size: "small" as const,
   },
@@ -139,7 +139,7 @@ function MarqueeRow({
         }}
       >
         {images.map((img, i) => (
-          <HeroImage key={`a-${img.src}`} {...img} />
+          <HeroImage key={`a-${img.src}`} {...img} priority={i === 0} />
         ))}
         {images.map((img) => (
           <HeroImage key={`b-${img.src}`} {...img} />
@@ -155,7 +155,7 @@ export default function HeroSection() {
       {/* Centered heading */}
       <div className="hero__text relative z-10 mx-auto max-w-[100vw] overflow-hidden px-4 text-center md:px-0">
         <div className="mx-auto flex max-w-5xl flex-col items-center justify-center">
-          <h2 className="mb-2 text-[0.875rem] max-md:text-[0.75rem] leading-none text-[#808080] uppercase font-suisse font-medium">
+          <h2 className="mb-2 text-[0.875rem] max-md:text-[0.75rem] leading-none text-[#6B6B6B] uppercase font-suisse font-medium">
             Marrakech PhotoBooths
           </h2>
           <h1

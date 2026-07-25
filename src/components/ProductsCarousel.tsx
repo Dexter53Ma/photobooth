@@ -7,16 +7,16 @@ import { cn } from "@/lib/utils";
 import { ChevronLeftIcon, ChevronRightIcon } from "@/components/icons";
 
 const products = [
-  { title: "Photobooth Classique", description: "Photos personnalisées imprimées sur le moment.", image: "/images/products/fotomaton.png", tag: "Populaire" },
-  { title: "Spin 360º", description: "Vidéos 360º personnalisées pour des souvenirs uniques.", image: "/images/products/videomaton-spin-360-1200x1200.png", tag: "Tendance" },
-  { title: "Photobooth Mini", description: "Compact et élégant, parfait pour les petits espaces.", image: "/images/products/fotomaton-mini-madera-1200x1200.png", tag: "" },
-  { title: "Photobooth Smart", description: "Nouveau photobooth idéal pour les services IA et Glam.", image: "/images/products/Fotomaton-Smart-1200x1200.png", tag: "Nouveau" },
-  { title: "Photobooth Miroir", description: "Miroir interactif avec animations et tactile.", image: "/images/products/fotomaton-espejo-mirror-booth-1200x1200.png", tag: "" },
-  { title: "Glambot", description: "Bras robotique pour capturer des mouvements incroyables.", image: "/images/products/Glambot-Brazo-Robotico-1200x1200.png", tag: "Premium" },
-  { title: "Lettres Géantes", description: "Créez un selfie-corner unique avec vos initiales.", image: "/images/products/A-letras-iluminadas-luces-madera-1200x1200.png", tag: "" },
-  { title: "Photobooth Zenithal", description: "Perspective zénithale pour des photos créatives.", image: "/images/products/Fotomaton-Cenital-1200x1200.png", tag: "" },
-  { title: "SuperZoom", description: "Système pour générer une vidéo SuperZoom.", image: "/images/products/Super-Zoom-3-1200x1200.png", tag: "" },
-  { title: "Purikura", description: "Personnalisez vos photos avec filtres et stickers.", image: "/images/products/fotomaton-purikura-maquina.jpg", tag: "" },
+  { title: "Photobooth Classique", description: "Photos personnalisées imprimées sur le moment.", image: "/images/products/fotomaton.webp", tag: "Populaire" },
+  { title: "Spin 360º", description: "Vidéos 360º personnalisées pour des souvenirs uniques.", image: "/images/products/videomaton-spin-360-1200x1200.webp", tag: "Tendance" },
+  { title: "Photobooth Mini", description: "Compact et élégant, parfait pour les petits espaces.", image: "/images/products/fotomaton-mini-madera-1200x1200.webp", tag: "" },
+  { title: "Photobooth Smart", description: "Nouveau photobooth idéal pour les services IA et Glam.", image: "/images/products/Fotomaton-Smart-1200x1200.webp", tag: "Nouveau" },
+  { title: "Photobooth Miroir", description: "Miroir interactif avec animations et tactile.", image: "/images/products/fotomaton-espejo-mirror-booth-1200x1200.webp", tag: "" },
+  { title: "Glambot", description: "Bras robotique pour capturer des mouvements incroyables.", image: "/images/products/Glambot-Brazo-Robotico-1200x1200.webp", tag: "Premium" },
+  { title: "Lettres Géantes", description: "Créez un selfie-corner unique avec vos initiales.", image: "/images/products/A-letras-iluminadas-luces-madera-1200x1200.webp", tag: "" },
+  { title: "Photobooth Zenithal", description: "Perspective zénithale pour des photos créatives.", image: "/images/products/Fotomaton-Cenital-1200x1200.webp", tag: "" },
+  { title: "SuperZoom", description: "Système pour générer une vidéo SuperZoom.", image: "/images/products/Super-Zoom-3-1200x1200.webp", tag: "" },
+  { title: "Purikura", description: "Personnalisez vos photos avec filtres et stickers.", image: "/images/products/fotomaton-purikura-maquina.webp", tag: "" },
 ];
 
 export function ProductsCarousel() {
