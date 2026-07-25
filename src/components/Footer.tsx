@@ -30,13 +30,13 @@ const servicesLinks = [
 ];
 
 const mariageLinks = [
-  { label: "Photobooth Mariage", href: "/photobooth-evenements" },
+  { label: "Photobooth Mariage", href: "/mariages" },
   { label: "Spin 360º", href: "/videomaton-360" },
-  { label: "Photobooth Glam", href: "/photobooth-evenements" },
-  { label: "Photobooth Catwalk", href: "/photobooth-evenements" },
-  { label: "Printoku", href: "/photobooth-evenements" },
-  { label: "Lettres Géantes", href: "/photobooth-evenements" },
-  { label: "Photocall Tapis Rouge", href: "/photobooth-evenements" },
+  { label: "Photobooth Glam", href: "/mariages" },
+  { label: "Photobooth Catwalk", href: "/mariages" },
+  { label: "Printoku", href: "/mariages" },
+  { label: "Lettres Géantes", href: "/mariages" },
+  { label: "Photocall Tapis Rouge", href: "/mariages" },
 ];
 
 const ressourcesLinks = [

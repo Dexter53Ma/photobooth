@@ -9,7 +9,7 @@ import { BookingModal } from "./BookingModal";
 const navLinks = [
   { label: "Accueil", href: "/" },
   { label: "Événements", href: "/photobooth-evenements" },
-  { label: "Mariages", href: "/videomaton-360" },
+  { label: "Mariages", href: "/mariages" },
   { label: "Tarifs", href: "/tarifs" },
   { label: "À propos", href: "/a-propos" },
   { label: "Blog", href: "/blog" },
