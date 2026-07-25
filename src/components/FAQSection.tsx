@@ -41,7 +41,7 @@ export function FAQSection() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   return (
-    <section className="faqs bg-[#F6F6F6] pt-[15rem] max-md:pt-10 pb-[10rem] max-md:pb-16 -mt-[5rem] max-md:mt-0 relative z-[1] px-4">
+    <section className="faqs bg-[#F6F6F6] pt-[15rem] max-md:pt-12 pb-[10rem] max-md:pb-16 -mt-[5rem] max-md:mt-0 relative z-[1] px-4">
       <div className="max-w-4xl mx-auto flex flex-col gap-10">
         <h2 className="font-platform text-[3.375rem] max-md:text-[2.25rem] font-normal leading-[1] tracking-[-0.01em] text-[#FF0422]">
           Questions fréquentes

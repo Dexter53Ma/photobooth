@@ -41,6 +41,7 @@ const mariageLinks = [
 
 const ressourcesLinks = [
   { label: "À propos", href: "/a-propos" },
+  { label: "Tarifs", href: "/tarifs" },
   { label: "Politique de confidentialité", href: "/politique-confidentialite" },
   { label: "Politique de cookies", href: "/politique-cookies" },
   { label: "Mentions légales", href: "/mentions-legales" },
@@ -51,7 +52,7 @@ export function Footer() {
   return (
     <footer className="footer bg-[#1E1E2A] rounded-t-[7rem] max-md:rounded-t-[2rem] text-white font-suisse">
       {/* Social icons */}
-      <div className="footer__header px-6 py-[10rem] max-md:py-10 flex flex-col items-center gap-6">
+      <div className="footer__header px-6 py-[10rem] max-md:py-12 flex flex-col items-center gap-6">
         <div className="footer__social flex gap-2">
           {socialLinks.map((link) => (
             <a
@@ -70,7 +71,7 @@ export function Footer() {
 
       {/* Links grid */}
       <div className="max-w-7xl mx-auto px-6 pb-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-[max(14px,1.375rem)] max-md:text-[max(14px,1.125rem)]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 max-md:gap-8 text-[max(14px,1.375rem)] max-md:text-[max(14px,1rem)]">
           <div className="footer__links flex flex-col gap-3">
             <h4 className="font-platform text-[1.5rem] font-normal leading-[1] text-white mb-2">
               Événements

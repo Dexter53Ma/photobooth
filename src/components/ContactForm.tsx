@@ -53,7 +53,7 @@ export function ContactForm() {
             </div>
 
             {/* Right: Form */}
-            <div className="p-8 bg-[#F6F6F6] rounded-[1.5rem]">
+            <div className="p-6 max-md:p-4 bg-[#F6F6F6] rounded-[1.5rem]">
               <form onSubmit={handleSubmit} className="flex flex-col gap-4">
                 <div><input type="text" placeholder="Nom" required maxLength={100} value={formData.nom} onChange={(e) => setFormData({ ...formData, nom: e.target.value })} className="w-full px-5 py-3 border border-[#DDD] rounded-[1rem] text-[max(14px,1rem)] font-suisse text-[#333] bg-white placeholder-[#999] focus:outline-none focus:border-[#FF0422] transition-all" /></div>
                 <div><input type="email" placeholder="Email" required maxLength={254} value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} className="w-full px-5 py-3 border border-[#DDD] rounded-[1rem] text-[max(14px,1rem)] font-suisse text-[#333] bg-white placeholder-[#999] focus:outline-none focus:border-[#FF0422] transition-all" /></div>

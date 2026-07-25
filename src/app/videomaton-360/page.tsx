@@ -17,7 +17,7 @@ export default function Videomaton360() {
   return (
     <>
       <Navbar />
-      <div className="pt-[70px] max-md:pt-[60px]">
+      <div className="pt-[90px] max-md:pt-[75px]">
         <VideomatonContent />
       </div>
       <Footer />

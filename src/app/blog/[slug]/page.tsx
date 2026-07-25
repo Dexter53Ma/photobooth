@@ -162,7 +162,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     return (
       <>
         <Navbar />
-        <main className="pt-[70px] max-md:pt-[60px]">
+        <main className="pt-[90px] max-md:pt-[75px]">
           <section className="py-[8rem] max-md:py-16 text-center">
             <h1 className="font-platform text-[3rem] text-[#1E1E2A] mb-4">Article non trouvé</h1>
             <Link href="/blog" className="text-[#FF0422] hover:underline font-suisse">Retour au blog</Link>
@@ -176,7 +176,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   return (
     <>
       <Navbar />
-      <main className="pt-[70px] max-md:pt-[60px]">
+      <main className="pt-[90px] max-md:pt-[75px]">
         {/* Hero */}
         <section className="relative overflow-hidden">
           <div className="absolute inset-0 z-0">

@@ -67,7 +67,7 @@ export function ProductsCarousel() {
         <div className="overflow-hidden">
           <div ref={trackRef} className="flex gap-5 transition-transform duration-500 ease-out" style={{ transform: `translateX(-${currentIndex * cardWidth}px)` }}>
             {products.map((product) => (
-              <Link key={product.title} href="/photobooth-evenements" className="group shrink-0 w-[260px] max-md:w-[220px]">
+              <Link key={product.title} href="/photobooth-evenements" className="group shrink-0 w-[260px] max-md:w-[180px]">
                 <div className="relative aspect-[3/4] rounded-[1rem] overflow-hidden bg-[#F8F8F8] mb-4">
                   <Image src={product.image} alt={product.title} fill sizes="260px" className="object-cover transition-transform duration-700 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300" />
@@ -86,11 +86,11 @@ export function ProductsCarousel() {
 
         {/* Mobile nav */}
         <div className="flex lg:hidden items-center justify-center gap-3 mt-8">
-          <button onClick={goToPrev} disabled={currentIndex === 0} className={cn("w-11 h-11 rounded-full flex items-center justify-center transition-all border", currentIndex === 0 ? "border-[#E5E5E5] text-[#CCC]" : "border-[#1E1E2A] text-[#1E1E2A]")}>
-            <ChevronLeftIcon size={18} />
+          <button onClick={goToPrev} disabled={currentIndex === 0} className={cn("w-12 h-12 rounded-full flex items-center justify-center transition-all border", currentIndex === 0 ? "border-[#E5E5E5] text-[#CCC]" : "border-[#1E1E2A] text-[#1E1E2A]")}>
+            <ChevronLeftIcon size={20} />
           </button>
-          <button onClick={goToNext} disabled={currentIndex >= maxIndex} className={cn("w-11 h-11 rounded-full flex items-center justify-center transition-all border", currentIndex >= maxIndex ? "border-[#E5E5E5] text-[#CCC]" : "border-[#1E1E2A] text-[#1E1E2A]")}>
-            <ChevronRightIcon size={18} />
+          <button onClick={goToNext} disabled={currentIndex >= maxIndex} className={cn("w-12 h-12 rounded-full flex items-center justify-center transition-all border", currentIndex >= maxIndex ? "border-[#E5E5E5] text-[#CCC]" : "border-[#1E1E2A] text-[#1E1E2A]")}>
+            <ChevronRightIcon size={20} />
           </button>
         </div>
       </div>

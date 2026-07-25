@@ -30,7 +30,7 @@ export default function APropos() {
   return (
     <>
       <Navbar />
-      <main className="pt-[70px] max-md:pt-[60px]">
+      <main className="pt-[90px] max-md:pt-[75px]">
         {/* Hero */}
         <section className="relative overflow-hidden">
           <div className="absolute inset-0 z-0">

@@ -10,6 +10,7 @@ const navLinks = [
   { label: "Accueil", href: "/" },
   { label: "Événements", href: "/photobooth-evenements" },
   { label: "Mariages", href: "/videomaton-360" },
+  { label: "Tarifs", href: "/tarifs" },
   { label: "À propos", href: "/a-propos" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
@@ -45,14 +46,14 @@ export function Navbar() {
             : "bg-white/90 backdrop-blur-md"
         )}
       >
-        <div className="max-w-7xl mx-auto flex items-center justify-between px-5 md:px-8 h-[80px] max-md:h-[70px]">
+        <div className="max-w-7xl mx-auto flex items-center justify-between px-5 md:px-8 h-[90px] max-md:h-[75px]">
           {/* Logo - BIG */}
           <Link href="/" aria-label="Marrakech PhotoBooths" className="flex items-center shrink-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/images/logo%20header.png"
               alt="Marrakech PhotoBooths"
-              className={cn("w-auto transition-all duration-300 object-contain", scrolled ? "h-[55px] max-md:h-[48px]" : "h-[65px] max-md:h-[55px]")}
+              className={cn("w-auto transition-all duration-300 object-contain", scrolled ? "h-[70px] max-md:h-[58px]" : "h-[85px] max-md:h-[68px]")}
             />
           </Link>
 

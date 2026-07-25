@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <Navbar />
-      <main className="pt-[70px] max-md:pt-[60px]">
+        <main className="pt-[90px] max-md:pt-[75px]">
         <HeroSection />
         <div className="reveal"><AboutSection /></div>
         <div className="reveal"><ServicesSection /></div>

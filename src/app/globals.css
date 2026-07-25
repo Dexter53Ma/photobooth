@@ -362,3 +362,28 @@
 .animate-marquee:hover {
   animation-play-state: paused;
 }
+
+/* Mobile-specific improvements */
+@media (max-width: 768px) {
+  .hero__slider-row:first-child {
+    transform: translateX(0.5%);
+  }
+
+  .hero__slider-wrapper {
+    gap: 0.75rem;
+  }
+}
+
+/* Smooth scroll for mobile */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Better touch targets on mobile */
+@media (max-width: 768px) {
+  a, button {
+    min-height: 44px;
+  }
+}

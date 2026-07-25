@@ -75,7 +75,7 @@ export default function Blog() {
   return (
     <>
       <Navbar />
-      <main className="pt-[70px] max-md:pt-[60px]">
+      <main className="pt-[90px] max-md:pt-[75px]">
         {/* Hero */}
         <section className="bg-[#F6F6F6] py-[4rem] max-md:py-12">
           <div className="max-w-7xl mx-auto px-4 md:px-8 text-center">

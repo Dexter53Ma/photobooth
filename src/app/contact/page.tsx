@@ -17,7 +17,7 @@ export default function Contact() {
   return (
     <>
       <Navbar />
-      <div className="pt-[70px] max-md:pt-[60px]">
+        <div className="pt-[90px] max-md:pt-[75px]">
         <ContactForm />
       </div>
       <Footer />

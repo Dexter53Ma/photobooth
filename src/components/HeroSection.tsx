@@ -145,28 +145,28 @@ function MarqueeRow({
 
 export default function HeroSection() {
   return (
-    <section className="hero py-[7.5rem] pb-[10rem] max-md:py-10 max-md:pb-12">
+    <section className="hero py-[7.5rem] pb-[10rem] max-md:py-6 max-md:pb-8">
       {/* Centered heading */}
       <div className="hero__text relative z-10 mx-auto max-w-[100vw] overflow-hidden px-4 text-center md:px-0">
         <div className="mx-auto flex max-w-5xl flex-col items-center justify-center">
-          <h2 className="mb-2 text-[0.875rem] leading-none text-[#808080] uppercase font-suisse font-medium">
+          <h2 className="mb-2 text-[0.875rem] max-md:text-[0.75rem] leading-none text-[#808080] uppercase font-suisse font-medium">
             Marrakech PhotoBooths
           </h2>
           <h1
             className="max-w-[21ch] font-platform font-normal leading-[1] tracking-[-0.01em] text-[#1E1E2A]"
-            style={{ fontSize: "clamp(2rem, 6.5vw, 6.5rem)" }}
+            style={{ fontSize: "clamp(1.75rem, 6.5vw, 6.5rem)" }}
           >
             Location de photobooth pour{" "}
             <a
               href="#services"
-              className="inline-block rounded-[10rem] bg-[#F6F6F6] px-8 pb-4 pt-2 text-[#1E1E2A] no-underline mix-blend-multiply transition-all duration-150 hover:bg-[#FF0422] hover:text-white"
+              className="inline-block rounded-[10rem] bg-[#F6F6F6] px-6 max-md:px-4 pb-3 max-md:pb-2 pt-2 max-md:pt-1.5 text-[#1E1E2A] no-underline mix-blend-multiply transition-all duration-150 hover:bg-[#FF0422] hover:text-white"
             >
               événements
             </a>{" "}
             et{" "}
             <a
               href="#contact"
-              className="inline-block rounded-[10rem] bg-[#F6F6F6] px-8 pb-4 pt-2 text-[#1E1E2A] no-underline mix-blend-multiply transition-all duration-150 hover:bg-[#FF0422] hover:text-white"
+              className="inline-block rounded-[10rem] bg-[#F6F6F6] px-6 max-md:px-4 pb-3 max-md:pb-2 pt-2 max-md:pt-1.5 text-[#1E1E2A] no-underline mix-blend-multiply transition-all duration-150 hover:bg-[#FF0422] hover:text-white"
             >
               mariages
             </a>
@@ -176,31 +176,31 @@ export default function HeroSection() {
 
       {/* Arrow + Social icons row */}
       <div className="hero__slider relative z-10 mx-auto max-w-[100vw]">
-        <div className="hero__social relative z-10 flex items-center justify-between px-4 py-6 md:px-8 lg:px-12">
+        <div className="hero__social relative z-10 flex items-center justify-between px-4 py-4 max-md:py-3 md:px-8 lg:px-12">
           <a
             href="#services"
-            className="hero__btn flex items-center justify-center w-11 h-11 text-[#1E1E2A] transition-all duration-150 hover:text-[#808080]"
+            className="hero__btn flex items-center justify-center w-10 h-10 max-md:w-9 max-md:h-9 text-[#1E1E2A] transition-all duration-150 hover:text-[#808080]"
           >
-            <ArrowDownIcon size={24} />
+            <ArrowDownIcon size={22} />
           </a>
 
-          <div className="flex items-center gap-5">
+          <div className="flex items-center gap-4 max-md:gap-2">
             {socialLinks.map((link) => (
               <a
                 key={link.label}
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hero__btn flex items-center justify-center w-11 h-11 text-[#1E1E2A] transition-all duration-150 hover:text-[#808080]"
+                className="hero__btn flex items-center justify-center w-10 h-10 max-md:w-9 max-md:h-9 text-[#1E1E2A] transition-all duration-150 hover:text-[#808080]"
               >
-                <link.icon size={24} />
+                <link.icon size={22} />
               </a>
             ))}
           </div>
         </div>
 
         {/* Two rows of images with infinite marquee */}
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-4 max-md:gap-3">
           <MarqueeRow images={topRowImages} direction="left" />
           <MarqueeRow images={bottomRowImages} direction="right" />
         </div>
