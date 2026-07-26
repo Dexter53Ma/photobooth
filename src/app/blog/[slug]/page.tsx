@@ -246,6 +246,33 @@ export function generateStaticParams() {
   return Object.keys(posts).map((slug) => ({ slug }));
 }
 
+const relatedPosts: Record<string, { slug: string; title: string; image: string }[]> = {
+  "guide-choisir-photobooth-mariage-marrakech": [
+    { slug: "top-10-idees-photocall-mariage", title: "Top 10 des idées photocall de mariage", image: "/images/Photocall-Red-Carpet-1600x1600.webp" },
+    { slug: "tendances-photobooth-2024", title: "Les tendances photobooth 2026", image: "/images/vogue-photo-booth-led-1600x1600.webp" },
+  ],
+  "top-10-idees-photocall-mariage": [
+    { slug: "guide-choisir-photobooth-mariage-marrakech", title: "Guide : choisir son photobooth", image: "/images/hero/fotomaton-madera.webp" },
+    { slug: "personnaliser-photobooth-branding-entreprise", title: "Personnaliser votre photobooth", image: "/images/fotomaton-eventos-empresa-1600x1600.webp" },
+  ],
+  "videomaton-360-attraction-evenements-entreprise": [
+    { slug: "personnaliser-photobooth-branding-entreprise", title: "Branding photobooth entreprise", image: "/images/fotomaton-eventos-empresa-1600x1600.webp" },
+    { slug: "tendances-photobooth-2024", title: "Les tendances photobooth 2026", image: "/images/vogue-photo-booth-led-1600x1600.webp" },
+  ],
+  "photobooth-ia-revolution-evenements-marrakech": [
+    { slug: "videomaton-360-attraction-evenements-entreprise", title: "Vidéomaton 360°", image: "/images/hero/videomaton-360.webp" },
+    { slug: "tendances-photobooth-2024", title: "Les tendances photobooth 2026", image: "/images/vogue-photo-booth-led-1600x1600.webp" },
+  ],
+  "personnaliser-photobooth-branding-entreprise": [
+    { slug: "videomaton-360-attraction-evenements-entreprise", title: "Vidéomaton 360° entreprise", image: "/images/hero/videomaton-360.webp" },
+    { slug: "guide-choisir-photobooth-mariage-marrakech", title: "Guide photobooth mariage", image: "/images/hero/fotomaton-madera.webp" },
+  ],
+  "tendances-photobooth-2024": [
+    { slug: "photobooth-ia-revolution-evenements-marrakech", title: "Photobooth et IA", image: "/images/services/Fotomaton-IA-ficcion-heroe-1240x1600.webp" },
+    { slug: "videomaton-360-attraction-evenements-entreprise", title: "Vidéomaton 360°", image: "/images/hero/videomaton-360.webp" },
+  ],
+};
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const post = posts[slug];
@@ -358,6 +385,23 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                 Retour au blog
               </Link>
             </div>
+
+            {/* Related articles */}
+            {relatedPosts[slug] && (
+              <div className="mt-12">
+                <h2 className="font-platform text-[1.75rem] max-md:text-[1.25rem] font-normal leading-[1.2] text-[#1E1E2A] mb-6">Articles similaires</h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {relatedPosts[slug].map((related) => (
+                    <Link key={related.slug} href={`/blog/${related.slug}/`} className="flex items-center gap-4 p-4 bg-[#F6F6F6] rounded-[1rem] hover:bg-[#EEE] transition-colors group">
+                      <div className="relative w-16 h-16 rounded-[0.75rem] overflow-hidden shrink-0">
+                        <Image src={related.image} alt={related.title} fill sizes="64px" className="object-cover" />
+                      </div>
+                      <span className="font-suisse text-[max(14px,0.9375rem)] text-[#1E1E2A] group-hover:text-[#FF0422] transition-colors leading-tight">{related.title}</span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
           </article>
         </section>
       </main>
