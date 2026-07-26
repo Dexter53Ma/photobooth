@@ -14,13 +14,13 @@ interface Service {
 }
 
 const services: Service[] = [
-  { title: "Photobooth Classique", description: "Personnalisez avec votre logo ou image corporative.", image: "/images/fotomaton-classic-vinilado-evento.webp", category: ["eventos", "bodas"], slug: "/photobooth-evenements" },
-  { title: "Vidéomaton Spin 360º", description: "Créez des vidéos circulaires en vitesse réelle ou au ralenti.", image: "/images/services/fotomaton-video-360-confeti-boda-1600x1600.webp", category: ["eventos", "bodas"], slug: "/videomaton-360" },
-  { title: "Photobooth Smart", description: "À la pointe de la technologie et du design.", image: "/images/Fotomaton-eventos-personalizado-1518x1600.webp", category: ["eventos"], slug: "/photobooth-evenements" },
-  { title: "Photobooth IA", description: "Devenez qui vous voulez avec le nouveau face swap.", image: "/images/services/Fotomaton-IA-ficcion-heroe-1240x1600.webp", category: ["eventos"], slug: "/photobooth-evenements" },
-  { title: "Photobooth Glam", description: "Plus de beauté, moins d'imperfections… Très Kardashian.", image: "/images/services/Fotomaton-Glam-Blanco-y-Negro-1600x1200.webp", category: ["bodas"], slug: "/photobooth-evenements" },
-  { title: "Photobooth Signature", description: "Collectez signatures et messages vidéo de tous vos invités.", image: "/images/fotomaton-firma-eventos.webp", category: ["eventos"], slug: "/photobooth-evenements" },
-  { title: "Photobooth Catwalk", description: "Défilez devant la caméra comme Naomi Campbell.", image: "/images/services/fotomaton-catwalk-set-up.webp", category: ["eventos", "bodas"], slug: "/photobooth-evenements" },
+  { title: "Photobooth Classique", description: "Personnalisez avec votre logo ou image corporative.", image: "/services section imgs/images-1.jpeg", category: ["eventos", "bodas"], slug: "/photobooth-evenements" },
+  { title: "Vidéomaton Spin 360º", description: "Créez des vidéos circulaires en vitesse réelle ou au ralenti.", image: "/services section imgs/images-2.jpeg", category: ["eventos", "bodas"], slug: "/videomaton-360" },
+  { title: "Photobooth Smart", description: "À la pointe de la technologie et du design.", image: "/services section imgs/images-3.jpeg", category: ["eventos"], slug: "/photobooth-evenements" },
+  { title: "Photobooth IA", description: "Devenez qui vous voulez avec le nouveau face swap.", image: "/services section imgs/images-4.jpeg", category: ["eventos"], slug: "/photobooth-evenements" },
+  { title: "Photobooth Glam", description: "Plus de beauté, moins d'imperfections… Très Kardashian.", image: "/services section imgs/images-5.jpeg", category: ["bodas"], slug: "/photobooth-evenements" },
+  { title: "Photobooth Signature", description: "Collectez signatures et messages vidéo de tous vos invités.", image: "/services section imgs/images-6.jpeg", category: ["eventos"], slug: "/photobooth-evenements" },
+  { title: "Photobooth Catwalk", description: "Défilez devant la caméra comme Naomi Campbell.", image: "/services section imgs/images-7.jpeg", category: ["eventos", "bodas"], slug: "/photobooth-evenements" },
   { title: "Vogue Booth", description: "Créez des vidéos avec un décor digne d'un clip des années 2000.", image: "/images/vogue-photo-booth-led-1600x1600.webp", category: ["eventos", "bodas"], slug: "/photobooth-evenements" },
   { title: "Glambot Robotique", description: "Créez des vidéos avec un bras robotique comme aux Oscars !", image: "/images/services/brazo-robotico-1600x1600.webp", category: ["eventos"], slug: "/photobooth-evenements" },
   { title: "Photobooth Miroir", description: "Posez devant le miroir et déclenchez !", image: "/images/Fotomaton-Espejo.webp", category: ["eventos", "bodas"], slug: "/photobooth-evenements" },
