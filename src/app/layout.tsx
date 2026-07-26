@@ -66,6 +66,7 @@ export const metadata: Metadata = {
     "mobile-web-app-capable": "yes",
     "apple-mobile-web-app-capable": "yes",
     "apple-mobile-web-app-title": "Marrakech PhotoBooths",
+    "google-site-verification": "jZaWHAufOSxUcbGbITY3EpvzN1ZB-X-VPvsmLauAO-8",
   },
 };
 
