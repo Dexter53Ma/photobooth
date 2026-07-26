@@ -2,15 +2,16 @@ import Image from "next/image";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata = {
   title: "Blog - Marrakech PhotoBooths | Actualités et conseils photobooth",
   description: "Blog de Marrakech PhotoBooths. Actualités, conseils et tendances sur le photobooth et les événements à Marrakech. Guides complets pour votre mariage ou événement d'entreprise.",
-  alternates: { canonical: "https://MarrakechPhotoBooth.com/blog" },
+  alternates: { canonical: "https://marrakechphotobooth.com/blog" },
   openGraph: {
     title: "Blog - Marrakech PhotoBooths",
     description: "Actualités, conseils et tendances sur le photobooth à Marrakech.",
-    url: "https://MarrakechPhotoBooth.com/blog",
+    url: "https://marrakechphotobooth.com/blog",
   },
 };
 
@@ -19,55 +20,55 @@ const posts = [
     title: "Guide complet : Comment choisir son photobooth pour un mariage à Marrakech",
     excerpt: "Découvrez les critères essentiels pour choisir le photobooth parfait pour votre mariage à Marrakech. Du type d'appareil à la personnalisation, tout ce que vous devez savoir.",
     image: "/images/fotomaton-classic-vinilado-evento.webp",
-    date: "15 Janvier 2024",
+    date: "15 Janvier 2026",
     category: "Mariage",
     slug: "guide-choisir-photobooth-mariage-marrakech",
-    readTime: "8 min",
+    readTime: "12 min",
   },
   {
     title: "Top 10 des idées originales pour un photocall de mariage inoubliable",
     excerpt: "Inspirez-vous de ces 10 idées créatives pour un photocall de mariage qui marquera les esprits. Fond personnalisé, accessoires originaux et bien plus.",
     image: "/images/Photocall-Red-Carpet-1600x1600.webp",
-    date: "10 Janvier 2024",
+    date: "10 Janvier 2026",
     category: "Mariage",
     slug: "top-10-idees-photocall-mariage",
-    readTime: "6 min",
+    readTime: "12 min",
   },
   {
     title: "Vidéomaton 360 : pourquoi c'est l'attraction star des événements d'entreprise",
     excerpt: "Le vidéomaton 360 est devenu incontournable lors des événements corporate. Découvrez pourquoi cet outil booste l'engagement et la visibilité de votre marque.",
     image: "/images/hero/videomaton-360.webp",
-    date: "5 Janvier 2024",
+    date: "5 Janvier 2026",
     category: "Entreprise",
     slug: "videomaton-360-attraction-evenements-entreprise",
-    readTime: "7 min",
+    readTime: "12 min",
   },
   {
     title: "Photobooth et IA : la révolution des événements à Marrakech",
     excerpt: "L'intelligence artificielle transforme le monde du photobooth. Découvrez les possibilités offertes par le face swap, les fonds générés par IA et les filtres personnalisés.",
     image: "/images/services/Fotomaton-IA-ficcion-heroe-1240x1600.webp",
-    date: "28 Décembre 2023",
+    date: "28 Décembre 2025",
     category: "Technologie",
     slug: "photobooth-ia-revolution-evenements-marrakech",
-    readTime: "5 min",
+    readTime: "12 min",
   },
   {
     title: "Comment personnaliser votre photobooth avec le branding de votre entreprise",
     excerpt: "Guide étape par étape pour personnaliser votre photobooth avec le logo, les couleurs et le message de votre marque. Vinyles, impressions et fonds personnalisés.",
     image: "/images/fotomaton-eventos-empresa-1600x1600.webp",
-    date: "20 Décembre 2023",
+    date: "20 Décembre 2025",
     category: "Entreprise",
     slug: "personnaliser-photobooth-branding-entreprise",
-    readTime: "6 min",
+    readTime: "12 min",
   },
   {
-    title: "Les tendances photobooth 2024 : ce qui va marquer l'année",
-    excerpt: "Découvrez les dernières tendances en matière de photobooth pour 2024. IA, réalité augmentée, vidéos 360, écrans LED et bien plus encore.",
+    title: "Les tendances photobooth 2026 : ce qui va marquer l'année",
+    excerpt: "Découvrez les dernières tendances en matière de photobooth pour 2026. IA, réalité augmentée, vidéos 360, écrans LED et bien plus encore.",
     image: "/images/vogue-photo-booth-led-1600x1600.webp",
-    date: "15 Décembre 2023",
+    date: "15 Décembre 2025",
     category: "Tendances",
     slug: "tendances-photobooth-2024",
-    readTime: "7 min",
+    readTime: "12 min",
   },
 ];
 
@@ -76,6 +77,7 @@ export default function Blog() {
     <>
       <Navbar />
       <main className="pt-[90px] max-md:pt-[75px]">
+        <Breadcrumbs items={[{ label: "Blog" }]} />
         {/* Hero */}
         <section className="bg-[#F6F6F6] py-[4rem] max-md:py-12">
           <div className="max-w-7xl mx-auto px-4 md:px-8 text-center">

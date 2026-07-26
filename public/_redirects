@@ -1,0 +1,4 @@
+# Redirect www to non-www
+https://www.marrakechphotobooth.com/*  https://marrakechphotobooth.com/:splat  301!
+
+# Clean URLs (trailing slash handling)

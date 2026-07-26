@@ -1,0 +1,51 @@
+# Marrakech PhotoBooths
+
+> Location de photobooth professionnel pour événements et mariages à Marrakech, Maroc.
+
+## Services
+
+- [Photobooth Événements](https://marrakechphotobooth.com/photobooth-evenements/): Location de photobooth pour événements d'entreprise avec branding personnalisé
+- [Photobooth Mariages](https://marrakechphotobooth.com/mariages/): Photobooth pour mariage avec impressions personnalisées et accessoires
+- [Vidéomaton 360](https://marrakechphotobooth.com/videomaton-360/): Vidéomaton 360° pour vidéos circulaires en vitesse réelle ou au ralenti
+- [Tarifs](https://marrakechphotobooth.com/tarifs/): Nos forfaits et tarifs à partir de 2 500 MAD
+
+## Faits clés
+
+- Basé à Marrakech, Maroc
+- Plus de 1 200 marques clients
+- Plus de 5 000 événements réalisés
+- Plus de 10 ans d'expérience
+- Caméras DSLR professionnelles et éclairage studio
+- Prix en Dirhams marocains (MAD)
+- Contact : +212 6 21 18 94 96
+- Email : contact@marrakechphotobooth.com
+
+## Types d'événements
+
+- Mariages et célébrations
+- Événements d'entreprise
+- Congrès et salons
+- Anniversaires et fêtes privées
+- Team building
+
+## Technologies
+
+- Photobooth Classique
+- Photobooth Smart
+- Photobooth IA (face swap)
+- Photobooth Glam
+- Photobooth Miroir
+- Vidéomaton Spin 360°
+- Glambot Robotique
+- Mosaic Wall
+- Printoku
+- Vogue Booth
+- Lettres Géantes
+- Purikura
+- Photographe Itinérant
+
+## IndexNow
+
+- Key: marrakechphotobooth-indexnow-key-2026
+- Key file: https://marrakechphotobooth.com/indexnow-key.txt
+- Supported engines: Bing, Yandex, Microsoft

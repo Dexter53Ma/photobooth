@@ -384,6 +384,6 @@
 /* Better touch targets on mobile */
 @media (max-width: 768px) {
   a, button {
-    min-height: 44px;
+    min-height: 48px;
   }
 }

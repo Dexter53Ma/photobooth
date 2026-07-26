@@ -14,30 +14,30 @@ interface Service {
 }
 
 const services: Service[] = [
-  { title: "Photobooth Classique", description: "Personnalisez avec votre logo ou image corporative.", image: "/services section imgs/images-1.jpeg", category: ["eventos", "bodas"], slug: "/photobooth-evenements" },
-  { title: "Vidéomaton Spin 360º", description: "Créez des vidéos circulaires en vitesse réelle ou au ralenti.", image: "/services section imgs/images-2.jpeg", category: ["eventos", "bodas"], slug: "/videomaton-360" },
-  { title: "Photobooth Smart", description: "À la pointe de la technologie et du design.", image: "/services section imgs/images-3.jpeg", category: ["eventos"], slug: "/photobooth-evenements" },
-  { title: "Photobooth IA", description: "Devenez qui vous voulez avec le nouveau face swap.", image: "/services section imgs/images-4.jpeg", category: ["eventos"], slug: "/photobooth-evenements" },
-  { title: "Photobooth Glam", description: "Plus de beauté, moins d'imperfections… Très Kardashian.", image: "/services section imgs/images-5.jpeg", category: ["bodas"], slug: "/photobooth-evenements" },
-  { title: "Photobooth Signature", description: "Collectez signatures et messages vidéo de tous vos invités.", image: "/services section imgs/images-6.jpeg", category: ["eventos"], slug: "/photobooth-evenements" },
-  { title: "Photobooth Catwalk", description: "Défilez devant la caméra comme Naomi Campbell.", image: "/services section imgs/images-7.jpeg", category: ["eventos", "bodas"], slug: "/photobooth-evenements" },
-  { title: "Vogue Booth", description: "Créez des vidéos avec un décor digne d'un clip des années 2000.", image: "/images/vogue-photo-booth-led-1600x1600.webp", category: ["eventos", "bodas"], slug: "/photobooth-evenements" },
-  { title: "Glambot Robotique", description: "Créez des vidéos avec un bras robotique comme aux Oscars !", image: "/images/services/brazo-robotico-1600x1600.webp", category: ["eventos"], slug: "/photobooth-evenements" },
-  { title: "Photobooth Miroir", description: "Posez devant le miroir et déclenchez !", image: "/images/Fotomaton-Espejo.webp", category: ["eventos", "bodas"], slug: "/photobooth-evenements" },
-  { title: "Mosaic Wall", description: "Créez un photo-mural comme expérience de team building.", image: "/images/services/Fotomaton-Mosaico-Wall-team-building.webp", category: ["eventos"], slug: "/photobooth-evenements" },
-  { title: "Photocall Tapis Rouge", description: "Infinidad de fonds et moquetas pour donner à votre événement le niveau qu'il mérite.", image: "/images/Photocall-Red-Carpet-1600x1600.webp", category: ["eventos", "bodas"], slug: "/photobooth-evenements" },
-  { title: "Photobooth Zenithal", description: "Donnez à vos photos une nouvelle perspective.", image: "/images/services/Fotomaton-Barcelona-Cenital-Evento-Corporativo-1600x1600.webp", category: ["eventos"], slug: "/photobooth-evenements" },
-  { title: "Printoku", description: "Imprimez les photos réalisées par les invités depuis leurs appareils.", image: "/images/fotografias-personalizadas-1600x1600.webp", category: ["eventos", "bodas"], slug: "/photobooth-evenements" },
-  { title: "Lettres Géantes", description: "Créez un selfie-corner idéal avec vos initiales.", image: "/images/letras-madera-iluminadas-1600x1600.webp", category: ["eventos", "bodas"], slug: "/photobooth-evenements" },
-  { title: "Purikura", description: "Unique et venu du Japon… très Kawaii !", image: "/images/products/fotomaton-purikura-maquina.webp", category: ["eventos", "bodas"], slug: "/photobooth-evenements" },
-  { title: "Photographe Itinérant", description: "Capturez et imprimez les meilleurs moments.", image: "/images/Fotografo-itinerante.webp", category: ["eventos"], slug: "/photobooth-evenements" },
-  { title: "Hôte(sse) Smartphoto", description: "Nous vous arrachons un sourire et une impression personnalisée !", image: "/images/azafato-smartphoto.webp", category: ["eventos"], slug: "/photobooth-evenements" },
+  { title: "Photobooth Classique", description: "Personnalisez avec votre logo ou image corporative.", image: "/services section imgs/images-1.jpeg", category: ["evenements", "mariages"], slug: "/photobooth-evenements" },
+  { title: "Vidéomaton Spin 360º", description: "Créez des vidéos circulaires en vitesse réelle ou au ralenti.", image: "/services section imgs/images-2.jpeg", category: ["evenements", "mariages"], slug: "/videomaton-360" },
+  { title: "Photobooth Smart", description: "À la pointe de la technologie et du design.", image: "/services section imgs/images-3.jpeg", category: ["evenements"], slug: "/photobooth-evenements" },
+  { title: "Photobooth IA", description: "Devenez qui vous voulez avec le nouveau face swap.", image: "/services section imgs/images-4.jpeg", category: ["evenements"], slug: "/photobooth-evenements" },
+  { title: "Photobooth Glam", description: "Plus de beauté, moins d'imperfections… Très Kardashian.", image: "/services section imgs/images-5.jpeg", category: ["mariages"], slug: "/photobooth-evenements" },
+  { title: "Photobooth Signature", description: "Collectez signatures et messages vidéo de tous vos invités.", image: "/services section imgs/images-6.jpeg", category: ["evenements"], slug: "/photobooth-evenements" },
+  { title: "Photobooth Catwalk", description: "Défilez devant la caméra comme Naomi Campbell.", image: "/services section imgs/images-7.jpeg", category: ["evenements", "mariages"], slug: "/photobooth-evenements" },
+  { title: "Vogue Booth", description: "Créez des vidéos avec un décor digne d'un clip des années 2000.", image: "/images/vogue-photo-booth-led-1600x1600.webp", category: ["evenements", "mariages"], slug: "/photobooth-evenements" },
+  { title: "Glambot Robotique", description: "Créez des vidéos avec un bras robotique comme aux Oscars !", image: "/images/services/brazo-robotico-1600x1600.webp", category: ["evenements"], slug: "/photobooth-evenements" },
+  { title: "Photobooth Miroir", description: "Posez devant le miroir et déclenchez !", image: "/images/Fotomaton-Espejo.webp", category: ["evenements", "mariages"], slug: "/photobooth-evenements" },
+  { title: "Mosaic Wall", description: "Créez un photo-mural comme expérience de team building.", image: "/images/services/Fotomaton-Mosaico-Wall-team-building.webp", category: ["evenements"], slug: "/photobooth-evenements" },
+  { title: "Photocall Tapis Rouge", description: "Nombreux fonds et moquetas pour donner à votre événement le niveau qu'il mérite.", image: "/images/Photocall-Red-Carpet-1600x1600.webp", category: ["evenements", "mariages"], slug: "/photobooth-evenements" },
+  { title: "Photobooth Zenithal", description: "Donnez à vos photos une nouvelle perspective.", image: "/images/services/Fotomaton-Barcelona-Cenital-Evento-Corporativo-1600x1600.webp", category: ["evenements"], slug: "/photobooth-evenements" },
+  { title: "Printoku", description: "Imprimez les photos réalisées par les invités depuis leurs appareils.", image: "/images/fotografias-personalizadas-1600x1600.webp", category: ["evenements", "mariages"], slug: "/photobooth-evenements" },
+  { title: "Lettres Géantes", description: "Créez un selfie-corner idéal avec vos initiales.", image: "/images/letras-madera-iluminadas-1600x1600.webp", category: ["evenements", "mariages"], slug: "/photobooth-evenements" },
+  { title: "Purikura", description: "Unique et venu du Japon… très Kawaii !", image: "/images/products/fotomaton-purikura-maquina.webp", category: ["evenements", "mariages"], slug: "/photobooth-evenements" },
+  { title: "Photographe Itinérant", description: "Capturez et imprimez les meilleurs moments.", image: "/images/Fotografo-itinerante.webp", category: ["evenements"], slug: "/photobooth-evenements" },
+  { title: "Hôte(sse) Smartphoto", description: "Nous vous arrachons un sourire et une impression personnalisée !", image: "/images/azafato-smartphoto.webp", category: ["evenements"], slug: "/photobooth-evenements" },
 ];
 
 const tabs = [
   { id: "todos", label: "Tous" },
-  { id: "eventos", label: "Événements" },
-  { id: "bodas", label: "Mariages & Fêtes" },
+  { id: "evenements", label: "Événements" },
+  { id: "mariages", label: "Mariages & Fêtes" },
 ] as const;
 
 type TabId = (typeof tabs)[number]["id"];

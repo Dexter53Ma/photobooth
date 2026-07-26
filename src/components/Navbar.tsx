@@ -89,7 +89,7 @@ export function Navbar() {
           <div className="flex lg:hidden items-center gap-3">
             <button
               onClick={() => setBookingOpen(true)}
-              className="rounded-full bg-[#E00320] px-5 py-3 text-[13px] font-medium text-white font-suisse min-h-[44px]"
+              className="rounded-full bg-[#E00320] px-5 py-3 text-[13px] font-medium text-white font-suisse min-h-[48px]"
             >
               Réserver
             </button>

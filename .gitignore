@@ -37,6 +37,12 @@ next-env.d.ts
 # playwright
 .playwright-mcp/
 
+# logs
+*.log
+
+# unlighthouse
+.unlighthouse/
+
 # docs research (optional)
 docs/research/
 docs/comparison/
@@ -51,3 +57,5 @@ scripts/
 !package-lock.json
 !tsconfig.json
 !components.json
+!public/manifest.json
+!cluster-plan.json

@@ -23,14 +23,20 @@ const suisse = localFont({
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
+  themeColor: "#FF0422",
 };
 
 export const metadata: Metadata = {
   title: "Marrakech PhotoBooths | Location de photobooth pour événements",
   description:
     "Location de photobooth pour événements et mariages à Marrakech. Divertissement pour vos invités avec Marrakech PhotoBooths. Services personnalisés !",
+  manifest: "/manifest.json",
+  robots: {
+    index: true,
+    follow: true,
+  },
   alternates: {
-    canonical: "https://MarrakechPhotoBooth.com/",
+    canonical: "https://marrakechphotobooth.com/",
   },
   icons: {
     icon: [
@@ -43,11 +49,11 @@ export const metadata: Metadata = {
     title: "Marrakech PhotoBooths | Location de photobooth pour événements",
     description:
       "Location de Photobooth à Marrakech pour événements, mariages et fêtes. Divertissement et beaux souvenirs pour vos invités.",
-    url: "https://MarrakechPhotoBooth.com/",
+    url: "https://marrakechphotobooth.com/",
     siteName: "Marrakech PhotoBooths",
     images: [
       {
-        url: "/seo/og-image.jpg",
+        url: "https://marrakechphotobooth.com/seo/og-image.jpg",
         width: 1200,
         height: 742,
         type: "image/jpeg",
@@ -60,7 +66,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Marrakech PhotoBooths | Location de photobooth pour événements",
     description: "Location de photobooth pour événements et mariages à Marrakech.",
-    images: ["/seo/og-image.jpg"],
+    images: ["https://marrakechphotobooth.com/seo/og-image.jpg"],
   },
   other: {
     "mobile-web-app-capable": "yes",
@@ -70,27 +76,108 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  name: "Marrakech PhotoBooths",
-  url: "https://MarrakechPhotoBooth.com",
-  telephone: "+212621189496",
-  email: "contact@marrakechphotobooth.com",
-  address: {
-    "@type": "PostalAddress",
-    addressLocality: "Marrakech",
-    addressCountry: "MA",
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: "Marrakech PhotoBooths",
+    url: "https://marrakechphotobooth.com",
+    telephone: "+212621189496",
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "customer service",
+      email: "contact@marrakechphotobooth.com",
+      telephone: "+212621189496",
+      availableLanguage: ["French", "Arabic"],
+    },
+    image: "https://marrakechphotobooth.com/images/logo%20header.webp",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Marrakech",
+      addressLocality: "Marrakech",
+      addressRegion: "Marrakech-Safi",
+      postalCode: "40000",
+      addressCountry: "MA",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 31.6295,
+      longitude: -7.9811,
+    },
+    description: "Location de photobooth pour événements et mariages à Marrakech.",
+    priceRange: "2500-5000 MAD",
+    areaServed: {
+      "@type": "GeoCircle",
+      geoMidpoint: {
+        "@type": "GeoCoordinates",
+        latitude: 31.6295,
+        longitude: -7.9811,
+      },
+      geoRadius: "30000",
+    },
+    sameAs: [
+      "https://www.youtube.com/@marrakechpb",
+      "https://www.tiktok.com/@marrakechpb",
+      "https://www.linkedin.com/company/marrakechpb",
+      "https://www.facebook.com/MarrakechPhotoBooths",
+      "https://www.instagram.com/marrakechpb/",
+      "https://x.com/marrakechpb",
+    ],
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      opens: "09:00",
+      closes: "22:00",
+    },
   },
-  description: "Location de photobooth pour événements et mariages à Marrakech.",
-  priceRange: "$$",
-  openingHoursSpecification: {
-    "@type": "OpeningHoursSpecification",
-    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-    opens: "09:00",
-    closes: "22:00",
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Marrakech PhotoBooths",
+    url: "https://marrakechphotobooth.com",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: "https://marrakechphotobooth.com/?s={search_term_string}",
+      "query-input": "required name=search_term_string",
+    },
   },
-};
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: "Location de Photobooth à Marrakech",
+    description: "Service professionnel de location de photobooth pour événements, mariages et fêtes à Marrakech et dans un rayon de 30km.",
+    provider: {
+      "@type": "LocalBusiness",
+      name: "Marrakech PhotoBooths",
+    },
+    areaServed: {
+      "@type": "GeoCircle",
+      geoMidpoint: {
+        "@type": "GeoCoordinates",
+        latitude: 31.6295,
+        longitude: -7.9811,
+      },
+      geoRadius: "30000",
+    },
+    serviceType: "Photobooth Rental",
+    billingDuration: {
+      "@type": "QuantitativeValue",
+      value: "4",
+      unitCode: "HUR",
+    },
+    offers: {
+      "@type": "Offer",
+      price: "2500",
+      priceCurrency: "MAD",
+      priceSpecification: {
+        "@type": "PriceSpecification",
+        minPrice: "800",
+        maxPrice: "5000",
+        priceCurrency: "MAD",
+      },
+    },
+  },
+];
 
 export default function RootLayout({
   children,

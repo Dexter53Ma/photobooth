@@ -1,4 +1,19 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://MarrakechPhotoBooth.com/sitemap.xml
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Disallow: /
+
+Sitemap: https://marrakechphotobooth.com/sitemap.xml

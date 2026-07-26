@@ -37,11 +37,28 @@ const faqItems = [
   },
 ];
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqItems.map((item) => ({
+    "@type": "Question",
+    name: item.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.answer,
+    },
+  })),
+};
+
 export function FAQSection() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   return (
     <section className="faqs bg-[#F6F6F6] pt-[10rem] max-md:pt-10 pb-[6rem] max-md:pb-12 -mt-[5rem] max-md:mt-0 relative z-[1] px-4">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <div className="max-w-4xl mx-auto flex flex-col gap-10">
         <h2 className="font-platform text-[3.375rem] max-md:text-[2.25rem] font-normal leading-[1] tracking-[-0.01em] text-[#FF0422]">
           Questions fréquentes

@@ -1,15 +1,16 @@
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 import Link from "next/link";
 
 export const metadata = {
   title: "Tarifs - Marrakech PhotoBooths | Prix location photobooth Marrakech",
   description: "Découvrez nos tarifs de location de photobooth pour événements et mariages à Marrakech. Forfaits à partir de 2 500 MAD. Devis gratuit et personnalisé.",
-  alternates: { canonical: "https://MarrakechPhotoBooth.com/tarifs" },
+  alternates: { canonical: "https://marrakechphotobooth.com/tarifs" },
   openGraph: {
     title: "Tarifs - Marrakech PhotoBooths",
     description: "Forfaits de location de photobooth à Marrakech. À partir de 2 500 MAD.",
-    url: "https://MarrakechPhotoBooth.com/tarifs",
+    url: "https://marrakechphotobooth.com/tarifs",
   },
 };
 
@@ -64,11 +65,50 @@ const faqItems = [
   },
 ];
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqItems.map((item) => ({
+    "@type": "Question",
+    name: item.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.answer,
+    },
+  })),
+};
+
+const pricingSchema = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  name: "Forfait Premium Photobooth Marrakech",
+  description: "Forfait location de photobooth pour événements et mariages à Marrakech. 4h de service, photos et vidéos illimitées.",
+  image: "https://marrakechphotobooth.com/seo/og-image.jpg",
+  brand: {
+    "@type": "Brand",
+    name: "Marrakech PhotoBooths",
+  },
+  offers: {
+    "@type": "Offer",
+    url: "https://marrakechphotobooth.com/tarifs",
+    price: "2500",
+    priceCurrency: "MAD",
+    priceValidUntil: "2026-12-31",
+    availability: "https://schema.org/InStock",
+    seller: {
+      "@type": "Organization",
+      name: "Marrakech PhotoBooths",
+    },
+  },
+};
+
 export default function Tarifs() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([faqSchema, pricingSchema]) }} />
       <Navbar />
       <main className="pt-[90px] max-md:pt-[75px]">
+        <Breadcrumbs items={[{ label: "Tarifs" }]} />
         {/* Hero */}
         <section className="bg-[#F6F6F6] py-[5rem] max-md:py-12">
           <div className="max-w-7xl mx-auto px-4 md:px-8 text-center">

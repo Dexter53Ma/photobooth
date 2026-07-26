@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cluster Map — Location Photobooth Marrakech</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #0f0f0f; color: #e0e0e0; min-height: 100vh; }
+  .header { text-align: center; padding: 2rem 1rem; border-bottom: 1px solid #1a1a1a; }
+  .header h1 { font-size: 1.8rem; font-weight: 700; color: #fff; margin-bottom: 0.5rem; }
+  .header p { color: #888; font-size: 0.9rem; }
+  .stats { display: flex; justify-content: center; gap: 2rem; padding: 1.5rem; flex-wrap: wrap; }
+  .stat { text-align: center; }
+  .stat-value { font-size: 2rem; font-weight: 800; color: #fff; }
+  .stat-label { font-size: 0.75rem; color: #666; text-transform: uppercase; letter-spacing: 0.05em; }
+  .cluster-container { padding: 2rem; max-width: 1400px; margin: 0 auto; }
+  .pillar-card { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border: 2px solid #E63946; border-radius: 16px; padding: 2rem; margin-bottom: 2rem; position: relative; overflow: hidden; }
+  .pillar-card::before { content: 'PILLAR'; position: absolute; top: 1rem; right: 1rem; background: #E63946; color: #fff; font-size: 0.65rem; font-weight: 700; padding: 0.25rem 0.75rem; border-radius: 20px; letter-spacing: 0.1em; }
+  .pillar-card h2 { font-size: 1.4rem; color: #fff; margin-bottom: 0.5rem; padding-right: 5rem; }
+  .pillar-card .meta { color: #888; font-size: 0.85rem; }
+  .pillar-card .keyword { display: inline-block; background: #E6394622; color: #E63946; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.8rem; margin-top: 0.5rem; }
+  .clusters { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; }
+  .cluster { border-radius: 12px; padding: 1.5rem; position: relative; }
+  .cluster-0 { background: #E6394610; border: 1px solid #E6394633; }
+  .cluster-1 { background: #457B9D10; border: 1px solid #457B9D33; }
+  .cluster-2 { background: #2A9D8F10; border: 1px solid #2A9D8F33; }
+  .cluster-3 { background: #E9C46A10; border: 1px solid #E9C46A33; }
+  .cluster-4 { background: #F4A26110; border: 1px solid #F4A26133; }
+  .cluster-name { font-size: 0.9rem; font-weight: 700; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem; }
+  .cluster-0 .cluster-name { color: #E63946; }
+  .cluster-1 .cluster-name { color: #457B9D; }
+  .cluster-2 .cluster-name { color: #2A9D8F; }
+  .cluster-3 .cluster-name { color: #E9C46A; }
+  .cluster-4 .cluster-name { color: #F4A261; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  .cluster-0 .dot { background: #E63946; }
+  .cluster-1 .dot { background: #457B9D; }
+  .cluster-2 .dot { background: #2A9D8F; }
+  .cluster-3 .dot { background: #E9C46A; }
+  .cluster-4 .dot { background: #F4A261; }
+  .post-card { background: #1a1a1a; border-radius: 8px; padding: 1rem; margin-bottom: 0.75rem; border-left: 3px solid transparent; transition: transform 0.2s; }
+  .post-card:hover { transform: translateX(4px); }
+  .cluster-0 .post-card { border-left-color: #E63946; }
+  .cluster-1 .post-card { border-left-color: #457B9D; }
+  .cluster-2 .post-card { border-left-color: #2A9D8F; }
+  .cluster-3 .post-card { border-left-color: #E9C46A; }
+  .cluster-4 .post-card { border-left-color: #F4A261; }
+  .post-title { font-size: 0.85rem; font-weight: 600; color: #fff; margin-bottom: 0.25rem; }
+  .post-keyword { font-size: 0.75rem; color: #888; }
+  .post-meta { display: flex; gap: 1rem; margin-top: 0.5rem; font-size: 0.7rem; }
+  .post-meta span { color: #666; }
+  .post-meta .template { background: #ffffff10; padding: 0.15rem 0.5rem; border-radius: 4px; color: #aaa; }
+  .post-meta .words { color: #4CAF50; }
+  .links-section { margin-top: 2rem; padding: 1.5rem; background: #111; border-radius: 12px; border: 1px solid #222; }
+  .links-section h3 { font-size: 1rem; color: #fff; margin-bottom: 1rem; }
+  .link-table { width: 100%; border-collapse: collapse; font-size: 0.75rem; }
+  .link-table th { text-align: left; color: #666; padding: 0.5rem; border-bottom: 1px solid #222; text-transform: uppercase; font-size: 0.65rem; letter-spacing: 0.05em; }
+  .link-table td { padding: 0.5rem; border-bottom: 1px solid #1a1a1a; color: #aaa; }
+  .link-table .mandatory { color: #E63946; font-weight: 600; }
+  .link-table .recommended { color: #E9C46A; }
+  .link-table .optional { color: #666; }
+  .footer { text-align: center; padding: 2rem; color: #444; font-size: 0.75rem; border-top: 1px solid #1a1a1a; margin-top: 2rem; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Cluster Map: Location Photobooth Marrakech</h1>
+  <p>SERP-overlap-driven content architecture — 5 clusters, 12 posts, 21,700 estimated words</p>
+</div>
+
+<div class="stats">
+  <div class="stat"><div class="stat-value">12</div><div class="stat-label">Posts Planned</div></div>
+  <div class="stat"><div class="stat-value">5</div><div class="stat-label">Clusters</div></div>
+  <div class="stat"><div class="stat-value">42</div><div class="stat-label">Internal Links</div></div>
+  <div class="stat"><div class="stat-value">21.7K</div><div class="stat-label">Est. Words</div></div>
+  <div class="stat"><div class="stat-value">3.5</div><div class="stat-label">Link Density</div></div>
+</div>
+
+<div class="cluster-container">
+
+  <!-- PILLAR -->
+  <div class="pillar-card">
+    <h2>Location de Photobooth à Marrakech : Guide Complet 2026</h2>
+    <div class="meta">/blog/location-photobooth-marrakech/ · 3,500 words · Ultimate Guide</div>
+    <div><span class="keyword">location photobooth marrakech</span></div>
+  </div>
+
+  <!-- CLUSTERS -->
+  <div class="clusters">
+
+    <!-- Cluster 0: Core -->
+    <div class="cluster cluster-0">
+      <div class="cluster-name"><span class="dot"></span> Cluster 0 — Location Photobooth (Core)</div>
+      <div class="post-card">
+        <div class="post-title">Comment Choisir le Meilleur Photobooth à Marrakech</div>
+        <div class="post-keyword">meilleur photobooth marrakech</div>
+        <div class="post-meta">
+          <span class="template">comparison</span>
+          <span class="words">1,500 words</span>
+          <span>/blog/meilleur-photobooth-marrakech/</span>
+        </div>
+      </div>
+      <div class="post-card">
+        <div class="post-title">Comment ça Marche : Location de Photobooth Étape par Étape</div>
+        <div class="post-keyword">comment ça marche photobooth</div>
+        <div class="post-meta">
+          <span class="template">how-to</span>
+          <span class="words">1,200 words</span>
+          <span>/blog/comment-choisir-photobooth-marrakech/</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cluster 1: Mariage -->
+    <div class="cluster cluster-1">
+      <div class="cluster-name"><span class="dot"></span> Cluster 1 — Photobooth Mariage</div>
+      <div class="post-card">
+        <div class="post-title">Photobooth Mariage à Marrakech : Tout pour Votre Grande Journée</div>
+        <div class="post-keyword">photobooth mariage marrakech</div>
+        <div class="post-meta">
+          <span class="template">ultimate-guide</span>
+          <span class="words">2,500 words</span>
+          <span>/blog/photobooth-mariage-marrakech/</span>
+        </div>
+      </div>
+      <div class="post-card">
+        <div class="post-title">Photobooth pour Mariage au Maroc : Tarifs et Options</div>
+        <div class="post-keyword">photobooth pour mariage maroc</div>
+        <div class="post-meta">
+          <span class="template">listicle</span>
+          <span class="words">1,500 words</span>
+          <span>/blog/photobooth-mariage-maroc/</span>
+        </div>
+      </div>
+      <div class="post-card">
+        <div class="post-title">Photobooth dans les Riads et Palaces de Marrakech</div>
+        <div class="post-keyword">photobooth riad marrakech</div>
+        <div class="post-meta">
+          <span class="template">explainer</span>
+          <span class="words">1,300 words</span>
+          <span>/blog/photobooth-riad-palace-marrakech/</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cluster 2: 360 -->
+    <div class="cluster cluster-2">
+      <div class="cluster-name"><span class="dot"></span> Cluster 2 — Vidéomaton 360°</div>
+      <div class="post-card">
+        <div class="post-title">Location de Photobooth 360° à Marrakech</div>
+        <div class="post-keyword">location photobooth 360 marrakech</div>
+        <div class="post-meta">
+          <span class="template">ultimate-guide</span>
+          <span class="words">2,500 words</span>
+          <span>/blog/photobooth-360-marrakech/</span>
+        </div>
+      </div>
+      <div class="post-card">
+        <div class="post-title">360° vs Photobooth Classique : Quelle Différence ?</div>
+        <div class="post-keyword">plateforme 360 événement marrakech</div>
+        <div class="post-meta">
+          <span class="template">comparison</span>
+          <span class="words">1,200 words</span>
+          <span>/blog/360-vs-photobooth-classique/</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cluster 3: Tarifs -->
+    <div class="cluster cluster-3">
+      <div class="cluster-name"><span class="dot"></span> Cluster 3 — Tarifs et Prix</div>
+      <div class="post-card">
+        <div class="post-title">Tarifs et Prix de la Location de Photobooth à Marrakech (2026)</div>
+        <div class="post-keyword">tarif photobooth marrakech</div>
+        <div class="post-meta">
+          <span class="template">listicle</span>
+          <span class="words">1,800 words</span>
+          <span>/blog/tarif-photobooth-marrakech/</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cluster 4: Entreprise -->
+    <div class="cluster cluster-4">
+      <div class="cluster-name"><span class="dot"></span> Cluster 4 — Événement Entreprise</div>
+      <div class="post-card">
+        <div class="post-title">Photobooth pour Événement d'Entreprise à Marrakech</div>
+        <div class="post-keyword">photobooth entreprise marrakech</div>
+        <div class="post-meta">
+          <span class="template">ultimate-guide</span>
+          <span class="words">1,500 words</span>
+          <span>/blog/photobooth-entreprise-marrakech/</span>
+        </div>
+      </div>
+      <div class="post-card">
+        <div class="post-title">Tendances Photobooth pour Événements Corporate en 2026</div>
+        <div class="post-keyword">tendances photobooth 2026</div>
+        <div class="post-meta">
+          <span class="template">listicle</span>
+          <span class="words">1,200 words</span>
+          <span>/blog/tendances-photobooth-2026/</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- LINK MATRIX -->
+  <div class="links-section">
+    <h3>Internal Link Matrix (42 planned links)</h3>
+    <table class="link-table">
+      <thead>
+        <tr><th>From</th><th>To</th><th>Type</th><th>Anchor</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Pillar</td><td>Cluster 0 — Meilleur Photobooth</td><td class="mandatory">Mandatory</td><td>meilleur photobooth</td></tr>
+        <tr><td>Pillar</td><td>Cluster 0 — Comment Choisir</td><td class="mandatory">Mandatory</td><td>comment choisir</td></tr>
+        <tr><td>Pillar</td><td>Cluster 1 — Photobooth Mariage</td><td class="mandatory">Mandatory</td><td>photobooth mariage</td></tr>
+        <tr><td>Pillar</td><td>Cluster 1 — Mariage Maroc</td><td class="mandatory">Mandatory</td><td>photobooth mariage Maroc</td></tr>
+        <tr><td>Pillar</td><td>Cluster 1 — Riads & Palaces</td><td class="mandatory">Mandatory</td><td>photobooth riads palaces</td></tr>
+        <tr><td>Pillar</td><td>Cluster 2 — Photobooth 360°</td><td class="mandatory">Mandatory</td><td>location photobooth 360°</td></tr>
+        <tr><td>Pillar</td><td>Cluster 2 — 360° vs Classique</td><td class="mandatory">Mandatory</td><td>360° vs classique</td></tr>
+        <tr><td>Pillar</td><td>Cluster 3 — Tarifs</td><td class="mandatory">Mandatory</td><td>tarifs photobooth</td></tr>
+        <tr><td>Pillar</td><td>Cluster 4 — Entreprise</td><td class="mandatory">Mandatory</td><td>photobooth entreprise</td></tr>
+        <tr><td>Pillar</td><td>Cluster 4 — Tendances</td><td class="mandatory">Mandatory</td><td>tendances photobooth</td></tr>
+        <tr><td>Cluster 0 — Meilleur</td><td>Pillar</td><td class="mandatory">Mandatory</td><td>location photobooth marrakech</td></tr>
+        <tr><td>Cluster 0 — Meilleur</td><td>Cluster 0 — Comment Choisir</td><td class="recommended">Recommended</td><td>comment choisir</td></tr>
+        <tr><td>Cluster 1 — Mariage</td><td>Pillar</td><td class="mandatory">Mandatory</td><td>location photobooth marrakech</td></tr>
+        <tr><td>Cluster 1 — Mariage</td><td>Cluster 1 — Mariage Maroc</td><td class="recommended">Recommended</td><td>photobooth mariage Maroc</td></tr>
+        <tr><td>Cluster 1 — Mariage</td><td>Cluster 3 — Tarifs</td><td class="optional">Optional</td><td>tarifs photobooth mariage</td></tr>
+        <tr><td>Cluster 2 — 360°</td><td>Pillar</td><td class="mandatory">Mandatory</td><td>location photobooth marrakech</td></tr>
+        <tr><td>Cluster 2 — 360°</td><td>Cluster 2 — 360° vs Classique</td><td class="recommended">Recommended</td><td>360° vs classique</td></tr>
+        <tr><td>Cluster 2 — 360°</td><td>Cluster 1 — Mariage</td><td class="optional">Optional</td><td>photobooth mariage</td></tr>
+        <tr><td>Cluster 3 — Tarifs</td><td>Pillar</td><td class="mandatory">Mandatory</td><td>location photobooth marrakech</td></tr>
+        <tr><td>Cluster 3 — Tarifs</td><td>Cluster 1 — Mariage</td><td class="optional">Optional</td><td>photobooth mariage</td></tr>
+        <tr><td>Cluster 4 — Entreprise</td><td>Pillar</td><td class="mandatory">Mandatory</td><td>location photobooth marrakech</td></tr>
+        <tr><td>Cluster 4 — Entreprise</td><td>Cluster 4 — Tendances</td><td class="recommended">Recommended</td><td>tendances photobooth</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<div class="footer">
+  Generated by SEO Cluster Skill v1.9.0 · SERP-overlap-driven content architecture · 2026-07-27
+</div>
+
+</body>
+</html>

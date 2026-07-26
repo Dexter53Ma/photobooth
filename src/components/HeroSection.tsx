@@ -8,22 +8,22 @@ import { ArrowDownIcon } from "@/components/icons";
 const topRowImages = [
   {
     src: "/images/hero/fotomaton-madera.webp",
-    alt: "Fotomaton Barcelona para eventos",
+    alt: "Photobooth en bois pour événements à Marrakech",
     size: "small" as const,
   },
   {
     src: "/images/hero/fotomaton-pantalla-lateral-boda.webp",
-    alt: "Fotomaton calidad para bodas",
+    alt: "Photobooth avec écran latéral pour mariage",
     size: "big" as const,
   },
   {
     src: "/images/hero/fotomaton-evento-empresa.webp",
-    alt: "Fotomaton evento empresa",
+    alt: "Photobooth pour événement d'entreprise",
     size: "medium" as const,
   },
   {
     src: "/images/hero/videomaton-360.webp",
-    alt: "Videomatón 360 para eventos de empresa",
+    alt: "Vidéomaton 360 pour événements d'entreprise",
     size: "small" as const,
   },
 ];
@@ -32,22 +32,22 @@ const topRowImages = [
 const bottomRowImages = [
   {
     src: "/images/hero/fotomaton-espejo-mirror-booth.webp",
-    alt: "Fotomaton Espejo Barcelona",
+    alt: "Photobooth miroir interactif à Marrakech",
     size: "small" as const,
   },
   {
     src: "/images/hero/voguebooth-led-fotomaton.webp",
-    alt: "Fotomaton LED Vogue booth en Barcelona",
+    alt: "Photobooth LED Vogue pour événements",
     size: "medium" as const,
   },
   {
     src: "/images/hero/videomaton-photocall-personalizado.webp",
-    alt: "Videomatón spin 360 personalizado",
+    alt: "Vidéomaton spin 360 avec photocall personnalisé",
     size: "big" as const,
   },
   {
     src: "/images/hero/totem-fotomaton-pantalla.webp",
-    alt: "Pantalla interactivo en servicio de Fotomaton",
+    alt: "Totem photobooth avec écran interactif",
     size: "small" as const,
   },
 ];

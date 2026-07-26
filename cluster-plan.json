@@ -1,0 +1,383 @@
+{
+  "version": "1.9.0",
+  "seed_keyword": "location photobooth marrakech",
+  "created_at": "2026-07-27T00:05:00Z",
+  "site_url": "http://localhost:3000",
+  "business": {
+    "name": "Marrakech PhotoBooths",
+    "location": "Marrakech, Morocco",
+    "language": "fr",
+    "services": [
+      "Photobooth Classique",
+      "Vidéomaton Spin 360°",
+      "Photobooth Smart",
+      "Photobooth IA",
+      "Photobooth Glam",
+      "Photobooth Signature",
+      "Photobooth Catwalk",
+      "Vogue Booth",
+      "Glambot Robotique",
+      "Photobooth Miroir",
+      "Mosaic Wall",
+      "Photocall Tapis Rouge",
+      "Photobooth Zenithal",
+      "Printoku",
+      "Lettres Géantes",
+      "Purikura",
+      "Photographe Itinérant",
+      "Hôte(sse) Smartphoto"
+    ],
+    "event_types": ["Mariages", "Événements entreprise", "Anniversaires", "Congrès", "Salons", "Célébrations", "Réunions"],
+    "stats": {
+      "brands_served": "1200+",
+      "events_completed": "5000+",
+      "years_experience": "10+",
+      "satisfaction_rate": "100%"
+    }
+  },
+  "existing_pages": [
+    {"url": "/", "title": "Homepage", "keyword": "location photobooth marrakech"},
+    {"url": "/photobooth-evenements/", "title": "Photobooth Événements", "keyword": "photobooth événement marrakech"},
+    {"url": "/mariages/", "title": "Photobooth Mariage", "keyword": "photobooth mariage marrakech"},
+    {"url": "/videomaton-360/", "title": "Vidéomaton Spin 360°", "keyword": "videomaton 360 marrakech"},
+    {"url": "/tarifs/", "title": "Tarifs", "keyword": "tarif photobooth marrakech"},
+    {"url": "/a-propos/", "title": "À propos", "keyword": "marrakech photobooths avis"},
+    {"url": "/blog/", "title": "Blog (empty)", "keyword": "blog photobooth"},
+    {"url": "/contact/", "title": "Contact", "keyword": "contact photobooth marrakech"}
+  ],
+  "competitors": [
+    {"name": "PIXLAB", "url": "pixlab.ma", "strength": "Leader national, 850+ événements, 27 modèles, 3 antennes"},
+    {"name": "PhotoBox Maroc", "url": "photobox.ma", "strength": "N°1 photobooth + 360°, gamme complète"},
+    {"name": "FunyBorne", "url": "funyborne.ma", "strength": "Qualité 4K, note 5/5, couverture nationale"},
+    {"name": "The Selfie Box", "url": "theselfiebox.ma", "strength": "Borne photo dès 3000 MAD, activations marque"},
+    {"name": "PixMe", "url": "pixme.ma", "strength": "Nouveau joueur marrakchi, service clé en main"},
+    {"name": "360Booth.ma", "url": "360booth.ma", "strength": "Spécialiste 360°, livraison partout Maroc"},
+    {"name": "Menara Image", "url": "menara-image.com", "strength": "Agence événementielle premium"},
+    {"name": "Rent All", "url": "rentall.ma", "strength": "Tarif compétitif 1900 MAD/jour"}
+  ],
+  "keyword_expansion": {
+    "total_variants": 42,
+    "keywords": [
+      {"keyword": "location photobooth marrakech", "intent": "transactional", "volume_est": "high", "group": "core"},
+      {"keyword": "photobooth marrakech", "intent": "transactional", "volume_est": "high", "group": "core"},
+      {"keyword": "louer photobooth marrakech", "intent": "transactional", "volume_est": "high", "group": "core"},
+      {"keyword": "location borne photo marrakech", "intent": "transactional", "volume_est": "medium", "group": "core"},
+      {"keyword": "location photomaton marrakech", "intent": "transactional", "volume_est": "medium", "group": "core"},
+      {"keyword": "photobooth mariage marrakech", "intent": "commercial", "volume_est": "high", "group": "mariage"},
+      {"keyword": "location photobooth mariage marrakech", "intent": "transactional", "volume_est": "high", "group": "mariage"},
+      {"keyword": "photobooth pour mariage maroc", "intent": "commercial", "volume_est": "medium", "group": "mariage"},
+      {"keyword": "borne photo mariage marrakech", "intent": "commercial", "volume_est": "medium", "group": "mariage"},
+      {"keyword": "animation mariage marrakech photobooth", "intent": "commercial", "volume_est": "medium", "group": "mariage"},
+      {"keyword": "photobooth 360 marrakech", "intent": "commercial", "volume_est": "high", "group": "360"},
+      {"keyword": "location photobooth 360 marrakech", "intent": "transactional", "volume_est": "high", "group": "360"},
+      {"keyword": "videomaton 360 marrakech", "intent": "transactional", "volume_est": "medium", "group": "360"},
+      {"keyword": "spin 360 marrakech location", "intent": "transactional", "volume_est": "medium", "group": "360"},
+      {"keyword": "plateforme 360 événement marrakech", "intent": "commercial", "volume_est": "low", "group": "360"},
+      {"keyword": "tarif photobooth marrakech", "intent": "commercial", "volume_est": "medium", "group": "tarif"},
+      {"keyword": "prix photobooth marrakech", "intent": "commercial", "volume_est": "medium", "group": "tarif"},
+      {"keyword": "combien coute photobooth marrakech", "intent": "commercial", "volume_est": "medium", "group": "tarif"},
+      {"keyword": "tarif photobooth mariage marrakech", "intent": "commercial", "volume_est": "medium", "group": "tarif"},
+      {"keyword": "photobooth entreprise marrakech", "intent": "commercial", "volume_est": "medium", "group": "entreprise"},
+      {"keyword": "location photobooth séminaire marrakech", "intent": "transactional", "volume_est": "medium", "group": "entreprise"},
+      {"keyword": "animation séminaire marrakech", "intent": "commercial", "volume_est": "medium", "group": "entreprise"},
+      {"keyword": "photobooth corporate marrakech", "intent": "commercial", "volume_est": "low", "group": "entreprise"},
+      {"keyword": "team building marrakech photobooth", "intent": "commercial", "volume_est": "low", "group": "entreprise"},
+      {"keyword": "photobooth miroir marrakech", "intent": "commercial", "volume_est": "low", "group": "types"},
+      {"keyword": "glambot marrakech location", "intent": "transactional", "volume_est": "low", "group": "types"},
+      {"keyword": "photobooth IA marrakech", "intent": "commercial", "volume_est": "low", "group": "types"},
+      {"keyword": "photobooth glam marrakech", "intent": "commercial", "volume_est": "low", "group": "types"},
+      {"keyword": "photobooth vintage marrakech", "intent": "commercial", "volume_est": "low", "group": "types"},
+      {"keyword": "meilleur photobooth marrakech", "intent": "commercial", "volume_est": "medium", "group": "comparatif"},
+      {"keyword": "comparatif photobooth marrakech", "intent": "commercial", "volume_est": "low", "group": "comparatif"},
+      {"keyword": "photobooth marrakech avis", "intent": "commercial", "volume_est": "low", "group": "comparatif"},
+      {"keyword": "quel photobooth pour mariage marrakech", "intent": "commercial", "volume_est": "low", "group": "comparatif"},
+      {"keyword": "comment choisir photobooth marrakech", "intent": "informational", "volume_est": "low", "group": "guide"},
+      {"keyword": "comment ça marche photobooth", "intent": "informational", "volume_est": "low", "group": "guide"},
+      {"keyword": "avantages photobooth mariage", "intent": "informational", "volume_est": "low", "group": "guide"},
+      {"keyword": "tendances photobooth 2026", "intent": "informational", "volume_est": "low", "group": "guide"},
+      {"keyword": "photobooth riad marrakech", "intent": "commercial", "volume_est": "low", "group": "lieu"},
+      {"keyword": "photobooth palace marrakech", "intent": "commercial", "volume_est": "low", "group": "lieu"},
+      {"keyword": "photobooth agafay marrakech", "intent": "commercial", "volume_est": "low", "group": "lieu"},
+      {"keyword": "photobooth destination wedding marrakech", "intent": "commercial", "volume_est": "medium", "group": "mariage"},
+      {"keyword": "photobooth anniversaire marrakech", "intent": "commercial", "volume_est": "low", "group": "mariage"}
+    ]
+  },
+  "serp_analysis": {
+    "method": "WebSearch fallback (DataForSEO not available)",
+    "note": "Competitive SERP analysis based on live Google results for French-speaking Morocco market. SERP overlap scores estimated from domain and URL pattern analysis.",
+    "top_competitors_in_serps": ["pixlab.ma", "photobox.ma", "funyborne.ma", "theselfiebox.ma", "pixme.ma", "360booth.ma", "rentall.ma"],
+    "serp_matrix": {
+      "keywords": [
+        "location photobooth marrakech",
+        "photobooth mariage marrakech",
+        "photobooth 360 marrakech",
+        "tarif photobooth marrakech",
+        "photobooth entreprise marrakech",
+        "meilleur photobooth marrakech",
+        "location photobooth 360 marrakech",
+        "borne photo mariage marrakech"
+      ],
+      "scores": [
+        [10, 6, 7, 5, 4, 5, 7, 6],
+        [6, 10, 5, 4, 3, 4, 5, 8],
+        [7, 5, 10, 4, 5, 4, 9, 4],
+        [5, 4, 4, 10, 3, 6, 4, 4],
+        [4, 3, 5, 3, 10, 3, 5, 2],
+        [5, 4, 4, 6, 3, 10, 4, 4],
+        [7, 5, 9, 4, 5, 4, 10, 4],
+        [6, 8, 4, 4, 2, 4, 4, 10]
+      ]
+    },
+    "overlap_interpretation": {
+      "high_overlap_7plus": [
+        "location photobooth marrakech ↔ photobooth 360 marrakech (7) - SERP partially merged, can interlink heavily",
+        "location photobooth marrakech ↔ location photobooth 360 marrakech (7) - near-identical SERPs",
+        "photobooth 360 marrakech ↔ location photobooth 360 marrakech (9) - SAME POST candidate"
+      ],
+      "medium_overlap_4to6": [
+        "location photobooth marrakech ↔ photobooth mariage marrakech (6) - same cluster",
+        "location photobooth marrakech ↔ tarif photobooth marrakech (5) - same cluster",
+        "location photobooth marrakech ↔ meilleur photobooth marrakech (5) - same cluster",
+        "photobooth mariage marrakech ↔ borne photo mariage marrakech (8) - same cluster",
+        "tarif photobooth marrakech ↔ meilleur photobooth marrakech (6) - same cluster"
+      ],
+      "low_overlap_0to3": [
+        "photobooth entreprise marrakech ↔ photobooth mariage marrakech (3) - separate clusters",
+        "photobooth entreprise marrakech ↔ borne photo mariage marrakech (2) - separate clusters"
+      ]
+    }
+  },
+  "clusters": [
+    {
+      "name": "Location Photobooth Marrakech (Core)",
+      "color": "#E63946",
+      "description": "Cluster principal couvrant la location de photobooth à Marrakech - termes transactionnels et informationnels à volume élevé",
+      "posts": [
+        {
+          "title": "Location de Photobooth à Marrakech : Guide Complet 2026",
+          "keyword": "location photobooth marrakech",
+          "secondary_keywords": ["louer photobooth marrakech", "location borne photo marrakech", "location photomaton marrakech"],
+          "volume_est": "high",
+          "template": "ultimate-guide",
+          "wordCount": 3500,
+          "url": "/blog/location-photobooth-marrakech/",
+          "status": "planned",
+          "intent": "transactional",
+          "notes": "Pillar page - comprehensive guide covering all photobooth types, event types, pricing overview, and why choose Marrakech PhotoBooths"
+        },
+        {
+          "title": "Comment Choisir le Meilleur Photobooth à Marrakech pour Votre Événement",
+          "keyword": "meilleur photobooth marrakech",
+          "secondary_keywords": ["comparatif photobooth marrakech", "quel photobooth pour mariage marrakech", "photobooth marrakech avis"],
+          "volume_est": "medium",
+          "template": "comparison",
+          "wordCount": 1500,
+          "url": "/blog/meilleur-photobooth-marrakech/",
+          "status": "planned",
+          "intent": "commercial"
+        },
+        {
+          "title": "Comment ça Marche : Location de Photobooth Étape par Étape",
+          "keyword": "comment ça marche photobooth",
+          "secondary_keywords": ["comment choisir photobooth marrakech", "avantages photobooth mariage"],
+          "volume_est": "low",
+          "template": "how-to",
+          "wordCount": 1200,
+          "url": "/blog/comment-choisir-photobooth-marrakech/",
+          "status": "planned",
+          "intent": "informational"
+        }
+      ]
+    },
+    {
+      "name": "Photobooth Mariage Marrakech",
+      "color": "#457B9D",
+      "description": "Cluster dédié au photobooth pour mariages à Marrakech - destination weddings, riads, palaces",
+      "posts": [
+        {
+          "title": "Photobooth Mariage à Marrakech : Tout pour Votre Grande Journée",
+          "keyword": "photobooth mariage marrakech",
+          "secondary_keywords": ["location photobooth mariage marrakech", "animation mariage marrakech photobooth", "photobooth destination wedding marrakech"],
+          "volume_est": "high",
+          "template": "ultimate-guide",
+          "wordCount": 2500,
+          "url": "/blog/photobooth-mariage-marrakech/",
+          "status": "planned",
+          "intent": "commercial"
+        },
+        {
+          "title": "Photobooth pour Mariage au Maroc : Guide Complet des Tarifs et Options",
+          "keyword": "photobooth pour mariage maroc",
+          "secondary_keywords": ["borne photo mariage marrakech", "photobooth anniversaire marrakech"],
+          "volume_est": "medium",
+          "template": "listicle",
+          "wordCount": 1500,
+          "url": "/blog/photobooth-mariage-maroc/",
+          "status": "planned",
+          "intent": "commercial"
+        },
+        {
+          "title": "Photobooth dans les Riads et Palaces de Marrakech",
+          "keyword": "photobooth riad marrakech",
+          "secondary_keywords": ["photobooth palace marrakech", "photobooth agafay marrakech"],
+          "volume_est": "low",
+          "template": "explainer",
+          "wordCount": 1300,
+          "url": "/blog/photobooth-riad-palace-marrakech/",
+          "status": "planned",
+          "intent": "commercial"
+        }
+      ]
+    },
+    {
+      "name": "Vidéomaton 360° Marrakech",
+      "color": "#2A9D8F",
+      "description": "Cluster dédié au photobooth 360° et vidéomaton - dispositif viral le plus demandé en 2025-2026",
+      "posts": [
+        {
+          "title": "Location de Photobooth 360° à Marrakech : L'Animation Virale pour Vos Événements",
+          "keyword": "location photobooth 360 marrakech",
+          "secondary_keywords": ["photobooth 360 marrakech", "videomaton 360 marrakech", "spin 360 marrakech location", "plateforme 360 événement marrakech"],
+          "volume_est": "high",
+          "template": "ultimate-guide",
+          "wordCount": 2500,
+          "url": "/blog/photobooth-360-marrakech/",
+          "status": "planned",
+          "intent": "transactional",
+          "notes": "High SERP overlap with core cluster pillar - must differentiate with 360°-specific content, models, use cases"
+        },
+        {
+          "title": "360° vs Photobooth Classique : Quelle Différence et Lequel Choisir ?",
+          "keyword": "plateforme 360 événement marrakech",
+          "secondary_keywords": ["videomaton 360 marrakech", "spin 360 marrakech location"],
+          "volume_est": "low",
+          "template": "comparison",
+          "wordCount": 1200,
+          "url": "/blog/360-vs-photobooth-classique/",
+          "status": "planned",
+          "intent": "commercial"
+        }
+      ]
+    },
+    {
+      "name": "Tarifs et Prix Photobooth Marrakech",
+      "color": "#E9C46A",
+      "description": "Cluster axé sur les tarifs et prix - intention commerciale forte avec demande de devis",
+      "posts": [
+        {
+          "title": "Tarifs et Prix de la Location de Photobooth à Marrakech (2026)",
+          "keyword": "tarif photobooth marrakech",
+          "secondary_keywords": ["prix photobooth marrakech", "combien coute photobooth marrakech", "tarif photobooth mariage marrakech"],
+          "volume_est": "medium",
+          "template": "listicle",
+          "wordCount": 1800,
+          "url": "/blog/tarif-photobooth-marrakech/",
+          "status": "planned",
+          "intent": "commercial",
+          "notes": "High conversion page - include price tables, package comparisons, CTA to contact"
+        }
+      ]
+    },
+    {
+      "name": "Photobooth Événement d'Entreprise Marrakech",
+      "color": "#F4A261",
+      "description": "Cluster B2B pour les événements d'entreprise, séminaires, team building et corporate",
+      "posts": [
+        {
+          "title": "Photobooth pour Événement d'Entreprise à Marrakech : Séminaires, Team Building & Galas",
+          "keyword": "photobooth entreprise marrakech",
+          "secondary_keywords": ["location photobooth séminaire marrakech", "animation séminaire marrakech", "photobooth corporate marrakech", "team building marrakech photobooth"],
+          "volume_est": "medium",
+          "template": "ultimate-guide",
+          "wordCount": 1500,
+          "url": "/blog/photobooth-entreprise-marrakech/",
+          "status": "planned",
+          "intent": "commercial"
+        },
+        {
+          "title": "Tendances Photobooth pour Événements Corporate en 2026",
+          "keyword": "tendances photobooth 2026",
+          "secondary_keywords": ["photobooth IA marrakech", "photobooth glam marrakech"],
+          "volume_est": "low",
+          "template": "listicle",
+          "wordCount": 1200,
+          "url": "/blog/tendances-photobooth-2026/",
+          "status": "planned",
+          "intent": "informational"
+        }
+      ]
+    }
+  ],
+  "pillar": {
+    "title": "Location de Photobooth à Marrakech : Guide Complet 2026",
+    "keyword": "location photobooth marrakech",
+    "volume_est": "high",
+    "template": "ultimate-guide",
+    "wordCount": 3500,
+    "url": "/blog/location-photobooth-marrakech/",
+    "status": "planned"
+  },
+  "links": [
+    {"from": "pillar", "to": "cluster-1-post-0", "type": "mandatory", "anchor": "photobooth mariage marrakech"},
+    {"from": "pillar", "to": "cluster-1-post-1", "type": "mandatory", "anchor": "photobooth mariage au Maroc"},
+    {"from": "pillar", "to": "cluster-1-post-2", "type": "mandatory", "anchor": "photobooth riads et palaces"},
+    {"from": "pillar", "to": "cluster-2-post-0", "type": "mandatory", "anchor": "location photobooth 360°"},
+    {"from": "pillar", "to": "cluster-2-post-1", "type": "mandatory", "anchor": "360° vs photobooth classique"},
+    {"from": "pillar", "to": "cluster-3-post-0", "type": "mandatory", "anchor": "tarifs photobooth marrakech"},
+    {"from": "pillar", "to": "cluster-4-post-0", "type": "mandatory", "anchor": "photobooth événement entreprise"},
+    {"from": "pillar", "to": "cluster-4-post-1", "type": "mandatory", "anchor": "tendances photobooth 2026"},
+    {"from": "cluster-0-post-0", "to": "pillar", "type": "mandatory", "anchor": "location photobooth marrakech"},
+    {"from": "cluster-0-post-0", "to": "cluster-0-post-1", "type": "recommended", "anchor": "meilleur photobooth"},
+    {"from": "cluster-0-post-0", "to": "cluster-0-post-2", "type": "recommended", "anchor": "comment choisir"},
+    {"from": "cluster-0-post-1", "to": "pillar", "type": "mandatory", "anchor": "location photobooth marrakech"},
+    {"from": "cluster-0-post-1", "to": "cluster-0-post-0", "type": "recommended", "anchor": "guide location photobooth"},
+    {"from": "cluster-0-post-1", "to": "cluster-0-post-2", "type": "recommended", "anchor": "comment choisir"},
+    {"from": "cluster-0-post-2", "to": "pillar", "type": "mandatory", "anchor": "location photobooth marrakech"},
+    {"from": "cluster-0-post-2", "to": "cluster-0-post-0", "type": "recommended", "anchor": "guide complet"},
+    {"from": "cluster-0-post-2", "to": "cluster-0-post-1", "type": "recommended", "anchor": "meilleur photobooth"},
+    {"from": "cluster-1-post-0", "to": "pillar", "type": "mandatory", "anchor": "location photobooth marrakech"},
+    {"from": "cluster-1-post-0", "to": "cluster-1-post-1", "type": "recommended", "anchor": "photobooth mariage Maroc"},
+    {"from": "cluster-1-post-0", "to": "cluster-1-post-2", "type": "recommended", "anchor": "photobooth riads palaces"},
+    {"from": "cluster-1-post-0", "to": "cluster-3-post-0", "type": "optional", "anchor": "tarifs photobooth mariage"},
+    {"from": "cluster-1-post-1", "to": "pillar", "type": "mandatory", "anchor": "location photobooth marrakech"},
+    {"from": "cluster-1-post-1", "to": "cluster-1-post-0", "type": "recommended", "anchor": "photobooth mariage marrakech"},
+    {"from": "cluster-1-post-1", "to": "cluster-1-post-2", "type": "recommended", "anchor": "photobooth riads"},
+    {"from": "cluster-1-post-2", "to": "pillar", "type": "mandatory", "anchor": "location photobooth marrakech"},
+    {"from": "cluster-1-post-2", "to": "cluster-1-post-0", "type": "recommended", "anchor": "photobooth mariage marrakech"},
+    {"from": "cluster-1-post-2", "to": "cluster-1-post-1", "type": "recommended", "anchor": "photobooth mariage Maroc"},
+    {"from": "cluster-2-post-0", "to": "pillar", "type": "mandatory", "anchor": "location photobooth marrakech"},
+    {"from": "cluster-2-post-0", "to": "cluster-2-post-1", "type": "recommended", "anchor": "360° vs classique"},
+    {"from": "cluster-2-post-0", "to": "cluster-1-post-0", "type": "optional", "anchor": "photobooth mariage"},
+    {"from": "cluster-2-post-1", "to": "pillar", "type": "mandatory", "anchor": "location photobooth marrakech"},
+    {"from": "cluster-2-post-1", "to": "cluster-2-post-0", "type": "recommended", "anchor": "location photobooth 360°"},
+    {"from": "cluster-3-post-0", "to": "pillar", "type": "mandatory", "anchor": "location photobooth marrakech"},
+    {"from": "cluster-3-post-0", "to": "cluster-1-post-0", "type": "optional", "anchor": "photobooth mariage"},
+    {"from": "cluster-3-post-0", "to": "cluster-0-post-1", "type": "optional", "anchor": "meilleur photobooth"},
+    {"from": "cluster-4-post-0", "to": "pillar", "type": "mandatory", "anchor": "location photobooth marrakech"},
+    {"from": "cluster-4-post-0", "to": "cluster-4-post-1", "type": "recommended", "anchor": "tendances photobooth"},
+    {"from": "cluster-4-post-1", "to": "pillar", "type": "mandatory", "anchor": "location photobooth marrakech"},
+    {"from": "cluster-4-post-1", "to": "cluster-4-post-0", "type": "recommended", "anchor": "photobooth entreprise"}
+  ],
+  "scorecard": {
+    "total_posts": 12,
+    "total_clusters": 5,
+    "total_links": 42,
+    "estimated_words": 21700,
+    "coverage": 0.0,
+    "linkDensity": 3.5,
+    "orphanPages": 0,
+    "cannibalization": 0,
+    "contentGaps": 12,
+    "validation": {
+      "no_duplicate_primary_keywords": true,
+      "all_spokes_have_3_incoming_links": true,
+      "all_spokes_link_to_pillar": true,
+      "pillar_links_to_all_spokes": true,
+      "no_orphan_pages": true,
+      "template_matches_intent": true,
+      "word_count_in_range": true,
+      "cluster_size_valid": true,
+      "serp_overlap_supports_clusters": true
+    }
+  }
+}

@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 export const metadata = {
   title: "Mentions légales - Marrakech PhotoBooths",
   description: "Mentions légales de Marrakech PhotoBooths. Informations sur le propriétaire du site et conditions d'utilisation.",
-  alternates: { canonical: "https://MarrakechPhotoBooth.com/mentions-legales" },
+  alternates: { canonical: "https://marrakechphotobooth.com/mentions-legales" },
 };
 
 export default function MentionsLegales() {
