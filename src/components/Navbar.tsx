@@ -163,11 +163,11 @@ export function Navbar() {
                 </div>
                 +212 6 21 18 94 96
               </a>
-              <a href="mailto:contact@marrakechphotobooth.com" className="flex items-center gap-3 text-[14px] font-suisse text-[#666] hover:text-[#FF0422] transition-colors">
+              <a href="mailto:contact@marrakechphotobooths.com" className="flex items-center gap-3 text-[14px] font-suisse text-[#666] hover:text-[#FF0422] transition-colors">
                 <div className="w-8 h-8 rounded-full bg-[#F5F5F5] flex items-center justify-center">
                   <MailIcon size={14} />
                 </div>
-                contact@marrakechphotobooth.com
+                contact@marrakechphotobooths.com
               </a>
             </div>
             <button

@@ -1,117 +1,308 @@
 # Full Website SEO Audit Report
-
-**URL:** http://localhost:3000 → https://marrakechphotobooth.com  
-**Business:** Marrakech PhotoBooths — Photobooth rental for events and weddings  
-**Industry:** Event Services / Entertainment (SAB)  
-**Date:** July 27, 2026  
+**URL:** https://www.marrakechphotobooths.com/
+**Date:** July 27, 2026
+**Business:** Marrakech PhotoBooths — Photobooth rental for events and weddings
+**Industry:** Event Services / Entertainment (SAB)
 **Framework:** Next.js 16 (Static Export)
+**Hosting:** Vercel
 
-## Overall SEO Health Score: 59/100
+## Overall SEO Health Score: 42/100
 
 | Category | Weight | Score | Weighted | Status |
 |----------|--------|-------|----------|--------|
-| Technical SEO | 22% | 68/100 | 15.0 | Needs Work |
-| Content Quality | 23% | 48/100 | 11.0 | Critical |
-| On-Page SEO | 20% | 52/100 | 10.4 | Needs Work |
-| Schema / Structured Data | 10% | 65/100 | 6.5 | Needs Work |
-| Performance (CWV) | 10% | 50/100 | 5.0 | Limited Data |
-| AI Search Readiness | 10% | 78/100 | 7.8 | Good |
-| Images | 5% | 75/100 | 3.8 | Good |
-| **TOTAL** | **100%** | — | **59.5** | **Needs Work** |
+| Technical SEO | 22% | 35/100 | 7.7 | Critical |
+| Content Quality | 23% | 52/100 | 12.0 | Needs Work |
+| On-Page SEO | 20% | 40/100 | 8.0 | Critical |
+| Schema / Structured Data | 10% | 45/100 | 4.5 | Needs Work |
+| Performance (CWV) | 10% | 60/100 | 6.0 | Needs Work |
+| AI Search Readiness | 10% | 60/100 | 6.0 | Good |
+| Images | 5% | 70/100 | 3.5 | Good |
+| **TOTAL** | **100%** | — | **42.2** | **Critical** |
 
 ### Business Type: Service Area Business (SAB), Event Services, French, Marrakech 30km radius
 
 ### Top 5 Critical Issues
-1. Zero reviews — No Google reviews, no aggregateRating schema
-2. No Google Business Profile integration
-3. Thin blog content — all posts under 600 words vs 1500+ expected
-4. Missing security headers — No CSP, HSTS, X-Frame-Options
-5. Page-type mismatch — Homepage is hybrid; SERP expects dedicated service pages
+1. **Domain mismatch** — All canonical URLs, sitemap, OG tags, and schema point to `marrakechphotobooth.com` (no "s") while the site is hosted at `www.marrakechphotobooths.com` (with "s"). Two different domains entirely.
+2. **Blog posts missing unique meta tags** — All 6 blog posts serve the homepage title and meta description instead of their own. Google cannot differentiate them.
+3. **Blog posts canonical URLs point to homepage** — Each blog post's canonical points to the homepage, telling Google the blog post IS the homepage.
+4. **No BlogPosting schema** — Blog posts have no Article/BlogPosting structured data.
+5. **No www/non-www or HTTP/HTTPS redirects** — All 4 URL variants serve identical content without redirects.
 
 ### Top 5 Quick Wins
-1. Create and verify Google Business Profile
-2. Fix schema validation errors (5 errors across 3 schemas)
-3. Add 6 blog posts to sitemap
-4. Deploy Netlify _headers file
-5. Add author bylines to blog posts
+1. Fix the single SITE_URL config variable to resolve all domain mismatch issues
+2. Add unique title tags and meta descriptions to all 6 blog posts
+3. Add BlogPosting schema to all 6 blog posts
+4. Add BreadcrumbList schema site-wide
+5. Configure 301 redirects on Vercel for www/non-www and HTTP/HTTPS
 
-## 1. Technical SEO — 68/100
-- Crawlability: 90/100 — robots.txt, sitemap, AI crawler rules all good
-- Indexability: 85/100 — canonical, meta robots present
-- Security: 40/100 — All security headers missing (Netlify _headers file created)
-- URL Structure: 95/100 — Clean URLs, consistent trailing slashes
-- Mobile: 90/100 — Responsive, touch targets at 48px
-- Core Web Vitals: 50/100 — Limited data, 19 render-blocking scripts, low-res hero images
-- Structured Data: 80/100 — 8 JSON-LD blocks, 5 validation errors
-- JS Rendering: 85/100 — SSR enabled, all components server-rendered
-- IndexNow: 0/100 — Not implemented
+## 1. Technical SEO — 35/100
 
-## 2. Content Quality — 48/100
-- E-E-A-T: 42/100 (Experience 10/25, Expertise 8/25, Authority 10/25, Trust 14/25)
-- Homepage: ~1350 words PASS, A-propos: ~350 words THIN, Blog posts: ~550 words SEVERELY THIN
-- AI Citation Readiness: 35/100
-- Google Who/How/Why test: FAIL on Who and How
+### CRITICAL Issues
 
-## 3. On-Page SEO — 52/100
-- SXO Gap Score: 52/100
-- Page-type mismatch: Homepage hybrid vs SERP service page consensus (100%)
-- Persona scores: Wedding Planner 50, Corporate 41, Budget Couple 33, Last-Minute 47, International 26
-- Keyword optimization: PASS
+**1.1 Canonical URL Domain Mismatch**
+- Current: `<link rel="canonical" href="https://marrakechphotobooth.com/"/>` (no "s")
+- Actual domain: `www.marrakechphotobooths.com` (with "s")
+- Impact: Every page's canonical points to a different domain. Google may deindex the correct domain entirely.
+- Fix: Update SITE_URL in Next.js config to `https://www.marrakechphotobooths.com`
 
-## 4. Schema — 65/100
-- 8 schemas: LocalBusiness (invalid email, incomplete address), WebSite (valid), Service (missing billingDuration), FAQPage x2 (restricted), BreadcrumbList (valid), Product (missing image and url), BlogPosting (missing dateModified and publisher.logo)
-- 5 validation errors
+**1.2 Sitemap Points to Wrong Domain**
+- All 17 `<loc>` entries use `https://marrakechphotobooth.com/...` (no "s")
+- Impact: Google crawls wrong URLs
+- Fix: Update all sitemap URLs to correct domain
 
-## 5. Sitemap — 70/100
-- 6 blog posts missing from sitemap
-- All lastmod dates identical (2026-07-26)
+**1.3 robots.txt Sitemap Directive Wrong**
+- Current: `Sitemap: https://marrakechphotobooth.com/sitemap.xml`
+- Fix: Update to `https://www.marrakechphotobooths.com/sitemap.xml`
 
-## 6. Performance — 50/100
-- 19 render-blocking scripts, hero images low-resolution, JPEG inconsistency
+**1.4 No www/non-www Redirect**
+- All four variants (www/non-www × HTTP/HTTPS) serve identical 200 content
+- Impact: Duplicate content across 4 URLs
+- Fix: Configure 301 redirects on Vercel
 
-## 7. AI Search — 78/100
-- llms.txt present, AI crawlers allowed, 6 social profiles, YouTube presence
-- Missing: Wikipedia, bilingual content, video embedding
+### HIGH Issues
 
-## 8. Local SEO — 42/100
-- No GBP integration, zero reviews, no Maps embed, no click-to-call
-- Working: NAP consistency, social profiles, LocalBusiness schema, WhatsApp
+**1.5 Missing Security Headers**
+- Present: HSTS, CORS
+- Missing: X-Content-Type-Options, X-Frame-Options, CSP, Referrer-Policy, Permissions-Policy
+- Fix: Add via Vercel headers config or middleware
 
-## 9. Backlinks — Insufficient Data
-- DA: 1/100, 7 referring domains, 43% suspicious TLDs
+### Positive Findings
+- robots.txt exists with proper AI crawler rules
+- SSL certificate valid
+- HSTS header present
+- Google Search Verification tag present
+- All 12 tested internal links return 200
+- Clean URL structure with consistent trailing slashes
+- Proper `lang="fr"` attribute
+- WebP image format used
+- Image preloading for LCP
 
-## 10. Topic Clusters — 5 clusters, 12 posts planned, validated
+## 2. Content Quality — 52/100
+
+### CRITICAL Issues
+
+**2.1 Blog Posts Missing Unique Meta Tags**
+All 6 blog posts serve the homepage title and meta description:
+- Current: `Marrakech PhotoBooths | Location de photobooth pour événements` (all posts)
+- Impact: Google cannot differentiate blog posts from homepage
+- Fix: Each post needs unique `<title>` and `<meta description>`
+
+**2.2 Blog Posts Missing Author Bylines**
+- No author name, bio, photo, or "Written by" label
+- Impact: E-E-A-T signals missing for YMYL-adjacent content
+- Fix: Add author component with name, bio, and photo
+
+### HIGH Issues
+
+**2.3 Multiple H1 Tags**
+- Homepage: At least 2 H1-level headings
+- À propos: 2 H1 tags ("À propos" + "Passionnés du design...")
+- Fix: Ensure exactly ONE H1 per page
+
+**2.4 Contact Page Thin Content**
+- ~200 words, below 300-word minimum
+- Fix: Add FAQ snippet, response time commitment, trust signals
+
+### Blog Content Assessment
+
+| Post | Words | Substantial? | Author? | Schema? |
+|------|-------|-------------|---------|---------|
+| Guide choisir photobooth | ~2,800 | YES | NO | NO |
+| Top 10 idées photocall | ~2,600 | YES | NO | NO |
+| Vidéomaton 360 | ~2,400 | YES | NO | NO |
+| Photobooth IA | ~1,500 | YES | NO | NO |
+| Personnaliser branding | ~1,500 | YES | NO | NO |
+| Tendances 2026 | ~1,500 | YES | NO | NO |
+
+## 3. On-Page SEO — 40/100
+
+### CRITICAL Issues
+
+**3.1 Blog Post Title Tags All Duplicate Homepage**
+| Blog Post | Current Title | Should Be |
+|-----------|--------------|-----------|
+| Guide choisir photobooth | `Marrakech PhotoBooths \| Location de photobooth pour événements` | `Guide : Comment choisir son photobooth pour un mariage à Marrakech \| Marrakech PhotoBooths` |
+| Top 10 idées photocall | Same homepage title | `Top 10 idées photocall de mariage inoubliable à Marrakech \| Marrakech PhotoBooths` |
+| Vidéomaton 360 | Same homepage title | `Vidéomaton 360 : l'attraction star des événements d'entreprise \| Marrakech PhotoBooths` |
+
+**3.2 Blog Post Meta Descriptions Missing**
+All posts inherit homepage description instead of having unique 150-155 char descriptions.
+
+### MEDIUM Issues
+
+**3.3 Blog Index Meta Description Too Long**
+- Current: 175 chars (exceeds 155 char limit)
+- Fix: Trim to 155 chars
+
+**3.4 Blog Posts Don't Cross-Link**
+- Posts link to services/contact but not to each other
+- Fix: Add 2-3 contextual internal links per post
+
+## 4. Schema & Structured Data — 45/100
+
+### CRITICAL Issues
+
+**4.1 Blog Posts Missing BlogPosting Schema**
+- Blog posts serve identical schema to homepage (LocalBusiness + WebSite + Service)
+- No `BlogPosting` or `Article` schema exists
+- Missing: headline, author, datePublished, dateModified, image, publisher
+- Fix: Add BlogPosting schema to all 6 blog posts
+
+**4.2 Blog Post Canonical URLs Point to Homepage**
+- Each blog post's canonical points to the homepage URL
+- Impact: Google treats blog posts as duplicates of homepage
+- Fix: Each page's canonical must point to itself
+
+### HIGH Issues
+
+**4.3 No BreadcrumbList Schema**
+- Breadcrumbs visible in UI but no structured data
+- Fix: Add BreadcrumbList to every page
+
+**4.4 No AggregateRating/Review Schema**
+- No reviews or ratings in structured data
+- Fix: Add if Google reviews exist
+
+### MEDIUM Issues
+
+**4.5 Identical Schema on Every Page**
+- All pages serve the same 3 schemas (LocalBusiness, WebSite, Service)
+- Fix: Differentiate per page type (Service on service pages, Product on tarifs, Article on blog)
+
+**4.6 Sitemap lastmod All Identical**
+- Every URL has `<lastmod>2026-07-26</lastmod>`
+- Impact: Google ignores these dates
+- Fix: Use actual modification dates
+
+### Positive Findings
+- LocalBusiness schema well-structured with geo, sameAs, openingHours
+- Service schema with pricing present
+- WebSite + SearchAction implemented correctly
+- llms.txt comprehensive and well-organized
+- 6 social profiles linked in sameAs
+
+## 5. Local SEO — 55/100
+
+### HIGH Issues
+
+**5.1 No GBP Integration**
+- No Google Business Profile link detected
+- Fix: Claim and optimize GBP, add link to sameAs
+
+**5.2 No aggregateRating/Review Schema**
+- Missing star rich results opportunity
+- Fix: Add if reviews exist
+
+**5.3 No Click-to-Call**
+- No `tel:` URI detected for mobile
+- Fix: Add `<a href="tel:+212621189496">` in header/contact
+
+**5.4 No Google Maps Embed**
+- Has geo coordinates but no interactive map
+- Fix: Add Maps embed on contact page
+
+### MEDIUM Issues
+
+**5.5 streetAddress Too Generic**
+- Current: "Marrakech" — should be a real address
+- Fix: Use business address if available
+
+**5.6 Citation Coverage Thin**
+- Only social profiles linked
+- Missing from: Apple Maps, Bing Places, Yelp, WeddingWire, The Knot, local .ma directories
+- Fix: Build citations on 20+ directories
+
+### Positive Findings
+- Local keywords excellent (Marrakech throughout)
+- areaServed well-defined (30km GeoCircle)
+- openingHours complete (Mon-Sun 09:00-22:00)
+- 6 social profiles with consistent handle
+
+## 6. Backlink Profile — 20/100
+
+### HIGH Issues
+
+**6.1 Extremely Thin Backlink Profile**
+- Estimated DA: 5-15
+- Estimated referring domains: < 20
+- Estimated total backlinks: < 50
+- No toxic links detected (clean but thin)
+
+### Competitor Gap
+
+| Link Source | Competitors Have | marrakechphotobooths Has |
+|-------------|------------------|--------------------------|
+| Local business directories | YES | NO |
+| Wedding/event directories | YES | NO |
+| Google Business Profile | YES | NO |
+| Vendor/partner cross-links | YES | NO |
+| Blog/guest posts | YES | NO |
+
+## 7. AI Search Readiness — 60/100
+
+### Positive Findings
+- llms.txt present and comprehensive
+- All major AI crawlers allowed (GPTBot, ClaudeBot, PerplexityBot)
+- 6 social profiles linked
+- Statistics present (1200+ brands, 5000+ events)
+
+### Gaps
+- No press mentions or third-party citations
+- No case studies with metrics
+- Blog content templated, not data-driven
+- No English version for international searchers
+
+## 8. SXO Score — 47/100
+
+### SERP Analysis: "photobooth marrakech"
+**marrakechphotobooths.com does NOT appear in the top 10 results.**
+
+### Page-Type Mismatch
+- User intent: Service provider + pricing + booking
+- Homepage content: Service showcase + catalog (too broad)
+- What ranks: Competitors with English content, pricing tables, direct booking
+
+### Persona Scores
+
+| Persona | Score | Key Gap |
+|---------|-------|---------|
+| Wedding Planner | 62/100 | No wedding-specific landing page prominence |
+| Corporate Manager | 58/100 | No ROI metrics or case studies |
+| Budget Couple | 45/100 | No comparison table, no "what's included" |
+| Last-Minute Organizer | 40/100 | No availability indicator, no instant booking |
+| International Visitor | 30/100 | French-only, no EUR/USD pricing |
 
 ## Priority Action Plan
 
-### CRITICAL (Fix Immediately)
-1. Create GBP + review generation — 1 day
-2. Deploy security headers — 5 min
-3. Fix schema validation errors — 1 hour
-4. Add blog posts to sitemap — 15 min
-5. Fix LocalBusiness schema (remove invalid email, add address fields) — 30 min
+### CRITICAL (Fix Immediately — Week 1)
+1. Fix SITE_URL config to resolve domain mismatch
+2. Add unique title tags and meta descriptions to all 6 blog posts
+3. Fix blog post canonical URLs (each page points to itself)
+4. Add BlogPosting schema to all 6 blog posts
+5. Configure 301 redirects on Vercel (www/non-www, HTTP/HTTPS)
 
-### HIGH (Fix Within 1 Week)
-6. Expand blog posts to 1500+ words — 1 week
-7. Add author bylines — 2 hours
-8. Add testimonials section — 2 hours
-9. Add pricing to homepage — 1 hour
-10. Replace low-res hero images — 1 hour
+### HIGH (Fix Within 2 Weeks)
+6. Add BreadcrumbList schema site-wide
+7. Add author bylines to all blog posts
+8. Fix multiple H1 tags (homepage, à-propos)
+9. Add security headers via Vercel config
+10. Add click-to-call `tel:` links
+11. Claim Google Business Profile
+12. Add AggregateRating/Review schema
+13. Expand contact page to 400+ words
 
 ### MEDIUM (Fix Within 1 Month)
-11. Create dedicated service page for "location photobooth marrakech" — 1 week
-12. Expand A-propos page — 2 hours
-13. Add comparison tables — 2 hours
-14. Implement IndexNow — 1 hour
-15. Expand FAQ answers to 134-167 words — 2 hours
-16. Embed YouTube videos — 1 hour
-17. Fix footer touch targets — 30 min
-18. Claim Bing Places — 30 min
+14. Add Google Maps embed on contact page
+15. Add Product/Offer schema on tarifs page
+16. Cross-link blog posts (2-3 internal links per post)
+17. Build citations on 20+ directories
+18. Add hreflang tags
+19. Differentiate schema per page type
+20. Fix sitemap lastmod dates
 
 ### LOW (Backlog)
-19. Add hreflang tags for bilingual content
-20. Request Wikipedia notability
-21. Add image sitemap
-22. Implement dynamic sitemap generation
-23. Convert JPEG images to WebP
-24. Set up CWV monitoring
+21. Create English version for international visitors
+22. Add case studies with metrics
+23. Add comparison table to homepage
+24. Add EUR/USD pricing
+25. Add portfolio/gallery to homepage

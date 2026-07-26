@@ -26,11 +26,11 @@ export function PreHeader() {
           +212 6 21 18 94 96
         </a>
         <a
-          href="mailto:contact@marrakechphotobooth.com"
+          href="mailto:contact@marrakechphotobooths.com"
           className="flex items-center gap-1 text-white text-[13px] max-md:hidden"
         >
           <MailIcon size={14} />
-          contact@marrakechphotobooth.com
+          contact@marrakechphotobooths.com
         </a>
       </nav>
     </div>

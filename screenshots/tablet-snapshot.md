@@ -1,0 +1,229 @@
+- generic [active] [ref=f9e1] [box=0,0,1351,2168]:
+  - banner [ref=f9e2] [box=0,0,1351,90]:
+    - generic [ref=f9e3] [box=36,0,1280,90]:
+      - link "Marrakech PhotoBooths" [ref=f9e4] [cursor=pointer] [box=68,3,255,85]:
+        - /url: /
+        - img "Marrakech PhotoBooths" [ref=f9e5] [box=68,3,255,85]
+      - navigation [ref=f9e6] [box=414,34,543,23]:
+        - link "Accueil" [ref=f9e7] [cursor=pointer] [box=414,34,46,23]:
+          - /url: /
+        - link "Événements" [ref=f9e8] [cursor=pointer] [box=492,34,78,23]:
+          - /url: /photobooth-evenements/
+        - link "Mariages" [ref=f9e9] [cursor=pointer] [box=603,34,58,23]:
+          - /url: /mariages/
+        - link "Tarifs" [ref=f9e10] [cursor=pointer] [box=693,34,34,23]:
+          - /url: /tarifs/
+        - link "À propos" [ref=f9e11] [cursor=pointer] [box=759,34,56,23]:
+          - /url: /a-propos/
+        - link "Blog" [ref=f9e12] [cursor=pointer] [box=847,34,28,23]:
+          - /url: /blog/
+        - link "Contact" [ref=f9e13] [cursor=pointer] [box=907,34,50,23]:
+          - /url: /contact/
+      - generic [ref=f9e14] [box=1048,22,235,47]:
+        - link "+212 6 21 18 94 96" [ref=f9e15] [cursor=pointer] [box=1048,35,107,21]:
+          - /url: tel:+212621189496
+        - button "Réserver" [ref=f9e16] [box=1171,22,112,47]
+  - main [ref=f9e17] [box=0,0,1351,1468]:
+    - navigation "Breadcrumb" [ref=f9e18] [box=36,90,1280,44]:
+      - list [ref=f9e19] [box=68,102,1216,20]:
+        - listitem [ref=f9e20] [box=68,102,40,20]:
+          - link "Accueil" [ref=f9e21] [cursor=pointer] [box=68,104,40,15]:
+            - /url: /
+        - listitem [ref=f9e22] [box=115,102,37,20]:
+          - generic [ref=f9e23] [box=115,102,4,20]: /
+          - generic [ref=f9e24] [box=128,102,25,20]: Blog
+    - generic [ref=f9e26] [box=36,198,1280,126]:
+      - heading "Blog" [level=1] [ref=f9e27] [box=68,198,1216,56]
+      - paragraph [ref=f9e28] [box=399,270,553,54]: Conseils, tendances et guides pour rendre votre événement inoubliable avec un photobooth à Marrakech.
+    - generic [ref=f9e31] [box=68,452,1216,952]:
+      - article [ref=f9e32] [box=68,452,384,460]:
+        - link [ref=f9e33] [cursor=pointer] [box=68,452,384,240]:
+          - /url: /blog/guide-choisir-photobooth-mariage-marrakech/
+          - 'img "Guide complet : Comment choisir son photobooth pour un mariage à Marrakech" [ref=f9e35] [box=68,452,384,240]'
+        - generic [ref=f9e36] [box=68,692,384,220]:
+          - generic [ref=f9e37] [box=88,712,344,21]:
+            - generic [ref=f9e38] [box=88,712,57,21]: Mariage
+            - generic [ref=f9e39] [box=157,713,81,18]: 8 min de lecture
+          - link [ref=f9e40] [cursor=pointer] [box=88,744,344,45]:
+            - /url: /blog/guide-choisir-photobooth-mariage-marrakech/
+            - 'heading "Guide complet : Comment choisir son photobooth pour un mariage à Marrakech" [level=2] [ref=f9e41] [box=88,744,344,45]'
+          - paragraph [ref=f9e42] [box=88,797,344,63]: Découvrez les critères essentiels pour choisir le photobooth parfait pour votre mariage à Marrakech. Du type d'appareil à la personnalisation, tout ce que vous devez savoir.
+          - generic [ref=f9e43] [box=88,872,344,20]:
+            - generic [ref=f9e44] [box=88,873,77,18]: 15 Janvier 2026
+            - link "Lire la suite →" [ref=f9e45] [cursor=pointer] [box=357,872,74,20]:
+              - /url: /blog/guide-choisir-photobooth-mariage-marrakech/
+      - article [ref=f9e46] [box=484,452,384,460]:
+        - link [ref=f9e47] [cursor=pointer] [box=484,452,384,240]:
+          - /url: /blog/top-10-idees-photocall-mariage/
+          - img "Top 10 des idées originales pour un photocall de mariage inoubliable" [ref=f9e49] [box=484,452,384,240]
+        - generic [ref=f9e50] [box=484,692,384,220]:
+          - generic [ref=f9e51] [box=504,712,344,21]:
+            - generic [ref=f9e52] [box=504,712,57,21]: Mariage
+            - generic [ref=f9e53] [box=573,713,80,18]: 6 min de lecture
+          - link [ref=f9e54] [cursor=pointer] [box=504,744,344,45]:
+            - /url: /blog/top-10-idees-photocall-mariage/
+            - heading "Top 10 des idées originales pour un photocall de mariage inoubliable" [level=2] [ref=f9e55] [box=504,744,344,45]
+          - paragraph [ref=f9e56] [box=504,797,344,63]: Inspirez-vous de ces 10 idées créatives pour un photocall de mariage qui marquera les esprits. Fond personnalisé, accessoires originaux et bien plus.
+          - generic [ref=f9e57] [box=504,872,344,20]:
+            - generic [ref=f9e58] [box=504,873,77,18]: 10 Janvier 2026
+            - link "Lire la suite →" [ref=f9e59] [cursor=pointer] [box=773,872,74,20]:
+              - /url: /blog/top-10-idees-photocall-mariage/
+      - article [ref=f9e60] [box=900,452,384,460]:
+        - link [ref=f9e61] [cursor=pointer] [box=900,452,384,240]:
+          - /url: /blog/videomaton-360-attraction-evenements-entreprise/
+          - 'img "Vidéomaton 360 : pourquoi c''est l''attraction star des événements d''entreprise" [ref=f9e63] [box=900,452,384,240]'
+        - generic [ref=f9e64] [box=900,692,384,220]:
+          - generic [ref=f9e65] [box=920,712,344,21]:
+            - generic [ref=f9e66] [box=920,712,67,21]: Entreprise
+            - generic [ref=f9e67] [box=998,713,79,18]: 7 min de lecture
+          - link [ref=f9e68] [cursor=pointer] [box=920,744,344,45]:
+            - /url: /blog/videomaton-360-attraction-evenements-entreprise/
+            - 'heading "Vidéomaton 360 : pourquoi c''est l''attraction star des événements d''entreprise" [level=2] [ref=f9e69] [box=920,744,344,45]'
+          - paragraph [ref=f9e70] [box=920,797,344,63]: Le vidéomaton 360 est devenu incontournable lors des événements corporate. Découvrez pourquoi cet outil booste l'engagement et la visibilité de votre marque.
+          - generic [ref=f9e71] [box=920,872,344,20]:
+            - generic [ref=f9e72] [box=920,873,73,18]: 5 Janvier 2026
+            - link "Lire la suite →" [ref=f9e73] [cursor=pointer] [box=1189,872,74,20]:
+              - /url: /blog/videomaton-360-attraction-evenements-entreprise/
+      - article [ref=f9e74] [box=68,944,384,460]:
+        - link [ref=f9e75] [cursor=pointer] [box=68,944,384,240]:
+          - /url: /blog/photobooth-ia-revolution-evenements-marrakech/
+          - 'img "Photobooth et IA : la révolution des événements à Marrakech" [ref=f9e77] [box=68,944,384,240]'
+        - generic [ref=f9e78] [box=68,1184,384,220]:
+          - generic [ref=f9e79] [box=88,1204,344,21]:
+            - generic [ref=f9e80] [box=88,1204,76,21]: Technologie
+            - generic [ref=f9e81] [box=175,1205,80,18]: 5 min de lecture
+          - link [ref=f9e82] [cursor=pointer] [box=88,1236,344,45]:
+            - /url: /blog/photobooth-ia-revolution-evenements-marrakech/
+            - 'heading "Photobooth et IA : la révolution des événements à Marrakech" [level=2] [ref=f9e83] [box=88,1236,344,45]'
+          - paragraph [ref=f9e84] [box=88,1289,344,63]: L'intelligence artificielle transforme le monde du photobooth. Découvrez les possibilités offertes par le face swap, les fonds générés par IA et les filtres personnalisés.
+          - generic [ref=f9e85] [box=88,1364,344,20]:
+            - generic [ref=f9e86] [box=88,1365,98,18]: 28 Décembre 2025
+            - link "Lire la suite →" [ref=f9e87] [cursor=pointer] [box=357,1364,74,20]:
+              - /url: /blog/photobooth-ia-revolution-evenements-marrakech/
+      - article [ref=f9e88] [box=484,944,384,460]:
+        - link [ref=f9e89] [cursor=pointer] [box=484,944,384,240]:
+          - /url: /blog/personnaliser-photobooth-branding-entreprise/
+          - img "Comment personnaliser votre photobooth avec le branding de votre entreprise" [ref=f9e91] [box=484,944,384,240]
+        - generic [ref=f9e92] [box=484,1184,384,220]:
+          - generic [ref=f9e93] [box=504,1204,344,21]:
+            - generic [ref=f9e94] [box=504,1204,67,21]: Entreprise
+            - generic [ref=f9e95] [box=582,1205,80,18]: 6 min de lecture
+          - link [ref=f9e96] [cursor=pointer] [box=504,1236,344,45]:
+            - /url: /blog/personnaliser-photobooth-branding-entreprise/
+            - heading "Comment personnaliser votre photobooth avec le branding de votre entreprise" [level=2] [ref=f9e97] [box=504,1236,344,45]
+          - paragraph [ref=f9e98] [box=504,1289,344,63]: Guide étape par étape pour personnaliser votre photobooth avec le logo, les couleurs et le message de votre marque. Vinyles, impressions et fonds personnalisés.
+          - generic [ref=f9e99] [box=504,1364,344,20]:
+            - generic [ref=f9e100] [box=504,1365,98,18]: 20 Décembre 2025
+            - link "Lire la suite →" [ref=f9e101] [cursor=pointer] [box=773,1364,74,20]:
+              - /url: /blog/personnaliser-photobooth-branding-entreprise/
+      - article [ref=f9e102] [box=900,944,384,460]:
+        - link [ref=f9e103] [cursor=pointer] [box=900,944,384,240]:
+          - /url: /blog/tendances-photobooth-2024/
+          - 'img "Les tendances photobooth 2026 : ce qui va marquer l''année" [ref=f9e105] [box=900,944,384,240]'
+        - generic [ref=f9e106] [box=900,1184,384,220]:
+          - generic [ref=f9e107] [box=920,1204,344,21]:
+            - generic [ref=f9e108] [box=920,1204,70,21]: Tendances
+            - generic [ref=f9e109] [box=1002,1205,79,18]: 7 min de lecture
+          - link [ref=f9e110] [cursor=pointer] [box=920,1236,344,45]:
+            - /url: /blog/tendances-photobooth-2024/
+            - 'heading "Les tendances photobooth 2026 : ce qui va marquer l''année" [level=2] [ref=f9e111] [box=920,1236,344,45]'
+          - paragraph [ref=f9e112] [box=920,1289,344,63]: Découvrez les dernières tendances en matière de photobooth pour 2026. IA, réalité augmentée, vidéos 360, écrans LED et bien plus encore.
+          - generic [ref=f9e113] [box=920,1364,344,20]:
+            - generic [ref=f9e114] [box=920,1365,95,18]: 15 Décembre 2025
+            - link "Lire la suite →" [ref=f9e115] [cursor=pointer] [box=1189,1364,74,20]:
+              - /url: /blog/tendances-photobooth-2024/
+  - contentinfo [ref=f9e116] [box=0,1468,1351,701]:
+    - generic [ref=f9e118] [box=518,1532,316,34]:
+      - link "X" [ref=f9e119] [cursor=pointer] [box=518,1532,46,34]:
+        - /url: https://x.com/marrakechpb
+      - link "TikTok" [ref=f9e122] [cursor=pointer] [box=572,1532,46,34]:
+        - /url: https://www.tiktok.com/@marrakechpb
+      - link "LinkedIn" [ref=f9e125] [cursor=pointer] [box=626,1532,46,34]:
+        - /url: https://www.linkedin.com/company/marrakechpb
+      - link "Facebook" [ref=f9e128] [cursor=pointer] [box=680,1532,46,34]:
+        - /url: https://www.facebook.com/MarrakechPhotoBooths
+      - link "Instagram" [ref=f9e131] [cursor=pointer] [box=734,1532,46,34]:
+        - /url: https://www.instagram.com/marrakechpb/
+      - link "YouTube" [ref=f9e134] [cursor=pointer] [box=788,1532,46,34]:
+        - /url: https://www.youtube.com/@marrakechpb
+    - generic [ref=f9e138] [box=60,1630,1232,284]:
+      - generic [ref=f9e139] [box=60,1630,389,284]:
+        - heading "Événements" [level=3] [ref=f9e140] [box=60,1630,389,20]
+        - list [ref=f9e141] [box=60,1670,389,244]:
+          - listitem [ref=f9e142] [box=60,1670,389,27]:
+            - link "Photobooth Événements" [ref=f9e143] [cursor=pointer] [box=60,1673,186,21]:
+              - /url: /photobooth-evenements/
+          - listitem [ref=f9e144] [box=60,1701,389,27]:
+            - link "Spin 360º" [ref=f9e145] [cursor=pointer] [box=60,1704,74,21]:
+              - /url: /videomaton-360/
+          - listitem [ref=f9e146] [box=60,1732,389,27]:
+            - link "Photobooth IA" [ref=f9e147] [cursor=pointer] [box=60,1735,107,21]:
+              - /url: /photobooth-evenements/
+          - listitem [ref=f9e148] [box=60,1763,389,27]:
+            - link "Mosaic Wall" [ref=f9e149] [cursor=pointer] [box=60,1766,90,21]:
+              - /url: /photobooth-evenements/
+          - listitem [ref=f9e150] [box=60,1794,389,27]:
+            - link "Photobooth Smart" [ref=f9e151] [cursor=pointer] [box=60,1797,137,21]:
+              - /url: /photobooth-evenements/
+          - listitem [ref=f9e152] [box=60,1825,389,27]:
+            - link "Printoku" [ref=f9e153] [cursor=pointer] [box=60,1828,62,21]:
+              - /url: /photobooth-evenements/
+          - listitem [ref=f9e154] [box=60,1856,389,27]:
+            - link "Lettres Géantes" [ref=f9e155] [cursor=pointer] [box=60,1859,121,21]:
+              - /url: /photobooth-evenements/
+          - listitem [ref=f9e156] [box=60,1887,389,27]:
+            - link "Photocall Tapis Rouge" [ref=f9e157] [cursor=pointer] [box=60,1890,166,21]:
+              - /url: /photobooth-evenements/
+      - generic [ref=f9e158] [box=481,1630,389,284]:
+        - heading "Mariages & Fêtes" [level=3] [ref=f9e159] [box=481,1630,389,20]
+        - list [ref=f9e160] [box=481,1670,389,213]:
+          - listitem [ref=f9e161] [box=481,1670,389,27]:
+            - link "Photobooth Mariage" [ref=f9e162] [cursor=pointer] [box=481,1673,153,21]:
+              - /url: /mariages/
+          - listitem [ref=f9e163] [box=481,1701,389,27]:
+            - link "Spin 360º" [ref=f9e164] [cursor=pointer] [box=481,1704,74,21]:
+              - /url: /videomaton-360/
+          - listitem [ref=f9e165] [box=481,1732,389,27]:
+            - link "Photobooth Glam" [ref=f9e166] [cursor=pointer] [box=481,1735,132,21]:
+              - /url: /mariages/
+          - listitem [ref=f9e167] [box=481,1763,389,27]:
+            - link "Photobooth Catwalk" [ref=f9e168] [cursor=pointer] [box=481,1766,151,21]:
+              - /url: /mariages/
+          - listitem [ref=f9e169] [box=481,1794,389,27]:
+            - link "Printoku" [ref=f9e170] [cursor=pointer] [box=481,1797,62,21]:
+              - /url: /mariages/
+          - listitem [ref=f9e171] [box=481,1825,389,27]:
+            - link "Lettres Géantes" [ref=f9e172] [cursor=pointer] [box=481,1828,121,21]:
+              - /url: /mariages/
+          - listitem [ref=f9e173] [box=481,1856,389,27]:
+            - link "Photocall Tapis Rouge" [ref=f9e174] [cursor=pointer] [box=481,1859,166,21]:
+              - /url: /mariages/
+      - generic [ref=f9e175] [box=902,1630,389,284]:
+        - heading "Ressources" [level=3] [ref=f9e176] [box=902,1630,389,20]
+        - list [ref=f9e177] [box=902,1670,389,182]:
+          - listitem [ref=f9e178] [box=902,1670,389,27]:
+            - link "À propos" [ref=f9e179] [cursor=pointer] [box=902,1673,67,21]:
+              - /url: /a-propos/
+          - listitem [ref=f9e180] [box=902,1701,389,27]:
+            - link "Tarifs" [ref=f9e181] [cursor=pointer] [box=902,1704,40,21]:
+              - /url: /tarifs/
+          - listitem [ref=f9e182] [box=902,1732,389,27]:
+            - link "Politique de confidentialité" [ref=f9e183] [cursor=pointer] [box=902,1735,198,21]:
+              - /url: /politique-confidentialite/
+          - listitem [ref=f9e184] [box=902,1763,389,27]:
+            - link "Politique de cookies" [ref=f9e185] [cursor=pointer] [box=902,1766,150,21]:
+              - /url: /politique-cookies/
+          - listitem [ref=f9e186] [box=902,1794,389,27]:
+            - link "Mentions légales" [ref=f9e187] [cursor=pointer] [box=902,1797,128,21]:
+              - /url: /mentions-legales/
+          - listitem [ref=f9e188] [box=902,1825,389,27]:
+            - link "Blog" [ref=f9e189] [cursor=pointer] [box=902,1828,34,21]:
+              - /url: /blog/
+    - generic [ref=f9e190] [box=0,1978,1351,191]:
+      - img "Marrakech PhotoBooths" [ref=f9e191] [box=551,2019,250,65]
+      - paragraph [ref=f9e192] [box=457,2108,436,21]: © 2026 Marrakech PhotoBooths. Tous droits réservés. MarrakechPhotoBooth.com
+  - button "Open Next.js Dev Tools" [ref=f9e198] [cursor=pointer] [box=22,714,32,32]
+  - alert [ref=f9e202] [box=-1,2167,1,1]
+  - link "Contactez-nous sur WhatsApp" [ref=f9e203] [cursor=pointer] [box=1271,688,56,56]:
+    - /url: https://wa.me/212621189496?text=Bonjour%2C%20je%20souhaite%20avoir%20des%20informations%20sur%20vos%20services%20de%20photobooth
+    - generic [ref=f9e206] [box=1152,698,111,36]: Besoin d'aide ?

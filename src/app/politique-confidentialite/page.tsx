@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Politique de confidentialité - Marrakech PhotoBooths",
   description: "Politique de confidentialité de Marrakech PhotoBooths. Comment nous protégeons vos données personnelles.",
-  alternates: { canonical: "https://marrakechphotobooth.com/politique-confidentialite" },
+  alternates: { canonical: "https://www.marrakechphotobooths.com/politique-confidentialite" },
 };
 
 export default function PolitiqueConfidentialite() {
@@ -33,7 +33,7 @@ export default function PolitiqueConfidentialite() {
               <div className="bg-[#F6F6F6] rounded-[1.5rem] p-6 md:p-8">
                 <h2 className="font-platform text-[1.5rem] max-md:text-[1.25rem] font-normal leading-[1.1] text-[#1E1E2A] mb-4">1. Informations du responsable</h2>
                 <p className="font-suisse text-[max(14px,1rem)] leading-[1.7] text-[#444]">
-                  Conformément au RGPD, nous vous informons que les données personnelles collectées seront traitées par <strong className="text-[#1E1E2A]">Marrakech PhotoBooths</strong>, Marrakech, Maroc. Email : <a href="mailto:contact@marrakechphotobooth.com" className="text-[#FF0422] hover:underline">contact@marrakechphotobooth.com</a>
+                  Conformément au RGPD, nous vous informons que les données personnelles collectées seront traitées par <strong className="text-[#1E1E2A]">Marrakech PhotoBooths</strong>, Marrakech, Maroc. Email : <a href="mailto:contact@marrakechphotobooths.com" className="text-[#FF0422] hover:underline">contact@marrakechphotobooths.com</a>
                 </p>
               </div>
 
@@ -47,7 +47,7 @@ export default function PolitiqueConfidentialite() {
               <div className="bg-[#F6F6F6] rounded-[1.5rem] p-6 md:p-8">
                 <h2 className="font-platform text-[1.5rem] max-md:text-[1.25rem] font-normal leading-[1.1] text-[#1E1E2A] mb-4">3. Vos droits</h2>
                 <p className="font-suisse text-[max(14px,1rem)] leading-[1.7] text-[#444]">
-                  Vous avez le droit d&apos;accéder, rectifier, supprimer vos données personnelles, ainsi que le droit à la portabilité et à l&apos;opposition. Contactez-nous à <a href="mailto:contact@marrakechphotobooth.com" className="text-[#FF0422] hover:underline">contact@marrakechphotobooth.com</a>.
+                  Vous avez le droit d&apos;accéder, rectifier, supprimer vos données personnelles, ainsi que le droit à la portabilité et à l&apos;opposition. Contactez-nous à <a href="mailto:contact@marrakechphotobooths.com" className="text-[#FF0422] hover:underline">contact@marrakechphotobooths.com</a>.
                 </p>
               </div>
 

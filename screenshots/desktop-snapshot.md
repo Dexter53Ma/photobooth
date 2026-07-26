@@ -1,0 +1,471 @@
+- generic [active] [ref=f3e1] [box=0,0,1905,11017]:
+  - generic [ref=f3e2] [box=0,0,1905,11017]:
+    - banner [ref=f3e3] [box=0,0,1905,90]:
+      - generic [ref=f3e4] [box=313,0,1280,90]:
+        - link "Marrakech PhotoBooths" [ref=f3e5] [cursor=pointer] [box=345,3,255,85]:
+          - /url: /
+          - img "Marrakech PhotoBooths" [ref=f3e6] [box=345,3,255,85]
+        - navigation [ref=f3e7] [box=691,34,543,23]:
+          - link "Accueil" [ref=f3e8] [cursor=pointer] [box=691,34,46,23]:
+            - /url: /
+          - link "Événements" [ref=f3e9] [cursor=pointer] [box=769,34,78,23]:
+            - /url: /photobooth-evenements/
+          - link "Mariages" [ref=f3e10] [cursor=pointer] [box=880,34,58,23]:
+            - /url: /mariages/
+          - link "Tarifs" [ref=f3e11] [cursor=pointer] [box=970,34,34,23]:
+            - /url: /tarifs/
+          - link "À propos" [ref=f3e12] [cursor=pointer] [box=1036,34,56,23]:
+            - /url: /a-propos/
+          - link "Blog" [ref=f3e13] [cursor=pointer] [box=1124,34,28,23]:
+            - /url: /blog/
+          - link "Contact" [ref=f3e14] [cursor=pointer] [box=1184,34,50,23]:
+            - /url: /contact/
+        - generic [ref=f3e15] [box=1325,22,235,47]:
+          - link "+212 6 21 18 94 96" [ref=f3e16] [cursor=pointer] [box=1325,35,107,21]:
+            - /url: tel:+212621189496
+          - button "Réserver" [ref=f3e17] [box=1448,22,112,47]
+    - main [ref=f3e18] [box=0,0,1905,10317]:
+      - generic [ref=f3e19] [box=0,90,1905,1606]:
+        - generic [ref=f3e21] [box=441,210,1024,374]:
+          - heading "Marrakech PhotoBooths" [level=2] [ref=f3e22] [box=861,210,182,14]
+          - heading [level=1] [ref=f3e23] [box=441,232,1024,352]:
+            - text: Location de photobooth pour
+            - link "événements" [ref=f3e24] [cursor=pointer] [box=727,336,567,124]:
+              - /url: "#services"
+            - text: et
+            - link "mariages" [ref=f3e25] [cursor=pointer] [box=739,460,427,124]:
+              - /url: "#contact"
+        - generic [ref=f3e26] [box=0,584,1905,952]:
+          - link "Voir les services" [ref=f3e28] [cursor=pointer] [box=933,600,40,40]:
+            - /url: "#services"
+          - generic [ref=f3e31] [box=0,656,1905,880]:
+            - generic [ref=f3e33] [box=-483,656,4336,432]:
+              - img "Photobooth en bois pour événements à Marrakech" [ref=f3e35] [box=-483,656,384,432]
+              - img "Photobooth avec écran latéral pour mariage" [ref=f3e37] [box=-83,656,768,432]
+              - img "Photobooth pour événement d'entreprise" [ref=f3e39] [box=701,656,576,432]
+              - img "Vidéomaton 360 pour événements d'entreprise" [ref=f3e41] [box=1293,656,384,432]
+              - img "Photobooth en bois pour événements à Marrakech" [ref=f3e43] [box=1693,656,384,432]
+              - img "Photobooth avec écran latéral pour mariage" [ref=f3e45] [box=2093,656,768,432]
+              - img "Photobooth pour événement d'entreprise" [ref=f3e47] [box=2877,656,576,432]
+              - img "Vidéomaton 360 pour événements d'entreprise" [ref=f3e49] [box=3469,656,384,432]
+            - generic [ref=f3e51] [box=-1656,1104,4336,432]:
+              - img "Photobooth miroir interactif à Marrakech" [ref=f3e53] [box=-1656,1104,384,432]
+              - img "Photobooth LED Vogue pour événements" [ref=f3e55] [box=-1256,1104,576,432]
+              - img "Vidéomaton spin 360 avec photocall personnalisé" [ref=f3e57] [box=-664,1104,768,432]
+              - img "Totem photobooth avec écran interactif" [ref=f3e59] [box=120,1104,384,432]
+              - img "Photobooth miroir interactif à Marrakech" [ref=f3e61] [box=520,1104,384,432]
+              - img "Photobooth LED Vogue pour événements" [ref=f3e63] [box=920,1104,576,432]
+              - img "Vidéomaton spin 360 avec photocall personnalisé" [ref=f3e65] [box=1512,1104,768,432]
+              - img "Totem photobooth avec écran interactif" [ref=f3e67] [box=2296,1104,384,432]
+      - generic [ref=f3e70] [box=313,1854,1280,944]:
+        - generic [ref=f3e71] [box=345,1854,1216,240]:
+          - heading "Location de photobooth et tendances de divertissement pour événements" [level=2] [ref=f3e72] [box=562,1854,781,168]
+          - link "Consultez nos catalogues" [ref=f3e73] [cursor=pointer] [box=834,2046,236,48]:
+            - /url: /contact/
+        - generic [ref=f3e75] [box=345,2402,792,152]:
+          - paragraph [ref=f3e76] [box=345,2402,792,64]: Marrakech PhotoBooths est une entreprise spécialisée dans la location de photobooth, les services audiovisuels et le marketing pour l'animation d'événements privés et d'entreprise.
+          - paragraph [ref=f3e77] [box=345,2490,792,64]: Nos services créent des souvenirs, du divertissement et des expériences de marque à parts égales. Chaque événement est unique et mérite un photobooth à la hauteur.
+      - generic [ref=f3e82] [box=313,3022,1280,2139]:
+        - generic [ref=f3e83] [box=345,3022,1216,126]:
+          - heading "Nos Services" [level=2] [ref=f3e84] [box=345,3022,1216,56]
+          - paragraph [ref=f3e85] [box=676,3094,553,54]: Découvrez notre gamme complète de photobooths et services pour rendre votre événement unique.
+        - generic [ref=f3e86] [box=345,3204,1216,37]:
+          - button "Tous" [ref=f3e87] [cursor=pointer] [box=783,3204,68,37]
+          - button "Événements" [ref=f3e88] [cursor=pointer] [box=859,3204,113,37]
+          - button "Mariages & Fêtes" [ref=f3e89] [cursor=pointer] [box=980,3204,142,37]
+        - generic [ref=f3e90] [box=345,3297,1216,1864]:
+          - link [ref=f3e91] [cursor=pointer] [box=345,3297,392,294]:
+            - /url: /photobooth-evenements/
+            - img "Photobooth Classique" [ref=f3e93] [box=345,3297,392,294]
+            - generic [ref=f3e95] [box=345,3468,392,123]:
+              - heading "Photobooth Classique" [level=3] [ref=f3e96] [box=365,3488,352,27]
+              - paragraph [ref=f3e97] [box=365,3519,352,18]: Personnalisez avec votre logo ou image corporative.
+              - generic [ref=f3e98] [box=365,3549,87,18]: En savoir plus
+          - link [ref=f3e101] [cursor=pointer] [box=757,3297,392,294]:
+            - /url: /videomaton-360/
+            - img "Vidéomaton Spin 360º" [ref=f3e103] [box=757,3297,392,294]
+            - generic [ref=f3e105] [box=757,3468,392,123]:
+              - heading "Vidéomaton Spin 360º" [level=3] [ref=f3e106] [box=777,3488,352,27]
+              - paragraph [ref=f3e107] [box=777,3519,352,18]: Créez des vidéos circulaires en vitesse réelle ou au ralenti.
+              - generic [ref=f3e108] [box=777,3549,87,18]: En savoir plus
+          - link [ref=f3e111] [cursor=pointer] [box=1169,3297,392,294]:
+            - /url: /photobooth-evenements/
+            - img "Photobooth Smart" [ref=f3e113] [box=1169,3297,392,294]
+            - generic [ref=f3e115] [box=1169,3468,392,123]:
+              - heading "Photobooth Smart" [level=3] [ref=f3e116] [box=1189,3488,352,27]
+              - paragraph [ref=f3e117] [box=1189,3519,352,18]: À la pointe de la technologie et du design.
+              - generic [ref=f3e118] [box=1189,3549,87,18]: En savoir plus
+          - link [ref=f3e121] [cursor=pointer] [box=345,3611,392,294]:
+            - /url: /photobooth-evenements/
+            - img "Photobooth IA" [ref=f3e123] [box=345,3611,392,294]
+            - generic [ref=f3e125] [box=345,3782,392,123]:
+              - heading "Photobooth IA" [level=3] [ref=f3e126] [box=365,3802,352,27]
+              - paragraph [ref=f3e127] [box=365,3833,352,18]: Devenez qui vous voulez avec le nouveau face swap.
+              - generic [ref=f3e128] [box=365,3863,87,18]: En savoir plus
+          - link [ref=f3e131] [cursor=pointer] [box=757,3611,392,294]:
+            - /url: /photobooth-evenements/
+            - img "Photobooth Glam" [ref=f3e133] [box=757,3611,392,294]
+            - generic [ref=f3e135] [box=757,3782,392,123]:
+              - heading "Photobooth Glam" [level=3] [ref=f3e136] [box=777,3802,352,27]
+              - paragraph [ref=f3e137] [box=777,3833,352,18]: Plus de beauté, moins d'imperfections… Très Kardashian.
+              - generic [ref=f3e138] [box=777,3863,87,18]: En savoir plus
+          - link [ref=f3e141] [cursor=pointer] [box=1169,3611,392,294]:
+            - /url: /photobooth-evenements/
+            - img "Photobooth Signature" [ref=f3e143] [box=1169,3611,392,294]
+            - generic [ref=f3e145] [box=1169,3782,392,123]:
+              - heading "Photobooth Signature" [level=3] [ref=f3e146] [box=1189,3802,352,27]
+              - paragraph [ref=f3e147] [box=1189,3833,352,18]: Collectez signatures et messages vidéo de tous vos invités.
+              - generic [ref=f3e148] [box=1189,3863,87,18]: En savoir plus
+          - link [ref=f3e151] [cursor=pointer] [box=345,3925,392,294]:
+            - /url: /photobooth-evenements/
+            - img "Photobooth Catwalk" [ref=f3e153] [box=345,3925,392,294]
+            - generic [ref=f3e155] [box=345,4096,392,123]:
+              - heading "Photobooth Catwalk" [level=3] [ref=f3e156] [box=365,4116,352,27]
+              - paragraph [ref=f3e157] [box=365,4147,352,18]: Défilez devant la caméra comme Naomi Campbell.
+              - generic [ref=f3e158] [box=365,4177,87,18]: En savoir plus
+          - link [ref=f3e161] [cursor=pointer] [box=757,3925,392,294]:
+            - /url: /photobooth-evenements/
+            - img "Vogue Booth" [ref=f3e163] [box=757,3925,392,294]
+            - generic [ref=f3e165] [box=757,4078,392,141]:
+              - heading "Vogue Booth" [level=3] [ref=f3e166] [box=777,4098,352,27]
+              - paragraph [ref=f3e167] [box=777,4129,352,36]: Créez des vidéos avec un décor digne d'un clip des années 2000.
+              - generic [ref=f3e168] [box=777,4177,87,18]: En savoir plus
+          - link [ref=f3e171] [cursor=pointer] [box=1169,3925,392,294]:
+            - /url: /photobooth-evenements/
+            - img "Glambot Robotique" [ref=f3e173] [box=1169,3925,392,294]
+            - generic [ref=f3e175] [box=1169,4096,392,123]:
+              - heading "Glambot Robotique" [level=3] [ref=f3e176] [box=1189,4116,352,27]
+              - paragraph [ref=f3e177] [box=1189,4147,352,18]: Créez des vidéos avec un bras robotique comme aux Oscars !
+              - generic [ref=f3e178] [box=1189,4177,87,18]: En savoir plus
+          - link [ref=f3e181] [cursor=pointer] [box=345,4239,392,294]:
+            - /url: /photobooth-evenements/
+            - img "Photobooth Miroir" [ref=f3e183] [box=345,4239,392,294]
+            - generic [ref=f3e185] [box=345,4410,392,123]:
+              - heading "Photobooth Miroir" [level=3] [ref=f3e186] [box=365,4430,352,27]
+              - paragraph [ref=f3e187] [box=365,4461,352,18]: Posez devant le miroir et déclenchez !
+              - generic [ref=f3e188] [box=365,4491,87,18]: En savoir plus
+          - link [ref=f3e191] [cursor=pointer] [box=757,4239,392,294]:
+            - /url: /photobooth-evenements/
+            - img "Mosaic Wall" [ref=f3e193] [box=757,4239,392,294]
+            - generic [ref=f3e195] [box=757,4410,392,123]:
+              - heading "Mosaic Wall" [level=3] [ref=f3e196] [box=777,4430,352,27]
+              - paragraph [ref=f3e197] [box=777,4461,352,18]: Créez un photo-mural comme expérience de team building.
+              - generic [ref=f3e198] [box=777,4491,87,18]: En savoir plus
+          - link [ref=f3e201] [cursor=pointer] [box=1169,4239,392,294]:
+            - /url: /photobooth-evenements/
+            - img "Photocall Tapis Rouge" [ref=f3e203] [box=1169,4239,392,294]
+            - generic [ref=f3e205] [box=1169,4392,392,141]:
+              - heading "Photocall Tapis Rouge" [level=3] [ref=f3e206] [box=1189,4412,352,27]
+              - paragraph [ref=f3e207] [box=1189,4443,352,36]: Nombreux fonds et moquetas pour donner à votre événement le niveau qu'il mérite.
+              - generic [ref=f3e208] [box=1189,4491,87,18]: En savoir plus
+          - link [ref=f3e211] [cursor=pointer] [box=345,4553,392,294]:
+            - /url: /photobooth-evenements/
+            - img "Photobooth Zenithal" [ref=f3e213] [box=345,4553,392,294]
+            - generic [ref=f3e215] [box=345,4724,392,123]:
+              - heading "Photobooth Zenithal" [level=3] [ref=f3e216] [box=365,4744,352,27]
+              - paragraph [ref=f3e217] [box=365,4775,352,18]: Donnez à vos photos une nouvelle perspective.
+              - generic [ref=f3e218] [box=365,4805,87,18]: En savoir plus
+          - link [ref=f3e221] [cursor=pointer] [box=757,4553,392,294]:
+            - /url: /photobooth-evenements/
+            - img "Printoku" [ref=f3e223] [box=757,4553,392,294]
+            - generic [ref=f3e225] [box=757,4706,392,141]:
+              - heading "Printoku" [level=3] [ref=f3e226] [box=777,4726,352,27]
+              - paragraph [ref=f3e227] [box=777,4757,352,36]: Imprimez les photos réalisées par les invités depuis leurs appareils.
+              - generic [ref=f3e228] [box=777,4805,87,18]: En savoir plus
+          - link [ref=f3e231] [cursor=pointer] [box=1169,4553,392,294]:
+            - /url: /photobooth-evenements/
+            - img "Lettres Géantes" [ref=f3e233] [box=1169,4553,392,294]
+            - generic [ref=f3e235] [box=1169,4724,392,123]:
+              - heading "Lettres Géantes" [level=3] [ref=f3e236] [box=1189,4744,352,27]
+              - paragraph [ref=f3e237] [box=1189,4775,352,18]: Créez un selfie-corner idéal avec vos initiales.
+              - generic [ref=f3e238] [box=1189,4805,87,18]: En savoir plus
+          - link [ref=f3e241] [cursor=pointer] [box=345,4867,392,294]:
+            - /url: /photobooth-evenements/
+            - img "Purikura" [ref=f3e243] [box=345,4867,392,294]
+            - generic [ref=f3e245] [box=345,5038,392,123]:
+              - heading "Purikura" [level=3] [ref=f3e246] [box=365,5058,352,27]
+              - paragraph [ref=f3e247] [box=365,5089,352,18]: Unique et venu du Japon… très Kawaii !
+              - generic [ref=f3e248] [box=365,5119,87,18]: En savoir plus
+          - link [ref=f3e251] [cursor=pointer] [box=757,4867,392,294]:
+            - /url: /photobooth-evenements/
+            - img "Photographe Itinérant" [ref=f3e253] [box=757,4867,392,294]
+            - generic [ref=f3e255] [box=757,5038,392,123]:
+              - heading "Photographe Itinérant" [level=3] [ref=f3e256] [box=777,5058,352,27]
+              - paragraph [ref=f3e257] [box=777,5089,352,18]: Capturez et imprimez les meilleurs moments.
+              - generic [ref=f3e258] [box=777,5119,87,18]: En savoir plus
+          - link [ref=f3e261] [cursor=pointer] [box=1169,4867,392,294]:
+            - /url: /photobooth-evenements/
+            - img "Hôte(sse) Smartphoto" [ref=f3e263] [box=1169,4867,392,294]
+            - generic [ref=f3e265] [box=1169,5020,392,141]:
+              - heading "Hôte(sse) Smartphoto" [level=3] [ref=f3e266] [box=1189,5040,352,27]
+              - paragraph [ref=f3e267] [box=1189,5071,352,36]: Nous vous arrachons un sourire et une impression personnalisée !
+              - generic [ref=f3e268] [box=1189,5119,87,18]: En savoir plus
+      - generic [ref=f3e273] [box=313,5353,1280,493]:
+        - generic [ref=f3e274] [box=345,5353,1216,96]:
+          - heading "Comment ça marche ?" [level=2] [ref=f3e275] [box=345,5353,1216,56]
+          - paragraph [ref=f3e276] [box=731,5425,443,24]: 4 étapes simples pour un événement inoubliable
+        - generic [ref=f3e277] [box=345,5529,1216,317]:
+          - generic [ref=f3e280] [box=345,5529,304,295]:
+            - generic [ref=f3e281] [box=437,5561,120,120]: "01"
+            - heading "Créez" [level=3] [ref=f3e288] [box=472,5705,50,30]
+            - paragraph [ref=f3e289] [box=369,5747,256,45]: Des souvenirs et expériences inoubliables pour vos invités avec notre photobooth.
+          - generic [ref=f3e291] [box=649,5529,304,317]:
+            - generic [ref=f3e292] [box=741,5561,120,120]: "02"
+            - heading "Personnalisez" [level=3] [ref=f3e298] [box=742,5705,117,30]
+            - paragraph [ref=f3e299] [box=673,5747,256,67]: Choisissez le design, les fonds, les accessoires et le branding de votre événement.
+          - generic [ref=f3e301] [box=953,5529,304,295]:
+            - generic [ref=f3e302] [box=1045,5561,120,120]: "03"
+            - heading "Partagez" [level=3] [ref=f3e310] [box=1068,5705,74,30]
+            - paragraph [ref=f3e311] [box=977,5747,256,45]: Envoi instantané par QR, AirDrop, WhatsApp ou email. Le contenu se viralise.
+          - generic [ref=f3e313] [box=1257,5529,304,295]:
+            - generic [ref=f3e314] [box=1349,5561,120,120]: "04"
+            - heading "Imprimez" [level=3] [ref=f3e321] [box=1369,5705,79,30]
+            - paragraph [ref=f3e322] [box=1281,5747,256,45]: Impression haute qualité en photo, sticker, métallisé, translucide ou lenticulaire.
+      - generic [ref=f3e324] [box=0,5814,1905,1536]:
+        - img "Photobooth pour événements" [ref=f3e326] [box=0,5814,1905,1536]
+        - generic [ref=f3e327] [box=374,6262,1157,640]:
+          - heading "Pour tout type d'événements" [level=2] [ref=f3e328] [box=374,6262,1157,256]
+          - generic [ref=f3e329] [box=473,6598,960,176]:
+            - generic [ref=f3e330] [cursor=pointer] [box=495,6598,146,82]: Fêtes
+            - generic [ref=f3e331] [cursor=pointer] [box=653,6598,299,82]: Anniversaires
+            - generic [ref=f3e332] [cursor=pointer] [box=963,6598,225,82]: Mariages
+            - generic [ref=f3e333] [cursor=pointer] [box=1200,6598,210,82]: Congrès
+            - generic [ref=f3e334] [cursor=pointer] [box=603,6692,167,82]: Salons
+            - generic [ref=f3e335] [cursor=pointer] [box=782,6692,291,82]: Célébrations
+            - generic [ref=f3e336] [cursor=pointer] [box=1085,6692,217,82]: Réunions
+      - generic [ref=f3e339] [box=313,7446,1280,599]:
+        - generic [ref=f3e340] [box=345,7446,1216,116]:
+          - generic [ref=f3e341] [box=345,7446,393,116]:
+            - heading "Nos Produits" [level=2] [ref=f3e342] [box=345,7446,393,56]
+            - paragraph [ref=f3e343] [box=345,7514,393,48]: Découvrez notre gamme complète de photobooths et accessoires.
+          - generic [ref=f3e344] [box=1453,7514,108,48]:
+            - button "Produit précédent" [disabled] [ref=f3e345] [box=1453,7514,48,48]
+            - button "Produit suivant" [ref=f3e348] [box=1513,7514,48,48]
+        - generic [ref=f3e352] [box=345,7618,1216,427]:
+          - link "Photobooth Classique Populaire Photobooth Classique Photos personnalisées imprimées sur le moment." [ref=f3e353] [cursor=pointer] [box=345,7618,260,427]:
+            - /url: /photobooth-evenements/
+            - generic [ref=f3e354] [box=345,7618,260,347]:
+              - img "Photobooth Classique" [ref=f3e355] [box=345,7618,260,347]
+              - generic [ref=f3e357] [box=357,7630,67,33]: Populaire
+            - heading "Photobooth Classique" [level=3] [ref=f3e358] [box=345,7981,260,24]
+            - paragraph [ref=f3e359] [box=345,8009,260,36]: Photos personnalisées imprimées sur le moment.
+          - link "Spin 360º Tendance Spin 360º Vidéos 360º personnalisées pour des souvenirs uniques." [ref=f3e360] [cursor=pointer] [box=625,7618,260,427]:
+            - /url: /photobooth-evenements/
+            - generic [ref=f3e361] [box=625,7618,260,347]:
+              - img "Spin 360º" [ref=f3e362] [box=625,7618,260,347]
+              - generic [ref=f3e364] [box=637,7630,69,33]: Tendance
+            - heading "Spin 360º" [level=3] [ref=f3e365] [box=625,7981,260,24]
+            - paragraph [ref=f3e366] [box=625,8009,260,36]: Vidéos 360º personnalisées pour des souvenirs uniques.
+          - link [ref=f3e367] [cursor=pointer] [box=905,7618,260,427]:
+            - /url: /photobooth-evenements/
+            - img "Photobooth Mini" [ref=f3e369] [box=905,7618,260,347]
+            - heading "Photobooth Mini" [level=3] [ref=f3e371] [box=905,7981,260,24]
+            - paragraph [ref=f3e372] [box=905,8009,260,36]: Compact et élégant, parfait pour les petits espaces.
+          - link "Photobooth Smart Nouveau Photobooth Smart Nouveau photobooth idéal pour les services IA et Glam." [ref=f3e373] [cursor=pointer] [box=1185,7618,260,427]:
+            - /url: /photobooth-evenements/
+            - generic [ref=f3e374] [box=1185,7618,260,347]:
+              - img "Photobooth Smart" [ref=f3e375] [box=1185,7618,260,347]
+              - generic [ref=f3e377] [box=1197,7630,65,33]: Nouveau
+            - heading "Photobooth Smart" [level=3] [ref=f3e378] [box=1185,7981,260,24]
+            - paragraph [ref=f3e379] [box=1185,8009,260,36]: Nouveau photobooth idéal pour les services IA et Glam.
+          - link [ref=f3e380] [cursor=pointer] [box=1465,7618,260,427]:
+            - /url: /photobooth-evenements/
+            - img "Photobooth Miroir" [ref=f3e382] [box=1465,7618,260,347]
+            - heading "Photobooth Miroir" [level=3] [ref=f3e384] [box=1465,7981,260,24]
+            - paragraph [ref=f3e385] [box=1465,8009,260,18]: Miroir interactif avec animations et tactile.
+          - link "Glambot Premium Glambot Bras robotique pour capturer des mouvements incroyables." [ref=f3e386] [cursor=pointer] [box=1745,7618,260,427]:
+            - /url: /photobooth-evenements/
+            - generic [ref=f3e387] [box=1745,7618,260,347]:
+              - img "Glambot" [ref=f3e388] [box=1745,7618,260,347]
+              - generic [ref=f3e390] [box=1757,7630,65,33]: Premium
+            - heading "Glambot" [level=3] [ref=f3e391] [box=1745,7981,260,24]
+            - paragraph [ref=f3e392] [box=1745,8009,260,36]: Bras robotique pour capturer des mouvements incroyables.
+          - link [ref=f3e393] [cursor=pointer] [box=2025,7618,260,427]:
+            - /url: /photobooth-evenements/
+            - img "Lettres Géantes" [ref=f3e395] [box=2025,7618,260,347]
+            - heading "Lettres Géantes" [level=3] [ref=f3e397] [box=2025,7981,260,24]
+            - paragraph [ref=f3e398] [box=2025,8009,260,18]: Créez un selfie-corner unique avec vos initiales.
+          - link [ref=f3e399] [cursor=pointer] [box=2305,7618,260,427]:
+            - /url: /photobooth-evenements/
+            - img "Photobooth Zenithal" [ref=f3e401] [box=2305,7618,260,347]
+            - heading "Photobooth Zenithal" [level=3] [ref=f3e403] [box=2305,7981,260,24]
+            - paragraph [ref=f3e404] [box=2305,8009,260,36]: Perspective zénithale pour des photos créatives.
+          - link [ref=f3e405] [cursor=pointer] [box=2585,7618,260,427]:
+            - /url: /photobooth-evenements/
+            - img "SuperZoom" [ref=f3e407] [box=2585,7618,260,347]
+            - heading "SuperZoom" [level=3] [ref=f3e409] [box=2585,7981,260,24]
+            - paragraph [ref=f3e410] [box=2585,8009,260,18]: Système pour générer une vidéo SuperZoom.
+          - link [ref=f3e411] [cursor=pointer] [box=2865,7618,260,427]:
+            - /url: /photobooth-evenements/
+            - img "Purikura" [ref=f3e413] [box=2865,7618,260,347]
+            - heading "Purikura" [level=3] [ref=f3e415] [box=2865,7981,260,24]
+            - paragraph [ref=f3e416] [box=2865,8009,260,18]: Personnalisez vos photos avec filtres et stickers.
+      - generic [ref=f3e419] [box=313,8237,1280,567]:
+        - generic [ref=f3e420] [box=345,8237,1216,120]:
+          - heading "Ils nous font confiance" [level=2] [ref=f3e421] [box=345,8237,1216,56]
+          - paragraph [ref=f3e422] [box=707,8309,492,48]: Plus de 1200 marques ont choisi Marrakech PhotoBooths pour leurs événements.
+        - generic [ref=f3e423] [box=345,8421,1216,134]:
+          - generic [ref=f3e424] [box=345,8421,286,134]:
+            - generic [ref=f3e425] [box=369,8445,238,60]: 1200+
+            - generic [ref=f3e426] [box=369,8513,238,18]: Marques nous font confiance
+          - generic [ref=f3e427] [box=655,8421,286,134]:
+            - generic [ref=f3e428] [box=679,8445,238,60]: 5000+
+            - generic [ref=f3e429] [box=679,8513,238,18]: Événements réalisés
+          - generic [ref=f3e430] [box=965,8421,286,134]:
+            - generic [ref=f3e431] [box=989,8445,238,60]: 10+
+            - generic [ref=f3e432] [box=989,8513,238,18]: Années d'expérience
+          - generic [ref=f3e433] [box=1275,8421,286,134]:
+            - generic [ref=f3e434] [box=1299,8445,238,60]: 100%
+            - generic [ref=f3e435] [box=1299,8513,238,18]: Clients satisfaits
+        - generic [ref=f3e437] [box=249,8635,1216,80]:
+          - generic [ref=f3e438] [box=249,8635,160,80]:
+            - img "Bacardi" [box=329,8675,0,0]
+          - generic [ref=f3e439] [box=457,8635,160,80]:
+            - img "Cartier" [box=537,8675,0,0]
+          - generic [ref=f3e440] [box=665,8635,160,80]:
+            - img "H&M" [box=745,8675,0,0]
+          - generic [ref=f3e441] [box=873,8635,160,80]:
+            - img "Intel" [box=953,8675,0,0]
+          - generic [ref=f3e442] [box=1081,8635,160,80]:
+            - img "Bacardi" [box=1161,8675,0,0]
+          - generic [ref=f3e443] [box=1289,8635,160,80]:
+            - img "Cartier" [box=1369,8675,0,0]
+          - generic [ref=f3e444] [box=1497,8635,160,80]:
+            - img "H&M" [box=1577,8675,0,0]
+          - generic [ref=f3e445] [box=1705,8635,160,80]:
+            - img "Intel" [box=1785,8675,0,0]
+          - generic [ref=f3e446] [box=1913,8635,160,80]:
+            - img "Bacardi" [box=1993,8675,0,0]
+          - generic [ref=f3e447] [box=2121,8635,160,80]:
+            - img "Cartier" [box=2201,8675,0,0]
+          - generic [ref=f3e448] [box=2329,8635,160,80]:
+            - img "H&M" [box=2409,8675,0,0]
+          - generic [ref=f3e449] [box=2537,8635,160,80]:
+            - img "Intel" [box=2617,8675,0,0]
+        - link "Rejoignez nos clients satisfaits" [ref=f3e451] [cursor=pointer] [box=839,8778,228,24]:
+          - /url: /contact/
+      - generic [ref=f3e456] [box=505,8980,896,624]:
+        - heading "Questions fréquentes" [level=2] [ref=f3e457] [box=505,8980,896,54]
+        - generic [ref=f3e458] [box=505,9074,896,530]:
+          - generic [ref=f3e459] [box=505,9074,896,75]:
+            - button "Pourquoi choisir Marrakech PhotoBooths ?" [ref=f3e460] [box=505,9074,896,75]
+            - paragraph [ref=f3e464] [box=505,9149,896,156]: Chez Marrakech PhotoBooths, nous offrons depuis des années un service professionnel, innovant et hautement apprécié lors d'événements d'entreprise et de mariages. Notre expérience et notre engagement envers l'excellence font de nous le choix préféré de nombreuses marques et de milliers de clients satisfaits.
+          - generic [ref=f3e465] [box=505,9165,896,75]:
+            - button "Y a-t-il un minimum d'heures de service ?" [ref=f3e466] [box=505,9165,896,75]
+            - paragraph [ref=f3e470] [box=505,9240,896,90]: En général, le temps minimum de service est de 3 heures pour les services de photobooth et de 2 heures pour le spin 360.
+          - generic [ref=f3e471] [box=505,9256,896,75]:
+            - button "Y a-t-il un maximum de photos et de copies / vidéos ?" [ref=f3e472] [box=505,9256,896,75]
+            - paragraph [ref=f3e476] [box=505,9331,896,90]: En général, les photos, les copies imprimées et les vidéos sont illimitées pendant tout le service.
+          - generic [ref=f3e477] [box=505,9347,896,75]:
+            - button "Puis-je personnaliser le service ?" [ref=f3e478] [box=505,9347,896,75]
+            - paragraph [ref=f3e482] [box=505,9422,896,123]: La personnalisation des services est l'un de nos points forts. Vous pouvez personnaliser le vinyle, le design des bandes d'impression, le filigrane des vidéos, le photocall ou le fond, créer des vidéos d'entrée et de sortie… Nous vous offrons de nombreuses options !
+          - generic [ref=f3e483] [box=505,9438,896,75]:
+            - button "Combien de temps faut-il pour l'installation ?" [ref=f3e484] [box=505,9438,896,75]
+            - paragraph [ref=f3e488] [box=505,9513,896,90]: L'installation peut varier selon le lieu de l'événement et le service choisi. Nous arrivons 30 min (mariages) / 1h (événements) avant le début du service pour installer.
+          - generic [ref=f3e489] [box=505,9529,896,75]:
+            - button "Comment réserver et payer le service ?" [ref=f3e490] [box=505,9529,896,75]
+            - paragraph [ref=f3e494] [box=505,9604,896,90]: Pour confirmer la réservation, il faut effectuer le versement indiqué dans chaque devis. Le reste peut être fait avant ou le jour de l'événement par virement ou en espèces.
+      - generic [ref=f3e497] [box=569,9780,768,487]:
+        - heading "Contact" [level=2] [ref=f3e498] [box=868,9780,169,54]
+        - generic [ref=f3e499] [box=617,9866,672,312]:
+          - paragraph [ref=f3e500] [box=617,9866,672,66]: Vous avez un événement ou une célébration et vous souhaitez surprendre vos invité(e)s ?
+          - paragraph [ref=f3e501] [box=617,9948,672,66]: Vous souhaitez que vos invité(e)s s'amusent et repartent avec un beau souvenir ?
+          - paragraph [ref=f3e502] [box=617,10030,672,66]: Vous aimeriez concrétiser vos idées et offrir des services entièrement personnalisés ?
+          - paragraph [ref=f3e503] [box=617,10112,672,66]: Chez Marrakech PhotoBooths, nous avons tous les outils, l'expérience et la motivation pour rendre votre événement unique et mémorable.
+        - link "Contact" [ref=f3e504] [cursor=pointer] [box=884,10210,137,57]:
+          - /url: /contact/
+    - contentinfo [ref=f3e505] [box=0,10317,1905,701]:
+      - generic [ref=f3e507] [box=795,10381,316,34]:
+        - link "X" [ref=f3e508] [cursor=pointer] [box=795,10381,46,34]:
+          - /url: https://x.com/marrakechpb
+        - link "TikTok" [ref=f3e511] [cursor=pointer] [box=849,10381,46,34]:
+          - /url: https://www.tiktok.com/@marrakechpb
+        - link "LinkedIn" [ref=f3e514] [cursor=pointer] [box=903,10381,46,34]:
+          - /url: https://www.linkedin.com/company/marrakechpb
+        - link "Facebook" [ref=f3e517] [cursor=pointer] [box=957,10381,46,34]:
+          - /url: https://www.facebook.com/MarrakechPhotoBooths
+        - link "Instagram" [ref=f3e520] [cursor=pointer] [box=1011,10381,46,34]:
+          - /url: https://www.instagram.com/marrakechpb/
+        - link "YouTube" [ref=f3e523] [cursor=pointer] [box=1065,10381,46,34]:
+          - /url: https://www.youtube.com/@marrakechpb
+      - generic [ref=f3e527] [box=337,10479,1232,284]:
+        - generic [ref=f3e528] [box=337,10479,389,284]:
+          - heading "Événements" [level=3] [ref=f3e529] [box=337,10479,389,20]
+          - list [ref=f3e530] [box=337,10519,389,244]:
+            - listitem [ref=f3e531] [box=337,10519,389,27]:
+              - link "Photobooth Événements" [ref=f3e532] [cursor=pointer] [box=337,10522,186,21]:
+                - /url: /photobooth-evenements/
+            - listitem [ref=f3e533] [box=337,10550,389,27]:
+              - link "Spin 360º" [ref=f3e534] [cursor=pointer] [box=337,10553,74,21]:
+                - /url: /videomaton-360/
+            - listitem [ref=f3e535] [box=337,10581,389,27]:
+              - link "Photobooth IA" [ref=f3e536] [cursor=pointer] [box=337,10584,107,21]:
+                - /url: /photobooth-evenements/
+            - listitem [ref=f3e537] [box=337,10612,389,27]:
+              - link "Mosaic Wall" [ref=f3e538] [cursor=pointer] [box=337,10615,90,21]:
+                - /url: /photobooth-evenements/
+            - listitem [ref=f3e539] [box=337,10643,389,27]:
+              - link "Photobooth Smart" [ref=f3e540] [cursor=pointer] [box=337,10646,137,21]:
+                - /url: /photobooth-evenements/
+            - listitem [ref=f3e541] [box=337,10674,389,27]:
+              - link "Printoku" [ref=f3e542] [cursor=pointer] [box=337,10677,62,21]:
+                - /url: /photobooth-evenements/
+            - listitem [ref=f3e543] [box=337,10705,389,27]:
+              - link "Lettres Géantes" [ref=f3e544] [cursor=pointer] [box=337,10708,121,21]:
+                - /url: /photobooth-evenements/
+            - listitem [ref=f3e545] [box=337,10736,389,27]:
+              - link "Photocall Tapis Rouge" [ref=f3e546] [cursor=pointer] [box=337,10739,166,21]:
+                - /url: /photobooth-evenements/
+        - generic [ref=f3e547] [box=758,10479,389,284]:
+          - heading "Mariages & Fêtes" [level=3] [ref=f3e548] [box=758,10479,389,20]
+          - list [ref=f3e549] [box=758,10519,389,213]:
+            - listitem [ref=f3e550] [box=758,10519,389,27]:
+              - link "Photobooth Mariage" [ref=f3e551] [cursor=pointer] [box=758,10522,153,21]:
+                - /url: /mariages/
+            - listitem [ref=f3e552] [box=758,10550,389,27]:
+              - link "Spin 360º" [ref=f3e553] [cursor=pointer] [box=758,10553,74,21]:
+                - /url: /videomaton-360/
+            - listitem [ref=f3e554] [box=758,10581,389,27]:
+              - link "Photobooth Glam" [ref=f3e555] [cursor=pointer] [box=758,10584,132,21]:
+                - /url: /mariages/
+            - listitem [ref=f3e556] [box=758,10612,389,27]:
+              - link "Photobooth Catwalk" [ref=f3e557] [cursor=pointer] [box=758,10615,151,21]:
+                - /url: /mariages/
+            - listitem [ref=f3e558] [box=758,10643,389,27]:
+              - link "Printoku" [ref=f3e559] [cursor=pointer] [box=758,10646,62,21]:
+                - /url: /mariages/
+            - listitem [ref=f3e560] [box=758,10674,389,27]:
+              - link "Lettres Géantes" [ref=f3e561] [cursor=pointer] [box=758,10677,121,21]:
+                - /url: /mariages/
+            - listitem [ref=f3e562] [box=758,10705,389,27]:
+              - link "Photocall Tapis Rouge" [ref=f3e563] [cursor=pointer] [box=758,10708,166,21]:
+                - /url: /mariages/
+        - generic [ref=f3e564] [box=1179,10479,389,284]:
+          - heading "Ressources" [level=3] [ref=f3e565] [box=1179,10479,389,20]
+          - list [ref=f3e566] [box=1179,10519,389,182]:
+            - listitem [ref=f3e567] [box=1179,10519,389,27]:
+              - link "À propos" [ref=f3e568] [cursor=pointer] [box=1179,10522,67,21]:
+                - /url: /a-propos/
+            - listitem [ref=f3e569] [box=1179,10550,389,27]:
+              - link "Tarifs" [ref=f3e570] [cursor=pointer] [box=1179,10553,40,21]:
+                - /url: /tarifs/
+            - listitem [ref=f3e571] [box=1179,10581,389,27]:
+              - link "Politique de confidentialité" [ref=f3e572] [cursor=pointer] [box=1179,10584,198,21]:
+                - /url: /politique-confidentialite/
+            - listitem [ref=f3e573] [box=1179,10612,389,27]:
+              - link "Politique de cookies" [ref=f3e574] [cursor=pointer] [box=1179,10615,150,21]:
+                - /url: /politique-cookies/
+            - listitem [ref=f3e575] [box=1179,10643,389,27]:
+              - link "Mentions légales" [ref=f3e576] [cursor=pointer] [box=1179,10646,128,21]:
+                - /url: /mentions-legales/
+            - listitem [ref=f3e577] [box=1179,10674,389,27]:
+              - link "Blog" [ref=f3e578] [cursor=pointer] [box=1179,10677,34,21]:
+                - /url: /blog/
+      - generic [ref=f3e579] [box=0,10827,1905,191]:
+        - img "Marrakech PhotoBooths" [ref=f3e580] [box=828,10868,250,65]
+        - paragraph [ref=f3e581] [box=734,10957,436,21]: © 2026 Marrakech PhotoBooths. Tous droits réservés. MarrakechPhotoBooth.com
+  - button "Open Next.js Dev Tools" [ref=f3e587] [cursor=pointer] [box=22,1026,32,32]
+  - alert [ref=f3e591] [box=-1,11016,1,1]
+  - link "Contactez-nous sur WhatsApp" [ref=f3e592] [cursor=pointer] [box=1825,1000,56,56]:
+    - /url: https://wa.me/212621189496?text=Bonjour%2C%20je%20souhaite%20avoir%20des%20informations%20sur%20vos%20services%20de%20photobooth
+    - generic [ref=f3e595] [box=1706,1010,111,36]: Besoin d'aide ?

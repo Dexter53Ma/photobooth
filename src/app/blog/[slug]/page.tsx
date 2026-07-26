@@ -1,12 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
-const posts: Record<string, { title: string; date: string; category: string; readTime: string; image: string; content: string[] }> = {
+const SITE = "https://www.marrakechphotobooths.com";
+
+const posts: Record<string, { title: string; description: string; date: string; category: string; readTime: string; image: string; content: string[] }> = {
   "guide-choisir-photobooth-mariage-marrakech": {
     title: "Guide complet : Comment choisir son photobooth pour un mariage à Marrakech",
+    description: "Guide complet pour choisir le photobooth parfait pour votre mariage à Marrakech. Types, budget, personnalisation et conseils d'experts.",
     date: "15 Janvier 2026",
     category: "Mariage",
     readTime: "12 min",
@@ -46,6 +50,7 @@ const posts: Record<string, { title: string; date: string; category: string; rea
   },
   "top-10-idees-photocall-mariage": {
     title: "Top 10 des idées originales pour un photocall de mariage inoubliable",
+    description: "Inspirez-vous de 10 idées créatives pour un photocall de mariage à Marrakech. Budget, emplacements et conseils pratiques pour chaque idée.",
     date: "10 Janvier 2026",
     category: "Mariage",
     readTime: "12 min",
@@ -78,6 +83,7 @@ const posts: Record<string, { title: string; date: string; category: string; rea
   },
   "videomaton-360-attraction-evenements-entreprise": {
     title: "Vidéomaton 360 : pourquoi c'est l'attraction star des événements d'entreprise",
+    description: "Découvrez pourquoi le vidéomaton 360 est l'attraction incontournable des événements d'entreprise à Marrakech. Contenu viral, branding et engagement.",
     date: "5 Janvier 2026",
     category: "Entreprise",
     readTime: "12 min",
@@ -108,6 +114,7 @@ const posts: Record<string, { title: string; date: string; category: string; rea
   },
   "photobooth-ia-revolution-evenements-marrakech": {
     title: "Photobooth et IA : la révolution des événements à Marrakech",
+    description: "Comment l'intelligence artificielle transforme le photobooth : face swap, fonds générés, filtres beauté et personnalisation automatique.",
     date: "28 Décembre 2025",
     category: "Technologie",
     readTime: "12 min",
@@ -151,6 +158,7 @@ const posts: Record<string, { title: string; date: string; category: string; rea
   },
   "personnaliser-photobooth-branding-entreprise": {
     title: "Comment personnaliser votre photobooth avec le branding de votre entreprise",
+    description: "Guide étape par étape pour personnaliser votre photobooth avec le logo, les couleurs et le message de votre marque. ROI et cas pratiques.",
     date: "20 Décembre 2025",
     category: "Entreprise",
     readTime: "12 min",
@@ -191,6 +199,7 @@ const posts: Record<string, { title: string; date: string; category: string; rea
   },
   "tendances-photobooth-2024": {
     title: "Les tendances photobooth 2026 : ce qui va marquer l'année",
+    description: "Découvrez les tendances photobooth 2026 : IA, vidéos 360°, écrans LED, slow motion et réalité augmentée pour vos événements à Marrakech.",
     date: "15 Décembre 2025",
     category: "Tendances",
     readTime: "12 min",
@@ -237,6 +246,23 @@ export function generateStaticParams() {
   return Object.keys(posts).map((slug) => ({ slug }));
 }
 
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const post = posts[slug];
+  if (!post) return {};
+  return {
+    title: `${post.title} | Marrakech PhotoBooths`,
+    description: post.description,
+    alternates: { canonical: `${SITE}/blog/${slug}/` },
+    openGraph: {
+      title: post.title,
+      description: post.description,
+      url: `${SITE}/blog/${slug}/`,
+      images: [{ url: `${SITE}${post.image}`, width: 1200, height: 742 }],
+    },
+  };
+}
+
 export default async function BlogPost({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = posts[slug];
@@ -250,21 +276,21 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     author: {
       "@type": "Organization",
       name: "Marrakech PhotoBooths",
-      url: "https://marrakechphotobooth.com",
+      url: "https://www.marrakechphotobooths.com",
     },
     publisher: {
       "@type": "Organization",
       name: "Marrakech PhotoBooths",
-      url: "https://marrakechphotobooth.com",
+      url: "https://www.marrakechphotobooths.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://marrakechphotobooth.com/images/logo%20header.webp",
+        url: "https://www.marrakechphotobooths.com/images/logo%20header.webp",
       },
     },
-    image: `https://marrakechphotobooth.com${post.image}`,
+    image: `https://www.marrakechphotobooths.com${post.image}`,
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://marrakechphotobooth.com/blog/${slug}/`,
+      "@id": `https://www.marrakechphotobooths.com/blog/${slug}/`,
     },
   } : null;
 
@@ -302,7 +328,13 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                 <span className="text-[12px] font-suisse text-white/70">{post.readTime} de lecture</span>
               </div>
               <h1 className="font-platform text-[2.5rem] max-md:text-[1.75rem] font-normal leading-[1.1] tracking-[-0.01em] text-white mb-4">{post.title}</h1>
-              <span className="text-[14px] font-suisse text-white/60">{post.date}</span>
+              <div className="flex items-center justify-center gap-3 text-[13px] font-suisse text-white/60">
+                <span>Par <strong className="text-white/80">Marrakech PhotoBooths</strong></span>
+                <span>·</span>
+                <span>{post.date}</span>
+                <span>·</span>
+                <span>{post.readTime} de lecture</span>
+              </div>
             </div>
           </div>
         </section>

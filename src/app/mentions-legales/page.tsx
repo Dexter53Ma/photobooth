@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 export const metadata = {
   title: "Mentions légales - Marrakech PhotoBooths",
   description: "Mentions légales de Marrakech PhotoBooths. Informations sur le propriétaire du site et conditions d'utilisation.",
-  alternates: { canonical: "https://marrakechphotobooth.com/mentions-legales" },
+  alternates: { canonical: "https://www.marrakechphotobooths.com/mentions-legales" },
 };
 
 export default function MentionsLegales() {
@@ -57,7 +57,7 @@ export default function MentionsLegales() {
                     </div>
                     <div>
                       <span className="block font-suisse text-[0.75rem] text-[#999] uppercase tracking-wider">Email</span>
-                      <a href="mailto:contact@marrakechphotobooth.com" className="font-suisse text-[0.9375rem] text-[#FF0422] font-medium hover:underline">contact@marrakechphotobooth.com</a>
+                      <a href="mailto:contact@marrakechphotobooths.com" className="font-suisse text-[0.9375rem] text-[#FF0422] font-medium hover:underline">contact@marrakechphotobooths.com</a>
                     </div>
                   </div>
                   <div className="flex items-start gap-3 p-3 bg-white rounded-[0.75rem]">

@@ -14,13 +14,13 @@ export function Breadcrumbs({ items }: { items: BreadcrumbItem[] }) {
         "@type": "ListItem",
         position: 1,
         name: "Accueil",
-        item: "https://marrakechphotobooth.com/",
+        item: "https://www.marrakechphotobooths.com/",
       },
       ...items.map((item, index) => ({
         "@type": "ListItem",
         position: index + 2,
         name: item.label,
-        ...(item.href ? { item: `https://marrakechphotobooth.com${item.href}` } : {}),
+        ...(item.href ? { item: `https://www.marrakechphotobooths.com${item.href}` } : {}),
       })),
     ],
   };

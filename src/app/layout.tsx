@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://marrakechphotobooth.com/",
+    canonical: "https://www.marrakechphotobooths.com/",
   },
   icons: {
     icon: [
@@ -49,11 +49,11 @@ export const metadata: Metadata = {
     title: "Marrakech PhotoBooths | Location de photobooth pour événements",
     description:
       "Location de Photobooth à Marrakech pour événements, mariages et fêtes. Divertissement et beaux souvenirs pour vos invités.",
-    url: "https://marrakechphotobooth.com/",
+    url: "https://www.marrakechphotobooths.com/",
     siteName: "Marrakech PhotoBooths",
     images: [
       {
-        url: "https://marrakechphotobooth.com/seo/og-image.jpg",
+        url: "https://www.marrakechphotobooths.com/seo/og-image.jpg",
         width: 1200,
         height: 742,
         type: "image/jpeg",
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Marrakech PhotoBooths | Location de photobooth pour événements",
     description: "Location de photobooth pour événements et mariages à Marrakech.",
-    images: ["https://marrakechphotobooth.com/seo/og-image.jpg"],
+    images: ["https://www.marrakechphotobooths.com/seo/og-image.jpg"],
   },
   other: {
     "mobile-web-app-capable": "yes",
@@ -81,16 +81,16 @@ const jsonLd = [
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "Marrakech PhotoBooths",
-    url: "https://marrakechphotobooth.com",
+    url: "https://www.marrakechphotobooths.com",
     telephone: "+212621189496",
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "customer service",
-      email: "contact@marrakechphotobooth.com",
+      email: "contact@marrakechphotobooths.com",
       telephone: "+212621189496",
       availableLanguage: ["French", "Arabic"],
     },
-    image: "https://marrakechphotobooth.com/images/logo%20header.webp",
+    image: "https://www.marrakechphotobooths.com/images/logo%20header.webp",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Marrakech",
@@ -134,10 +134,10 @@ const jsonLd = [
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Marrakech PhotoBooths",
-    url: "https://marrakechphotobooth.com",
+    url: "https://www.marrakechphotobooths.com",
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://marrakechphotobooth.com/?s={search_term_string}",
+      target: "https://www.marrakechphotobooths.com/?s={search_term_string}",
       "query-input": "required name=search_term_string",
     },
   },

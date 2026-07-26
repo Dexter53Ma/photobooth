@@ -6,11 +6,11 @@ import Link from "next/link";
 export const metadata = {
   title: "Tarifs - Marrakech PhotoBooths | Prix location photobooth Marrakech",
   description: "Découvrez nos tarifs de location de photobooth pour événements et mariages à Marrakech. Forfaits à partir de 2 500 MAD. Devis gratuit et personnalisé.",
-  alternates: { canonical: "https://marrakechphotobooth.com/tarifs" },
+  alternates: { canonical: "https://www.marrakechphotobooths.com/tarifs" },
   openGraph: {
     title: "Tarifs - Marrakech PhotoBooths",
     description: "Forfaits de location de photobooth à Marrakech. À partir de 2 500 MAD.",
-    url: "https://marrakechphotobooth.com/tarifs",
+    url: "https://www.marrakechphotobooths.com/tarifs",
   },
 };
 
@@ -83,14 +83,14 @@ const pricingSchema = {
   "@type": "Product",
   name: "Forfait Premium Photobooth Marrakech",
   description: "Forfait location de photobooth pour événements et mariages à Marrakech. 4h de service, photos et vidéos illimitées.",
-  image: "https://marrakechphotobooth.com/seo/og-image.jpg",
+  image: "https://www.marrakechphotobooths.com/seo/og-image.jpg",
   brand: {
     "@type": "Brand",
     name: "Marrakech PhotoBooths",
   },
   offers: {
     "@type": "Offer",
-    url: "https://marrakechphotobooth.com/tarifs",
+    url: "https://www.marrakechphotobooths.com/tarifs",
     price: "2500",
     priceCurrency: "MAD",
     priceValidUntil: "2026-12-31",

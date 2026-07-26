@@ -4,10 +4,10 @@
 
 ## Services
 
-- [Photobooth Événements](https://marrakechphotobooth.com/photobooth-evenements/): Location de photobooth pour événements d'entreprise avec branding personnalisé
-- [Photobooth Mariages](https://marrakechphotobooth.com/mariages/): Photobooth pour mariage avec impressions personnalisées et accessoires
-- [Vidéomaton 360](https://marrakechphotobooth.com/videomaton-360/): Vidéomaton 360° pour vidéos circulaires en vitesse réelle ou au ralenti
-- [Tarifs](https://marrakechphotobooth.com/tarifs/): Nos forfaits et tarifs à partir de 2 500 MAD
+- [Photobooth Événements](https://www.marrakechphotobooths.com/photobooth-evenements/): Location de photobooth pour événements d'entreprise avec branding personnalisé
+- [Photobooth Mariages](https://www.marrakechphotobooths.com/mariages/): Photobooth pour mariage avec impressions personnalisées et accessoires
+- [Vidéomaton 360](https://www.marrakechphotobooths.com/videomaton-360/): Vidéomaton 360° pour vidéos circulaires en vitesse réelle ou au ralenti
+- [Tarifs](https://www.marrakechphotobooths.com/tarifs/): Nos forfaits et tarifs à partir de 2 500 MAD
 
 ## Faits clés
 
@@ -18,7 +18,7 @@
 - Caméras DSLR professionnelles et éclairage studio
 - Prix en Dirhams marocains (MAD)
 - Contact : +212 6 21 18 94 96
-- Email : contact@marrakechphotobooth.com
+- Email : contact@marrakechphotobooths.com
 
 ## Types d'événements
 
@@ -47,5 +47,5 @@
 ## IndexNow
 
 - Key: marrakechphotobooth-indexnow-key-2026
-- Key file: https://marrakechphotobooth.com/indexnow-key.txt
+- Key file: https://www.marrakechphotobooths.com/indexnow-key.txt
 - Supported engines: Bing, Yandex, Microsoft
