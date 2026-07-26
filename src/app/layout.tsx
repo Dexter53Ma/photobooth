@@ -104,6 +104,17 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-89VBCBGT6G"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-89VBCBGT6G');
+            `,
+          }}
+        />
       </head>
       <body
         className="min-h-screen bg-white text-[#1e1e2a] antialiased"
