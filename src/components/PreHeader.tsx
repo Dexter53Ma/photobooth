@@ -1,4 +1,7 @@
+"use client";
+
 import { MailIcon } from "@/components/icons";
+import { trackPhoneClick } from "@/lib/gtag";
 
 export function PreHeader() {
   return (
@@ -22,7 +25,7 @@ export function PreHeader() {
       </nav>
 
       <nav className="flex items-center gap-3 max-md:gap-2">
-        <a href="tel:+212621189496" className="text-white text-[13px] max-md:text-[11px]">
+        <a href="tel:+212621189496" onClick={trackPhoneClick} className="text-white text-[13px] max-md:text-[11px]">
           +212 6 21 18 94 96
         </a>
         <a

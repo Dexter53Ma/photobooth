@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { CloseIcon } from "@/components/icons";
+import { trackFormSubmission } from "@/lib/gtag";
 
 interface BookingModalProps {
   isOpen: boolean;
@@ -90,6 +91,7 @@ ${formData.message ? `💬 *Message:* ${sanitize(formData.message)}` : ""}
 Merci !`;
 
     const encodedMessage = encodeURIComponent(message);
+    trackFormSubmission();
     window.open(`https://wa.me/212621189496?text=${encodedMessage}`, "_blank", "noopener,noreferrer");
     onClose();
   };

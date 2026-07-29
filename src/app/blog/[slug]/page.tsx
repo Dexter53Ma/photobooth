@@ -4,8 +4,9 @@ import type { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { BLOG_SLUGS, SITE_URL } from "@/data/blog-slugs";
 
-const SITE = "https://www.marrakechphotobooths.com";
+const SITE = SITE_URL;
 
 const posts: Record<string, { title: string; description: string; date: string; category: string; readTime: string; image: string; content: string[] }> = {
   "guide-choisir-photobooth-mariage-marrakech": {
@@ -243,7 +244,7 @@ const posts: Record<string, { title: string; description: string; date: string; 
 };
 
 export function generateStaticParams() {
-  return Object.keys(posts).map((slug) => ({ slug }));
+  return BLOG_SLUGS.map((slug) => ({ slug }));
 }
 
 const relatedPosts: Record<string, { slug: string; title: string; image: string }[]> = {

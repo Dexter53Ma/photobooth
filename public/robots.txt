@@ -16,4 +16,11 @@ Allow: /
 User-agent: Bytespider
 Disallow: /
 
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /seo/
+
 Sitemap: https://www.marrakechphotobooths.com/sitemap.xml

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { trackFormSubmission, trackPhoneClick } from "@/lib/gtag";
 
 const eventTypes: Record<string, string> = {
   entreprise: "Événement entreprise",
@@ -37,6 +38,7 @@ ${sanitize(formData.message)}
 Merci !`;
 
     const encodedMessage = encodeURIComponent(message);
+    trackFormSubmission();
     window.open(`https://wa.me/212621189496?text=${encodedMessage}`, "_blank", "noopener,noreferrer");
   };
 
@@ -59,7 +61,7 @@ Merci !`;
       {/* Contact info bar - visible on all screens */}
       <section className="bg-[#1E1E2A] py-3 px-4">
         <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-center gap-4 md:gap-8">
-          <a href="tel:+212621189496" className="flex items-center gap-2 font-suisse text-[0.875rem] max-md:text-[0.8125rem] text-white/90 hover:text-white transition-colors">
+          <a href="tel:+212621189496" onClick={trackPhoneClick} className="flex items-center gap-2 font-suisse text-[0.875rem] max-md:text-[0.8125rem] text-white/90 hover:text-white transition-colors">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FF0422" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
             +212 6 21 18 94 96
           </a>
@@ -92,7 +94,7 @@ Merci !`;
 
               <div className="flex flex-col gap-3 p-5 bg-[#F6F6F6] rounded-[1.5rem]">
                 <h3 className="font-platform text-[1.25rem] font-normal leading-[1] text-[#1E1E2A]">Nos coordonnées</h3>
-                <a href="tel:+212621189496" className="font-suisse text-[max(14px,1rem)] text-[#FF0422] hover:underline">+212 6 21 18 94 96</a>
+                <a href="tel:+212621189496" onClick={trackPhoneClick} className="font-suisse text-[max(14px,1rem)] text-[#FF0422] hover:underline">+212 6 21 18 94 96</a>
                 <a href="mailto:contact@marrakechphotobooths.com" className="font-suisse text-[max(14px,1rem)] text-[#FF0422] hover:underline">contact@marrakechphotobooths.com</a>
                 <p className="font-suisse text-[max(14px,1rem)] text-[#666]">Marrakech, Maroc</p>
               </div>

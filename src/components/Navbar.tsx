@@ -5,6 +5,7 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { MenuIcon, CloseIcon, PhoneIcon, MailIcon } from "@/components/icons";
 import { BookingModal } from "./BookingModal";
+import { trackPhoneClick } from "@/lib/gtag";
 
 const navLinks = [
   { label: "Accueil", href: "/" },
@@ -74,7 +75,7 @@ export function Navbar() {
 
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-4">
-            <a href="tel:+212621189496" className="text-[14px] font-suisse text-[#666] hover:text-[#FF0422] transition-colors">
+            <a href="tel:+212621189496" onClick={trackPhoneClick} className="text-[14px] font-suisse text-[#666] hover:text-[#FF0422] transition-colors">
               +212 6 21 18 94 96
             </a>
             <button
@@ -157,7 +158,7 @@ export function Navbar() {
           {/* Sidebar footer */}
           <div className="border-t border-gray-100 p-6 flex flex-col gap-4">
             <div className="flex flex-col gap-3">
-              <a href="tel:+212621189496" className="flex items-center gap-3 text-[14px] font-suisse text-[#666] hover:text-[#FF0422] transition-colors">
+              <a href="tel:+212621189496" onClick={trackPhoneClick} className="flex items-center gap-3 text-[14px] font-suisse text-[#666] hover:text-[#FF0422] transition-colors">
                 <div className="w-8 h-8 rounded-full bg-[#F5F5F5] flex items-center justify-center">
                   <PhoneIcon size={14} />
                 </div>

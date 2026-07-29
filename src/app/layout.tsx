@@ -40,10 +40,17 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/images/favicon.png", type: "image/png" },
-      { url: "/seo/cropped-favicon-fotomaton-32x32.png", sizes: "32x32" },
+      { url: "/favicon.ico", sizes: "48x48", type: "image/x-icon" },
+      { url: "/favicon-16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-48.png", sizes: "48x48", type: "image/png" },
+      { url: "/favicon-96.png", sizes: "96x96", type: "image/png" },
+      { url: "/favicon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/favicon-512.png", sizes: "512x512", type: "image/png" },
     ],
-    apple: "/images/favicon.png",
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
   },
   openGraph: {
     title: "Marrakech PhotoBooths | Location de photobooth pour événements",
@@ -193,6 +200,7 @@ export default function RootLayout({
         />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-89VBCBGT6G"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-KPKM0DTYVR"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXX"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -201,6 +209,7 @@ export default function RootLayout({
               gtag('js', new Date());
               gtag('config', 'G-89VBCBGT6G');
               gtag('config', 'G-KPKM0DTYVR');
+              gtag('config', 'AW-XXXXXXXXX');
             `,
           }}
         />
