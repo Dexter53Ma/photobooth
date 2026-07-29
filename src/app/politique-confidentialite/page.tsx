@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Politique de confidentialité - Marrakech PhotoBooths",
   description: "Politique de confidentialité de Marrakech PhotoBooths. Comment nous protégeons vos données personnelles.",
-  alternates: { canonical: "https://www.marrakechphotobooths.com/politique-confidentialite" },
+  alternates: { canonical: "https://www.marrakechphotobooths.com/politique-confidentialite/" },
 };
 
 export default function PolitiqueConfidentialite() {

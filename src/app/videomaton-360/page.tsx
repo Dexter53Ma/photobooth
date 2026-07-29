@@ -6,11 +6,16 @@ import VideomatonContent from "@/components/VideomatonContent";
 export const metadata = {
   title: "Vidéomaton 360 - Marrakech PhotoBooths | Vidéos circulaires",
   description: "Location de vidéomaton 360 pour événements et mariages à Marrakech. Créez des vidéos circulaires spectaculaires pour vos invités.",
-  alternates: { canonical: "https://www.marrakechphotobooths.com/videomaton-360" },
+  alternates: { canonical: "https://www.marrakechphotobooths.com/videomaton-360/" },
   openGraph: {
     title: "Vidéomaton 360 - Marrakech PhotoBooths",
     description: "Location de vidéomaton 360 pour événements à Marrakech.",
-    url: "https://www.marrakechphotobooths.com/videomaton-360",
+    url: "https://www.marrakechphotobooths.com/videomaton-360/",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Vidéomaton 360 - Marrakech PhotoBooths",
+    description: "Location de vidéomaton 360 pour événements à Marrakech.",
   },
 };
 

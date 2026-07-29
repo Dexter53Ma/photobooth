@@ -128,7 +128,7 @@ export function Footer() {
           className="h-auto max-w-full"
         />
         <p className="copyright-text text-white/50 text-[max(11px,0.8rem)] text-center max-w-3xl leading-relaxed m-0">
-          © 2026 Marrakech PhotoBooths. Tous droits réservés. MarrakechPhotoBooth.com
+          © 2026 Marrakech PhotoBooths. Tous droits réservés. MarrakechPhotoBooths.com
         </p>
       </div>
     </footer>

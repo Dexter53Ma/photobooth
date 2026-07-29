@@ -6,11 +6,16 @@ import MariagesContent from "@/components/MariagesContent";
 export const metadata = {
   title: "Photobooth pour Mariages - Marrakech PhotoBooths",
   description: "Location de photobooth pour mariages à Marrakech. Service professionnel avec impression instantanée, design personnalisé et accessoires élégants pour votre jour spécial.",
-  alternates: { canonical: "https://www.marrakechphotobooths.com/mariages" },
+  alternates: { canonical: "https://www.marrakechphotobooths.com/mariages/" },
   openGraph: {
     title: "Photobooth pour Mariages - Marrakech PhotoBooths",
     description: "Location de photobooth pour mariages à Marrakech. Créez des souvenirs inoubliables pour votre jour spécial.",
-    url: "https://www.marrakechphotobooths.com/mariages",
+    url: "https://www.marrakechphotobooths.com/mariages/",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Photobooth pour Mariages - Marrakech PhotoBooths",
+    description: "Location de photobooth pour mariages à Marrakech.",
   },
 };
 

@@ -7,11 +7,16 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 export const metadata = {
   title: "À propos - Marrakech PhotoBooths | Notre équipe et histoire",
   description: "Découvrez l'équipe de Marrakech PhotoBooths. Passionnés du design, de la technologie et des sourires depuis des années à Marrakech.",
-  alternates: { canonical: "https://www.marrakechphotobooths.com/a-propos" },
+  alternates: { canonical: "https://www.marrakechphotobooths.com/a-propos/" },
   openGraph: {
     title: "À propos - Marrakech PhotoBooths",
     description: "Découvrez l'équipe de Marrakech PhotoBooths à Marrakech.",
-    url: "https://www.marrakechphotobooths.com/a-propos",
+    url: "https://www.marrakechphotobooths.com/a-propos/",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "À propos - Marrakech PhotoBooths",
+    description: "Découvrez l'équipe de Marrakech PhotoBooths à Marrakech.",
   },
 };
 

@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Politique de cookies - Marrakech PhotoBooths",
   description: "Politique de cookies de Marrakech PhotoBooths. Informations sur l'utilisation des cookies sur notre site.",
-  alternates: { canonical: "https://www.marrakechphotobooths.com/politique-cookies" },
+  alternates: { canonical: "https://www.marrakechphotobooths.com/politique-cookies/" },
 };
 
 export default function PolitiqueCookies() {

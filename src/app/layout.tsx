@@ -74,6 +74,8 @@ export const metadata: Metadata = {
     title: "Marrakech PhotoBooths | Location de photobooth pour événements",
     description: "Location de photobooth pour événements et mariages à Marrakech.",
     images: ["https://www.marrakechphotobooths.com/seo/og-image.jpg"],
+    site: "@marrakechpb",
+    creator: "@marrakechpb",
   },
   other: {
     "mobile-web-app-capable": "yes",

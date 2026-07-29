@@ -8,11 +8,12 @@ import { BLOG_SLUGS, SITE_URL } from "@/data/blog-slugs";
 
 const SITE = SITE_URL;
 
-const posts: Record<string, { title: string; description: string; date: string; category: string; readTime: string; image: string; content: string[] }> = {
+const posts: Record<string, { title: string; description: string; date: string; isoDate: string; category: string; readTime: string; image: string; content: string[] }> = {
   "guide-choisir-photobooth-mariage-marrakech": {
     title: "Guide complet : Comment choisir son photobooth pour un mariage à Marrakech",
     description: "Guide complet pour choisir le photobooth parfait pour votre mariage à Marrakech. Types, budget, personnalisation et conseils d'experts.",
     date: "15 Janvier 2026",
+    isoDate: "2026-01-15",
     category: "Mariage",
     readTime: "12 min",
     image: "/images/fotomaton-classic-vinilado-evento.webp",
@@ -53,6 +54,7 @@ const posts: Record<string, { title: string; description: string; date: string; 
     title: "Top 10 des idées originales pour un photocall de mariage inoubliable",
     description: "Inspirez-vous de 10 idées créatives pour un photocall de mariage à Marrakech. Budget, emplacements et conseils pratiques pour chaque idée.",
     date: "10 Janvier 2026",
+    isoDate: "2026-01-10",
     category: "Mariage",
     readTime: "12 min",
     image: "/images/Photocall-Red-Carpet-1600x1600.webp",
@@ -86,6 +88,7 @@ const posts: Record<string, { title: string; description: string; date: string; 
     title: "Vidéomaton 360 : pourquoi c'est l'attraction star des événements d'entreprise",
     description: "Découvrez pourquoi le vidéomaton 360 est l'attraction incontournable des événements d'entreprise à Marrakech. Contenu viral, branding et engagement.",
     date: "5 Janvier 2026",
+    isoDate: "2026-01-05",
     category: "Entreprise",
     readTime: "12 min",
     image: "/images/hero/videomaton-360.webp",
@@ -117,6 +120,7 @@ const posts: Record<string, { title: string; description: string; date: string; 
     title: "Photobooth et IA : la révolution des événements à Marrakech",
     description: "Comment l'intelligence artificielle transforme le photobooth : face swap, fonds générés, filtres beauté et personnalisation automatique.",
     date: "28 Décembre 2025",
+    isoDate: "2025-12-28",
     category: "Technologie",
     readTime: "12 min",
     image: "/images/services/Fotomaton-IA-ficcion-heroe-1240x1600.webp",
@@ -161,6 +165,7 @@ const posts: Record<string, { title: string; description: string; date: string; 
     title: "Comment personnaliser votre photobooth avec le branding de votre entreprise",
     description: "Guide étape par étape pour personnaliser votre photobooth avec le logo, les couleurs et le message de votre marque. ROI et cas pratiques.",
     date: "20 Décembre 2025",
+    isoDate: "2025-12-20",
     category: "Entreprise",
     readTime: "12 min",
     image: "/images/fotomaton-eventos-empresa-1600x1600.webp",
@@ -202,6 +207,7 @@ const posts: Record<string, { title: string; description: string; date: string; 
     title: "Les tendances photobooth 2026 : ce qui va marquer l'année",
     description: "Découvrez les tendances photobooth 2026 : IA, vidéos 360°, écrans LED, slow motion et réalité augmentée pour vos événements à Marrakech.",
     date: "15 Décembre 2025",
+    isoDate: "2025-12-15",
     category: "Tendances",
     readTime: "12 min",
     image: "/images/vogue-photo-booth-led-1600x1600.webp",
@@ -299,7 +305,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: post.title,
-    datePublished: post.date,
+    datePublished: post.isoDate,
     dateModified: "2026-07-26",
     author: {
       "@type": "Organization",

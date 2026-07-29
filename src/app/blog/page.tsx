@@ -7,11 +7,16 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 export const metadata = {
   title: "Blog - Marrakech PhotoBooths | Actualités et conseils photobooth",
   description: "Blog de Marrakech PhotoBooths. Actualités, conseils et tendances sur le photobooth et les événements à Marrakech. Guides complets pour votre mariage ou événement d'entreprise.",
-  alternates: { canonical: "https://www.marrakechphotobooths.com/blog" },
+  alternates: { canonical: "https://www.marrakechphotobooths.com/blog/" },
   openGraph: {
     title: "Blog - Marrakech PhotoBooths",
     description: "Actualités, conseils et tendances sur le photobooth à Marrakech.",
-    url: "https://www.marrakechphotobooths.com/blog",
+    url: "https://www.marrakechphotobooths.com/blog/",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blog - Marrakech PhotoBooths",
+    description: "Actualités, conseils et tendances sur le photobooth à Marrakech.",
   },
 };
 

@@ -6,11 +6,16 @@ import { ContactForm } from "@/components/ContactForm";
 export const metadata = {
   title: "Contact - Marrakech PhotoBooths | Demandez un devis",
   description: "Contactez Marrakech PhotoBooths pour un devis personnalisé de photobooth pour votre événement à Marrakech. Réponse rapide par WhatsApp ou email.",
-  alternates: { canonical: "https://www.marrakechphotobooths.com/contact" },
+  alternates: { canonical: "https://www.marrakechphotobooths.com/contact/" },
   openGraph: {
     title: "Contact - Marrakech PhotoBooths",
     description: "Contactez-nous pour un devis personnalisé de photobooth à Marrakech.",
-    url: "https://www.marrakechphotobooths.com/contact",
+    url: "https://www.marrakechphotobooths.com/contact/",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact - Marrakech PhotoBooths",
+    description: "Contactez-nous pour un devis personnalisé de photobooth à Marrakech.",
   },
 };
 
