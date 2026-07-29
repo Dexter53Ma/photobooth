@@ -33,8 +33,24 @@ const values = [
 ];
 
 export default function APropos() {
+  const aboutSchema = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    name: "À propos - Marrakech PhotoBooths",
+    url: "https://www.marrakechphotobooths.com/a-propos/",
+    mainEntity: {
+      "@type": "Organization",
+      name: "Marrakech PhotoBooths",
+      url: "https://www.marrakechphotobooths.com",
+      description: "Location de photobooth pour événements et mariages à Marrakech. Service professionnel avec impression instantanée et personnalisation.",
+      foundingLocation: "Marrakech, Maroc",
+      numberOfEmployees: { "@type": "QuantitativeValue", value: "10" },
+    },
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }} />
       <Navbar />
       <main className="pt-[90px] max-md:pt-[75px]">
         <Breadcrumbs items={[{ label: "À propos", href: "/a-propos" }]} />

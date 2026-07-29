@@ -20,8 +20,55 @@ export const metadata = {
 };
 
 export default function Contact() {
+  const contactSchema = {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    name: "Contact - Marrakech PhotoBooths",
+    url: "https://www.marrakechphotobooths.com/contact/",
+    mainEntity: {
+      "@type": "LocalBusiness",
+      name: "Marrakech PhotoBooths",
+      telephone: "+212621189496",
+      email: "contact@marrakechphotobooths.com",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Marrakech",
+        addressCountry: "MA",
+      },
+    },
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "Combien de temps pour recevoir un devis ?",
+        acceptedAnswer: { "@type": "Answer", text: "Nous vous répondons sous 24 heures avec une offre détaillée adaptée à votre événement." },
+      },
+      {
+        "@type": "Question",
+        name: "Intervenez-vous en dehors de Marrakech ?",
+        acceptedAnswer: { "@type": "Answer", text: "Oui, nous couvrons tout le Maroc. Des frais de déplacement peuvent s'appliquer pour les villes éloignées de Marrakech." },
+      },
+      {
+        "@type": "Question",
+        name: "Quel est le délai minimum de réservation ?",
+        acceptedAnswer: { "@type": "Answer", text: "Nous recommandons de réserver au moins 2 semaines à l'avance. Pour les périodes haute saison (juin-septembre), 1 mois à l'avance est conseillé." },
+      },
+      {
+        "@type": "Question",
+        name: "Comment se passe le paiement ?",
+        acceptedAnswer: { "@type": "Answer", text: "Un acompte de 30% est demandé à la réservation. Le solde est réglé le jour de l'événement. Nous acceptons les virements, espèces et cartes bancaires." },
+      },
+    ],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Navbar />
         <div className="pt-[90px] max-md:pt-[75px]">
         <Breadcrumbs items={[{ label: "Contact", href: "/contact" }]} />

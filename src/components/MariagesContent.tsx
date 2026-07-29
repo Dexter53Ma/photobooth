@@ -37,11 +37,22 @@ const faqItems = [
   { question: "Comment fonctionnent le montage et le démontage ?", answer: "Nous arrivons entre 30 minutes et 1 heure avant le début du service pour le montage. Le démontage se fait à la fin de la prestation sans déranger vos invités." },
 ];
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqItems.map((item) => ({
+    "@type": "Question",
+    name: item.question,
+    acceptedAnswer: { "@type": "Answer", text: item.answer },
+  })),
+};
+
 export default function MariagesContent() {
   const [activeFaq, setActiveFaq] = useState<number | null>(null);
 
   return (
     <main>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       {/* Hero with image */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 z-0">
